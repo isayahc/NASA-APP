@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-11",
+  "project_id": "2e570e78-f14b-4a05-886d-9bc24ed0a769",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "11-oxygen-liquefaction-and-lox-depot.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 28,
+  "moving_body_count": 1,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "4f10aca1f24c0cf8b48513b3aed88649e39a7c929510a49b5f6db54207a3bf72",
+    "excavator.kinematics.json": "905e8f1a3f77d0bc5ebb796f0bf94da8ed9f30362f403f30e9bd39b16af03ac1",
+    "excavator.meshes.json": "627b30ad70f187722fc4f2765b3838552fa8a41c79d6c10aaec0f861f3ad5092",
+    "forma-compiled.json": "839c0c1f412117eb6f81f36b047d7d6e74bec78d464262244f9606c7a37ca902",
+    "mcp-request.json": "0bab14d9e9c158197916834c1592c3e25146363fddd7d94b660f36b22f9c7055",
+    "mcp-response.json": "df4497c4381ec069d677fad55de5e99969014af4565c97a7fc427d08b847d1fb",
+    "mechanical.ir.json": "c5626eba422d5f04f5ac63adecf28653d98428a404cf7359964774c43cdec83f",
+    "preview.gif": "271ad27de6bce189b4fe424484eecbb805641fa728fd3b2d7ffa082d52a698e1",
+    "preview.png": "0058c408c43d5e4937049a98a841f06ccf6b19db95306d13c6b56ec95bf1dcc1",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

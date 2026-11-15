@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-08",
+  "project_id": "d7ddb4bb-2c37-4a09-95bb-d97da7e68348",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "08-power-generation-and-distribution.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 86,
+  "moving_body_count": 62,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "4579a363fecdf6617e451d66d23999c7c81a49851e88764b1e39f83b6fba847b",
+    "excavator.kinematics.json": "0119d52fb8f344a6626b2e6b54e34546a35bcc6446bfba67869c8df83c92338d",
+    "excavator.meshes.json": "05c716368d4f2756b896a55d868d8367055f9f50e543d5b2b2b6ad3751afeac4",
+    "forma-compiled.json": "23df2a822e48175644e681f2f65a1e79edb493bb5a4132296f4b84218c6747b3",
+    "mcp-request.json": "6be26c9785a4d93e2aab0e1e7217a307867b4cc05c36cce83736f24147f83b7d",
+    "mcp-response.json": "39ea5caa14ba0b84b9f512147135e82920944d4c85425534b364649078c78010",
+    "mechanical.ir.json": "1838c2ba4c1d165d8a4411c89804f5046d02d8df8ef11fc09bcd07a231e975e7",
+    "preview.gif": "74979d6f1c14852bdeeaaca09260ccf0104a33df702177ae06d12c85dca23856",
+    "preview.png": "1d538a7ad451f9481e6a5bb699acf05371edb43a42b4d7b4ab9d0866a2e510aa",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

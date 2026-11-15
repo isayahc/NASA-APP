@@ -1,0 +1,1430 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_array_frame_neg1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "array_frame_neg1",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "array_frame_neg1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_0_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_0_0",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_0_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_0_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_0_1",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_0_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_0_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_0_2",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_0_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_0_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_0_3",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_0_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_0_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_0_4",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_0_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_0_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_0_5",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_0_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_1_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_1_0",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_1_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_1_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_1_1",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_1_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_1_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_1_2",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_1_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_1_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_1_3",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_1_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_1_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_1_4",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_1_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_1_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_1_5",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_1_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_2_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_2_0",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_2_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_2_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_2_1",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_2_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_2_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_2_2",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_2_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_2_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_2_3",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_2_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_2_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_2_4",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_2_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_2_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_2_5",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_2_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_3_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_3_0",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_3_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_3_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_3_1",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_3_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_3_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_3_2",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_3_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_3_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_3_3",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_3_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_3_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_3_4",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_3_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_3_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_3_5",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_3_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_4_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_4_0",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_4_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_4_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_4_1",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_4_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_4_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_4_2",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_4_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_4_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_4_3",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_4_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_4_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_4_4",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_4_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_neg1_4_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_neg1_4_5",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin_mm": [
+          -450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_neg1_4_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_array_frame_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "array_frame_1",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "array_frame_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_0_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_0_0",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_0_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_0_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_0_1",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_0_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_0_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_0_2",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_0_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_0_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_0_3",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_0_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_0_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_0_4",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_0_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_0_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_0_5",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_0_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_1_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_1_0",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_1_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_1_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_1_1",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_1_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_1_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_1_2",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_1_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_1_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_1_3",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_1_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_1_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_1_4",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_1_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_1_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_1_5",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_1_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_2_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_2_0",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_2_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_2_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_2_1",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_2_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_2_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_2_2",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_2_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_2_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_2_3",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_2_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_2_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_2_4",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_2_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_2_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_2_5",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_2_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_3_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_3_0",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_3_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_3_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_3_1",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_3_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_3_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_3_2",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_3_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_3_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_3_3",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_3_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_3_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_3_4",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_3_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_3_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_3_5",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_3_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_4_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_4_0",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_4_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_4_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_4_1",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_4_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_4_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_4_2",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_4_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_4_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_4_3",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_4_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_4_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_4_4",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_4_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_solar_cell_1_4_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "solar_cell_1_4_5",
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin_mm": [
+          450.0,
+          0.0,
+          1450.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.7853981633974483,
+        "unit": "radian",
+        "label": "solar_cell_1_4_5",
+        "metadata": {}
+      }
+    }
+  ]
+}

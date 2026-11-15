@@ -12,4 +12,4 @@ The original [NASA RASSOR 3D resource](https://science.nasa.gov/3d-resources/reg
 
 **Important:** STL is a **single static untextured mesh**: it does not preserve articulated joints, moving bucket drums, wheel hierarchy, textures, CAD design history, or physical mass/collision validation. It is an *asset/reference* for OpenCAD/OpenIndustries, **not a complete simulated excavator**. For live operations, create an articulated machine with named parts/joints and task-driven motion, and validate scale/axis alignment against the original GLB. Do not present this as a NASA-endorsed or flight-qualified machine.
 
-For intended machine commands, inventory flow and validation, see [the excavation subsystem brief](../01-regolith-excavator.md).
+For intended machine commands, inventory flow and validation, see [the excavation subsystem brief](../01-regolith-excavator/brief.md).

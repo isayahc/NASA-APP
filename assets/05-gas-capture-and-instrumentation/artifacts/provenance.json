@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-05",
+  "project_id": "7c12bb1b-7fe1-4bd3-b50a-4fe1c30ff92b",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "05-gas-capture-and-instrumentation.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 32,
+  "moving_body_count": 3,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "8eaf9ff5b3fe89b52e4aa0e4ff6e45cbc39cd5df5b0c361f5773d1d06096e76c",
+    "excavator.kinematics.json": "71177169d3110739a2a49a135a47caf04c02e0a86348f22b3fdd371e7e37f98c",
+    "excavator.meshes.json": "f50e8ebd9742b7477d505be8aeee46b21aa1306a18bf8f5792f93294daa25214",
+    "forma-compiled.json": "8df4d3b7d0f4bc4b2ef9c984581d0fe462986c34453505682c9f03460343ce5e",
+    "mcp-request.json": "2c6bc4712092becedad75b1037b0931f1113ee91be3985e59da14ed4943bea56",
+    "mcp-response.json": "5e08bb12ebf07394820d5c359f0dd66356aa8343053265dff1e26e3f508295d7",
+    "mechanical.ir.json": "0d9976ebe38a1794964e10e1d54f3f3413a5d905bd79a6ff40617e5678869872",
+    "preview.gif": "c31dab37a588818c6710fb0b75f0a1f3f76e0b1f52181712bb462c28191e4d19",
+    "preview.png": "b80936d7462e70affd87f369dac2ceee1057524936663e200b02e64cddc2c476",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

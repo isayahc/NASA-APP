@@ -1,0 +1,556 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_radiator_panel_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "radiator_panel_0",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "radiator_panel_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_0",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_1",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_2",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_3",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_4",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_5",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_0_6",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_0_6",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_0_6",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_radiator_panel_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "radiator_panel_1",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "radiator_panel_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_0",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_1",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_2",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_3",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_4",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_5",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_1_6",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_1_6",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          0.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_1_6",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_radiator_panel_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "radiator_panel_2",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "radiator_panel_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_0",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_0",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_0",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_1",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_1",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_1",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_2",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_2",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_2",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_3",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_3",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_3",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_4",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_4",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_4",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_5",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_5",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_5",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_panel_loop_2_6",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "panel_loop_2_6",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          800.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.6108652381980153,
+        "unit": "radian",
+        "label": "panel_loop_2_6",
+        "metadata": {}
+      }
+    }
+  ]
+}

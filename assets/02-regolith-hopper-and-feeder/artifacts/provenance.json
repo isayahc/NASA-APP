@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-02",
+  "project_id": "c43aec91-146e-4359-9c08-c04185ef96fb",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "02-regolith-hopper-and-feeder.md",
+  "model_sha256": "15151c1af0785fbe3e3e3ade4015822fff0b1be38c249b9dc7bfc03b5e18aeac",
+  "body_count": 18,
+  "moving_body_count": 3,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "b06c53620f1fa69156bcf6a7efca5b833694ac17b9ea2d57eb23a3ca8e1eb02c",
+    "excavator.kinematics.json": "c13d76092bf19c27966d79e9b13163737684893271fbe949ef5eb8ce22ddead9",
+    "excavator.meshes.json": "03aca740b1733a40ee5e1908f1c44955599cd94a3df7fad5443e2b8c8b6e385c",
+    "forma-compiled.json": "5d762cb031a74b0c049eeae499584bc0ac699976e8d390c7cad9c87a0d9decf5",
+    "mcp-request.json": "bc779f0019ae3c8210e25c2a8ca451fcbae9c6d74ba0ea25a8be84dd72e585bb",
+    "mcp-response.json": "953e6e1b7728b1c2477c372c4d780732c5100cf3f8b80336063aaef525e38da0",
+    "mechanical.ir.json": "39e7d4a6e563c7bf01713bb46a4793e6aecbdea412e77ba330db22491d60b022",
+    "preview.gif": "f80456dc6095601999e7dc243e40fd468c2d8859e2a1d8e75f0953f802017b0f",
+    "preview.png": "d8da7126dfa146712ac8816ec5697e546dd3867adbaf4daf70c00c23053e5db0",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

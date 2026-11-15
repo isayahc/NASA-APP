@@ -1,0 +1,73 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_feed_valve_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "feed_valve_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          -700.0,
+          0.0,
+          765.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "feed_valve_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_product_valve_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "product_valve_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          1215.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "product_valve_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_service_cover",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "service_cover",
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin_mm": [
+          -390.0,
+          -350.0,
+          870.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.0471975511965976,
+        "unit": "radian",
+        "label": "service_cover",
+        "metadata": {}
+      }
+    }
+  ]
+}

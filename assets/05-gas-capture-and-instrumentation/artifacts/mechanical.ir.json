@@ -1,0 +1,886 @@
+{
+  "domain": "mechanical",
+  "schema_version": "1.0",
+  "artifact_id": "ASSET-05-mechanical",
+  "revision": 1,
+  "parts": [
+    {
+      "part_definition_id": "support",
+      "dimensions_mm": {
+        "x": 1800.0000002000002,
+        "y": 1400.0000002000002,
+        "z": 100.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "foot_0",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_1",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_2",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_3",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "capture_manifold",
+      "dimensions_mm": {
+        "x": 1500.1107628804557,
+        "y": 110.00000020000019,
+        "z": 110.11076288045581
+      }
+    },
+    {
+      "part_definition_id": "isolation_0_body",
+      "dimensions_mm": {
+        "x": 160.1107628804557,
+        "y": 110.00000020000022,
+        "z": 110.1107628804557
+      }
+    },
+    {
+      "part_definition_id": "isolation_0_stem",
+      "dimensions_mm": {
+        "x": 32.032222070678245,
+        "y": 32.00000020000027,
+        "z": 90.03222207067824
+      }
+    },
+    {
+      "part_definition_id": "isolation_0_handle",
+      "dimensions_mm": {
+        "x": 170.0000002,
+        "y": 24.000000200000045,
+        "z": 22.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "sample_riser_0",
+      "dimensions_mm": {
+        "x": 44.04430527218233,
+        "y": 44.00000020000016,
+        "z": 380.0443052721823
+      }
+    },
+    {
+      "part_definition_id": "transducer_0",
+      "dimensions_mm": {
+        "x": 120.00000020000016,
+        "y": 100.00000020000004,
+        "z": 110.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "isolation_1_body",
+      "dimensions_mm": {
+        "x": 160.11076288045564,
+        "y": 110.00000020000022,
+        "z": 110.1107628804557
+      }
+    },
+    {
+      "part_definition_id": "isolation_1_stem",
+      "dimensions_mm": {
+        "x": 32.03222207067798,
+        "y": 32.000000200000045,
+        "z": 90.03222207067802
+      }
+    },
+    {
+      "part_definition_id": "isolation_1_handle",
+      "dimensions_mm": {
+        "x": 170.0000002,
+        "y": 24.000000200000045,
+        "z": 22.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "sample_riser_1",
+      "dimensions_mm": {
+        "x": 44.04430527218225,
+        "y": 44.00000020000007,
+        "z": 380.0443052721823
+      }
+    },
+    {
+      "part_definition_id": "transducer_1",
+      "dimensions_mm": {
+        "x": 120.00000020000006,
+        "y": 100.00000020000004,
+        "z": 110.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "isolation_2_body",
+      "dimensions_mm": {
+        "x": 160.11076288045564,
+        "y": 110.00000020000022,
+        "z": 110.1107628804557
+      }
+    },
+    {
+      "part_definition_id": "isolation_2_stem",
+      "dimensions_mm": {
+        "x": 32.032222070678245,
+        "y": 32.00000020000027,
+        "z": 90.03222207067824
+      }
+    },
+    {
+      "part_definition_id": "isolation_2_handle",
+      "dimensions_mm": {
+        "x": 170.00000019999993,
+        "y": 24.000000200000045,
+        "z": 22.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "sample_riser_2",
+      "dimensions_mm": {
+        "x": 44.04430527218233,
+        "y": 44.00000020000016,
+        "z": 380.0443052721823
+      }
+    },
+    {
+      "part_definition_id": "transducer_2",
+      "dimensions_mm": {
+        "x": 120.00000020000016,
+        "y": 100.00000020000004,
+        "z": 110.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "sampling_bypass",
+      "dimensions_mm": {
+        "x": 1100.048333006017,
+        "y": 48.00000020000016,
+        "z": 48.04833300601729
+      }
+    },
+    {
+      "part_definition_id": "bypass_connection_neg550",
+      "dimensions_mm": {
+        "x": 48.048333006017174,
+        "y": 450.0483330060172,
+        "z": 48.000000200000386
+      }
+    },
+    {
+      "part_definition_id": "bypass_connection_550",
+      "dimensions_mm": {
+        "x": 48.048333006017174,
+        "y": 450.0483330060172,
+        "z": 48.000000200000386
+      }
+    },
+    {
+      "part_definition_id": "instrument_rack",
+      "dimensions_mm": {
+        "x": 850.0000002000002,
+        "y": 340.00000020000016,
+        "z": 950.0000002000002
+      }
+    },
+    {
+      "part_definition_id": "analyzer_module_0",
+      "dimensions_mm": {
+        "x": 770.0000002000002,
+        "y": 380.00000020000016,
+        "z": 220.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "instrument_face_0",
+      "dimensions_mm": {
+        "x": 540.0000002,
+        "y": 12.000000199999988,
+        "z": 120.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "analyzer_module_1",
+      "dimensions_mm": {
+        "x": 770.0000002000002,
+        "y": 380.00000020000016,
+        "z": 220.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "instrument_face_1",
+      "dimensions_mm": {
+        "x": 540.0000002,
+        "y": 12.000000199999988,
+        "z": 120.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "analyzer_module_2",
+      "dimensions_mm": {
+        "x": 770.0000002000002,
+        "y": 380.00000020000016,
+        "z": 220.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "instrument_face_2",
+      "dimensions_mm": {
+        "x": 540.0000002,
+        "y": 12.000000199999988,
+        "z": 120.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "purge_vent",
+      "dimensions_mm": {
+        "x": 60.06041620752126,
+        "y": 60.00000020000016,
+        "z": 750.0604162075213
+      }
+    }
+  ],
+  "components": [
+    {
+      "object_id": "ASSET-05/support",
+      "ref_des": "support",
+      "part_definition_id": "support"
+    },
+    {
+      "object_id": "ASSET-05/foot_0",
+      "ref_des": "foot_0",
+      "part_definition_id": "foot_0"
+    },
+    {
+      "object_id": "ASSET-05/foot_1",
+      "ref_des": "foot_1",
+      "part_definition_id": "foot_1"
+    },
+    {
+      "object_id": "ASSET-05/foot_2",
+      "ref_des": "foot_2",
+      "part_definition_id": "foot_2"
+    },
+    {
+      "object_id": "ASSET-05/foot_3",
+      "ref_des": "foot_3",
+      "part_definition_id": "foot_3"
+    },
+    {
+      "object_id": "ASSET-05/capture_manifold",
+      "ref_des": "capture_manifold",
+      "part_definition_id": "capture_manifold"
+    },
+    {
+      "object_id": "ASSET-05/isolation_0_body",
+      "ref_des": "isolation_0_body",
+      "part_definition_id": "isolation_0_body"
+    },
+    {
+      "object_id": "ASSET-05/isolation_0_stem",
+      "ref_des": "isolation_0_stem",
+      "part_definition_id": "isolation_0_stem"
+    },
+    {
+      "object_id": "ASSET-05/isolation_0_handle",
+      "ref_des": "isolation_0_handle",
+      "part_definition_id": "isolation_0_handle"
+    },
+    {
+      "object_id": "ASSET-05/sample_riser_0",
+      "ref_des": "sample_riser_0",
+      "part_definition_id": "sample_riser_0"
+    },
+    {
+      "object_id": "ASSET-05/transducer_0",
+      "ref_des": "transducer_0",
+      "part_definition_id": "transducer_0"
+    },
+    {
+      "object_id": "ASSET-05/isolation_1_body",
+      "ref_des": "isolation_1_body",
+      "part_definition_id": "isolation_1_body"
+    },
+    {
+      "object_id": "ASSET-05/isolation_1_stem",
+      "ref_des": "isolation_1_stem",
+      "part_definition_id": "isolation_1_stem"
+    },
+    {
+      "object_id": "ASSET-05/isolation_1_handle",
+      "ref_des": "isolation_1_handle",
+      "part_definition_id": "isolation_1_handle"
+    },
+    {
+      "object_id": "ASSET-05/sample_riser_1",
+      "ref_des": "sample_riser_1",
+      "part_definition_id": "sample_riser_1"
+    },
+    {
+      "object_id": "ASSET-05/transducer_1",
+      "ref_des": "transducer_1",
+      "part_definition_id": "transducer_1"
+    },
+    {
+      "object_id": "ASSET-05/isolation_2_body",
+      "ref_des": "isolation_2_body",
+      "part_definition_id": "isolation_2_body"
+    },
+    {
+      "object_id": "ASSET-05/isolation_2_stem",
+      "ref_des": "isolation_2_stem",
+      "part_definition_id": "isolation_2_stem"
+    },
+    {
+      "object_id": "ASSET-05/isolation_2_handle",
+      "ref_des": "isolation_2_handle",
+      "part_definition_id": "isolation_2_handle"
+    },
+    {
+      "object_id": "ASSET-05/sample_riser_2",
+      "ref_des": "sample_riser_2",
+      "part_definition_id": "sample_riser_2"
+    },
+    {
+      "object_id": "ASSET-05/transducer_2",
+      "ref_des": "transducer_2",
+      "part_definition_id": "transducer_2"
+    },
+    {
+      "object_id": "ASSET-05/sampling_bypass",
+      "ref_des": "sampling_bypass",
+      "part_definition_id": "sampling_bypass"
+    },
+    {
+      "object_id": "ASSET-05/bypass_connection_neg550",
+      "ref_des": "bypass_connection_neg550",
+      "part_definition_id": "bypass_connection_neg550"
+    },
+    {
+      "object_id": "ASSET-05/bypass_connection_550",
+      "ref_des": "bypass_connection_550",
+      "part_definition_id": "bypass_connection_550"
+    },
+    {
+      "object_id": "ASSET-05/instrument_rack",
+      "ref_des": "instrument_rack",
+      "part_definition_id": "instrument_rack"
+    },
+    {
+      "object_id": "ASSET-05/analyzer_module_0",
+      "ref_des": "analyzer_module_0",
+      "part_definition_id": "analyzer_module_0"
+    },
+    {
+      "object_id": "ASSET-05/instrument_face_0",
+      "ref_des": "instrument_face_0",
+      "part_definition_id": "instrument_face_0"
+    },
+    {
+      "object_id": "ASSET-05/analyzer_module_1",
+      "ref_des": "analyzer_module_1",
+      "part_definition_id": "analyzer_module_1"
+    },
+    {
+      "object_id": "ASSET-05/instrument_face_1",
+      "ref_des": "instrument_face_1",
+      "part_definition_id": "instrument_face_1"
+    },
+    {
+      "object_id": "ASSET-05/analyzer_module_2",
+      "ref_des": "analyzer_module_2",
+      "part_definition_id": "analyzer_module_2"
+    },
+    {
+      "object_id": "ASSET-05/instrument_face_2",
+      "ref_des": "instrument_face_2",
+      "part_definition_id": "instrument_face_2"
+    },
+    {
+      "object_id": "ASSET-05/purge_vent",
+      "ref_des": "purge_vent",
+      "part_definition_id": "purge_vent"
+    }
+  ],
+  "mechanical": {
+    "physical_form": "GAS CAPTURE & MONITORING",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 1800.0000002000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 780.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 780.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "capture_manifold",
+        "position": {
+          "x_mm": -750.0,
+          "y_mm": -270.0,
+          "z_mm": 620.0
+        },
+        "size": {
+          "x_mm": 1500.1107628804557,
+          "y_mm": 110.00000020000019,
+          "z_mm": 110.11076288045581
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_0_body",
+        "position": {
+          "x_mm": -680.0,
+          "y_mm": -270.0,
+          "z_mm": 620.0
+        },
+        "size": {
+          "x_mm": 160.1107628804557,
+          "y_mm": 110.00000020000022,
+          "z_mm": 110.1107628804557
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_0_stem",
+        "position": {
+          "x_mm": -600.0,
+          "y_mm": -270.0,
+          "z_mm": 635.0
+        },
+        "size": {
+          "x_mm": 32.032222070678245,
+          "y_mm": 32.00000020000027,
+          "z_mm": 90.03222207067824
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_0_handle",
+        "position": {
+          "x_mm": -545.0,
+          "y_mm": -270.0,
+          "z_mm": 735.0
+        },
+        "size": {
+          "x_mm": 170.0000002,
+          "y_mm": 24.000000200000045,
+          "z_mm": 22.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sample_riser_0",
+        "position": {
+          "x_mm": -600.0,
+          "y_mm": -270.0,
+          "z_mm": 710.0
+        },
+        "size": {
+          "x_mm": 44.04430527218233,
+          "y_mm": 44.00000020000016,
+          "z_mm": 380.0443052721823
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "transducer_0",
+        "position": {
+          "x_mm": -600.0,
+          "y_mm": -270.0,
+          "z_mm": 1120.0
+        },
+        "size": {
+          "x_mm": 120.00000020000016,
+          "y_mm": 100.00000020000004,
+          "z_mm": 110.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_1_body",
+        "position": {
+          "x_mm": -80.0,
+          "y_mm": -270.0,
+          "z_mm": 620.0
+        },
+        "size": {
+          "x_mm": 160.11076288045564,
+          "y_mm": 110.00000020000022,
+          "z_mm": 110.1107628804557
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_1_stem",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -270.0,
+          "z_mm": 635.0
+        },
+        "size": {
+          "x_mm": 32.03222207067798,
+          "y_mm": 32.000000200000045,
+          "z_mm": 90.03222207067802
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_1_handle",
+        "position": {
+          "x_mm": 54.99999999999999,
+          "y_mm": -270.0,
+          "z_mm": 735.0
+        },
+        "size": {
+          "x_mm": 170.0000002,
+          "y_mm": 24.000000200000045,
+          "z_mm": 22.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sample_riser_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -270.0,
+          "z_mm": 710.0
+        },
+        "size": {
+          "x_mm": 44.04430527218225,
+          "y_mm": 44.00000020000007,
+          "z_mm": 380.0443052721823
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "transducer_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -270.0,
+          "z_mm": 1120.0
+        },
+        "size": {
+          "x_mm": 120.00000020000006,
+          "y_mm": 100.00000020000004,
+          "z_mm": 110.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_2_body",
+        "position": {
+          "x_mm": 520.0,
+          "y_mm": -270.0,
+          "z_mm": 620.0
+        },
+        "size": {
+          "x_mm": 160.11076288045564,
+          "y_mm": 110.00000020000022,
+          "z_mm": 110.1107628804557
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_2_stem",
+        "position": {
+          "x_mm": 600.0,
+          "y_mm": -270.0,
+          "z_mm": 635.0
+        },
+        "size": {
+          "x_mm": 32.032222070678245,
+          "y_mm": 32.00000020000027,
+          "z_mm": 90.03222207067824
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "isolation_2_handle",
+        "position": {
+          "x_mm": 655.0,
+          "y_mm": -270.0,
+          "z_mm": 735.0
+        },
+        "size": {
+          "x_mm": 170.00000019999993,
+          "y_mm": 24.000000200000045,
+          "z_mm": 22.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sample_riser_2",
+        "position": {
+          "x_mm": 600.0,
+          "y_mm": -270.0,
+          "z_mm": 710.0
+        },
+        "size": {
+          "x_mm": 44.04430527218233,
+          "y_mm": 44.00000020000016,
+          "z_mm": 380.0443052721823
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "transducer_2",
+        "position": {
+          "x_mm": 600.0,
+          "y_mm": -270.0,
+          "z_mm": 1120.0
+        },
+        "size": {
+          "x_mm": 120.00000020000016,
+          "y_mm": 100.00000020000004,
+          "z_mm": 110.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sampling_bypass",
+        "position": {
+          "x_mm": -550.0,
+          "y_mm": 180.0,
+          "z_mm": 940.0
+        },
+        "size": {
+          "x_mm": 1100.048333006017,
+          "y_mm": 48.00000020000016,
+          "z_mm": 48.04833300601729
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "bypass_connection_neg550",
+        "position": {
+          "x_mm": -550.0,
+          "y_mm": 180.0,
+          "z_mm": 940.0
+        },
+        "size": {
+          "x_mm": 48.048333006017174,
+          "y_mm": 450.0483330060172,
+          "z_mm": 48.000000200000386
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "bypass_connection_550",
+        "position": {
+          "x_mm": 550.0,
+          "y_mm": 180.0,
+          "z_mm": 940.0
+        },
+        "size": {
+          "x_mm": 48.048333006017174,
+          "y_mm": 450.0483330060172,
+          "z_mm": 48.000000200000386
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "instrument_rack",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 430.0,
+          "z_mm": 640.0
+        },
+        "size": {
+          "x_mm": 850.0000002000002,
+          "y_mm": 340.00000020000016,
+          "z_mm": 950.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "analyzer_module_0",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 430.0,
+          "z_mm": 380.0
+        },
+        "size": {
+          "x_mm": 770.0000002000002,
+          "y_mm": 380.00000020000016,
+          "z_mm": 220.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "instrument_face_0",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 232.0,
+          "z_mm": 380.0
+        },
+        "size": {
+          "x_mm": 540.0000002,
+          "y_mm": 12.000000199999988,
+          "z_mm": 120.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "analyzer_module_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 430.0,
+          "z_mm": 650.0
+        },
+        "size": {
+          "x_mm": 770.0000002000002,
+          "y_mm": 380.00000020000016,
+          "z_mm": 220.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "instrument_face_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 232.0,
+          "z_mm": 650.0
+        },
+        "size": {
+          "x_mm": 540.0000002,
+          "y_mm": 12.000000199999988,
+          "z_mm": 120.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "analyzer_module_2",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 430.0,
+          "z_mm": 920.0
+        },
+        "size": {
+          "x_mm": 770.0000002000002,
+          "y_mm": 380.00000020000016,
+          "z_mm": 220.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "instrument_face_2",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 232.0,
+          "z_mm": 920.0
+        },
+        "size": {
+          "x_mm": 540.0000002,
+          "y_mm": 12.000000199999988,
+          "z_mm": 120.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "purge_vent",
+        "position": {
+          "x_mm": 700.0,
+          "y_mm": 200.0,
+          "z_mm": 225.0
+        },
+        "size": {
+          "x_mm": 60.06041620752126,
+          "y_mm": 60.00000020000016,
+          "z_mm": 750.0604162075213
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  }
+}

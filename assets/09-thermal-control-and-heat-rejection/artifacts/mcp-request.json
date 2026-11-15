@@ -1,0 +1,1983 @@
+{
+  "hardware_ir_version": "0.2",
+  "overview": {
+    "title": "ASSET-09 - THERMAL CONTROL & RADIATORS",
+    "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+    "category": "Industrial",
+    "difficulty": "Advanced"
+  },
+  "components": [
+    {
+      "ref_des": "support",
+      "name": "support",
+      "part_number": "support",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_0",
+      "name": "foot_0",
+      "part_number": "foot_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_1",
+      "name": "foot_1",
+      "part_number": "foot_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_2",
+      "name": "foot_2",
+      "part_number": "foot_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_3",
+      "name": "foot_3",
+      "part_number": "foot_3",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "heat_exchanger",
+      "name": "heat_exchanger",
+      "part_number": "heat_exchanger",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "coolant_pump",
+      "name": "coolant_pump",
+      "part_number": "coolant_pump",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "thermal_line_neg370",
+      "name": "thermal_line_neg370",
+      "part_number": "thermal_line_neg370",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "thermal_line_370",
+      "name": "thermal_line_370",
+      "part_number": "thermal_line_370",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_support_0",
+      "name": "radiator_support_0",
+      "part_number": "radiator_support_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_panel_0",
+      "name": "radiator_panel_0",
+      "part_number": "radiator_panel_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_hinge_0",
+      "name": "radiator_hinge_0",
+      "part_number": "radiator_hinge_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_0",
+      "name": "panel_loop_0_0",
+      "part_number": "panel_loop_0_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_1",
+      "name": "panel_loop_0_1",
+      "part_number": "panel_loop_0_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_2",
+      "name": "panel_loop_0_2",
+      "part_number": "panel_loop_0_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_3",
+      "name": "panel_loop_0_3",
+      "part_number": "panel_loop_0_3",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_4",
+      "name": "panel_loop_0_4",
+      "part_number": "panel_loop_0_4",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_5",
+      "name": "panel_loop_0_5",
+      "part_number": "panel_loop_0_5",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_0_6",
+      "name": "panel_loop_0_6",
+      "part_number": "panel_loop_0_6",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_support_1",
+      "name": "radiator_support_1",
+      "part_number": "radiator_support_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_panel_1",
+      "name": "radiator_panel_1",
+      "part_number": "radiator_panel_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_hinge_1",
+      "name": "radiator_hinge_1",
+      "part_number": "radiator_hinge_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_0",
+      "name": "panel_loop_1_0",
+      "part_number": "panel_loop_1_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_1",
+      "name": "panel_loop_1_1",
+      "part_number": "panel_loop_1_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_2",
+      "name": "panel_loop_1_2",
+      "part_number": "panel_loop_1_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_3",
+      "name": "panel_loop_1_3",
+      "part_number": "panel_loop_1_3",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_4",
+      "name": "panel_loop_1_4",
+      "part_number": "panel_loop_1_4",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_5",
+      "name": "panel_loop_1_5",
+      "part_number": "panel_loop_1_5",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_1_6",
+      "name": "panel_loop_1_6",
+      "part_number": "panel_loop_1_6",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_support_2",
+      "name": "radiator_support_2",
+      "part_number": "radiator_support_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_panel_2",
+      "name": "radiator_panel_2",
+      "part_number": "radiator_panel_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "radiator_hinge_2",
+      "name": "radiator_hinge_2",
+      "part_number": "radiator_hinge_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_0",
+      "name": "panel_loop_2_0",
+      "part_number": "panel_loop_2_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_1",
+      "name": "panel_loop_2_1",
+      "part_number": "panel_loop_2_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_2",
+      "name": "panel_loop_2_2",
+      "part_number": "panel_loop_2_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_3",
+      "name": "panel_loop_2_3",
+      "part_number": "panel_loop_2_3",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_4",
+      "name": "panel_loop_2_4",
+      "part_number": "panel_loop_2_4",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_5",
+      "name": "panel_loop_2_5",
+      "part_number": "panel_loop_2_5",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "panel_loop_2_6",
+      "name": "panel_loop_2_6",
+      "part_number": "panel_loop_2_6",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "insulation_shroud",
+      "name": "insulation_shroud",
+      "part_number": "insulation_shroud",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    }
+  ],
+  "nets": [],
+  "mechanical": {
+    "physical_form": "THERMAL CONTROL & RADIATORS",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 2400.0000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "heat_exchanger",
+        "position": {
+          "x_mm": -650.0,
+          "y_mm": 0.0,
+          "z_mm": 420.0
+        },
+        "size": {
+          "x_mm": 650.0000002000002,
+          "y_mm": 550.0000002000003,
+          "z_mm": 380.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "coolant_pump",
+        "position": {
+          "x_mm": 460.0,
+          "y_mm": 0.0,
+          "z_mm": 430.0
+        },
+        "size": {
+          "x_mm": 380.3020802376057,
+          "y_mm": 300.00000020000016,
+          "z_mm": 300.3020802376057
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "thermal_line_neg370",
+        "position": {
+          "x_mm": -950.0,
+          "y_mm": -370.0,
+          "z_mm": 519.9999999999999
+        },
+        "size": {
+          "x_mm": 1900.0704855421081,
+          "y_mm": 70.00000020000016,
+          "z_mm": 70.07048554210837
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "thermal_line_370",
+        "position": {
+          "x_mm": -950.0,
+          "y_mm": 370.0,
+          "z_mm": 519.9999999999999
+        },
+        "size": {
+          "x_mm": 1900.0704855421081,
+          "y_mm": 70.00000020000016,
+          "z_mm": 70.07048554210837
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_support_0",
+        "position": {
+          "x_mm": -700.0,
+          "y_mm": 0.0,
+          "z_mm": 480.0
+        },
+        "size": {
+          "x_mm": 80.00000020000016,
+          "y_mm": 100.00000020000023,
+          "z_mm": 650.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_panel_0",
+        "position": {
+          "x_mm": -700.0,
+          "y_mm": 0.0,
+          "z_mm": 1700.0
+        },
+        "size": {
+          "x_mm": 620.0000002000002,
+          "y_mm": 80.00000020000023,
+          "z_mm": 1800.0000002000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_hinge_0",
+        "position": {
+          "x_mm": -1025.0,
+          "y_mm": 0.0,
+          "z_mm": 800.0
+        },
+        "size": {
+          "x_mm": 650.1107628804556,
+          "y_mm": 110.0000002000002,
+          "z_mm": 110.11076288045558
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_0",
+        "position": {
+          "x_mm": -950.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_1",
+        "position": {
+          "x_mm": -867.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_2",
+        "position": {
+          "x_mm": -784.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_3",
+        "position": {
+          "x_mm": -701.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_4",
+        "position": {
+          "x_mm": -618.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_5",
+        "position": {
+          "x_mm": -535.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_0_6",
+        "position": {
+          "x_mm": -452.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.00000020000013,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_support_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 480.0
+        },
+        "size": {
+          "x_mm": 80.00000020000023,
+          "y_mm": 100.00000020000023,
+          "z_mm": 650.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_panel_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 1700.0
+        },
+        "size": {
+          "x_mm": 620.0000002,
+          "y_mm": 80.00000020000003,
+          "z_mm": 1800.0000001999997
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_hinge_1",
+        "position": {
+          "x_mm": -324.99999999999994,
+          "y_mm": 0.0,
+          "z_mm": 800.0
+        },
+        "size": {
+          "x_mm": 650.1107628804556,
+          "y_mm": 110.0000002000002,
+          "z_mm": 110.11076288045558
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_0",
+        "position": {
+          "x_mm": -250.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.02416660300858,
+          "y_mm": 24.00000020000013,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_1",
+        "position": {
+          "x_mm": -167.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008496,
+          "y_mm": 24.000000200000045,
+          "z_mm": 1700.0241666030083
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_2",
+        "position": {
+          "x_mm": -84.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008467,
+          "y_mm": 24.000000200000017,
+          "z_mm": 1700.0241666030083
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_3",
+        "position": {
+          "x_mm": -1.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008464,
+          "y_mm": 24.000000200000017,
+          "z_mm": 1700.0241666030083
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_4",
+        "position": {
+          "x_mm": 82.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008467,
+          "y_mm": 24.000000200000017,
+          "z_mm": 1700.0241666030083
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_5",
+        "position": {
+          "x_mm": 165.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008496,
+          "y_mm": 24.000000200000045,
+          "z_mm": 1700.0241666030083
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_1_6",
+        "position": {
+          "x_mm": 248.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.02416660300858,
+          "y_mm": 24.00000020000013,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_support_2",
+        "position": {
+          "x_mm": 700.0,
+          "y_mm": 0.0,
+          "z_mm": 480.0
+        },
+        "size": {
+          "x_mm": 80.00000020000016,
+          "y_mm": 100.00000020000023,
+          "z_mm": 650.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_panel_2",
+        "position": {
+          "x_mm": 700.0,
+          "y_mm": 0.0,
+          "z_mm": 1700.0
+        },
+        "size": {
+          "x_mm": 620.0000002000002,
+          "y_mm": 80.00000020000023,
+          "z_mm": 1800.0000002000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "radiator_hinge_2",
+        "position": {
+          "x_mm": 374.99999999999994,
+          "y_mm": 0.0,
+          "z_mm": 800.0
+        },
+        "size": {
+          "x_mm": 650.1107628804556,
+          "y_mm": 110.0000002000002,
+          "z_mm": 110.11076288045558
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_0",
+        "position": {
+          "x_mm": 450.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.00000020000013,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_1",
+        "position": {
+          "x_mm": 533.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_2",
+        "position": {
+          "x_mm": 616.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_3",
+        "position": {
+          "x_mm": 699.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_4",
+        "position": {
+          "x_mm": 782.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_5",
+        "position": {
+          "x_mm": 865.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "panel_loop_2_6",
+        "position": {
+          "x_mm": 948.0,
+          "y_mm": -55.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 24.024166603008553,
+          "y_mm": 24.000000200000187,
+          "z_mm": 1700.0241666030088
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "insulation_shroud",
+        "position": {
+          "x_mm": 630.0,
+          "y_mm": 0.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 350.00000020000016,
+          "y_mm": 450.0000002000001,
+          "z_mm": 250.00000020000013
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  },
+  "cad_model": {
+    "format": "step",
+    "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-09\\assembly.step",
+    "sha256": "9afbc5a6ec6d6fffa748834ebd776b99d7af0dc7bfd85fe668cd413649ffb7b5",
+    "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-09\\excavator.meshes.json",
+    "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-09\\excavator.kinematics.json",
+    "units": "mm"
+  },
+  "assembly_metadata": {
+    "asset_id": "ASSET-09",
+    "mechanical_ir": {
+      "domain": "mechanical",
+      "schema_version": "1.0",
+      "artifact_id": "ASSET-09-mechanical",
+      "revision": 1,
+      "parts": [
+        {
+          "part_definition_id": "support",
+          "dimensions_mm": {
+            "x": 2400.0000002,
+            "y": 1400.0000002000002,
+            "z": 100.00000020000004
+          }
+        },
+        {
+          "part_definition_id": "foot_0",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_1",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_2",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_3",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "heat_exchanger",
+          "dimensions_mm": {
+            "x": 650.0000002000002,
+            "y": 550.0000002000003,
+            "z": 380.00000020000016
+          }
+        },
+        {
+          "part_definition_id": "coolant_pump",
+          "dimensions_mm": {
+            "x": 380.3020802376057,
+            "y": 300.00000020000016,
+            "z": 300.3020802376057
+          }
+        },
+        {
+          "part_definition_id": "thermal_line_neg370",
+          "dimensions_mm": {
+            "x": 1900.0704855421081,
+            "y": 70.00000020000016,
+            "z": 70.07048554210837
+          }
+        },
+        {
+          "part_definition_id": "thermal_line_370",
+          "dimensions_mm": {
+            "x": 1900.0704855421081,
+            "y": 70.00000020000016,
+            "z": 70.07048554210837
+          }
+        },
+        {
+          "part_definition_id": "radiator_support_0",
+          "dimensions_mm": {
+            "x": 80.00000020000016,
+            "y": 100.00000020000023,
+            "z": 650.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "radiator_panel_0",
+          "dimensions_mm": {
+            "x": 620.0000002000002,
+            "y": 80.00000020000023,
+            "z": 1800.0000002000004
+          }
+        },
+        {
+          "part_definition_id": "radiator_hinge_0",
+          "dimensions_mm": {
+            "x": 650.1107628804556,
+            "y": 110.0000002000002,
+            "z": 110.11076288045558
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_0",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_1",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_2",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_3",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_4",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_5",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_0_6",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.00000020000013,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "radiator_support_1",
+          "dimensions_mm": {
+            "x": 80.00000020000023,
+            "y": 100.00000020000023,
+            "z": 650.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "radiator_panel_1",
+          "dimensions_mm": {
+            "x": 620.0000002,
+            "y": 80.00000020000003,
+            "z": 1800.0000001999997
+          }
+        },
+        {
+          "part_definition_id": "radiator_hinge_1",
+          "dimensions_mm": {
+            "x": 650.1107628804556,
+            "y": 110.0000002000002,
+            "z": 110.11076288045558
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_0",
+          "dimensions_mm": {
+            "x": 24.02416660300858,
+            "y": 24.00000020000013,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_1",
+          "dimensions_mm": {
+            "x": 24.024166603008496,
+            "y": 24.000000200000045,
+            "z": 1700.0241666030083
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_2",
+          "dimensions_mm": {
+            "x": 24.024166603008467,
+            "y": 24.000000200000017,
+            "z": 1700.0241666030083
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_3",
+          "dimensions_mm": {
+            "x": 24.024166603008464,
+            "y": 24.000000200000017,
+            "z": 1700.0241666030083
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_4",
+          "dimensions_mm": {
+            "x": 24.024166603008467,
+            "y": 24.000000200000017,
+            "z": 1700.0241666030083
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_5",
+          "dimensions_mm": {
+            "x": 24.024166603008496,
+            "y": 24.000000200000045,
+            "z": 1700.0241666030083
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_1_6",
+          "dimensions_mm": {
+            "x": 24.02416660300858,
+            "y": 24.00000020000013,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "radiator_support_2",
+          "dimensions_mm": {
+            "x": 80.00000020000016,
+            "y": 100.00000020000023,
+            "z": 650.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "radiator_panel_2",
+          "dimensions_mm": {
+            "x": 620.0000002000002,
+            "y": 80.00000020000023,
+            "z": 1800.0000002000004
+          }
+        },
+        {
+          "part_definition_id": "radiator_hinge_2",
+          "dimensions_mm": {
+            "x": 650.1107628804556,
+            "y": 110.0000002000002,
+            "z": 110.11076288045558
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_0",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.00000020000013,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_1",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_2",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_3",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_4",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_5",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "panel_loop_2_6",
+          "dimensions_mm": {
+            "x": 24.024166603008553,
+            "y": 24.000000200000187,
+            "z": 1700.0241666030088
+          }
+        },
+        {
+          "part_definition_id": "insulation_shroud",
+          "dimensions_mm": {
+            "x": 350.00000020000016,
+            "y": 450.0000002000001,
+            "z": 250.00000020000013
+          }
+        }
+      ],
+      "components": [
+        {
+          "object_id": "ASSET-09/support",
+          "ref_des": "support",
+          "part_definition_id": "support"
+        },
+        {
+          "object_id": "ASSET-09/foot_0",
+          "ref_des": "foot_0",
+          "part_definition_id": "foot_0"
+        },
+        {
+          "object_id": "ASSET-09/foot_1",
+          "ref_des": "foot_1",
+          "part_definition_id": "foot_1"
+        },
+        {
+          "object_id": "ASSET-09/foot_2",
+          "ref_des": "foot_2",
+          "part_definition_id": "foot_2"
+        },
+        {
+          "object_id": "ASSET-09/foot_3",
+          "ref_des": "foot_3",
+          "part_definition_id": "foot_3"
+        },
+        {
+          "object_id": "ASSET-09/heat_exchanger",
+          "ref_des": "heat_exchanger",
+          "part_definition_id": "heat_exchanger"
+        },
+        {
+          "object_id": "ASSET-09/coolant_pump",
+          "ref_des": "coolant_pump",
+          "part_definition_id": "coolant_pump"
+        },
+        {
+          "object_id": "ASSET-09/thermal_line_neg370",
+          "ref_des": "thermal_line_neg370",
+          "part_definition_id": "thermal_line_neg370"
+        },
+        {
+          "object_id": "ASSET-09/thermal_line_370",
+          "ref_des": "thermal_line_370",
+          "part_definition_id": "thermal_line_370"
+        },
+        {
+          "object_id": "ASSET-09/radiator_support_0",
+          "ref_des": "radiator_support_0",
+          "part_definition_id": "radiator_support_0"
+        },
+        {
+          "object_id": "ASSET-09/radiator_panel_0",
+          "ref_des": "radiator_panel_0",
+          "part_definition_id": "radiator_panel_0"
+        },
+        {
+          "object_id": "ASSET-09/radiator_hinge_0",
+          "ref_des": "radiator_hinge_0",
+          "part_definition_id": "radiator_hinge_0"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_0",
+          "ref_des": "panel_loop_0_0",
+          "part_definition_id": "panel_loop_0_0"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_1",
+          "ref_des": "panel_loop_0_1",
+          "part_definition_id": "panel_loop_0_1"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_2",
+          "ref_des": "panel_loop_0_2",
+          "part_definition_id": "panel_loop_0_2"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_3",
+          "ref_des": "panel_loop_0_3",
+          "part_definition_id": "panel_loop_0_3"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_4",
+          "ref_des": "panel_loop_0_4",
+          "part_definition_id": "panel_loop_0_4"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_5",
+          "ref_des": "panel_loop_0_5",
+          "part_definition_id": "panel_loop_0_5"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_0_6",
+          "ref_des": "panel_loop_0_6",
+          "part_definition_id": "panel_loop_0_6"
+        },
+        {
+          "object_id": "ASSET-09/radiator_support_1",
+          "ref_des": "radiator_support_1",
+          "part_definition_id": "radiator_support_1"
+        },
+        {
+          "object_id": "ASSET-09/radiator_panel_1",
+          "ref_des": "radiator_panel_1",
+          "part_definition_id": "radiator_panel_1"
+        },
+        {
+          "object_id": "ASSET-09/radiator_hinge_1",
+          "ref_des": "radiator_hinge_1",
+          "part_definition_id": "radiator_hinge_1"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_0",
+          "ref_des": "panel_loop_1_0",
+          "part_definition_id": "panel_loop_1_0"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_1",
+          "ref_des": "panel_loop_1_1",
+          "part_definition_id": "panel_loop_1_1"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_2",
+          "ref_des": "panel_loop_1_2",
+          "part_definition_id": "panel_loop_1_2"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_3",
+          "ref_des": "panel_loop_1_3",
+          "part_definition_id": "panel_loop_1_3"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_4",
+          "ref_des": "panel_loop_1_4",
+          "part_definition_id": "panel_loop_1_4"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_5",
+          "ref_des": "panel_loop_1_5",
+          "part_definition_id": "panel_loop_1_5"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_1_6",
+          "ref_des": "panel_loop_1_6",
+          "part_definition_id": "panel_loop_1_6"
+        },
+        {
+          "object_id": "ASSET-09/radiator_support_2",
+          "ref_des": "radiator_support_2",
+          "part_definition_id": "radiator_support_2"
+        },
+        {
+          "object_id": "ASSET-09/radiator_panel_2",
+          "ref_des": "radiator_panel_2",
+          "part_definition_id": "radiator_panel_2"
+        },
+        {
+          "object_id": "ASSET-09/radiator_hinge_2",
+          "ref_des": "radiator_hinge_2",
+          "part_definition_id": "radiator_hinge_2"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_0",
+          "ref_des": "panel_loop_2_0",
+          "part_definition_id": "panel_loop_2_0"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_1",
+          "ref_des": "panel_loop_2_1",
+          "part_definition_id": "panel_loop_2_1"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_2",
+          "ref_des": "panel_loop_2_2",
+          "part_definition_id": "panel_loop_2_2"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_3",
+          "ref_des": "panel_loop_2_3",
+          "part_definition_id": "panel_loop_2_3"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_4",
+          "ref_des": "panel_loop_2_4",
+          "part_definition_id": "panel_loop_2_4"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_5",
+          "ref_des": "panel_loop_2_5",
+          "part_definition_id": "panel_loop_2_5"
+        },
+        {
+          "object_id": "ASSET-09/panel_loop_2_6",
+          "ref_des": "panel_loop_2_6",
+          "part_definition_id": "panel_loop_2_6"
+        },
+        {
+          "object_id": "ASSET-09/insulation_shroud",
+          "ref_des": "insulation_shroud",
+          "part_definition_id": "insulation_shroud"
+        }
+      ],
+      "mechanical": {
+        "physical_form": "THERMAL CONTROL & RADIATORS",
+        "enclosure_type": "Parametric concept assembly",
+        "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+        "manufacturability_rating": "Not evaluated",
+        "component_placements": [
+          {
+            "ref_des": "support",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 100.0
+            },
+            "size": {
+              "x_mm": 2400.0000002,
+              "y_mm": 1400.0000002000002,
+              "z_mm": 100.00000020000004
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_0",
+            "position": {
+              "x_mm": -1080.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_1",
+            "position": {
+              "x_mm": -1080.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_2",
+            "position": {
+              "x_mm": 1080.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_3",
+            "position": {
+              "x_mm": 1080.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "heat_exchanger",
+            "position": {
+              "x_mm": -650.0,
+              "y_mm": 0.0,
+              "z_mm": 420.0
+            },
+            "size": {
+              "x_mm": 650.0000002000002,
+              "y_mm": 550.0000002000003,
+              "z_mm": 380.00000020000016
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "coolant_pump",
+            "position": {
+              "x_mm": 460.0,
+              "y_mm": 0.0,
+              "z_mm": 430.0
+            },
+            "size": {
+              "x_mm": 380.3020802376057,
+              "y_mm": 300.00000020000016,
+              "z_mm": 300.3020802376057
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "thermal_line_neg370",
+            "position": {
+              "x_mm": -950.0,
+              "y_mm": -370.0,
+              "z_mm": 519.9999999999999
+            },
+            "size": {
+              "x_mm": 1900.0704855421081,
+              "y_mm": 70.00000020000016,
+              "z_mm": 70.07048554210837
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "thermal_line_370",
+            "position": {
+              "x_mm": -950.0,
+              "y_mm": 370.0,
+              "z_mm": 519.9999999999999
+            },
+            "size": {
+              "x_mm": 1900.0704855421081,
+              "y_mm": 70.00000020000016,
+              "z_mm": 70.07048554210837
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_support_0",
+            "position": {
+              "x_mm": -700.0,
+              "y_mm": 0.0,
+              "z_mm": 480.0
+            },
+            "size": {
+              "x_mm": 80.00000020000016,
+              "y_mm": 100.00000020000023,
+              "z_mm": 650.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_panel_0",
+            "position": {
+              "x_mm": -700.0,
+              "y_mm": 0.0,
+              "z_mm": 1700.0
+            },
+            "size": {
+              "x_mm": 620.0000002000002,
+              "y_mm": 80.00000020000023,
+              "z_mm": 1800.0000002000004
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_hinge_0",
+            "position": {
+              "x_mm": -1025.0,
+              "y_mm": 0.0,
+              "z_mm": 800.0
+            },
+            "size": {
+              "x_mm": 650.1107628804556,
+              "y_mm": 110.0000002000002,
+              "z_mm": 110.11076288045558
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_0",
+            "position": {
+              "x_mm": -950.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_1",
+            "position": {
+              "x_mm": -867.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_2",
+            "position": {
+              "x_mm": -784.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_3",
+            "position": {
+              "x_mm": -701.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_4",
+            "position": {
+              "x_mm": -618.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_5",
+            "position": {
+              "x_mm": -535.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_0_6",
+            "position": {
+              "x_mm": -452.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.00000020000013,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_support_1",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 480.0
+            },
+            "size": {
+              "x_mm": 80.00000020000023,
+              "y_mm": 100.00000020000023,
+              "z_mm": 650.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_panel_1",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 1700.0
+            },
+            "size": {
+              "x_mm": 620.0000002,
+              "y_mm": 80.00000020000003,
+              "z_mm": 1800.0000001999997
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_hinge_1",
+            "position": {
+              "x_mm": -324.99999999999994,
+              "y_mm": 0.0,
+              "z_mm": 800.0
+            },
+            "size": {
+              "x_mm": 650.1107628804556,
+              "y_mm": 110.0000002000002,
+              "z_mm": 110.11076288045558
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_0",
+            "position": {
+              "x_mm": -250.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.02416660300858,
+              "y_mm": 24.00000020000013,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_1",
+            "position": {
+              "x_mm": -167.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008496,
+              "y_mm": 24.000000200000045,
+              "z_mm": 1700.0241666030083
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_2",
+            "position": {
+              "x_mm": -84.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008467,
+              "y_mm": 24.000000200000017,
+              "z_mm": 1700.0241666030083
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_3",
+            "position": {
+              "x_mm": -1.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008464,
+              "y_mm": 24.000000200000017,
+              "z_mm": 1700.0241666030083
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_4",
+            "position": {
+              "x_mm": 82.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008467,
+              "y_mm": 24.000000200000017,
+              "z_mm": 1700.0241666030083
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_5",
+            "position": {
+              "x_mm": 165.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008496,
+              "y_mm": 24.000000200000045,
+              "z_mm": 1700.0241666030083
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_1_6",
+            "position": {
+              "x_mm": 248.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.02416660300858,
+              "y_mm": 24.00000020000013,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_support_2",
+            "position": {
+              "x_mm": 700.0,
+              "y_mm": 0.0,
+              "z_mm": 480.0
+            },
+            "size": {
+              "x_mm": 80.00000020000016,
+              "y_mm": 100.00000020000023,
+              "z_mm": 650.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_panel_2",
+            "position": {
+              "x_mm": 700.0,
+              "y_mm": 0.0,
+              "z_mm": 1700.0
+            },
+            "size": {
+              "x_mm": 620.0000002000002,
+              "y_mm": 80.00000020000023,
+              "z_mm": 1800.0000002000004
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "radiator_hinge_2",
+            "position": {
+              "x_mm": 374.99999999999994,
+              "y_mm": 0.0,
+              "z_mm": 800.0
+            },
+            "size": {
+              "x_mm": 650.1107628804556,
+              "y_mm": 110.0000002000002,
+              "z_mm": 110.11076288045558
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_0",
+            "position": {
+              "x_mm": 450.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.00000020000013,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_1",
+            "position": {
+              "x_mm": 533.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_2",
+            "position": {
+              "x_mm": 616.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_3",
+            "position": {
+              "x_mm": 699.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_4",
+            "position": {
+              "x_mm": 782.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_5",
+            "position": {
+              "x_mm": 865.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "panel_loop_2_6",
+            "position": {
+              "x_mm": 948.0,
+              "y_mm": -55.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 24.024166603008553,
+              "y_mm": 24.000000200000187,
+              "z_mm": 1700.0241666030088
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "insulation_shroud",
+            "position": {
+              "x_mm": 630.0,
+              "y_mm": 0.0,
+              "z_mm": 230.0
+            },
+            "size": {
+              "x_mm": 350.00000020000016,
+              "y_mm": 450.0000002000001,
+              "z_mm": 250.00000020000013
+            },
+            "layer": "mechanism"
+          }
+        ],
+        "fabrication_details": [
+          "Every dimension is an authoring assumption, not a NASA measurement.",
+          "Motion is design inspection only, not simulated plant operation."
+        ]
+      }
+    },
+    "sources": [
+      "09-thermal-control-and-heat-rejection.md"
+    ],
+    "status": "Concept engineering preview",
+    "model_source": "assets/machine-previews/build_all.py",
+    "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated."
+  }
+}

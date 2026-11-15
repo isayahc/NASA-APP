@@ -1,0 +1,3338 @@
+{
+  "project_id": "18bbfd42-3328-4197-a52c-b601f78fd0cd",
+  "chat_id": "ba6bf0bc-229d-41a4-975f-48f47fa2f15f",
+  "persisted": true,
+  "visibility": "private",
+  "project_ir": {
+    "hardware_ir_version": "0.2",
+    "overview": {
+      "title": "ASSET-07 - OXYGEN GAS STORAGE",
+      "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+      "difficulty": "Advanced",
+      "estimated_cost": 0.0,
+      "category": "Industrial"
+    },
+    "requirements": null,
+    "system_architecture": null,
+    "part_definitions": [
+      {
+        "part_definition_id": "PART_SUPPORT",
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_0",
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_1",
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_2",
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_3",
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_0",
+        "manufacturer": null,
+        "part_number": "vessel_0",
+        "name": "vessel_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_TOP_0",
+        "manufacturer": null,
+        "part_number": "vessel_top_0",
+        "name": "vessel_top_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_BOTTOM_0",
+        "manufacturer": null,
+        "part_number": "vessel_bottom_0",
+        "name": "vessel_bottom_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_NECK_0",
+        "manufacturer": null,
+        "part_number": "neck_0",
+        "name": "neck_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_0_BODY",
+        "manufacturer": null,
+        "part_number": "valve_0_body",
+        "name": "valve_0_body",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_0_STEM",
+        "manufacturer": null,
+        "part_number": "valve_0_stem",
+        "name": "valve_0_stem",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_0_HANDLE",
+        "manufacturer": null,
+        "part_number": "valve_0_handle",
+        "name": "valve_0_handle",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RESTRAINT_0_560",
+        "manufacturer": null,
+        "part_number": "restraint_0_560",
+        "name": "restraint_0_560",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RESTRAINT_0_1370",
+        "manufacturer": null,
+        "part_number": "restraint_0_1370",
+        "name": "restraint_0_1370",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_1",
+        "manufacturer": null,
+        "part_number": "vessel_1",
+        "name": "vessel_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_TOP_1",
+        "manufacturer": null,
+        "part_number": "vessel_top_1",
+        "name": "vessel_top_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_BOTTOM_1",
+        "manufacturer": null,
+        "part_number": "vessel_bottom_1",
+        "name": "vessel_bottom_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_NECK_1",
+        "manufacturer": null,
+        "part_number": "neck_1",
+        "name": "neck_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_1_BODY",
+        "manufacturer": null,
+        "part_number": "valve_1_body",
+        "name": "valve_1_body",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_1_STEM",
+        "manufacturer": null,
+        "part_number": "valve_1_stem",
+        "name": "valve_1_stem",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_1_HANDLE",
+        "manufacturer": null,
+        "part_number": "valve_1_handle",
+        "name": "valve_1_handle",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RESTRAINT_1_560",
+        "manufacturer": null,
+        "part_number": "restraint_1_560",
+        "name": "restraint_1_560",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RESTRAINT_1_1370",
+        "manufacturer": null,
+        "part_number": "restraint_1_1370",
+        "name": "restraint_1_1370",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_2",
+        "manufacturer": null,
+        "part_number": "vessel_2",
+        "name": "vessel_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_TOP_2",
+        "manufacturer": null,
+        "part_number": "vessel_top_2",
+        "name": "vessel_top_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VESSEL_BOTTOM_2",
+        "manufacturer": null,
+        "part_number": "vessel_bottom_2",
+        "name": "vessel_bottom_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_NECK_2",
+        "manufacturer": null,
+        "part_number": "neck_2",
+        "name": "neck_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_2_BODY",
+        "manufacturer": null,
+        "part_number": "valve_2_body",
+        "name": "valve_2_body",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_2_STEM",
+        "manufacturer": null,
+        "part_number": "valve_2_stem",
+        "name": "valve_2_stem",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_VALVE_2_HANDLE",
+        "manufacturer": null,
+        "part_number": "valve_2_handle",
+        "name": "valve_2_handle",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RESTRAINT_2_560",
+        "manufacturer": null,
+        "part_number": "restraint_2_560",
+        "name": "restraint_2_560",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RESTRAINT_2_1370",
+        "manufacturer": null,
+        "part_number": "restraint_2_1370",
+        "name": "restraint_2_1370",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INLET_MANIFOLD",
+        "manufacturer": null,
+        "part_number": "inlet_manifold",
+        "name": "inlet_manifold",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_COMPRESSOR_OPTIONAL",
+        "manufacturer": null,
+        "part_number": "compressor_optional",
+        "name": "compressor_optional",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_COMPRESSOR_MOTOR",
+        "manufacturer": null,
+        "part_number": "compressor_motor",
+        "name": "compressor_motor",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PRESSURE_SENSOR",
+        "manufacturer": null,
+        "part_number": "pressure_sensor",
+        "name": "pressure_sensor",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_WITHDRAWAL_PORT",
+        "manufacturer": null,
+        "part_number": "withdrawal_port",
+        "name": "withdrawal_port",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      }
+    ],
+    "components": [
+      {
+        "ref_des": "support",
+        "part_definition_id": "PART_SUPPORT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_0",
+        "part_definition_id": "PART_FOOT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_1",
+        "part_definition_id": "PART_FOOT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_2",
+        "part_definition_id": "PART_FOOT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_3",
+        "part_definition_id": "PART_FOOT_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_0",
+        "part_definition_id": "PART_VESSEL_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_top_0",
+        "part_definition_id": "PART_VESSEL_TOP_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_bottom_0",
+        "part_definition_id": "PART_VESSEL_BOTTOM_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "neck_0",
+        "part_definition_id": "PART_NECK_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_0_body",
+        "part_definition_id": "PART_VALVE_0_BODY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_0_stem",
+        "part_definition_id": "PART_VALVE_0_STEM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_0_handle",
+        "part_definition_id": "PART_VALVE_0_HANDLE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "restraint_0_560",
+        "part_definition_id": "PART_RESTRAINT_0_560",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "restraint_0_1370",
+        "part_definition_id": "PART_RESTRAINT_0_1370",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_1",
+        "part_definition_id": "PART_VESSEL_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_top_1",
+        "part_definition_id": "PART_VESSEL_TOP_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_bottom_1",
+        "part_definition_id": "PART_VESSEL_BOTTOM_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "neck_1",
+        "part_definition_id": "PART_NECK_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_1_body",
+        "part_definition_id": "PART_VALVE_1_BODY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_1_stem",
+        "part_definition_id": "PART_VALVE_1_STEM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_1_handle",
+        "part_definition_id": "PART_VALVE_1_HANDLE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "restraint_1_560",
+        "part_definition_id": "PART_RESTRAINT_1_560",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "restraint_1_1370",
+        "part_definition_id": "PART_RESTRAINT_1_1370",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_2",
+        "part_definition_id": "PART_VESSEL_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_top_2",
+        "part_definition_id": "PART_VESSEL_TOP_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "vessel_bottom_2",
+        "part_definition_id": "PART_VESSEL_BOTTOM_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "neck_2",
+        "part_definition_id": "PART_NECK_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_2_body",
+        "part_definition_id": "PART_VALVE_2_BODY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_2_stem",
+        "part_definition_id": "PART_VALVE_2_STEM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "valve_2_handle",
+        "part_definition_id": "PART_VALVE_2_HANDLE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "restraint_2_560",
+        "part_definition_id": "PART_RESTRAINT_2_560",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "restraint_2_1370",
+        "part_definition_id": "PART_RESTRAINT_2_1370",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "inlet_manifold",
+        "part_definition_id": "PART_INLET_MANIFOLD",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "compressor_optional",
+        "part_definition_id": "PART_COMPRESSOR_OPTIONAL",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "compressor_motor",
+        "part_definition_id": "PART_COMPRESSOR_MOTOR",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "pressure_sensor",
+        "part_definition_id": "PART_PRESSURE_SENSOR",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "withdrawal_port",
+        "part_definition_id": "PART_WITHDRAWAL_PORT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      }
+    ],
+    "bom": [
+      {
+        "line_id": "BOM_PART_SUPPORT",
+        "part_definition_id": "PART_SUPPORT",
+        "instance_refs": [
+          "support"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_0",
+        "part_definition_id": "PART_FOOT_0",
+        "instance_refs": [
+          "foot_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_1",
+        "part_definition_id": "PART_FOOT_1",
+        "instance_refs": [
+          "foot_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_2",
+        "part_definition_id": "PART_FOOT_2",
+        "instance_refs": [
+          "foot_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_3",
+        "part_definition_id": "PART_FOOT_3",
+        "instance_refs": [
+          "foot_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_0",
+        "part_definition_id": "PART_VESSEL_0",
+        "instance_refs": [
+          "vessel_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_0",
+        "name": "vessel_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_TOP_0",
+        "part_definition_id": "PART_VESSEL_TOP_0",
+        "instance_refs": [
+          "vessel_top_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_top_0",
+        "name": "vessel_top_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_BOTTOM_0",
+        "part_definition_id": "PART_VESSEL_BOTTOM_0",
+        "instance_refs": [
+          "vessel_bottom_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_bottom_0",
+        "name": "vessel_bottom_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_NECK_0",
+        "part_definition_id": "PART_NECK_0",
+        "instance_refs": [
+          "neck_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "neck_0",
+        "name": "neck_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_0_BODY",
+        "part_definition_id": "PART_VALVE_0_BODY",
+        "instance_refs": [
+          "valve_0_body"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_0_body",
+        "name": "valve_0_body",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_0_STEM",
+        "part_definition_id": "PART_VALVE_0_STEM",
+        "instance_refs": [
+          "valve_0_stem"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_0_stem",
+        "name": "valve_0_stem",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_0_HANDLE",
+        "part_definition_id": "PART_VALVE_0_HANDLE",
+        "instance_refs": [
+          "valve_0_handle"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_0_handle",
+        "name": "valve_0_handle",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RESTRAINT_0_560",
+        "part_definition_id": "PART_RESTRAINT_0_560",
+        "instance_refs": [
+          "restraint_0_560"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "restraint_0_560",
+        "name": "restraint_0_560",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RESTRAINT_0_1370",
+        "part_definition_id": "PART_RESTRAINT_0_1370",
+        "instance_refs": [
+          "restraint_0_1370"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "restraint_0_1370",
+        "name": "restraint_0_1370",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_1",
+        "part_definition_id": "PART_VESSEL_1",
+        "instance_refs": [
+          "vessel_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_1",
+        "name": "vessel_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_TOP_1",
+        "part_definition_id": "PART_VESSEL_TOP_1",
+        "instance_refs": [
+          "vessel_top_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_top_1",
+        "name": "vessel_top_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_BOTTOM_1",
+        "part_definition_id": "PART_VESSEL_BOTTOM_1",
+        "instance_refs": [
+          "vessel_bottom_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_bottom_1",
+        "name": "vessel_bottom_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_NECK_1",
+        "part_definition_id": "PART_NECK_1",
+        "instance_refs": [
+          "neck_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "neck_1",
+        "name": "neck_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_1_BODY",
+        "part_definition_id": "PART_VALVE_1_BODY",
+        "instance_refs": [
+          "valve_1_body"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_1_body",
+        "name": "valve_1_body",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_1_STEM",
+        "part_definition_id": "PART_VALVE_1_STEM",
+        "instance_refs": [
+          "valve_1_stem"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_1_stem",
+        "name": "valve_1_stem",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_1_HANDLE",
+        "part_definition_id": "PART_VALVE_1_HANDLE",
+        "instance_refs": [
+          "valve_1_handle"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_1_handle",
+        "name": "valve_1_handle",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RESTRAINT_1_560",
+        "part_definition_id": "PART_RESTRAINT_1_560",
+        "instance_refs": [
+          "restraint_1_560"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "restraint_1_560",
+        "name": "restraint_1_560",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RESTRAINT_1_1370",
+        "part_definition_id": "PART_RESTRAINT_1_1370",
+        "instance_refs": [
+          "restraint_1_1370"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "restraint_1_1370",
+        "name": "restraint_1_1370",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_2",
+        "part_definition_id": "PART_VESSEL_2",
+        "instance_refs": [
+          "vessel_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_2",
+        "name": "vessel_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_TOP_2",
+        "part_definition_id": "PART_VESSEL_TOP_2",
+        "instance_refs": [
+          "vessel_top_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_top_2",
+        "name": "vessel_top_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VESSEL_BOTTOM_2",
+        "part_definition_id": "PART_VESSEL_BOTTOM_2",
+        "instance_refs": [
+          "vessel_bottom_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "vessel_bottom_2",
+        "name": "vessel_bottom_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_NECK_2",
+        "part_definition_id": "PART_NECK_2",
+        "instance_refs": [
+          "neck_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "neck_2",
+        "name": "neck_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_2_BODY",
+        "part_definition_id": "PART_VALVE_2_BODY",
+        "instance_refs": [
+          "valve_2_body"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_2_body",
+        "name": "valve_2_body",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_2_STEM",
+        "part_definition_id": "PART_VALVE_2_STEM",
+        "instance_refs": [
+          "valve_2_stem"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_2_stem",
+        "name": "valve_2_stem",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_VALVE_2_HANDLE",
+        "part_definition_id": "PART_VALVE_2_HANDLE",
+        "instance_refs": [
+          "valve_2_handle"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "valve_2_handle",
+        "name": "valve_2_handle",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RESTRAINT_2_560",
+        "part_definition_id": "PART_RESTRAINT_2_560",
+        "instance_refs": [
+          "restraint_2_560"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "restraint_2_560",
+        "name": "restraint_2_560",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RESTRAINT_2_1370",
+        "part_definition_id": "PART_RESTRAINT_2_1370",
+        "instance_refs": [
+          "restraint_2_1370"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "restraint_2_1370",
+        "name": "restraint_2_1370",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INLET_MANIFOLD",
+        "part_definition_id": "PART_INLET_MANIFOLD",
+        "instance_refs": [
+          "inlet_manifold"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "inlet_manifold",
+        "name": "inlet_manifold",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_COMPRESSOR_OPTIONAL",
+        "part_definition_id": "PART_COMPRESSOR_OPTIONAL",
+        "instance_refs": [
+          "compressor_optional"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "compressor_optional",
+        "name": "compressor_optional",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_COMPRESSOR_MOTOR",
+        "part_definition_id": "PART_COMPRESSOR_MOTOR",
+        "instance_refs": [
+          "compressor_motor"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "compressor_motor",
+        "name": "compressor_motor",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PRESSURE_SENSOR",
+        "part_definition_id": "PART_PRESSURE_SENSOR",
+        "instance_refs": [
+          "pressure_sensor"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "pressure_sensor",
+        "name": "pressure_sensor",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_WITHDRAWAL_PORT",
+        "part_definition_id": "PART_WITHDRAWAL_PORT",
+        "instance_refs": [
+          "withdrawal_port"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "withdrawal_port",
+        "name": "withdrawal_port",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      }
+    ],
+    "nets": [],
+    "buses": [],
+    "pin_mappings": [],
+    "assembly": [],
+    "mechanical": {
+      "cad_operations": [],
+      "physical_form": "OXYGEN GAS STORAGE",
+      "enclosure_type": "Parametric concept assembly",
+      "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+      "fabrication_details": [
+        "Every dimension is an authoring assumption, not a NASA measurement.",
+        "Motion is design inspection only, not simulated plant operation."
+      ],
+      "fabrication_cost_estimate_usd": 0.0,
+      "cad_sources": [],
+      "manufacturability_rating": "Not evaluated",
+      "render_dimensions": null,
+      "component_placements": [
+        {
+          "ref_des": "support",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 100.0
+          },
+          "size": {
+            "x_mm": 1800.0000002000002,
+            "y_mm": 1400.0000002000002,
+            "z_mm": 100.00000020000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -780.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -780.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 780.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 780.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 315.0
+          },
+          "size": {
+            "x_mm": 430.4329815872349,
+            "y_mm": 430.00000020000016,
+            "z_mm": 1250.432981587235
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_top_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -549.8961186528478,
+            "y_mm": 180.0,
+            "z_mm": 1565.0
+          },
+          "size": {
+            "x_mm": 433.0121046218298,
+            "y_mm": 432.80434192752557,
+            "z_mm": 433.6528487033688
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_bottom_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -549.8961186528478,
+            "y_mm": 180.0,
+            "z_mm": 315.0
+          },
+          "size": {
+            "x_mm": 433.0121046218298,
+            "y_mm": 432.80434192752557,
+            "z_mm": 433.6528487033688
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "neck_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 1720.0
+          },
+          "size": {
+            "x_mm": 70.07048554210814,
+            "y_mm": 70.00000020000016,
+            "z_mm": 240.07048554210814
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_0_body",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -630.0,
+            "y_mm": 180.0,
+            "z_mm": 1960.0
+          },
+          "size": {
+            "x_mm": 160.1107628804557,
+            "y_mm": 110.00000020000027,
+            "z_mm": 110.1107628804557
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_0_stem",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 1975.0
+          },
+          "size": {
+            "x_mm": 32.032222070678245,
+            "y_mm": 32.00000020000027,
+            "z_mm": 90.03222207067802
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_0_handle",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -495.0,
+            "y_mm": 180.0,
+            "z_mm": 2075.0
+          },
+          "size": {
+            "x_mm": 170.0000002,
+            "y_mm": 24.000000199999988,
+            "z_mm": 22.000000199999704
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "restraint_0_560",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 525.0
+          },
+          "size": {
+            "x_mm": 464.4672173248302,
+            "y_mm": 464.00000020000016,
+            "z_mm": 70.46721732483019
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "restraint_0_1370",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 1335.0
+          },
+          "size": {
+            "x_mm": 464.4672173248302,
+            "y_mm": 464.00000020000016,
+            "z_mm": 70.46721732483002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 180.0,
+            "z_mm": 315.0
+          },
+          "size": {
+            "x_mm": 430.4329815872348,
+            "y_mm": 430.00000020000016,
+            "z_mm": 1250.4329815872347
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_top_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.10388134715213937,
+            "y_mm": 180.0,
+            "z_mm": 1565.0
+          },
+          "size": {
+            "x_mm": 433.01210462182985,
+            "y_mm": 432.80434192752557,
+            "z_mm": 433.6528487033688
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_bottom_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.10388134715213937,
+            "y_mm": 180.0,
+            "z_mm": 315.0
+          },
+          "size": {
+            "x_mm": 433.01210462182985,
+            "y_mm": 432.80434192752557,
+            "z_mm": 433.6528487033688
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "neck_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 180.0,
+            "z_mm": 1720.0
+          },
+          "size": {
+            "x_mm": 70.07048554210802,
+            "y_mm": 70.00000020000004,
+            "z_mm": 240.07048554210814
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_1_body",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -80.0,
+            "y_mm": 180.0,
+            "z_mm": 1960.0
+          },
+          "size": {
+            "x_mm": 160.11076288045564,
+            "y_mm": 110.00000020000027,
+            "z_mm": 110.1107628804557
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_1_stem",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 180.0,
+            "z_mm": 1975.0
+          },
+          "size": {
+            "x_mm": 32.032222070677975,
+            "y_mm": 32.000000200000045,
+            "z_mm": 90.03222207067802
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_1_handle",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 54.99999999999999,
+            "y_mm": 180.0,
+            "z_mm": 2075.0
+          },
+          "size": {
+            "x_mm": 170.0000002,
+            "y_mm": 24.000000199999988,
+            "z_mm": 22.000000199999704
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "restraint_1_560",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 180.0,
+            "z_mm": 525.0
+          },
+          "size": {
+            "x_mm": 464.4672173248301,
+            "y_mm": 464.00000020000016,
+            "z_mm": 70.46721732483007
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "restraint_1_1370",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 180.0,
+            "z_mm": 1335.0
+          },
+          "size": {
+            "x_mm": 464.4672173248301,
+            "y_mm": 464.00000020000016,
+            "z_mm": 70.46721732483002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.0,
+            "y_mm": 180.0,
+            "z_mm": 315.0
+          },
+          "size": {
+            "x_mm": 430.4329815872349,
+            "y_mm": 430.00000020000016,
+            "z_mm": 1250.432981587235
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_top_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.1038813471521,
+            "y_mm": 180.0,
+            "z_mm": 1565.0
+          },
+          "size": {
+            "x_mm": 433.01210462182996,
+            "y_mm": 432.8043419275257,
+            "z_mm": 433.6528487033688
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "vessel_bottom_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.1038813471521,
+            "y_mm": 180.0,
+            "z_mm": 315.0
+          },
+          "size": {
+            "x_mm": 433.01210462182996,
+            "y_mm": 432.8043419275257,
+            "z_mm": 433.6528487033689
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "neck_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.0,
+            "y_mm": 180.0,
+            "z_mm": 1720.0
+          },
+          "size": {
+            "x_mm": 70.07048554210814,
+            "y_mm": 70.00000020000016,
+            "z_mm": 240.07048554210814
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_2_body",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 470.0,
+            "y_mm": 180.0,
+            "z_mm": 1960.0
+          },
+          "size": {
+            "x_mm": 160.1107628804557,
+            "y_mm": 110.00000020000027,
+            "z_mm": 110.1107628804557
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_2_stem",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.0,
+            "y_mm": 180.0,
+            "z_mm": 1975.0
+          },
+          "size": {
+            "x_mm": 32.032222070678245,
+            "y_mm": 32.00000020000027,
+            "z_mm": 90.03222207067802
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "valve_2_handle",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 605.0,
+            "y_mm": 180.0,
+            "z_mm": 2075.0
+          },
+          "size": {
+            "x_mm": 170.00000019999993,
+            "y_mm": 24.000000199999988,
+            "z_mm": 22.000000199999704
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "restraint_2_560",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.0,
+            "y_mm": 180.0,
+            "z_mm": 525.0
+          },
+          "size": {
+            "x_mm": 464.4672173248302,
+            "y_mm": 464.00000020000016,
+            "z_mm": 70.46721732483019
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "restraint_2_1370",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.0,
+            "y_mm": 180.0,
+            "z_mm": 1335.0
+          },
+          "size": {
+            "x_mm": 464.4672173248302,
+            "y_mm": 464.00000020000016,
+            "z_mm": 70.46721732483002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "inlet_manifold",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -725.0,
+            "y_mm": 180.0,
+            "z_mm": 1960.0
+          },
+          "size": {
+            "x_mm": 1450.0704855421086,
+            "y_mm": 70.0000002000005,
+            "z_mm": 70.07048554210883
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "compressor_optional",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -350.0,
+            "y_mm": -410.0,
+            "z_mm": 380.0
+          },
+          "size": {
+            "x_mm": 600.0000002000002,
+            "y_mm": 400.00000020000016,
+            "z_mm": 420.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "compressor_motor",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 30.000000000000007,
+            "y_mm": -410.0,
+            "z_mm": 370.0
+          },
+          "size": {
+            "x_mm": 300.2819415684321,
+            "y_mm": 280.0000002000001,
+            "z_mm": 280.28194156843205
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "pressure_sensor",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 600.0,
+            "y_mm": -420.0,
+            "z_mm": 590.0
+          },
+          "size": {
+            "x_mm": 180.0000002,
+            "y_mm": 110.00000020000004,
+            "z_mm": 200.0000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "withdrawal_port",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 510.0,
+            "y_mm": -450.0,
+            "z_mm": 290.0
+          },
+          "size": {
+            "x_mm": 280.080554876695,
+            "y_mm": 80.00000020000004,
+            "z_mm": 80.08055487669495
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        }
+      ],
+      "spatial_relationships": [],
+      "motion_intents": [],
+      "mechanism_benchmark": null
+    },
+    "fluidic_system": null,
+    "firmware": null,
+    "cad_model": {
+      "format": "step",
+      "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-07\\assembly.step",
+      "sha256": "c7709d5991d69e14efc9b8f56975835611f1b7655a2b6f771b1ad718f94254b1",
+      "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-07\\excavator.meshes.json",
+      "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-07\\excavator.kinematics.json",
+      "units": "mm"
+    },
+    "constraints": [],
+    "power_rails": [],
+    "estimated_current_draw_ma": 0.0,
+    "fabrication_notes": [],
+    "assembly_metadata": {
+      "asset_id": "ASSET-07",
+      "mechanical_ir": {
+        "domain": "mechanical",
+        "schema_version": "1.0",
+        "artifact_id": "ASSET-07-mechanical",
+        "revision": 1,
+        "parts": [
+          {
+            "part_definition_id": "support",
+            "dimensions_mm": {
+              "x": 1800.0000002000002,
+              "y": 1400.0000002000002,
+              "z": 100.00000020000004
+            }
+          },
+          {
+            "part_definition_id": "foot_0",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_1",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_2",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_3",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "vessel_0",
+            "dimensions_mm": {
+              "x": 430.4329815872349,
+              "y": 430.00000020000016,
+              "z": 1250.432981587235
+            }
+          },
+          {
+            "part_definition_id": "vessel_top_0",
+            "dimensions_mm": {
+              "x": 433.0121046218298,
+              "y": 432.80434192752557,
+              "z": 433.6528487033688
+            }
+          },
+          {
+            "part_definition_id": "vessel_bottom_0",
+            "dimensions_mm": {
+              "x": 433.0121046218298,
+              "y": 432.80434192752557,
+              "z": 433.6528487033688
+            }
+          },
+          {
+            "part_definition_id": "neck_0",
+            "dimensions_mm": {
+              "x": 70.07048554210814,
+              "y": 70.00000020000016,
+              "z": 240.07048554210814
+            }
+          },
+          {
+            "part_definition_id": "valve_0_body",
+            "dimensions_mm": {
+              "x": 160.1107628804557,
+              "y": 110.00000020000027,
+              "z": 110.1107628804557
+            }
+          },
+          {
+            "part_definition_id": "valve_0_stem",
+            "dimensions_mm": {
+              "x": 32.032222070678245,
+              "y": 32.00000020000027,
+              "z": 90.03222207067802
+            }
+          },
+          {
+            "part_definition_id": "valve_0_handle",
+            "dimensions_mm": {
+              "x": 170.0000002,
+              "y": 24.000000199999988,
+              "z": 22.000000199999704
+            }
+          },
+          {
+            "part_definition_id": "restraint_0_560",
+            "dimensions_mm": {
+              "x": 464.4672173248302,
+              "y": 464.00000020000016,
+              "z": 70.46721732483019
+            }
+          },
+          {
+            "part_definition_id": "restraint_0_1370",
+            "dimensions_mm": {
+              "x": 464.4672173248302,
+              "y": 464.00000020000016,
+              "z": 70.46721732483002
+            }
+          },
+          {
+            "part_definition_id": "vessel_1",
+            "dimensions_mm": {
+              "x": 430.4329815872348,
+              "y": 430.00000020000016,
+              "z": 1250.4329815872347
+            }
+          },
+          {
+            "part_definition_id": "vessel_top_1",
+            "dimensions_mm": {
+              "x": 433.01210462182985,
+              "y": 432.80434192752557,
+              "z": 433.6528487033688
+            }
+          },
+          {
+            "part_definition_id": "vessel_bottom_1",
+            "dimensions_mm": {
+              "x": 433.01210462182985,
+              "y": 432.80434192752557,
+              "z": 433.6528487033688
+            }
+          },
+          {
+            "part_definition_id": "neck_1",
+            "dimensions_mm": {
+              "x": 70.07048554210802,
+              "y": 70.00000020000004,
+              "z": 240.07048554210814
+            }
+          },
+          {
+            "part_definition_id": "valve_1_body",
+            "dimensions_mm": {
+              "x": 160.11076288045564,
+              "y": 110.00000020000027,
+              "z": 110.1107628804557
+            }
+          },
+          {
+            "part_definition_id": "valve_1_stem",
+            "dimensions_mm": {
+              "x": 32.032222070677975,
+              "y": 32.000000200000045,
+              "z": 90.03222207067802
+            }
+          },
+          {
+            "part_definition_id": "valve_1_handle",
+            "dimensions_mm": {
+              "x": 170.0000002,
+              "y": 24.000000199999988,
+              "z": 22.000000199999704
+            }
+          },
+          {
+            "part_definition_id": "restraint_1_560",
+            "dimensions_mm": {
+              "x": 464.4672173248301,
+              "y": 464.00000020000016,
+              "z": 70.46721732483007
+            }
+          },
+          {
+            "part_definition_id": "restraint_1_1370",
+            "dimensions_mm": {
+              "x": 464.4672173248301,
+              "y": 464.00000020000016,
+              "z": 70.46721732483002
+            }
+          },
+          {
+            "part_definition_id": "vessel_2",
+            "dimensions_mm": {
+              "x": 430.4329815872349,
+              "y": 430.00000020000016,
+              "z": 1250.432981587235
+            }
+          },
+          {
+            "part_definition_id": "vessel_top_2",
+            "dimensions_mm": {
+              "x": 433.01210462182996,
+              "y": 432.8043419275257,
+              "z": 433.6528487033688
+            }
+          },
+          {
+            "part_definition_id": "vessel_bottom_2",
+            "dimensions_mm": {
+              "x": 433.01210462182996,
+              "y": 432.8043419275257,
+              "z": 433.6528487033689
+            }
+          },
+          {
+            "part_definition_id": "neck_2",
+            "dimensions_mm": {
+              "x": 70.07048554210814,
+              "y": 70.00000020000016,
+              "z": 240.07048554210814
+            }
+          },
+          {
+            "part_definition_id": "valve_2_body",
+            "dimensions_mm": {
+              "x": 160.1107628804557,
+              "y": 110.00000020000027,
+              "z": 110.1107628804557
+            }
+          },
+          {
+            "part_definition_id": "valve_2_stem",
+            "dimensions_mm": {
+              "x": 32.032222070678245,
+              "y": 32.00000020000027,
+              "z": 90.03222207067802
+            }
+          },
+          {
+            "part_definition_id": "valve_2_handle",
+            "dimensions_mm": {
+              "x": 170.00000019999993,
+              "y": 24.000000199999988,
+              "z": 22.000000199999704
+            }
+          },
+          {
+            "part_definition_id": "restraint_2_560",
+            "dimensions_mm": {
+              "x": 464.4672173248302,
+              "y": 464.00000020000016,
+              "z": 70.46721732483019
+            }
+          },
+          {
+            "part_definition_id": "restraint_2_1370",
+            "dimensions_mm": {
+              "x": 464.4672173248302,
+              "y": 464.00000020000016,
+              "z": 70.46721732483002
+            }
+          },
+          {
+            "part_definition_id": "inlet_manifold",
+            "dimensions_mm": {
+              "x": 1450.0704855421086,
+              "y": 70.0000002000005,
+              "z": 70.07048554210883
+            }
+          },
+          {
+            "part_definition_id": "compressor_optional",
+            "dimensions_mm": {
+              "x": 600.0000002000002,
+              "y": 400.00000020000016,
+              "z": 420.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "compressor_motor",
+            "dimensions_mm": {
+              "x": 300.2819415684321,
+              "y": 280.0000002000001,
+              "z": 280.28194156843205
+            }
+          },
+          {
+            "part_definition_id": "pressure_sensor",
+            "dimensions_mm": {
+              "x": 180.0000002,
+              "y": 110.00000020000004,
+              "z": 200.0000002
+            }
+          },
+          {
+            "part_definition_id": "withdrawal_port",
+            "dimensions_mm": {
+              "x": 280.080554876695,
+              "y": 80.00000020000004,
+              "z": 80.08055487669495
+            }
+          }
+        ],
+        "components": [
+          {
+            "object_id": "ASSET-07/support",
+            "ref_des": "support",
+            "part_definition_id": "support"
+          },
+          {
+            "object_id": "ASSET-07/foot_0",
+            "ref_des": "foot_0",
+            "part_definition_id": "foot_0"
+          },
+          {
+            "object_id": "ASSET-07/foot_1",
+            "ref_des": "foot_1",
+            "part_definition_id": "foot_1"
+          },
+          {
+            "object_id": "ASSET-07/foot_2",
+            "ref_des": "foot_2",
+            "part_definition_id": "foot_2"
+          },
+          {
+            "object_id": "ASSET-07/foot_3",
+            "ref_des": "foot_3",
+            "part_definition_id": "foot_3"
+          },
+          {
+            "object_id": "ASSET-07/vessel_0",
+            "ref_des": "vessel_0",
+            "part_definition_id": "vessel_0"
+          },
+          {
+            "object_id": "ASSET-07/vessel_top_0",
+            "ref_des": "vessel_top_0",
+            "part_definition_id": "vessel_top_0"
+          },
+          {
+            "object_id": "ASSET-07/vessel_bottom_0",
+            "ref_des": "vessel_bottom_0",
+            "part_definition_id": "vessel_bottom_0"
+          },
+          {
+            "object_id": "ASSET-07/neck_0",
+            "ref_des": "neck_0",
+            "part_definition_id": "neck_0"
+          },
+          {
+            "object_id": "ASSET-07/valve_0_body",
+            "ref_des": "valve_0_body",
+            "part_definition_id": "valve_0_body"
+          },
+          {
+            "object_id": "ASSET-07/valve_0_stem",
+            "ref_des": "valve_0_stem",
+            "part_definition_id": "valve_0_stem"
+          },
+          {
+            "object_id": "ASSET-07/valve_0_handle",
+            "ref_des": "valve_0_handle",
+            "part_definition_id": "valve_0_handle"
+          },
+          {
+            "object_id": "ASSET-07/restraint_0_560",
+            "ref_des": "restraint_0_560",
+            "part_definition_id": "restraint_0_560"
+          },
+          {
+            "object_id": "ASSET-07/restraint_0_1370",
+            "ref_des": "restraint_0_1370",
+            "part_definition_id": "restraint_0_1370"
+          },
+          {
+            "object_id": "ASSET-07/vessel_1",
+            "ref_des": "vessel_1",
+            "part_definition_id": "vessel_1"
+          },
+          {
+            "object_id": "ASSET-07/vessel_top_1",
+            "ref_des": "vessel_top_1",
+            "part_definition_id": "vessel_top_1"
+          },
+          {
+            "object_id": "ASSET-07/vessel_bottom_1",
+            "ref_des": "vessel_bottom_1",
+            "part_definition_id": "vessel_bottom_1"
+          },
+          {
+            "object_id": "ASSET-07/neck_1",
+            "ref_des": "neck_1",
+            "part_definition_id": "neck_1"
+          },
+          {
+            "object_id": "ASSET-07/valve_1_body",
+            "ref_des": "valve_1_body",
+            "part_definition_id": "valve_1_body"
+          },
+          {
+            "object_id": "ASSET-07/valve_1_stem",
+            "ref_des": "valve_1_stem",
+            "part_definition_id": "valve_1_stem"
+          },
+          {
+            "object_id": "ASSET-07/valve_1_handle",
+            "ref_des": "valve_1_handle",
+            "part_definition_id": "valve_1_handle"
+          },
+          {
+            "object_id": "ASSET-07/restraint_1_560",
+            "ref_des": "restraint_1_560",
+            "part_definition_id": "restraint_1_560"
+          },
+          {
+            "object_id": "ASSET-07/restraint_1_1370",
+            "ref_des": "restraint_1_1370",
+            "part_definition_id": "restraint_1_1370"
+          },
+          {
+            "object_id": "ASSET-07/vessel_2",
+            "ref_des": "vessel_2",
+            "part_definition_id": "vessel_2"
+          },
+          {
+            "object_id": "ASSET-07/vessel_top_2",
+            "ref_des": "vessel_top_2",
+            "part_definition_id": "vessel_top_2"
+          },
+          {
+            "object_id": "ASSET-07/vessel_bottom_2",
+            "ref_des": "vessel_bottom_2",
+            "part_definition_id": "vessel_bottom_2"
+          },
+          {
+            "object_id": "ASSET-07/neck_2",
+            "ref_des": "neck_2",
+            "part_definition_id": "neck_2"
+          },
+          {
+            "object_id": "ASSET-07/valve_2_body",
+            "ref_des": "valve_2_body",
+            "part_definition_id": "valve_2_body"
+          },
+          {
+            "object_id": "ASSET-07/valve_2_stem",
+            "ref_des": "valve_2_stem",
+            "part_definition_id": "valve_2_stem"
+          },
+          {
+            "object_id": "ASSET-07/valve_2_handle",
+            "ref_des": "valve_2_handle",
+            "part_definition_id": "valve_2_handle"
+          },
+          {
+            "object_id": "ASSET-07/restraint_2_560",
+            "ref_des": "restraint_2_560",
+            "part_definition_id": "restraint_2_560"
+          },
+          {
+            "object_id": "ASSET-07/restraint_2_1370",
+            "ref_des": "restraint_2_1370",
+            "part_definition_id": "restraint_2_1370"
+          },
+          {
+            "object_id": "ASSET-07/inlet_manifold",
+            "ref_des": "inlet_manifold",
+            "part_definition_id": "inlet_manifold"
+          },
+          {
+            "object_id": "ASSET-07/compressor_optional",
+            "ref_des": "compressor_optional",
+            "part_definition_id": "compressor_optional"
+          },
+          {
+            "object_id": "ASSET-07/compressor_motor",
+            "ref_des": "compressor_motor",
+            "part_definition_id": "compressor_motor"
+          },
+          {
+            "object_id": "ASSET-07/pressure_sensor",
+            "ref_des": "pressure_sensor",
+            "part_definition_id": "pressure_sensor"
+          },
+          {
+            "object_id": "ASSET-07/withdrawal_port",
+            "ref_des": "withdrawal_port",
+            "part_definition_id": "withdrawal_port"
+          }
+        ],
+        "mechanical": {
+          "physical_form": "OXYGEN GAS STORAGE",
+          "enclosure_type": "Parametric concept assembly",
+          "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+          "manufacturability_rating": "Not evaluated",
+          "component_placements": [
+            {
+              "ref_des": "support",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 100.0
+              },
+              "size": {
+                "x_mm": 1800.0000002000002,
+                "y_mm": 1400.0000002000002,
+                "z_mm": 100.00000020000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_0",
+              "position": {
+                "x_mm": -780.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_1",
+              "position": {
+                "x_mm": -780.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_2",
+              "position": {
+                "x_mm": 780.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_3",
+              "position": {
+                "x_mm": 780.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_0",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 315.0
+              },
+              "size": {
+                "x_mm": 430.4329815872349,
+                "y_mm": 430.00000020000016,
+                "z_mm": 1250.432981587235
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_top_0",
+              "position": {
+                "x_mm": -549.8961186528478,
+                "y_mm": 180.0,
+                "z_mm": 1565.0
+              },
+              "size": {
+                "x_mm": 433.0121046218298,
+                "y_mm": 432.80434192752557,
+                "z_mm": 433.6528487033688
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_bottom_0",
+              "position": {
+                "x_mm": -549.8961186528478,
+                "y_mm": 180.0,
+                "z_mm": 315.0
+              },
+              "size": {
+                "x_mm": 433.0121046218298,
+                "y_mm": 432.80434192752557,
+                "z_mm": 433.6528487033688
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "neck_0",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 1720.0
+              },
+              "size": {
+                "x_mm": 70.07048554210814,
+                "y_mm": 70.00000020000016,
+                "z_mm": 240.07048554210814
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_0_body",
+              "position": {
+                "x_mm": -630.0,
+                "y_mm": 180.0,
+                "z_mm": 1960.0
+              },
+              "size": {
+                "x_mm": 160.1107628804557,
+                "y_mm": 110.00000020000027,
+                "z_mm": 110.1107628804557
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_0_stem",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 1975.0
+              },
+              "size": {
+                "x_mm": 32.032222070678245,
+                "y_mm": 32.00000020000027,
+                "z_mm": 90.03222207067802
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_0_handle",
+              "position": {
+                "x_mm": -495.0,
+                "y_mm": 180.0,
+                "z_mm": 2075.0
+              },
+              "size": {
+                "x_mm": 170.0000002,
+                "y_mm": 24.000000199999988,
+                "z_mm": 22.000000199999704
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "restraint_0_560",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 525.0
+              },
+              "size": {
+                "x_mm": 464.4672173248302,
+                "y_mm": 464.00000020000016,
+                "z_mm": 70.46721732483019
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "restraint_0_1370",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 1335.0
+              },
+              "size": {
+                "x_mm": 464.4672173248302,
+                "y_mm": 464.00000020000016,
+                "z_mm": 70.46721732483002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 180.0,
+                "z_mm": 315.0
+              },
+              "size": {
+                "x_mm": 430.4329815872348,
+                "y_mm": 430.00000020000016,
+                "z_mm": 1250.4329815872347
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_top_1",
+              "position": {
+                "x_mm": 0.10388134715213937,
+                "y_mm": 180.0,
+                "z_mm": 1565.0
+              },
+              "size": {
+                "x_mm": 433.01210462182985,
+                "y_mm": 432.80434192752557,
+                "z_mm": 433.6528487033688
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_bottom_1",
+              "position": {
+                "x_mm": 0.10388134715213937,
+                "y_mm": 180.0,
+                "z_mm": 315.0
+              },
+              "size": {
+                "x_mm": 433.01210462182985,
+                "y_mm": 432.80434192752557,
+                "z_mm": 433.6528487033688
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "neck_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 180.0,
+                "z_mm": 1720.0
+              },
+              "size": {
+                "x_mm": 70.07048554210802,
+                "y_mm": 70.00000020000004,
+                "z_mm": 240.07048554210814
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_1_body",
+              "position": {
+                "x_mm": -80.0,
+                "y_mm": 180.0,
+                "z_mm": 1960.0
+              },
+              "size": {
+                "x_mm": 160.11076288045564,
+                "y_mm": 110.00000020000027,
+                "z_mm": 110.1107628804557
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_1_stem",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 180.0,
+                "z_mm": 1975.0
+              },
+              "size": {
+                "x_mm": 32.032222070677975,
+                "y_mm": 32.000000200000045,
+                "z_mm": 90.03222207067802
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_1_handle",
+              "position": {
+                "x_mm": 54.99999999999999,
+                "y_mm": 180.0,
+                "z_mm": 2075.0
+              },
+              "size": {
+                "x_mm": 170.0000002,
+                "y_mm": 24.000000199999988,
+                "z_mm": 22.000000199999704
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "restraint_1_560",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 180.0,
+                "z_mm": 525.0
+              },
+              "size": {
+                "x_mm": 464.4672173248301,
+                "y_mm": 464.00000020000016,
+                "z_mm": 70.46721732483007
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "restraint_1_1370",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 180.0,
+                "z_mm": 1335.0
+              },
+              "size": {
+                "x_mm": 464.4672173248301,
+                "y_mm": 464.00000020000016,
+                "z_mm": 70.46721732483002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_2",
+              "position": {
+                "x_mm": 550.0,
+                "y_mm": 180.0,
+                "z_mm": 315.0
+              },
+              "size": {
+                "x_mm": 430.4329815872349,
+                "y_mm": 430.00000020000016,
+                "z_mm": 1250.432981587235
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_top_2",
+              "position": {
+                "x_mm": 550.1038813471521,
+                "y_mm": 180.0,
+                "z_mm": 1565.0
+              },
+              "size": {
+                "x_mm": 433.01210462182996,
+                "y_mm": 432.8043419275257,
+                "z_mm": 433.6528487033688
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "vessel_bottom_2",
+              "position": {
+                "x_mm": 550.1038813471521,
+                "y_mm": 180.0,
+                "z_mm": 315.0
+              },
+              "size": {
+                "x_mm": 433.01210462182996,
+                "y_mm": 432.8043419275257,
+                "z_mm": 433.6528487033689
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "neck_2",
+              "position": {
+                "x_mm": 550.0,
+                "y_mm": 180.0,
+                "z_mm": 1720.0
+              },
+              "size": {
+                "x_mm": 70.07048554210814,
+                "y_mm": 70.00000020000016,
+                "z_mm": 240.07048554210814
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_2_body",
+              "position": {
+                "x_mm": 470.0,
+                "y_mm": 180.0,
+                "z_mm": 1960.0
+              },
+              "size": {
+                "x_mm": 160.1107628804557,
+                "y_mm": 110.00000020000027,
+                "z_mm": 110.1107628804557
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_2_stem",
+              "position": {
+                "x_mm": 550.0,
+                "y_mm": 180.0,
+                "z_mm": 1975.0
+              },
+              "size": {
+                "x_mm": 32.032222070678245,
+                "y_mm": 32.00000020000027,
+                "z_mm": 90.03222207067802
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "valve_2_handle",
+              "position": {
+                "x_mm": 605.0,
+                "y_mm": 180.0,
+                "z_mm": 2075.0
+              },
+              "size": {
+                "x_mm": 170.00000019999993,
+                "y_mm": 24.000000199999988,
+                "z_mm": 22.000000199999704
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "restraint_2_560",
+              "position": {
+                "x_mm": 550.0,
+                "y_mm": 180.0,
+                "z_mm": 525.0
+              },
+              "size": {
+                "x_mm": 464.4672173248302,
+                "y_mm": 464.00000020000016,
+                "z_mm": 70.46721732483019
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "restraint_2_1370",
+              "position": {
+                "x_mm": 550.0,
+                "y_mm": 180.0,
+                "z_mm": 1335.0
+              },
+              "size": {
+                "x_mm": 464.4672173248302,
+                "y_mm": 464.00000020000016,
+                "z_mm": 70.46721732483002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "inlet_manifold",
+              "position": {
+                "x_mm": -725.0,
+                "y_mm": 180.0,
+                "z_mm": 1960.0
+              },
+              "size": {
+                "x_mm": 1450.0704855421086,
+                "y_mm": 70.0000002000005,
+                "z_mm": 70.07048554210883
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "compressor_optional",
+              "position": {
+                "x_mm": -350.0,
+                "y_mm": -410.0,
+                "z_mm": 380.0
+              },
+              "size": {
+                "x_mm": 600.0000002000002,
+                "y_mm": 400.00000020000016,
+                "z_mm": 420.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "compressor_motor",
+              "position": {
+                "x_mm": 30.000000000000007,
+                "y_mm": -410.0,
+                "z_mm": 370.0
+              },
+              "size": {
+                "x_mm": 300.2819415684321,
+                "y_mm": 280.0000002000001,
+                "z_mm": 280.28194156843205
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "pressure_sensor",
+              "position": {
+                "x_mm": 600.0,
+                "y_mm": -420.0,
+                "z_mm": 590.0
+              },
+              "size": {
+                "x_mm": 180.0000002,
+                "y_mm": 110.00000020000004,
+                "z_mm": 200.0000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "withdrawal_port",
+              "position": {
+                "x_mm": 510.0,
+                "y_mm": -450.0,
+                "z_mm": 290.0
+              },
+              "size": {
+                "x_mm": 280.080554876695,
+                "y_mm": 80.00000020000004,
+                "z_mm": 80.08055487669495
+              },
+              "layer": "mechanism"
+            }
+          ],
+          "fabrication_details": [
+            "Every dimension is an authoring assumption, not a NASA measurement.",
+            "Motion is design inspection only, not simulated plant operation."
+          ]
+        }
+      },
+      "sources": [
+        "07-oxygen-compression-and-storage.md"
+      ],
+      "status": "Concept engineering preview",
+      "model_source": "assets/machine-previews/build_all.py",
+      "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.",
+      "cad_generation": {
+        "adapter": "forma-opencad",
+        "status": "provided",
+        "required": false
+      },
+      "project_id": "18bbfd42-3328-4197-a52c-b601f78fd0cd",
+      "chat_id": "ba6bf0bc-229d-41a4-975f-48f47fa2f15f",
+      "authoring_agent": "opencode",
+      "compiled_by": "forma.compile_project",
+      "compile_revision": 1,
+      "created_at": "2026-11-15T06:39:59.805663Z",
+      "source_prompt": "# ASSET-07 \u2014 Oxygen buffer, optional compressor and finite gas storage\n\n**Priority:** Core MVP for **finite gaseous oxygen inventory**; physically detailed compression is conditional on pressure architecture. **Flow:** ASSET-06 product O\u2082 \u2192 conditioned gas/buffer \u2192 finite storage \u2192 optional supply reservation.\n\n## Research context\n\nNASA's MRE systems model sends purified oxygen through **liquefaction into insulated cryogenic tanks**. NASA-APP's initial MVP **deliberately stops at an explicitly modeled finite gaseous O\u2082 stockpile** so we can demonstrate real production/accumulation without pretending that oxygen is rocket-ready LOX. The separate liquefaction asset (ASSET-11) is required before claiming stored **liquid oxygen** or a propellant depot. A gas tank with increasing kg does not imply constant pressure or infinite free compression.\n\n## Forma / OpenCAD build brief\n\nConstruct a dedicated O\u2082-rated conceptual buffer vessel or bank of pressure vessels on a restrained support skid; visible inlet/outlet manifold, isolation valves, flow/pressure sensors, inventory gauge, relief/vent routing, service interface and (if model uses pressurized storage) a distinct compressor module with electrical motor, stages and cooling. Separate selectable `vessel`, `valves`, `regulator`, `pressure_sensor`, `compressor`, `inlet`, `withdrawal_port` and `support`. Parametrize vessel volume m\u00b3, declared pressure/temp bounds, maximum oxygen mass, allowable fill rate, compressor ratio/efficiency and power. **Do not use visualization-only fill bars to invent gas mass.**\n\n## Executable machine contract\n\n- **Commands:** `accept_product(stream_id)`, `open_inlet`, `store(kg)`, `isolate`, `reserve_for_request(kg)`, `withdraw_reserved(kg)`; optional `run_compressor(target_pressure_Pa)` when enabled.\n- **Inputs:** gas mass/composition, temperature K, pressure Pa, tank volume m\u00b3 and free capacity kg, available electricity W, modeled leakage/loss and optional compressor characteristics.\n- **Outputs:** actual stored kg O\u2082, gas temperature/pressure, available versus reserved kg, energy used J, leakage/vent stream and evidence events.\n- **States:** EMPTY, READY, FILLING, HOLDING, FULL, RESERVED, WITHDRAWING, ISOLATED, FAULT.\n- **Model:** bounded mass transfer plus equation-of-state appropriate to declared pressure/temperature assumptions (e.g., ideal gas only within justified approximation); cap pressure, fill rate and temperature; include compressor work if pressure lift is required. `available_kg = stored_kg - reserved_kg`. A mission request **does not create oxygen**.\n- **Failure paths:** full vessel, excess pressure/temperature, valve closed, inadequate compressor power, leak, insufficient inventory for reservation.\n\n## MVP acceptance\n\nActual recovered output from ASSET-06 accumulates in the tank; when full, upstream flow stops or is explicitly diverted/lost by a recorded route. Pausing electrolysis and capture stops any unexplained increase. Requesting more oxygen than stored yields an honest insufficiency response; no pretend launches or deliveries.\n\n## Technical sources\n\n- [NASA NTRS \u2014 Lunar MRE plant model](https://ntrs.nasa.gov/citations/20240013999) (purification/liquefaction/storage architecture; distinguish our interim gas buffer).\n- [NASA \u2014 Lunar Surface Technology](https://www.nasa.gov/lunar-surface-technology/) (oxygen as ISRU output and lunar infrastructure need).\n- [NASA NTRS \u2014 Liquefaction for Lunar/Mars Exploration](https://ntrs.nasa.gov/api/citations/20220003516/downloads/Liquefaction%20SCW%20paper-revised.pdf?attachment=true) (example real cryogenic tank/storage considerations, *not* gaseous-buffer design specifications).\n## Integration contract (NASA-APP)\n\n- **OpenForma:** use real supported domain IR contracts and keep validation findings and assumption provenance; do not treat generated geometry or engineering reports as physical certification.\n- **OpenCAD:** deliver selectable parametric components, joint/port frames, and a supported asset export for OpenIndustries.\n- **OpenIndustries:** execute tasks from the authoritative controller, render live state, expose actual material/energy changes and record event evidence. No decorative motion divorced from task state.\n- **Solver/controller:** accept typed commands and return bounded numerical deltas; do not allow OpenCode agents or UI animations to write physical outcomes directly.\n\n**Status:** research-backed design brief only. Unspecified geometry sizes, efficiencies, outputs, operating limits, capacities and deployment details are **TBD scenario/design parameters**, not verified lunar hardware specifications. All telemetry in NASA-APP is simulated unless clearly marked as third-party measured reference data."
+    },
+    "project_version_history": [],
+    "validation": {
+      "critical": [],
+      "warning": [],
+      "info": []
+    },
+    "is_valid": true
+  },
+  "is_valid": true,
+  "validation": {
+    "critical": [],
+    "warning": [],
+    "info": []
+  },
+  "mermaid_code": "graph LR\n  support[\"<b>support</b><br/>support<br/><small>support</small>\"]\n  foot_0[\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\"]\n  foot_1[\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\"]\n  foot_2[\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\"]\n  foot_3[\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\"]\n  vessel_0[\"<b>vessel_0</b><br/>vessel_0<br/><small>vessel_0</small>\"]\n  vessel_top_0[\"<b>vessel_top_0</b><br/>vessel_top_0<br/><small>vessel_top_0</small>\"]\n  vessel_bottom_0[\"<b>vessel_bottom_0</b><br/>vessel_bottom_0<br/><small>vessel_bottom_0</small>\"]\n  neck_0[\"<b>neck_0</b><br/>neck_0<br/><small>neck_0</small>\"]\n  valve_0_body[\"<b>valve_0_body</b><br/>valve_0_body<br/><small>valve_0_body</small>\"]\n  valve_0_stem[\"<b>valve_0_stem</b><br/>valve_0_stem<br/><small>valve_0_stem</small>\"]\n  valve_0_handle[\"<b>valve_0_handle</b><br/>valve_0_handle<br/><small>valve_0_handle</small>\"]\n  restraint_0_560[\"<b>restraint_0_560</b><br/>restraint_0_560<br/><small>restraint_0_560</small>\"]\n  restraint_0_1370[\"<b>restraint_0_1370</b><br/>restraint_0_1370<br/><small>restraint_0_1370</small>\"]\n  vessel_1[\"<b>vessel_1</b><br/>vessel_1<br/><small>vessel_1</small>\"]\n  vessel_top_1[\"<b>vessel_top_1</b><br/>vessel_top_1<br/><small>vessel_top_1</small>\"]\n  vessel_bottom_1[\"<b>vessel_bottom_1</b><br/>vessel_bottom_1<br/><small>vessel_bottom_1</small>\"]\n  neck_1[\"<b>neck_1</b><br/>neck_1<br/><small>neck_1</small>\"]\n  valve_1_body[\"<b>valve_1_body</b><br/>valve_1_body<br/><small>valve_1_body</small>\"]\n  valve_1_stem[\"<b>valve_1_stem</b><br/>valve_1_stem<br/><small>valve_1_stem</small>\"]\n  valve_1_handle[\"<b>valve_1_handle</b><br/>valve_1_handle<br/><small>valve_1_handle</small>\"]\n  restraint_1_560[\"<b>restraint_1_560</b><br/>restraint_1_560<br/><small>restraint_1_560</small>\"]\n  restraint_1_1370[\"<b>restraint_1_1370</b><br/>restraint_1_1370<br/><small>restraint_1_1370</small>\"]\n  vessel_2[\"<b>vessel_2</b><br/>vessel_2<br/><small>vessel_2</small>\"]\n  vessel_top_2[\"<b>vessel_top_2</b><br/>vessel_top_2<br/><small>vessel_top_2</small>\"]\n  vessel_bottom_2[\"<b>vessel_bottom_2</b><br/>vessel_bottom_2<br/><small>vessel_bottom_2</small>\"]\n  neck_2[\"<b>neck_2</b><br/>neck_2<br/><small>neck_2</small>\"]\n  valve_2_body[\"<b>valve_2_body</b><br/>valve_2_body<br/><small>valve_2_body</small>\"]\n  valve_2_stem[\"<b>valve_2_stem</b><br/>valve_2_stem<br/><small>valve_2_stem</small>\"]\n  valve_2_handle[\"<b>valve_2_handle</b><br/>valve_2_handle<br/><small>valve_2_handle</small>\"]\n  restraint_2_560[\"<b>restraint_2_560</b><br/>restraint_2_560<br/><small>restraint_2_560</small>\"]\n  restraint_2_1370[\"<b>restraint_2_1370</b><br/>restraint_2_1370<br/><small>restraint_2_1370</small>\"]\n  inlet_manifold[\"<b>inlet_manifold</b><br/>inlet_manifold<br/><small>inlet_manifold</small>\"]\n  compressor_optional[\"<b>compressor_optional</b><br/>compressor_optional<br/><small>compressor_optional</small>\"]\n  compressor_motor[\"<b>compressor_motor</b><br/>compressor_motor<br/><small>compressor_motor</small>\"]\n  pressure_sensor[\"<b>pressure_sensor</b><br/>pressure_sensor<br/><small>pressure_sensor</small>\"]\n  withdrawal_port[\"<b>withdrawal_port</b><br/>withdrawal_port<br/><small>withdrawal_port</small>\"]",
+  "svg_schematic": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\n  <!-- Grid Background -->\n  <defs>\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\n    </pattern>\n  </defs>\n  <rect width='100%' height='100%' fill='url(#grid)' />\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-07 - OXYGEN GAS STORAGE</text>\n  <!-- Wires / Connections -->\n  <!-- Components -->\n  <g id='comp-support'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_top_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_top_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_top_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_top_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_bottom_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_bottom_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_bottom_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_bottom_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-neck_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>neck_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>neck_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>neck_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_0_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_0_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_0_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_0_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_0_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_0_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_0_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_0_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_0_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_0_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_0_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_0_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-restraint_0_560'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>restraint_0_560</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>restraint_0_560</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>restraint_0_560</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-restraint_0_1370'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>restraint_0_1370</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>restraint_0_1370</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>restraint_0_1370</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_top_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_top_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_top_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_top_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_bottom_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_bottom_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_bottom_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_bottom_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-neck_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>neck_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>neck_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>neck_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_1_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_1_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_1_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_1_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_1_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_1_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_1_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_1_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_1_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_1_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_1_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_1_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-restraint_1_560'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>restraint_1_560</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>restraint_1_560</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>restraint_1_560</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-restraint_1_1370'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>restraint_1_1370</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>restraint_1_1370</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>restraint_1_1370</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_top_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_top_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_top_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_top_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_bottom_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_bottom_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_bottom_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_bottom_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-neck_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>neck_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>neck_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>neck_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_2_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_2_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_2_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_2_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_2_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_2_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_2_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_2_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-valve_2_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>valve_2_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>valve_2_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>valve_2_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-restraint_2_560'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>restraint_2_560</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>restraint_2_560</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>restraint_2_560</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-restraint_2_1370'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>restraint_2_1370</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>restraint_2_1370</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>restraint_2_1370</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-inlet_manifold'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>inlet_manifold</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>inlet_manifold</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>inlet_manifold</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-compressor_optional'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>compressor_optional</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>compressor_optional</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>compressor_optional</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-compressor_motor'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>compressor_motor</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>compressor_motor</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>compressor_motor</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-pressure_sensor'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>pressure_sensor</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>pressure_sensor</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>pressure_sensor</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-withdrawal_port'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>withdrawal_port</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>withdrawal_port</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>withdrawal_port</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n</svg>"
+}

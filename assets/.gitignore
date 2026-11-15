@@ -1,0 +1,5 @@
+.local/
+__pycache__/
+*.pyc
+# Convenience archive duplicates the tracked individual GIFs.
+gallery/all-machine-gifs.zip

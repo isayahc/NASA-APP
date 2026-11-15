@@ -1,0 +1,697 @@
+{
+  "domain": "mechanical",
+  "schema_version": "1.0",
+  "artifact_id": "ASSET-06-mechanical",
+  "revision": 1,
+  "parts": [
+    {
+      "part_definition_id": "support",
+      "dimensions_mm": {
+        "x": 1800.0000002000002,
+        "y": 1400.0000002000002,
+        "z": 100.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "foot_0",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_1",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_2",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_3",
+      "dimensions_mm": {
+        "x": 140.00000019999993,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "purifier_enclosure_cutaway",
+      "dimensions_mm": {
+        "x": 850.0000002,
+        "y": 650.0000002,
+        "z": 80.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "insulation_back",
+      "dimensions_mm": {
+        "x": 850.0000002000005,
+        "y": 100.00000020000047,
+        "z": 1000.0000002000006
+      }
+    },
+    {
+      "part_definition_id": "insulation_side_neg420",
+      "dimensions_mm": {
+        "x": 100.0000002000005,
+        "y": 600.0000002000005,
+        "z": 1000.0000002000006
+      }
+    },
+    {
+      "part_definition_id": "insulation_side_420",
+      "dimensions_mm": {
+        "x": 100.0000002000005,
+        "y": 600.0000002000005,
+        "z": 1000.0000002000006
+      }
+    },
+    {
+      "part_definition_id": "ysz_service_cartridge",
+      "dimensions_mm": {
+        "x": 460.46318959099534,
+        "y": 460.0000002000001,
+        "z": 780.4631895909954
+      }
+    },
+    {
+      "part_definition_id": "control_jacket_550",
+      "dimensions_mm": {
+        "x": 540.5437442676902,
+        "y": 540.0000002,
+        "z": 65.54374426769022
+      }
+    },
+    {
+      "part_definition_id": "control_jacket_800",
+      "dimensions_mm": {
+        "x": 540.5437442676902,
+        "y": 540.0000002,
+        "z": 65.54374426769027
+      }
+    },
+    {
+      "part_definition_id": "control_jacket_1050",
+      "dimensions_mm": {
+        "x": 540.5437442676902,
+        "y": 540.0000002,
+        "z": 65.54374426769027
+      }
+    },
+    {
+      "part_definition_id": "feed_path",
+      "dimensions_mm": {
+        "x": 500.0906242112819,
+        "y": 90.00000020000024,
+        "z": 90.09062421128192
+      }
+    },
+    {
+      "part_definition_id": "recovered_o2_path",
+      "dimensions_mm": {
+        "x": 500.08055487669526,
+        "y": 80.00000020000047,
+        "z": 80.08055487669526
+      }
+    },
+    {
+      "part_definition_id": "reject_path",
+      "dimensions_mm": {
+        "x": 500.07048554210814,
+        "y": 70.00000020000013,
+        "z": 70.0704855421082
+      }
+    },
+    {
+      "part_definition_id": "feed_valve_body",
+      "dimensions_mm": {
+        "x": 160.1107628804557,
+        "y": 110.00000020000026,
+        "z": 110.1107628804557
+      }
+    },
+    {
+      "part_definition_id": "feed_valve_stem",
+      "dimensions_mm": {
+        "x": 32.032222070678245,
+        "y": 32.000000200000265,
+        "z": 90.03222207067824
+      }
+    },
+    {
+      "part_definition_id": "feed_valve_handle",
+      "dimensions_mm": {
+        "x": 170.00000019999993,
+        "y": 24.0000002,
+        "z": 22.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "product_valve_body",
+      "dimensions_mm": {
+        "x": 160.1107628804557,
+        "y": 110.00000020000026,
+        "z": 110.1107628804557
+      }
+    },
+    {
+      "part_definition_id": "product_valve_stem",
+      "dimensions_mm": {
+        "x": 32.032222070678245,
+        "y": 32.000000200000265,
+        "z": 90.03222207067802
+      }
+    },
+    {
+      "part_definition_id": "product_valve_handle",
+      "dimensions_mm": {
+        "x": 170.00000019999993,
+        "y": 24.0000002,
+        "z": 22.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "electrical_terminal_neg130",
+      "dimensions_mm": {
+        "x": 70.07048554210799,
+        "y": 70.00000020000003,
+        "z": 200.07048554210814
+      }
+    },
+    {
+      "part_definition_id": "electrical_terminal_130",
+      "dimensions_mm": {
+        "x": 70.07048554210799,
+        "y": 70.00000020000003,
+        "z": 200.07048554210814
+      }
+    },
+    {
+      "part_definition_id": "service_cover",
+      "dimensions_mm": {
+        "x": 780.0000002000003,
+        "y": 45.00000020000027,
+        "z": 850.0000002000002
+      }
+    }
+  ],
+  "components": [
+    {
+      "object_id": "ASSET-06/support",
+      "ref_des": "support",
+      "part_definition_id": "support"
+    },
+    {
+      "object_id": "ASSET-06/foot_0",
+      "ref_des": "foot_0",
+      "part_definition_id": "foot_0"
+    },
+    {
+      "object_id": "ASSET-06/foot_1",
+      "ref_des": "foot_1",
+      "part_definition_id": "foot_1"
+    },
+    {
+      "object_id": "ASSET-06/foot_2",
+      "ref_des": "foot_2",
+      "part_definition_id": "foot_2"
+    },
+    {
+      "object_id": "ASSET-06/foot_3",
+      "ref_des": "foot_3",
+      "part_definition_id": "foot_3"
+    },
+    {
+      "object_id": "ASSET-06/purifier_enclosure_cutaway",
+      "ref_des": "purifier_enclosure_cutaway",
+      "part_definition_id": "purifier_enclosure_cutaway"
+    },
+    {
+      "object_id": "ASSET-06/insulation_back",
+      "ref_des": "insulation_back",
+      "part_definition_id": "insulation_back"
+    },
+    {
+      "object_id": "ASSET-06/insulation_side_neg420",
+      "ref_des": "insulation_side_neg420",
+      "part_definition_id": "insulation_side_neg420"
+    },
+    {
+      "object_id": "ASSET-06/insulation_side_420",
+      "ref_des": "insulation_side_420",
+      "part_definition_id": "insulation_side_420"
+    },
+    {
+      "object_id": "ASSET-06/ysz_service_cartridge",
+      "ref_des": "ysz_service_cartridge",
+      "part_definition_id": "ysz_service_cartridge"
+    },
+    {
+      "object_id": "ASSET-06/control_jacket_550",
+      "ref_des": "control_jacket_550",
+      "part_definition_id": "control_jacket_550"
+    },
+    {
+      "object_id": "ASSET-06/control_jacket_800",
+      "ref_des": "control_jacket_800",
+      "part_definition_id": "control_jacket_800"
+    },
+    {
+      "object_id": "ASSET-06/control_jacket_1050",
+      "ref_des": "control_jacket_1050",
+      "part_definition_id": "control_jacket_1050"
+    },
+    {
+      "object_id": "ASSET-06/feed_path",
+      "ref_des": "feed_path",
+      "part_definition_id": "feed_path"
+    },
+    {
+      "object_id": "ASSET-06/recovered_o2_path",
+      "ref_des": "recovered_o2_path",
+      "part_definition_id": "recovered_o2_path"
+    },
+    {
+      "object_id": "ASSET-06/reject_path",
+      "ref_des": "reject_path",
+      "part_definition_id": "reject_path"
+    },
+    {
+      "object_id": "ASSET-06/feed_valve_body",
+      "ref_des": "feed_valve_body",
+      "part_definition_id": "feed_valve_body"
+    },
+    {
+      "object_id": "ASSET-06/feed_valve_stem",
+      "ref_des": "feed_valve_stem",
+      "part_definition_id": "feed_valve_stem"
+    },
+    {
+      "object_id": "ASSET-06/feed_valve_handle",
+      "ref_des": "feed_valve_handle",
+      "part_definition_id": "feed_valve_handle"
+    },
+    {
+      "object_id": "ASSET-06/product_valve_body",
+      "ref_des": "product_valve_body",
+      "part_definition_id": "product_valve_body"
+    },
+    {
+      "object_id": "ASSET-06/product_valve_stem",
+      "ref_des": "product_valve_stem",
+      "part_definition_id": "product_valve_stem"
+    },
+    {
+      "object_id": "ASSET-06/product_valve_handle",
+      "ref_des": "product_valve_handle",
+      "part_definition_id": "product_valve_handle"
+    },
+    {
+      "object_id": "ASSET-06/electrical_terminal_neg130",
+      "ref_des": "electrical_terminal_neg130",
+      "part_definition_id": "electrical_terminal_neg130"
+    },
+    {
+      "object_id": "ASSET-06/electrical_terminal_130",
+      "ref_des": "electrical_terminal_130",
+      "part_definition_id": "electrical_terminal_130"
+    },
+    {
+      "object_id": "ASSET-06/service_cover",
+      "ref_des": "service_cover",
+      "part_definition_id": "service_cover"
+    }
+  ],
+  "mechanical": {
+    "physical_form": "OXYGEN PURIFICATION",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 1800.0000002000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 780.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 780.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "purifier_enclosure_cutaway",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 340.0
+        },
+        "size": {
+          "x_mm": 850.0000002,
+          "y_mm": 650.0000002,
+          "z_mm": 80.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "insulation_back",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 250.0,
+          "z_mm": 860.0
+        },
+        "size": {
+          "x_mm": 850.0000002000005,
+          "y_mm": 100.00000020000047,
+          "z_mm": 1000.0000002000006
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "insulation_side_neg420",
+        "position": {
+          "x_mm": -420.0,
+          "y_mm": 0.0,
+          "z_mm": 860.0
+        },
+        "size": {
+          "x_mm": 100.0000002000005,
+          "y_mm": 600.0000002000005,
+          "z_mm": 1000.0000002000006
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "insulation_side_420",
+        "position": {
+          "x_mm": 420.0,
+          "y_mm": 0.0,
+          "z_mm": 860.0
+        },
+        "size": {
+          "x_mm": 100.0000002000005,
+          "y_mm": 600.0000002000005,
+          "z_mm": 1000.0000002000006
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "ysz_service_cartridge",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 450.0
+        },
+        "size": {
+          "x_mm": 460.46318959099534,
+          "y_mm": 460.0000002000001,
+          "z_mm": 780.4631895909954
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "control_jacket_550",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 517.5
+        },
+        "size": {
+          "x_mm": 540.5437442676902,
+          "y_mm": 540.0000002,
+          "z_mm": 65.54374426769022
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "control_jacket_800",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 767.5
+        },
+        "size": {
+          "x_mm": 540.5437442676902,
+          "y_mm": 540.0000002,
+          "z_mm": 65.54374426769027
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "control_jacket_1050",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 1017.5
+        },
+        "size": {
+          "x_mm": 540.5437442676902,
+          "y_mm": 540.0000002,
+          "z_mm": 65.54374426769027
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_path",
+        "position": {
+          "x_mm": -900.0,
+          "y_mm": 0.0,
+          "z_mm": 650.0
+        },
+        "size": {
+          "x_mm": 500.0906242112819,
+          "y_mm": 90.00000020000024,
+          "z_mm": 90.09062421128192
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "recovered_o2_path",
+        "position": {
+          "x_mm": 400.0,
+          "y_mm": 0.0,
+          "z_mm": 1100.0
+        },
+        "size": {
+          "x_mm": 500.08055487669526,
+          "y_mm": 80.00000020000047,
+          "z_mm": 80.08055487669526
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "reject_path",
+        "position": {
+          "x_mm": 400.0,
+          "y_mm": 0.0,
+          "z_mm": 480.0
+        },
+        "size": {
+          "x_mm": 500.07048554210814,
+          "y_mm": 70.00000020000013,
+          "z_mm": 70.0704855421082
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_valve_body",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": 0.0,
+          "z_mm": 650.0
+        },
+        "size": {
+          "x_mm": 160.1107628804557,
+          "y_mm": 110.00000020000026,
+          "z_mm": 110.1107628804557
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_valve_stem",
+        "position": {
+          "x_mm": -700.0,
+          "y_mm": 0.0,
+          "z_mm": 665.0
+        },
+        "size": {
+          "x_mm": 32.032222070678245,
+          "y_mm": 32.000000200000265,
+          "z_mm": 90.03222207067824
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_valve_handle",
+        "position": {
+          "x_mm": -645.0,
+          "y_mm": 0.0,
+          "z_mm": 765.0
+        },
+        "size": {
+          "x_mm": 170.00000019999993,
+          "y_mm": 24.0000002,
+          "z_mm": 22.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "product_valve_body",
+        "position": {
+          "x_mm": 620.0,
+          "y_mm": 0.0,
+          "z_mm": 1100.0
+        },
+        "size": {
+          "x_mm": 160.1107628804557,
+          "y_mm": 110.00000020000026,
+          "z_mm": 110.1107628804557
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "product_valve_stem",
+        "position": {
+          "x_mm": 700.0,
+          "y_mm": 0.0,
+          "z_mm": 1115.0
+        },
+        "size": {
+          "x_mm": 32.032222070678245,
+          "y_mm": 32.000000200000265,
+          "z_mm": 90.03222207067802
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "product_valve_handle",
+        "position": {
+          "x_mm": 755.0,
+          "y_mm": 0.0,
+          "z_mm": 1215.0
+        },
+        "size": {
+          "x_mm": 170.00000019999993,
+          "y_mm": 24.0000002,
+          "z_mm": 22.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "electrical_terminal_neg130",
+        "position": {
+          "x_mm": -130.0,
+          "y_mm": 0.0,
+          "z_mm": 1220.0
+        },
+        "size": {
+          "x_mm": 70.07048554210799,
+          "y_mm": 70.00000020000003,
+          "z_mm": 200.07048554210814
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "electrical_terminal_130",
+        "position": {
+          "x_mm": 130.0,
+          "y_mm": 0.0,
+          "z_mm": 1220.0
+        },
+        "size": {
+          "x_mm": 70.07048554210799,
+          "y_mm": 70.00000020000003,
+          "z_mm": 200.07048554210814
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "service_cover",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -350.0,
+          "z_mm": 870.0
+        },
+        "size": {
+          "x_mm": 780.0000002000003,
+          "y_mm": 45.00000020000027,
+          "z_mm": 850.0000002000002
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  }
+}

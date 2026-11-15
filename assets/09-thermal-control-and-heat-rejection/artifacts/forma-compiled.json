@@ -1,0 +1,3599 @@
+{
+  "project_id": "8f192576-1904-45d9-8619-557c396a448f",
+  "chat_id": "d4250d72-bf42-4ff5-bd7c-24fdd49cb006",
+  "persisted": true,
+  "visibility": "private",
+  "project_ir": {
+    "hardware_ir_version": "0.2",
+    "overview": {
+      "title": "ASSET-09 - THERMAL CONTROL & RADIATORS",
+      "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+      "difficulty": "Advanced",
+      "estimated_cost": 0.0,
+      "category": "Industrial"
+    },
+    "requirements": null,
+    "system_architecture": null,
+    "part_definitions": [
+      {
+        "part_definition_id": "PART_SUPPORT",
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_0",
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_1",
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_2",
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_3",
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_HEAT_EXCHANGER",
+        "manufacturer": null,
+        "part_number": "heat_exchanger",
+        "name": "heat_exchanger",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_COOLANT_PUMP",
+        "manufacturer": null,
+        "part_number": "coolant_pump",
+        "name": "coolant_pump",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_THERMAL_LINE_NEG370",
+        "manufacturer": null,
+        "part_number": "thermal_line_neg370",
+        "name": "thermal_line_neg370",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_THERMAL_LINE_370",
+        "manufacturer": null,
+        "part_number": "thermal_line_370",
+        "name": "thermal_line_370",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_SUPPORT_0",
+        "manufacturer": null,
+        "part_number": "radiator_support_0",
+        "name": "radiator_support_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_PANEL_0",
+        "manufacturer": null,
+        "part_number": "radiator_panel_0",
+        "name": "radiator_panel_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_HINGE_0",
+        "manufacturer": null,
+        "part_number": "radiator_hinge_0",
+        "name": "radiator_hinge_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_0",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_0",
+        "name": "panel_loop_0_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_1",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_1",
+        "name": "panel_loop_0_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_2",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_2",
+        "name": "panel_loop_0_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_3",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_3",
+        "name": "panel_loop_0_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_4",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_4",
+        "name": "panel_loop_0_4",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_5",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_5",
+        "name": "panel_loop_0_5",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_0_6",
+        "manufacturer": null,
+        "part_number": "panel_loop_0_6",
+        "name": "panel_loop_0_6",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_SUPPORT_1",
+        "manufacturer": null,
+        "part_number": "radiator_support_1",
+        "name": "radiator_support_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_PANEL_1",
+        "manufacturer": null,
+        "part_number": "radiator_panel_1",
+        "name": "radiator_panel_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_HINGE_1",
+        "manufacturer": null,
+        "part_number": "radiator_hinge_1",
+        "name": "radiator_hinge_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_0",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_0",
+        "name": "panel_loop_1_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_1",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_1",
+        "name": "panel_loop_1_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_2",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_2",
+        "name": "panel_loop_1_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_3",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_3",
+        "name": "panel_loop_1_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_4",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_4",
+        "name": "panel_loop_1_4",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_5",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_5",
+        "name": "panel_loop_1_5",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_1_6",
+        "manufacturer": null,
+        "part_number": "panel_loop_1_6",
+        "name": "panel_loop_1_6",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_SUPPORT_2",
+        "manufacturer": null,
+        "part_number": "radiator_support_2",
+        "name": "radiator_support_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_PANEL_2",
+        "manufacturer": null,
+        "part_number": "radiator_panel_2",
+        "name": "radiator_panel_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_RADIATOR_HINGE_2",
+        "manufacturer": null,
+        "part_number": "radiator_hinge_2",
+        "name": "radiator_hinge_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_0",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_0",
+        "name": "panel_loop_2_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_1",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_1",
+        "name": "panel_loop_2_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_2",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_2",
+        "name": "panel_loop_2_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_3",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_3",
+        "name": "panel_loop_2_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_4",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_4",
+        "name": "panel_loop_2_4",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_5",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_5",
+        "name": "panel_loop_2_5",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PANEL_LOOP_2_6",
+        "manufacturer": null,
+        "part_number": "panel_loop_2_6",
+        "name": "panel_loop_2_6",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INSULATION_SHROUD",
+        "manufacturer": null,
+        "part_number": "insulation_shroud",
+        "name": "insulation_shroud",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      }
+    ],
+    "components": [
+      {
+        "ref_des": "support",
+        "part_definition_id": "PART_SUPPORT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_0",
+        "part_definition_id": "PART_FOOT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_1",
+        "part_definition_id": "PART_FOOT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_2",
+        "part_definition_id": "PART_FOOT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_3",
+        "part_definition_id": "PART_FOOT_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "heat_exchanger",
+        "part_definition_id": "PART_HEAT_EXCHANGER",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "coolant_pump",
+        "part_definition_id": "PART_COOLANT_PUMP",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "thermal_line_neg370",
+        "part_definition_id": "PART_THERMAL_LINE_NEG370",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "thermal_line_370",
+        "part_definition_id": "PART_THERMAL_LINE_370",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_support_0",
+        "part_definition_id": "PART_RADIATOR_SUPPORT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_panel_0",
+        "part_definition_id": "PART_RADIATOR_PANEL_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_hinge_0",
+        "part_definition_id": "PART_RADIATOR_HINGE_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_0",
+        "part_definition_id": "PART_PANEL_LOOP_0_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_1",
+        "part_definition_id": "PART_PANEL_LOOP_0_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_2",
+        "part_definition_id": "PART_PANEL_LOOP_0_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_3",
+        "part_definition_id": "PART_PANEL_LOOP_0_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_4",
+        "part_definition_id": "PART_PANEL_LOOP_0_4",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_5",
+        "part_definition_id": "PART_PANEL_LOOP_0_5",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_0_6",
+        "part_definition_id": "PART_PANEL_LOOP_0_6",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_support_1",
+        "part_definition_id": "PART_RADIATOR_SUPPORT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_panel_1",
+        "part_definition_id": "PART_RADIATOR_PANEL_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_hinge_1",
+        "part_definition_id": "PART_RADIATOR_HINGE_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_0",
+        "part_definition_id": "PART_PANEL_LOOP_1_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_1",
+        "part_definition_id": "PART_PANEL_LOOP_1_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_2",
+        "part_definition_id": "PART_PANEL_LOOP_1_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_3",
+        "part_definition_id": "PART_PANEL_LOOP_1_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_4",
+        "part_definition_id": "PART_PANEL_LOOP_1_4",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_5",
+        "part_definition_id": "PART_PANEL_LOOP_1_5",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_1_6",
+        "part_definition_id": "PART_PANEL_LOOP_1_6",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_support_2",
+        "part_definition_id": "PART_RADIATOR_SUPPORT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_panel_2",
+        "part_definition_id": "PART_RADIATOR_PANEL_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "radiator_hinge_2",
+        "part_definition_id": "PART_RADIATOR_HINGE_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_0",
+        "part_definition_id": "PART_PANEL_LOOP_2_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_1",
+        "part_definition_id": "PART_PANEL_LOOP_2_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_2",
+        "part_definition_id": "PART_PANEL_LOOP_2_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_3",
+        "part_definition_id": "PART_PANEL_LOOP_2_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_4",
+        "part_definition_id": "PART_PANEL_LOOP_2_4",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_5",
+        "part_definition_id": "PART_PANEL_LOOP_2_5",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "panel_loop_2_6",
+        "part_definition_id": "PART_PANEL_LOOP_2_6",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "insulation_shroud",
+        "part_definition_id": "PART_INSULATION_SHROUD",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      }
+    ],
+    "bom": [
+      {
+        "line_id": "BOM_PART_SUPPORT",
+        "part_definition_id": "PART_SUPPORT",
+        "instance_refs": [
+          "support"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_0",
+        "part_definition_id": "PART_FOOT_0",
+        "instance_refs": [
+          "foot_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_1",
+        "part_definition_id": "PART_FOOT_1",
+        "instance_refs": [
+          "foot_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_2",
+        "part_definition_id": "PART_FOOT_2",
+        "instance_refs": [
+          "foot_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_3",
+        "part_definition_id": "PART_FOOT_3",
+        "instance_refs": [
+          "foot_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_HEAT_EXCHANGER",
+        "part_definition_id": "PART_HEAT_EXCHANGER",
+        "instance_refs": [
+          "heat_exchanger"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "heat_exchanger",
+        "name": "heat_exchanger",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_COOLANT_PUMP",
+        "part_definition_id": "PART_COOLANT_PUMP",
+        "instance_refs": [
+          "coolant_pump"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "coolant_pump",
+        "name": "coolant_pump",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_THERMAL_LINE_NEG370",
+        "part_definition_id": "PART_THERMAL_LINE_NEG370",
+        "instance_refs": [
+          "thermal_line_neg370"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "thermal_line_neg370",
+        "name": "thermal_line_neg370",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_THERMAL_LINE_370",
+        "part_definition_id": "PART_THERMAL_LINE_370",
+        "instance_refs": [
+          "thermal_line_370"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "thermal_line_370",
+        "name": "thermal_line_370",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_SUPPORT_0",
+        "part_definition_id": "PART_RADIATOR_SUPPORT_0",
+        "instance_refs": [
+          "radiator_support_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_support_0",
+        "name": "radiator_support_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_PANEL_0",
+        "part_definition_id": "PART_RADIATOR_PANEL_0",
+        "instance_refs": [
+          "radiator_panel_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_panel_0",
+        "name": "radiator_panel_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_HINGE_0",
+        "part_definition_id": "PART_RADIATOR_HINGE_0",
+        "instance_refs": [
+          "radiator_hinge_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_hinge_0",
+        "name": "radiator_hinge_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_0",
+        "part_definition_id": "PART_PANEL_LOOP_0_0",
+        "instance_refs": [
+          "panel_loop_0_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_0",
+        "name": "panel_loop_0_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_1",
+        "part_definition_id": "PART_PANEL_LOOP_0_1",
+        "instance_refs": [
+          "panel_loop_0_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_1",
+        "name": "panel_loop_0_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_2",
+        "part_definition_id": "PART_PANEL_LOOP_0_2",
+        "instance_refs": [
+          "panel_loop_0_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_2",
+        "name": "panel_loop_0_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_3",
+        "part_definition_id": "PART_PANEL_LOOP_0_3",
+        "instance_refs": [
+          "panel_loop_0_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_3",
+        "name": "panel_loop_0_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_4",
+        "part_definition_id": "PART_PANEL_LOOP_0_4",
+        "instance_refs": [
+          "panel_loop_0_4"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_4",
+        "name": "panel_loop_0_4",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_5",
+        "part_definition_id": "PART_PANEL_LOOP_0_5",
+        "instance_refs": [
+          "panel_loop_0_5"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_5",
+        "name": "panel_loop_0_5",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_0_6",
+        "part_definition_id": "PART_PANEL_LOOP_0_6",
+        "instance_refs": [
+          "panel_loop_0_6"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_0_6",
+        "name": "panel_loop_0_6",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_SUPPORT_1",
+        "part_definition_id": "PART_RADIATOR_SUPPORT_1",
+        "instance_refs": [
+          "radiator_support_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_support_1",
+        "name": "radiator_support_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_PANEL_1",
+        "part_definition_id": "PART_RADIATOR_PANEL_1",
+        "instance_refs": [
+          "radiator_panel_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_panel_1",
+        "name": "radiator_panel_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_HINGE_1",
+        "part_definition_id": "PART_RADIATOR_HINGE_1",
+        "instance_refs": [
+          "radiator_hinge_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_hinge_1",
+        "name": "radiator_hinge_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_0",
+        "part_definition_id": "PART_PANEL_LOOP_1_0",
+        "instance_refs": [
+          "panel_loop_1_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_0",
+        "name": "panel_loop_1_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_1",
+        "part_definition_id": "PART_PANEL_LOOP_1_1",
+        "instance_refs": [
+          "panel_loop_1_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_1",
+        "name": "panel_loop_1_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_2",
+        "part_definition_id": "PART_PANEL_LOOP_1_2",
+        "instance_refs": [
+          "panel_loop_1_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_2",
+        "name": "panel_loop_1_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_3",
+        "part_definition_id": "PART_PANEL_LOOP_1_3",
+        "instance_refs": [
+          "panel_loop_1_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_3",
+        "name": "panel_loop_1_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_4",
+        "part_definition_id": "PART_PANEL_LOOP_1_4",
+        "instance_refs": [
+          "panel_loop_1_4"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_4",
+        "name": "panel_loop_1_4",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_5",
+        "part_definition_id": "PART_PANEL_LOOP_1_5",
+        "instance_refs": [
+          "panel_loop_1_5"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_5",
+        "name": "panel_loop_1_5",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_1_6",
+        "part_definition_id": "PART_PANEL_LOOP_1_6",
+        "instance_refs": [
+          "panel_loop_1_6"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_1_6",
+        "name": "panel_loop_1_6",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_SUPPORT_2",
+        "part_definition_id": "PART_RADIATOR_SUPPORT_2",
+        "instance_refs": [
+          "radiator_support_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_support_2",
+        "name": "radiator_support_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_PANEL_2",
+        "part_definition_id": "PART_RADIATOR_PANEL_2",
+        "instance_refs": [
+          "radiator_panel_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_panel_2",
+        "name": "radiator_panel_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_RADIATOR_HINGE_2",
+        "part_definition_id": "PART_RADIATOR_HINGE_2",
+        "instance_refs": [
+          "radiator_hinge_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "radiator_hinge_2",
+        "name": "radiator_hinge_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_0",
+        "part_definition_id": "PART_PANEL_LOOP_2_0",
+        "instance_refs": [
+          "panel_loop_2_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_0",
+        "name": "panel_loop_2_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_1",
+        "part_definition_id": "PART_PANEL_LOOP_2_1",
+        "instance_refs": [
+          "panel_loop_2_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_1",
+        "name": "panel_loop_2_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_2",
+        "part_definition_id": "PART_PANEL_LOOP_2_2",
+        "instance_refs": [
+          "panel_loop_2_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_2",
+        "name": "panel_loop_2_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_3",
+        "part_definition_id": "PART_PANEL_LOOP_2_3",
+        "instance_refs": [
+          "panel_loop_2_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_3",
+        "name": "panel_loop_2_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_4",
+        "part_definition_id": "PART_PANEL_LOOP_2_4",
+        "instance_refs": [
+          "panel_loop_2_4"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_4",
+        "name": "panel_loop_2_4",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_5",
+        "part_definition_id": "PART_PANEL_LOOP_2_5",
+        "instance_refs": [
+          "panel_loop_2_5"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_5",
+        "name": "panel_loop_2_5",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PANEL_LOOP_2_6",
+        "part_definition_id": "PART_PANEL_LOOP_2_6",
+        "instance_refs": [
+          "panel_loop_2_6"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "panel_loop_2_6",
+        "name": "panel_loop_2_6",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INSULATION_SHROUD",
+        "part_definition_id": "PART_INSULATION_SHROUD",
+        "instance_refs": [
+          "insulation_shroud"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "insulation_shroud",
+        "name": "insulation_shroud",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      }
+    ],
+    "nets": [],
+    "buses": [],
+    "pin_mappings": [],
+    "assembly": [],
+    "mechanical": {
+      "cad_operations": [],
+      "physical_form": "THERMAL CONTROL & RADIATORS",
+      "enclosure_type": "Parametric concept assembly",
+      "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+      "fabrication_details": [
+        "Every dimension is an authoring assumption, not a NASA measurement.",
+        "Motion is design inspection only, not simulated plant operation."
+      ],
+      "fabrication_cost_estimate_usd": 0.0,
+      "cad_sources": [],
+      "manufacturability_rating": "Not evaluated",
+      "render_dimensions": null,
+      "component_placements": [
+        {
+          "ref_des": "support",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 100.0
+          },
+          "size": {
+            "x_mm": 2400.0000002,
+            "y_mm": 1400.0000002000002,
+            "z_mm": 100.00000020000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1080.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1080.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1080.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1080.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "heat_exchanger",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -650.0,
+            "y_mm": 0.0,
+            "z_mm": 420.0
+          },
+          "size": {
+            "x_mm": 650.0000002000002,
+            "y_mm": 550.0000002000003,
+            "z_mm": 380.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "coolant_pump",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 460.0,
+            "y_mm": 0.0,
+            "z_mm": 430.0
+          },
+          "size": {
+            "x_mm": 380.3020802376057,
+            "y_mm": 300.00000020000016,
+            "z_mm": 300.3020802376057
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "thermal_line_neg370",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -950.0,
+            "y_mm": -370.0,
+            "z_mm": 519.9999999999999
+          },
+          "size": {
+            "x_mm": 1900.0704855421081,
+            "y_mm": 70.00000020000016,
+            "z_mm": 70.07048554210837
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "thermal_line_370",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -950.0,
+            "y_mm": 370.0,
+            "z_mm": 519.9999999999999
+          },
+          "size": {
+            "x_mm": 1900.0704855421081,
+            "y_mm": 70.00000020000016,
+            "z_mm": 70.07048554210837
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_support_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -700.0,
+            "y_mm": 0.0,
+            "z_mm": 480.0
+          },
+          "size": {
+            "x_mm": 80.00000020000016,
+            "y_mm": 100.00000020000023,
+            "z_mm": 650.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_panel_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -700.0,
+            "y_mm": 0.0,
+            "z_mm": 1700.0
+          },
+          "size": {
+            "x_mm": 620.0000002000002,
+            "y_mm": 80.00000020000023,
+            "z_mm": 1800.0000002000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_hinge_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1025.0,
+            "y_mm": 0.0,
+            "z_mm": 800.0
+          },
+          "size": {
+            "x_mm": 650.1107628804556,
+            "y_mm": 110.0000002000002,
+            "z_mm": 110.11076288045558
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -950.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -867.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -784.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -701.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_4",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -618.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_5",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -535.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_0_6",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -452.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.00000020000013,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_support_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 480.0
+          },
+          "size": {
+            "x_mm": 80.00000020000023,
+            "y_mm": 100.00000020000023,
+            "z_mm": 650.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_panel_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 1700.0
+          },
+          "size": {
+            "x_mm": 620.0000002,
+            "y_mm": 80.00000020000003,
+            "z_mm": 1800.0000001999997
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_hinge_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -324.99999999999994,
+            "y_mm": 0.0,
+            "z_mm": 800.0
+          },
+          "size": {
+            "x_mm": 650.1107628804556,
+            "y_mm": 110.0000002000002,
+            "z_mm": 110.11076288045558
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -250.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.02416660300858,
+            "y_mm": 24.00000020000013,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -167.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008496,
+            "y_mm": 24.000000200000045,
+            "z_mm": 1700.0241666030083
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -84.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008467,
+            "y_mm": 24.000000200000017,
+            "z_mm": 1700.0241666030083
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008464,
+            "y_mm": 24.000000200000017,
+            "z_mm": 1700.0241666030083
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_4",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 82.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008467,
+            "y_mm": 24.000000200000017,
+            "z_mm": 1700.0241666030083
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_5",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 165.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008496,
+            "y_mm": 24.000000200000045,
+            "z_mm": 1700.0241666030083
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_1_6",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 248.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.02416660300858,
+            "y_mm": 24.00000020000013,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_support_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 700.0,
+            "y_mm": 0.0,
+            "z_mm": 480.0
+          },
+          "size": {
+            "x_mm": 80.00000020000016,
+            "y_mm": 100.00000020000023,
+            "z_mm": 650.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_panel_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 700.0,
+            "y_mm": 0.0,
+            "z_mm": 1700.0
+          },
+          "size": {
+            "x_mm": 620.0000002000002,
+            "y_mm": 80.00000020000023,
+            "z_mm": 1800.0000002000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "radiator_hinge_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 374.99999999999994,
+            "y_mm": 0.0,
+            "z_mm": 800.0
+          },
+          "size": {
+            "x_mm": 650.1107628804556,
+            "y_mm": 110.0000002000002,
+            "z_mm": 110.11076288045558
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 450.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.00000020000013,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 533.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 616.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 699.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_4",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 782.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_5",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 865.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "panel_loop_2_6",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 948.0,
+            "y_mm": -55.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 24.024166603008553,
+            "y_mm": 24.000000200000187,
+            "z_mm": 1700.0241666030088
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "insulation_shroud",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 630.0,
+            "y_mm": 0.0,
+            "z_mm": 230.0
+          },
+          "size": {
+            "x_mm": 350.00000020000016,
+            "y_mm": 450.0000002000001,
+            "z_mm": 250.00000020000013
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        }
+      ],
+      "spatial_relationships": [],
+      "motion_intents": [],
+      "mechanism_benchmark": null
+    },
+    "fluidic_system": null,
+    "firmware": null,
+    "cad_model": {
+      "format": "step",
+      "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-09\\assembly.step",
+      "sha256": "9afbc5a6ec6d6fffa748834ebd776b99d7af0dc7bfd85fe668cd413649ffb7b5",
+      "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-09\\excavator.meshes.json",
+      "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-09\\excavator.kinematics.json",
+      "units": "mm"
+    },
+    "constraints": [],
+    "power_rails": [],
+    "estimated_current_draw_ma": 0.0,
+    "fabrication_notes": [],
+    "assembly_metadata": {
+      "asset_id": "ASSET-09",
+      "mechanical_ir": {
+        "domain": "mechanical",
+        "schema_version": "1.0",
+        "artifact_id": "ASSET-09-mechanical",
+        "revision": 1,
+        "parts": [
+          {
+            "part_definition_id": "support",
+            "dimensions_mm": {
+              "x": 2400.0000002,
+              "y": 1400.0000002000002,
+              "z": 100.00000020000004
+            }
+          },
+          {
+            "part_definition_id": "foot_0",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_1",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_2",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_3",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "heat_exchanger",
+            "dimensions_mm": {
+              "x": 650.0000002000002,
+              "y": 550.0000002000003,
+              "z": 380.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "coolant_pump",
+            "dimensions_mm": {
+              "x": 380.3020802376057,
+              "y": 300.00000020000016,
+              "z": 300.3020802376057
+            }
+          },
+          {
+            "part_definition_id": "thermal_line_neg370",
+            "dimensions_mm": {
+              "x": 1900.0704855421081,
+              "y": 70.00000020000016,
+              "z": 70.07048554210837
+            }
+          },
+          {
+            "part_definition_id": "thermal_line_370",
+            "dimensions_mm": {
+              "x": 1900.0704855421081,
+              "y": 70.00000020000016,
+              "z": 70.07048554210837
+            }
+          },
+          {
+            "part_definition_id": "radiator_support_0",
+            "dimensions_mm": {
+              "x": 80.00000020000016,
+              "y": 100.00000020000023,
+              "z": 650.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "radiator_panel_0",
+            "dimensions_mm": {
+              "x": 620.0000002000002,
+              "y": 80.00000020000023,
+              "z": 1800.0000002000004
+            }
+          },
+          {
+            "part_definition_id": "radiator_hinge_0",
+            "dimensions_mm": {
+              "x": 650.1107628804556,
+              "y": 110.0000002000002,
+              "z": 110.11076288045558
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_0",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_1",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_2",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_3",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_4",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_5",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_0_6",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.00000020000013,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "radiator_support_1",
+            "dimensions_mm": {
+              "x": 80.00000020000023,
+              "y": 100.00000020000023,
+              "z": 650.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "radiator_panel_1",
+            "dimensions_mm": {
+              "x": 620.0000002,
+              "y": 80.00000020000003,
+              "z": 1800.0000001999997
+            }
+          },
+          {
+            "part_definition_id": "radiator_hinge_1",
+            "dimensions_mm": {
+              "x": 650.1107628804556,
+              "y": 110.0000002000002,
+              "z": 110.11076288045558
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_0",
+            "dimensions_mm": {
+              "x": 24.02416660300858,
+              "y": 24.00000020000013,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_1",
+            "dimensions_mm": {
+              "x": 24.024166603008496,
+              "y": 24.000000200000045,
+              "z": 1700.0241666030083
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_2",
+            "dimensions_mm": {
+              "x": 24.024166603008467,
+              "y": 24.000000200000017,
+              "z": 1700.0241666030083
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_3",
+            "dimensions_mm": {
+              "x": 24.024166603008464,
+              "y": 24.000000200000017,
+              "z": 1700.0241666030083
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_4",
+            "dimensions_mm": {
+              "x": 24.024166603008467,
+              "y": 24.000000200000017,
+              "z": 1700.0241666030083
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_5",
+            "dimensions_mm": {
+              "x": 24.024166603008496,
+              "y": 24.000000200000045,
+              "z": 1700.0241666030083
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_1_6",
+            "dimensions_mm": {
+              "x": 24.02416660300858,
+              "y": 24.00000020000013,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "radiator_support_2",
+            "dimensions_mm": {
+              "x": 80.00000020000016,
+              "y": 100.00000020000023,
+              "z": 650.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "radiator_panel_2",
+            "dimensions_mm": {
+              "x": 620.0000002000002,
+              "y": 80.00000020000023,
+              "z": 1800.0000002000004
+            }
+          },
+          {
+            "part_definition_id": "radiator_hinge_2",
+            "dimensions_mm": {
+              "x": 650.1107628804556,
+              "y": 110.0000002000002,
+              "z": 110.11076288045558
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_0",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.00000020000013,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_1",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_2",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_3",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_4",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_5",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "panel_loop_2_6",
+            "dimensions_mm": {
+              "x": 24.024166603008553,
+              "y": 24.000000200000187,
+              "z": 1700.0241666030088
+            }
+          },
+          {
+            "part_definition_id": "insulation_shroud",
+            "dimensions_mm": {
+              "x": 350.00000020000016,
+              "y": 450.0000002000001,
+              "z": 250.00000020000013
+            }
+          }
+        ],
+        "components": [
+          {
+            "object_id": "ASSET-09/support",
+            "ref_des": "support",
+            "part_definition_id": "support"
+          },
+          {
+            "object_id": "ASSET-09/foot_0",
+            "ref_des": "foot_0",
+            "part_definition_id": "foot_0"
+          },
+          {
+            "object_id": "ASSET-09/foot_1",
+            "ref_des": "foot_1",
+            "part_definition_id": "foot_1"
+          },
+          {
+            "object_id": "ASSET-09/foot_2",
+            "ref_des": "foot_2",
+            "part_definition_id": "foot_2"
+          },
+          {
+            "object_id": "ASSET-09/foot_3",
+            "ref_des": "foot_3",
+            "part_definition_id": "foot_3"
+          },
+          {
+            "object_id": "ASSET-09/heat_exchanger",
+            "ref_des": "heat_exchanger",
+            "part_definition_id": "heat_exchanger"
+          },
+          {
+            "object_id": "ASSET-09/coolant_pump",
+            "ref_des": "coolant_pump",
+            "part_definition_id": "coolant_pump"
+          },
+          {
+            "object_id": "ASSET-09/thermal_line_neg370",
+            "ref_des": "thermal_line_neg370",
+            "part_definition_id": "thermal_line_neg370"
+          },
+          {
+            "object_id": "ASSET-09/thermal_line_370",
+            "ref_des": "thermal_line_370",
+            "part_definition_id": "thermal_line_370"
+          },
+          {
+            "object_id": "ASSET-09/radiator_support_0",
+            "ref_des": "radiator_support_0",
+            "part_definition_id": "radiator_support_0"
+          },
+          {
+            "object_id": "ASSET-09/radiator_panel_0",
+            "ref_des": "radiator_panel_0",
+            "part_definition_id": "radiator_panel_0"
+          },
+          {
+            "object_id": "ASSET-09/radiator_hinge_0",
+            "ref_des": "radiator_hinge_0",
+            "part_definition_id": "radiator_hinge_0"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_0",
+            "ref_des": "panel_loop_0_0",
+            "part_definition_id": "panel_loop_0_0"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_1",
+            "ref_des": "panel_loop_0_1",
+            "part_definition_id": "panel_loop_0_1"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_2",
+            "ref_des": "panel_loop_0_2",
+            "part_definition_id": "panel_loop_0_2"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_3",
+            "ref_des": "panel_loop_0_3",
+            "part_definition_id": "panel_loop_0_3"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_4",
+            "ref_des": "panel_loop_0_4",
+            "part_definition_id": "panel_loop_0_4"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_5",
+            "ref_des": "panel_loop_0_5",
+            "part_definition_id": "panel_loop_0_5"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_0_6",
+            "ref_des": "panel_loop_0_6",
+            "part_definition_id": "panel_loop_0_6"
+          },
+          {
+            "object_id": "ASSET-09/radiator_support_1",
+            "ref_des": "radiator_support_1",
+            "part_definition_id": "radiator_support_1"
+          },
+          {
+            "object_id": "ASSET-09/radiator_panel_1",
+            "ref_des": "radiator_panel_1",
+            "part_definition_id": "radiator_panel_1"
+          },
+          {
+            "object_id": "ASSET-09/radiator_hinge_1",
+            "ref_des": "radiator_hinge_1",
+            "part_definition_id": "radiator_hinge_1"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_0",
+            "ref_des": "panel_loop_1_0",
+            "part_definition_id": "panel_loop_1_0"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_1",
+            "ref_des": "panel_loop_1_1",
+            "part_definition_id": "panel_loop_1_1"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_2",
+            "ref_des": "panel_loop_1_2",
+            "part_definition_id": "panel_loop_1_2"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_3",
+            "ref_des": "panel_loop_1_3",
+            "part_definition_id": "panel_loop_1_3"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_4",
+            "ref_des": "panel_loop_1_4",
+            "part_definition_id": "panel_loop_1_4"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_5",
+            "ref_des": "panel_loop_1_5",
+            "part_definition_id": "panel_loop_1_5"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_1_6",
+            "ref_des": "panel_loop_1_6",
+            "part_definition_id": "panel_loop_1_6"
+          },
+          {
+            "object_id": "ASSET-09/radiator_support_2",
+            "ref_des": "radiator_support_2",
+            "part_definition_id": "radiator_support_2"
+          },
+          {
+            "object_id": "ASSET-09/radiator_panel_2",
+            "ref_des": "radiator_panel_2",
+            "part_definition_id": "radiator_panel_2"
+          },
+          {
+            "object_id": "ASSET-09/radiator_hinge_2",
+            "ref_des": "radiator_hinge_2",
+            "part_definition_id": "radiator_hinge_2"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_0",
+            "ref_des": "panel_loop_2_0",
+            "part_definition_id": "panel_loop_2_0"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_1",
+            "ref_des": "panel_loop_2_1",
+            "part_definition_id": "panel_loop_2_1"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_2",
+            "ref_des": "panel_loop_2_2",
+            "part_definition_id": "panel_loop_2_2"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_3",
+            "ref_des": "panel_loop_2_3",
+            "part_definition_id": "panel_loop_2_3"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_4",
+            "ref_des": "panel_loop_2_4",
+            "part_definition_id": "panel_loop_2_4"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_5",
+            "ref_des": "panel_loop_2_5",
+            "part_definition_id": "panel_loop_2_5"
+          },
+          {
+            "object_id": "ASSET-09/panel_loop_2_6",
+            "ref_des": "panel_loop_2_6",
+            "part_definition_id": "panel_loop_2_6"
+          },
+          {
+            "object_id": "ASSET-09/insulation_shroud",
+            "ref_des": "insulation_shroud",
+            "part_definition_id": "insulation_shroud"
+          }
+        ],
+        "mechanical": {
+          "physical_form": "THERMAL CONTROL & RADIATORS",
+          "enclosure_type": "Parametric concept assembly",
+          "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+          "manufacturability_rating": "Not evaluated",
+          "component_placements": [
+            {
+              "ref_des": "support",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 100.0
+              },
+              "size": {
+                "x_mm": 2400.0000002,
+                "y_mm": 1400.0000002000002,
+                "z_mm": 100.00000020000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_0",
+              "position": {
+                "x_mm": -1080.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_1",
+              "position": {
+                "x_mm": -1080.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_2",
+              "position": {
+                "x_mm": 1080.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_3",
+              "position": {
+                "x_mm": 1080.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "heat_exchanger",
+              "position": {
+                "x_mm": -650.0,
+                "y_mm": 0.0,
+                "z_mm": 420.0
+              },
+              "size": {
+                "x_mm": 650.0000002000002,
+                "y_mm": 550.0000002000003,
+                "z_mm": 380.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "coolant_pump",
+              "position": {
+                "x_mm": 460.0,
+                "y_mm": 0.0,
+                "z_mm": 430.0
+              },
+              "size": {
+                "x_mm": 380.3020802376057,
+                "y_mm": 300.00000020000016,
+                "z_mm": 300.3020802376057
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "thermal_line_neg370",
+              "position": {
+                "x_mm": -950.0,
+                "y_mm": -370.0,
+                "z_mm": 519.9999999999999
+              },
+              "size": {
+                "x_mm": 1900.0704855421081,
+                "y_mm": 70.00000020000016,
+                "z_mm": 70.07048554210837
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "thermal_line_370",
+              "position": {
+                "x_mm": -950.0,
+                "y_mm": 370.0,
+                "z_mm": 519.9999999999999
+              },
+              "size": {
+                "x_mm": 1900.0704855421081,
+                "y_mm": 70.00000020000016,
+                "z_mm": 70.07048554210837
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_support_0",
+              "position": {
+                "x_mm": -700.0,
+                "y_mm": 0.0,
+                "z_mm": 480.0
+              },
+              "size": {
+                "x_mm": 80.00000020000016,
+                "y_mm": 100.00000020000023,
+                "z_mm": 650.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_panel_0",
+              "position": {
+                "x_mm": -700.0,
+                "y_mm": 0.0,
+                "z_mm": 1700.0
+              },
+              "size": {
+                "x_mm": 620.0000002000002,
+                "y_mm": 80.00000020000023,
+                "z_mm": 1800.0000002000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_hinge_0",
+              "position": {
+                "x_mm": -1025.0,
+                "y_mm": 0.0,
+                "z_mm": 800.0
+              },
+              "size": {
+                "x_mm": 650.1107628804556,
+                "y_mm": 110.0000002000002,
+                "z_mm": 110.11076288045558
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_0",
+              "position": {
+                "x_mm": -950.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_1",
+              "position": {
+                "x_mm": -867.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_2",
+              "position": {
+                "x_mm": -784.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_3",
+              "position": {
+                "x_mm": -701.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_4",
+              "position": {
+                "x_mm": -618.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_5",
+              "position": {
+                "x_mm": -535.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_0_6",
+              "position": {
+                "x_mm": -452.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.00000020000013,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_support_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 480.0
+              },
+              "size": {
+                "x_mm": 80.00000020000023,
+                "y_mm": 100.00000020000023,
+                "z_mm": 650.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_panel_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 1700.0
+              },
+              "size": {
+                "x_mm": 620.0000002,
+                "y_mm": 80.00000020000003,
+                "z_mm": 1800.0000001999997
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_hinge_1",
+              "position": {
+                "x_mm": -324.99999999999994,
+                "y_mm": 0.0,
+                "z_mm": 800.0
+              },
+              "size": {
+                "x_mm": 650.1107628804556,
+                "y_mm": 110.0000002000002,
+                "z_mm": 110.11076288045558
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_0",
+              "position": {
+                "x_mm": -250.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.02416660300858,
+                "y_mm": 24.00000020000013,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_1",
+              "position": {
+                "x_mm": -167.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008496,
+                "y_mm": 24.000000200000045,
+                "z_mm": 1700.0241666030083
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_2",
+              "position": {
+                "x_mm": -84.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008467,
+                "y_mm": 24.000000200000017,
+                "z_mm": 1700.0241666030083
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_3",
+              "position": {
+                "x_mm": -1.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008464,
+                "y_mm": 24.000000200000017,
+                "z_mm": 1700.0241666030083
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_4",
+              "position": {
+                "x_mm": 82.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008467,
+                "y_mm": 24.000000200000017,
+                "z_mm": 1700.0241666030083
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_5",
+              "position": {
+                "x_mm": 165.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008496,
+                "y_mm": 24.000000200000045,
+                "z_mm": 1700.0241666030083
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_1_6",
+              "position": {
+                "x_mm": 248.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.02416660300858,
+                "y_mm": 24.00000020000013,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_support_2",
+              "position": {
+                "x_mm": 700.0,
+                "y_mm": 0.0,
+                "z_mm": 480.0
+              },
+              "size": {
+                "x_mm": 80.00000020000016,
+                "y_mm": 100.00000020000023,
+                "z_mm": 650.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_panel_2",
+              "position": {
+                "x_mm": 700.0,
+                "y_mm": 0.0,
+                "z_mm": 1700.0
+              },
+              "size": {
+                "x_mm": 620.0000002000002,
+                "y_mm": 80.00000020000023,
+                "z_mm": 1800.0000002000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "radiator_hinge_2",
+              "position": {
+                "x_mm": 374.99999999999994,
+                "y_mm": 0.0,
+                "z_mm": 800.0
+              },
+              "size": {
+                "x_mm": 650.1107628804556,
+                "y_mm": 110.0000002000002,
+                "z_mm": 110.11076288045558
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_0",
+              "position": {
+                "x_mm": 450.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.00000020000013,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_1",
+              "position": {
+                "x_mm": 533.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_2",
+              "position": {
+                "x_mm": 616.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_3",
+              "position": {
+                "x_mm": 699.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_4",
+              "position": {
+                "x_mm": 782.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_5",
+              "position": {
+                "x_mm": 865.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "panel_loop_2_6",
+              "position": {
+                "x_mm": 948.0,
+                "y_mm": -55.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 24.024166603008553,
+                "y_mm": 24.000000200000187,
+                "z_mm": 1700.0241666030088
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "insulation_shroud",
+              "position": {
+                "x_mm": 630.0,
+                "y_mm": 0.0,
+                "z_mm": 230.0
+              },
+              "size": {
+                "x_mm": 350.00000020000016,
+                "y_mm": 450.0000002000001,
+                "z_mm": 250.00000020000013
+              },
+              "layer": "mechanism"
+            }
+          ],
+          "fabrication_details": [
+            "Every dimension is an authoring assumption, not a NASA measurement.",
+            "Motion is design inspection only, not simulated plant operation."
+          ]
+        }
+      },
+      "sources": [
+        "09-thermal-control-and-heat-rejection.md"
+      ],
+      "status": "Concept engineering preview",
+      "model_source": "assets/machine-previews/build_all.py",
+      "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.",
+      "cad_generation": {
+        "adapter": "forma-opencad",
+        "status": "provided",
+        "required": false
+      },
+      "project_id": "8f192576-1904-45d9-8619-557c396a448f",
+      "chat_id": "d4250d72-bf42-4ff5-bd7c-24fdd49cb006",
+      "authoring_agent": "opencode",
+      "compiled_by": "forma.compile_project",
+      "compile_revision": 1,
+      "created_at": "2026-11-15T06:40:07.073851Z",
+      "source_prompt": "# ASSET-09 \u2014 Plant thermal management, insulation and heat rejection\n\n**Priority:** Core MVP as **a working thermal balance and visible support subsystem**, with simplified radiator/cooling hardware; detailed lunar radiator engineering is post-MVP. **Flow:** heater/reactor/electronics excess heat \u2192 modeled insulation losses / heat rejection \u2192 environmental boundary.\n\n## Research context\n\nThe MRE process reaches extremely high temperatures and NASA system modeling explicitly varies reactor insulation and wall-temperature limits when sizing feasible systems. Lunar hardware also operates under harsh environmental temperature cycles. A factory can't be \u201csustainable\u201d if its reactor, cables, seals, instruments or storage exceed their operating temperatures; heat and active cooling costs must be included in the energy ledger.\n\n## Forma / OpenCAD build brief\n\nCreate a radiator bank or deployable panel assembly, coolant-loop manifold/pump unit when a loop is included, insulation shrouds on hot process equipment, heat exchanger block, temperature probes and line routing. Keep `radiator_panel`, `radiator_hinge`, `coolant_pump`, `heat_exchanger`, `thermal_lines`, `insulation` distinct for interaction. Geometric placement should avoid pretending the radiator dumps heat into a warm atmosphere: model radiation to a declared sky/terrain view factor/environment, or explicitly use a simplified loss-to-sink boundary.\n\n## Executable machine contract\n\n- **Commands:** `enable_cooling`, `set_pump_rate`, `deploy_radiator`, `isolate_zone`, `reduce_thermal_load`.\n- **Inputs:** source temperatures K, mass/heat capacity, supplied heat W, thermal conductances, radiative properties/view factors or bounded lumped loss model, cooling pump electricity W and environmental scenario.\n- **Outputs:** heat transferred/rejected J, radiator/loop temperature K, pump energy J, subsystem hot/cold alarms and resulting allowable process power.\n- **States:** STANDBY, COOLING, SATURATED, BLOCKED, OVER_TEMPERATURE, OFFLINE.\n- **Model:** compute `dU/dt = heat_in - heat_out` for each thermal node. If using radiation, bound `Q = epsilon*sigma*A*F*(T_hot^4 - T_env^4)` with declared idealizations; no free instantaneous cooling. The reactor/plant consumes power and imposes temperatures on dependent components.\n- **Failure paths:** radiator blocked, pump power lost, heat-rejection capacity exceeded, nighttime thermal extremes, sensor invalid.\n\n## MVP acceptance\n\nWhen reactor/heater loads increase, computed thermal states and heat-rejection demands change; insufficient cooling or excessive temperature blocks/throttles operation rather than leaving all machines nominal. The radiator's visual/deployment state follows real commands.\n\n## Technical sources\n\n- [NASA NTRS \u2014 Lunar MRE plant system model](https://ntrs.nasa.gov/citations/20240013999) (reactor insulation and wall temperature feasibility sensitivity).\n- [NASA \u2014 Lunar Surface Technology](https://www.nasa.gov/lunar-surface-technology/) (thermal constraints for lunar infrastructure and mobile systems).\n- [NASA \u2014 IPEx TRL-5 Design Overview](https://ntrs.nasa.gov/citations/20240008162) (dust-aware autonomous hardware thermal/radiator design example; **not** a furnace cooling design).\n## Integration contract (NASA-APP)\n\n- **OpenForma:** use real supported domain IR contracts and keep validation findings and assumption provenance; do not treat generated geometry or engineering reports as physical certification.\n- **OpenCAD:** deliver selectable parametric components, joint/port frames, and a supported asset export for OpenIndustries.\n- **OpenIndustries:** execute tasks from the authoritative controller, render live state, expose actual material/energy changes and record event evidence. No decorative motion divorced from task state.\n- **Solver/controller:** accept typed commands and return bounded numerical deltas; do not allow OpenCode agents or UI animations to write physical outcomes directly.\n\n**Status:** research-backed design brief only. Unspecified geometry sizes, efficiencies, outputs, operating limits, capacities and deployment details are **TBD scenario/design parameters**, not verified lunar hardware specifications. All telemetry in NASA-APP is simulated unless clearly marked as third-party measured reference data."
+    },
+    "project_version_history": [],
+    "validation": {
+      "critical": [],
+      "warning": [],
+      "info": []
+    },
+    "is_valid": true
+  },
+  "is_valid": true,
+  "validation": {
+    "critical": [],
+    "warning": [],
+    "info": []
+  },
+  "mermaid_code": "graph LR\n  support[\"<b>support</b><br/>support<br/><small>support</small>\"]\n  foot_0[\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\"]\n  foot_1[\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\"]\n  foot_2[\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\"]\n  foot_3[\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\"]\n  heat_exchanger[\"<b>heat_exchanger</b><br/>heat_exchanger<br/><small>heat_exchanger</small>\"]\n  coolant_pump[\"<b>coolant_pump</b><br/>coolant_pump<br/><small>coolant_pump</small>\"]\n  thermal_line_neg370[\"<b>thermal_line_neg370</b><br/>thermal_line_neg370<br/><small>thermal_line_neg370</small>\"]\n  thermal_line_370[\"<b>thermal_line_370</b><br/>thermal_line_370<br/><small>thermal_line_370</small>\"]\n  radiator_support_0[\"<b>radiator_support_0</b><br/>radiator_support_0<br/><small>radiator_support_0</small>\"]\n  radiator_panel_0[\"<b>radiator_panel_0</b><br/>radiator_panel_0<br/><small>radiator_panel_0</small>\"]\n  radiator_hinge_0[\"<b>radiator_hinge_0</b><br/>radiator_hinge_0<br/><small>radiator_hinge_0</small>\"]\n  panel_loop_0_0[\"<b>panel_loop_0_0</b><br/>panel_loop_0_0<br/><small>panel_loop_0_0</small>\"]\n  panel_loop_0_1[\"<b>panel_loop_0_1</b><br/>panel_loop_0_1<br/><small>panel_loop_0_1</small>\"]\n  panel_loop_0_2[\"<b>panel_loop_0_2</b><br/>panel_loop_0_2<br/><small>panel_loop_0_2</small>\"]\n  panel_loop_0_3[\"<b>panel_loop_0_3</b><br/>panel_loop_0_3<br/><small>panel_loop_0_3</small>\"]\n  panel_loop_0_4[\"<b>panel_loop_0_4</b><br/>panel_loop_0_4<br/><small>panel_loop_0_4</small>\"]\n  panel_loop_0_5[\"<b>panel_loop_0_5</b><br/>panel_loop_0_5<br/><small>panel_loop_0_5</small>\"]\n  panel_loop_0_6[\"<b>panel_loop_0_6</b><br/>panel_loop_0_6<br/><small>panel_loop_0_6</small>\"]\n  radiator_support_1[\"<b>radiator_support_1</b><br/>radiator_support_1<br/><small>radiator_support_1</small>\"]\n  radiator_panel_1[\"<b>radiator_panel_1</b><br/>radiator_panel_1<br/><small>radiator_panel_1</small>\"]\n  radiator_hinge_1[\"<b>radiator_hinge_1</b><br/>radiator_hinge_1<br/><small>radiator_hinge_1</small>\"]\n  panel_loop_1_0[\"<b>panel_loop_1_0</b><br/>panel_loop_1_0<br/><small>panel_loop_1_0</small>\"]\n  panel_loop_1_1[\"<b>panel_loop_1_1</b><br/>panel_loop_1_1<br/><small>panel_loop_1_1</small>\"]\n  panel_loop_1_2[\"<b>panel_loop_1_2</b><br/>panel_loop_1_2<br/><small>panel_loop_1_2</small>\"]\n  panel_loop_1_3[\"<b>panel_loop_1_3</b><br/>panel_loop_1_3<br/><small>panel_loop_1_3</small>\"]\n  panel_loop_1_4[\"<b>panel_loop_1_4</b><br/>panel_loop_1_4<br/><small>panel_loop_1_4</small>\"]\n  panel_loop_1_5[\"<b>panel_loop_1_5</b><br/>panel_loop_1_5<br/><small>panel_loop_1_5</small>\"]\n  panel_loop_1_6[\"<b>panel_loop_1_6</b><br/>panel_loop_1_6<br/><small>panel_loop_1_6</small>\"]\n  radiator_support_2[\"<b>radiator_support_2</b><br/>radiator_support_2<br/><small>radiator_support_2</small>\"]\n  radiator_panel_2[\"<b>radiator_panel_2</b><br/>radiator_panel_2<br/><small>radiator_panel_2</small>\"]\n  radiator_hinge_2[\"<b>radiator_hinge_2</b><br/>radiator_hinge_2<br/><small>radiator_hinge_2</small>\"]\n  panel_loop_2_0[\"<b>panel_loop_2_0</b><br/>panel_loop_2_0<br/><small>panel_loop_2_0</small>\"]\n  panel_loop_2_1[\"<b>panel_loop_2_1</b><br/>panel_loop_2_1<br/><small>panel_loop_2_1</small>\"]\n  panel_loop_2_2[\"<b>panel_loop_2_2</b><br/>panel_loop_2_2<br/><small>panel_loop_2_2</small>\"]\n  panel_loop_2_3[\"<b>panel_loop_2_3</b><br/>panel_loop_2_3<br/><small>panel_loop_2_3</small>\"]\n  panel_loop_2_4[\"<b>panel_loop_2_4</b><br/>panel_loop_2_4<br/><small>panel_loop_2_4</small>\"]\n  panel_loop_2_5[\"<b>panel_loop_2_5</b><br/>panel_loop_2_5<br/><small>panel_loop_2_5</small>\"]\n  panel_loop_2_6[\"<b>panel_loop_2_6</b><br/>panel_loop_2_6<br/><small>panel_loop_2_6</small>\"]\n  insulation_shroud[\"<b>insulation_shroud</b><br/>insulation_shroud<br/><small>insulation_shroud</small>\"]",
+  "svg_schematic": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\n  <!-- Grid Background -->\n  <defs>\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\n    </pattern>\n  </defs>\n  <rect width='100%' height='100%' fill='url(#grid)' />\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-09 - THERMAL CONTROL &amp; RADIATORS</text>\n  <!-- Wires / Connections -->\n  <!-- Components -->\n  <g id='comp-support'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-heat_exchanger'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>heat_exchanger</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>heat_exchanger</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>heat_exchanger</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-coolant_pump'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>coolant_pump</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>coolant_pump</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>coolant_pump</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-thermal_line_neg370'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>thermal_line_neg370</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>thermal_line_neg370</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>thermal_line_neg370</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-thermal_line_370'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>thermal_line_370</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>thermal_line_370</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>thermal_line_370</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_support_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_support_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_support_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_support_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_panel_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_panel_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_panel_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_panel_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_hinge_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_hinge_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_hinge_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_hinge_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_4'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_4</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_4</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_4</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_5'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_5</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_5</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_5</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_0_6'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_0_6</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_0_6</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_0_6</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_support_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_support_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_support_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_support_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_panel_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_panel_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_panel_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_panel_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_hinge_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_hinge_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_hinge_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_hinge_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_4'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_4</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_4</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_4</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_5'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_5</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_5</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_5</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_1_6'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_1_6</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_1_6</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_1_6</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_support_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_support_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_support_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_support_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_panel_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_panel_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_panel_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_panel_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-radiator_hinge_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>radiator_hinge_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>radiator_hinge_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>radiator_hinge_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_4'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_4</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_4</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_4</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_5'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_5</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_5</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_5</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-panel_loop_2_6'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>panel_loop_2_6</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>panel_loop_2_6</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>panel_loop_2_6</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-insulation_shroud'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>insulation_shroud</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>insulation_shroud</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>insulation_shroud</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n</svg>"
+}

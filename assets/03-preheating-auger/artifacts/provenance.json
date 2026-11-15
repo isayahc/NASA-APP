@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-03",
+  "project_id": "3e31f4d2-7f01-4921-b0f0-c03fe57643ed",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "03-preheating-auger.md",
+  "model_sha256": "46e7d8205a5ebe92f734d18606ae09a175f512f31471f72381abccd1e186b925",
+  "body_count": 20,
+  "moving_body_count": 2,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "1acbe8fd698cf271ef2e1901fbc30ad0538df11c9b808b1f0527c30438877915",
+    "excavator.kinematics.json": "55cbb85677746c239cf1288b2ff061cbfd67a31c9b3e14134b041a6b07620aa4",
+    "excavator.meshes.json": "8bfc1913aad9873579f76ffc1fcb62f10e1a9d76d62bb088531a3c2733e74af0",
+    "forma-compiled.json": "14e4e87bc6e4ae3af611d4a054de2f8c0defe4ffc6a3e57103ce067bcc03408c",
+    "mcp-request.json": "7bf7c9a9ce5f901cae4c891e188a1bdad6da936a28618d359917e35e5a262400",
+    "mcp-response.json": "af8588ef210c1cb20bb9c248aef3f0c6a41ce946f91228c6386a8cc055d827af",
+    "mechanical.ir.json": "6b3726d150c4e4393cad73b7eead7ebf843fdf0123cc4f02ed50d4b77c2ad5ed",
+    "preview.gif": "174c0f6489b492f34091f37dce7d15a6a5ef700343adbd8da341e67d40ab8c9f",
+    "preview.png": "2f7c115e711a9064351879e0fd0bfe6054fafcac34a7d157c9c532947ccaf06e",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

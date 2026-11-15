@@ -1,0 +1,1859 @@
+{
+  "project_id": "3e31f4d2-7f01-4921-b0f0-c03fe57643ed",
+  "chat_id": "a75e7421-4a67-4fc7-a5d9-cff0e21c21e8",
+  "persisted": true,
+  "visibility": "private",
+  "project_ir": {
+    "hardware_ir_version": "0.2",
+    "overview": {
+      "title": "ASSET-03 - PREHEATING AUGER",
+      "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+      "difficulty": "Advanced",
+      "estimated_cost": 0.0,
+      "category": "Industrial"
+    },
+    "requirements": null,
+    "system_architecture": null,
+    "part_definitions": [
+      {
+        "part_definition_id": "PART_SUPPORT",
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_0",
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_1",
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_2",
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_3",
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SHELL_CUTAWAY",
+        "manufacturer": null,
+        "part_number": "shell_cutaway",
+        "name": "shell_cutaway",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INSULATION_CUTAWAY",
+        "manufacturer": null,
+        "part_number": "insulation_cutaway",
+        "name": "insulation_cutaway",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_AUGER_SHAFT",
+        "manufacturer": null,
+        "part_number": "auger_shaft",
+        "name": "auger_shaft",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_AUGER_FLIGHT",
+        "manufacturer": null,
+        "part_number": "auger_flight",
+        "name": "auger_flight",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_HEATER_ZONE_0_CUTAWAY",
+        "manufacturer": null,
+        "part_number": "heater_zone_0_cutaway",
+        "name": "heater_zone_0_cutaway",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SENSOR_PORT_0",
+        "manufacturer": null,
+        "part_number": "sensor_port_0",
+        "name": "sensor_port_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_HEATER_ZONE_1_CUTAWAY",
+        "manufacturer": null,
+        "part_number": "heater_zone_1_cutaway",
+        "name": "heater_zone_1_cutaway",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SENSOR_PORT_1",
+        "manufacturer": null,
+        "part_number": "sensor_port_1",
+        "name": "sensor_port_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_HEATER_ZONE_2_CUTAWAY",
+        "manufacturer": null,
+        "part_number": "heater_zone_2_cutaway",
+        "name": "heater_zone_2_cutaway",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SENSOR_PORT_2",
+        "manufacturer": null,
+        "part_number": "sensor_port_2",
+        "name": "sensor_port_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_MOUNT_NEG750",
+        "manufacturer": null,
+        "part_number": "mount_neg750",
+        "name": "mount_neg750",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_MOUNT_750",
+        "manufacturer": null,
+        "part_number": "mount_750",
+        "name": "mount_750",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_DRIVE",
+        "manufacturer": null,
+        "part_number": "drive",
+        "name": "drive",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FEED_INLET",
+        "manufacturer": null,
+        "part_number": "feed_inlet",
+        "name": "feed_inlet",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_HOT_DISCHARGE",
+        "manufacturer": null,
+        "part_number": "hot_discharge",
+        "name": "hot_discharge",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      }
+    ],
+    "components": [
+      {
+        "ref_des": "support",
+        "part_definition_id": "PART_SUPPORT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_0",
+        "part_definition_id": "PART_FOOT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_1",
+        "part_definition_id": "PART_FOOT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_2",
+        "part_definition_id": "PART_FOOT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_3",
+        "part_definition_id": "PART_FOOT_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "shell_cutaway",
+        "part_definition_id": "PART_SHELL_CUTAWAY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "insulation_cutaway",
+        "part_definition_id": "PART_INSULATION_CUTAWAY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "auger_shaft",
+        "part_definition_id": "PART_AUGER_SHAFT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "auger_flight",
+        "part_definition_id": "PART_AUGER_FLIGHT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "heater_zone_0_cutaway",
+        "part_definition_id": "PART_HEATER_ZONE_0_CUTAWAY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sensor_port_0",
+        "part_definition_id": "PART_SENSOR_PORT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "heater_zone_1_cutaway",
+        "part_definition_id": "PART_HEATER_ZONE_1_CUTAWAY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sensor_port_1",
+        "part_definition_id": "PART_SENSOR_PORT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "heater_zone_2_cutaway",
+        "part_definition_id": "PART_HEATER_ZONE_2_CUTAWAY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sensor_port_2",
+        "part_definition_id": "PART_SENSOR_PORT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "mount_neg750",
+        "part_definition_id": "PART_MOUNT_NEG750",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "mount_750",
+        "part_definition_id": "PART_MOUNT_750",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "drive",
+        "part_definition_id": "PART_DRIVE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "feed_inlet",
+        "part_definition_id": "PART_FEED_INLET",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "hot_discharge",
+        "part_definition_id": "PART_HOT_DISCHARGE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      }
+    ],
+    "bom": [
+      {
+        "line_id": "BOM_PART_SUPPORT",
+        "part_definition_id": "PART_SUPPORT",
+        "instance_refs": [
+          "support"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_0",
+        "part_definition_id": "PART_FOOT_0",
+        "instance_refs": [
+          "foot_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_1",
+        "part_definition_id": "PART_FOOT_1",
+        "instance_refs": [
+          "foot_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_2",
+        "part_definition_id": "PART_FOOT_2",
+        "instance_refs": [
+          "foot_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_3",
+        "part_definition_id": "PART_FOOT_3",
+        "instance_refs": [
+          "foot_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SHELL_CUTAWAY",
+        "part_definition_id": "PART_SHELL_CUTAWAY",
+        "instance_refs": [
+          "shell_cutaway"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "shell_cutaway",
+        "name": "shell_cutaway",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INSULATION_CUTAWAY",
+        "part_definition_id": "PART_INSULATION_CUTAWAY",
+        "instance_refs": [
+          "insulation_cutaway"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "insulation_cutaway",
+        "name": "insulation_cutaway",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_AUGER_SHAFT",
+        "part_definition_id": "PART_AUGER_SHAFT",
+        "instance_refs": [
+          "auger_shaft"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "auger_shaft",
+        "name": "auger_shaft",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_AUGER_FLIGHT",
+        "part_definition_id": "PART_AUGER_FLIGHT",
+        "instance_refs": [
+          "auger_flight"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "auger_flight",
+        "name": "auger_flight",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_HEATER_ZONE_0_CUTAWAY",
+        "part_definition_id": "PART_HEATER_ZONE_0_CUTAWAY",
+        "instance_refs": [
+          "heater_zone_0_cutaway"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "heater_zone_0_cutaway",
+        "name": "heater_zone_0_cutaway",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SENSOR_PORT_0",
+        "part_definition_id": "PART_SENSOR_PORT_0",
+        "instance_refs": [
+          "sensor_port_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sensor_port_0",
+        "name": "sensor_port_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_HEATER_ZONE_1_CUTAWAY",
+        "part_definition_id": "PART_HEATER_ZONE_1_CUTAWAY",
+        "instance_refs": [
+          "heater_zone_1_cutaway"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "heater_zone_1_cutaway",
+        "name": "heater_zone_1_cutaway",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SENSOR_PORT_1",
+        "part_definition_id": "PART_SENSOR_PORT_1",
+        "instance_refs": [
+          "sensor_port_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sensor_port_1",
+        "name": "sensor_port_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_HEATER_ZONE_2_CUTAWAY",
+        "part_definition_id": "PART_HEATER_ZONE_2_CUTAWAY",
+        "instance_refs": [
+          "heater_zone_2_cutaway"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "heater_zone_2_cutaway",
+        "name": "heater_zone_2_cutaway",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SENSOR_PORT_2",
+        "part_definition_id": "PART_SENSOR_PORT_2",
+        "instance_refs": [
+          "sensor_port_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sensor_port_2",
+        "name": "sensor_port_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_MOUNT_NEG750",
+        "part_definition_id": "PART_MOUNT_NEG750",
+        "instance_refs": [
+          "mount_neg750"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "mount_neg750",
+        "name": "mount_neg750",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_MOUNT_750",
+        "part_definition_id": "PART_MOUNT_750",
+        "instance_refs": [
+          "mount_750"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "mount_750",
+        "name": "mount_750",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_DRIVE",
+        "part_definition_id": "PART_DRIVE",
+        "instance_refs": [
+          "drive"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "drive",
+        "name": "drive",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FEED_INLET",
+        "part_definition_id": "PART_FEED_INLET",
+        "instance_refs": [
+          "feed_inlet"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "feed_inlet",
+        "name": "feed_inlet",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_HOT_DISCHARGE",
+        "part_definition_id": "PART_HOT_DISCHARGE",
+        "instance_refs": [
+          "hot_discharge"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "hot_discharge",
+        "name": "hot_discharge",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      }
+    ],
+    "nets": [],
+    "buses": [],
+    "pin_mappings": [],
+    "assembly": [],
+    "mechanical": {
+      "cad_operations": [],
+      "physical_form": "PREHEATING AUGER",
+      "enclosure_type": "Parametric concept assembly",
+      "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+      "fabrication_details": [
+        "Every dimension is an authoring assumption, not a NASA measurement.",
+        "Motion is design inspection only, not simulated plant operation."
+      ],
+      "fabrication_cost_estimate_usd": 0.0,
+      "cad_sources": [],
+      "manufacturability_rating": "Not evaluated",
+      "render_dimensions": null,
+      "component_placements": [
+        {
+          "ref_des": "support",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 100.0
+          },
+          "size": {
+            "x_mm": 2400.0000002,
+            "y_mm": 1400.0000002000002,
+            "z_mm": 100.00000020000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1080.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1080.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1080.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1080.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "shell_cutaway",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -975.0,
+            "y_mm": 0.0,
+            "z_mm": 719.9999999999999
+          },
+          "size": {
+            "x_mm": 1950.5236055985165,
+            "y_mm": 520.0000002000003,
+            "z_mm": 520.5236055985167
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "insulation_cutaway",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -974.9999999999999,
+            "y_mm": 0.0,
+            "z_mm": 719.9999999999998
+          },
+          "size": {
+            "x_mm": 1950.6242989443851,
+            "y_mm": 620.0000002000003,
+            "z_mm": 620.6242989443853
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "auger_shaft",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -950.0,
+            "y_mm": 0.0,
+            "z_mm": 719.9999999999999
+          },
+          "size": {
+            "x_mm": 1900.0704855421081,
+            "y_mm": 70.00000020000016,
+            "z_mm": 70.07048554210837
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "auger_flight",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.00010140565439087368,
+            "y_mm": 0.0006345148487127972,
+            "z_mm": 719.9996861272768
+          },
+          "size": {
+            "x_mm": 1859.7815468297322,
+            "y_mm": 449.7801436019793,
+            "z_mm": 449.7810938083627
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "heater_zone_0_cutaway",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -825.0,
+            "y_mm": 0.0,
+            "z_mm": 720.0
+          },
+          "size": {
+            "x_mm": 250.64443761355892,
+            "y_mm": 640.0000002000005,
+            "z_mm": 640.6444376135591
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sensor_port_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -700.0,
+            "y_mm": 0.0,
+            "z_mm": 1010.0
+          },
+          "size": {
+            "x_mm": 48.048333006017174,
+            "y_mm": 48.00000020000028,
+            "z_mm": 140.04833300601706
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "heater_zone_1_cutaway",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -124.99999999999999,
+            "y_mm": 0.0,
+            "z_mm": 720.0
+          },
+          "size": {
+            "x_mm": 250.64443761355906,
+            "y_mm": 640.0000002000005,
+            "z_mm": 640.6444376135591
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sensor_port_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 1010.0
+          },
+          "size": {
+            "x_mm": 48.04833300601691,
+            "y_mm": 48.00000020000002,
+            "z_mm": 140.04833300601695
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "heater_zone_2_cutaway",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 575.0,
+            "y_mm": 0.0,
+            "z_mm": 720.0
+          },
+          "size": {
+            "x_mm": 250.64443761355903,
+            "y_mm": 640.0000002000005,
+            "z_mm": 640.6444376135591
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sensor_port_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 700.0,
+            "y_mm": 0.0,
+            "z_mm": 1010.0
+          },
+          "size": {
+            "x_mm": 48.048333006017174,
+            "y_mm": 48.00000020000028,
+            "z_mm": 140.04833300601706
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "mount_neg750",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -750.0,
+            "y_mm": 0.0,
+            "z_mm": 320.0
+          },
+          "size": {
+            "x_mm": 120.00000020000016,
+            "y_mm": 680.0000002000002,
+            "z_mm": 310.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "mount_750",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 750.0,
+            "y_mm": 0.0,
+            "z_mm": 320.0
+          },
+          "size": {
+            "x_mm": 120.00000020000016,
+            "y_mm": 680.0000002000002,
+            "z_mm": 310.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "drive",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1250.0,
+            "y_mm": 0.0,
+            "z_mm": 720.0
+          },
+          "size": {
+            "x_mm": 240.38263491430052,
+            "y_mm": 380.00000020000016,
+            "z_mm": 380.3826349143005
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "feed_inlet",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -750.0,
+            "y_mm": 0.0,
+            "z_mm": 1000.0
+          },
+          "size": {
+            "x_mm": 220.221525560911,
+            "y_mm": 220.00000020000027,
+            "z_mm": 300.2215255609111
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "hot_discharge",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 830.0,
+            "y_mm": 0.0,
+            "z_mm": 200.0
+          },
+          "size": {
+            "x_mm": 220.221525560911,
+            "y_mm": 220.00000020000027,
+            "z_mm": 320.221525560911
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        }
+      ],
+      "spatial_relationships": [],
+      "motion_intents": [],
+      "mechanism_benchmark": null
+    },
+    "fluidic_system": null,
+    "firmware": null,
+    "cad_model": {
+      "format": "step",
+      "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-03\\assembly.step",
+      "sha256": "1acbe8fd698cf271ef2e1901fbc30ad0538df11c9b808b1f0527c30438877915",
+      "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-03\\excavator.meshes.json",
+      "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-03\\excavator.kinematics.json",
+      "units": "mm"
+    },
+    "constraints": [],
+    "power_rails": [],
+    "estimated_current_draw_ma": 0.0,
+    "fabrication_notes": [],
+    "assembly_metadata": {
+      "asset_id": "ASSET-03",
+      "mechanical_ir": {
+        "domain": "mechanical",
+        "schema_version": "1.0",
+        "artifact_id": "ASSET-03-mechanical",
+        "revision": 1,
+        "parts": [
+          {
+            "part_definition_id": "support",
+            "dimensions_mm": {
+              "x": 2400.0000002,
+              "y": 1400.0000002000002,
+              "z": 100.00000020000004
+            }
+          },
+          {
+            "part_definition_id": "foot_0",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_1",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_2",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_3",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "shell_cutaway",
+            "dimensions_mm": {
+              "x": 1950.5236055985165,
+              "y": 520.0000002000003,
+              "z": 520.5236055985167
+            }
+          },
+          {
+            "part_definition_id": "insulation_cutaway",
+            "dimensions_mm": {
+              "x": 1950.6242989443851,
+              "y": 620.0000002000003,
+              "z": 620.6242989443853
+            }
+          },
+          {
+            "part_definition_id": "auger_shaft",
+            "dimensions_mm": {
+              "x": 1900.0704855421081,
+              "y": 70.00000020000016,
+              "z": 70.07048554210837
+            }
+          },
+          {
+            "part_definition_id": "auger_flight",
+            "dimensions_mm": {
+              "x": 1859.7815468297322,
+              "y": 449.7801436019793,
+              "z": 449.7810938083627
+            }
+          },
+          {
+            "part_definition_id": "heater_zone_0_cutaway",
+            "dimensions_mm": {
+              "x": 250.64443761355892,
+              "y": 640.0000002000005,
+              "z": 640.6444376135591
+            }
+          },
+          {
+            "part_definition_id": "sensor_port_0",
+            "dimensions_mm": {
+              "x": 48.048333006017174,
+              "y": 48.00000020000028,
+              "z": 140.04833300601706
+            }
+          },
+          {
+            "part_definition_id": "heater_zone_1_cutaway",
+            "dimensions_mm": {
+              "x": 250.64443761355906,
+              "y": 640.0000002000005,
+              "z": 640.6444376135591
+            }
+          },
+          {
+            "part_definition_id": "sensor_port_1",
+            "dimensions_mm": {
+              "x": 48.04833300601691,
+              "y": 48.00000020000002,
+              "z": 140.04833300601695
+            }
+          },
+          {
+            "part_definition_id": "heater_zone_2_cutaway",
+            "dimensions_mm": {
+              "x": 250.64443761355903,
+              "y": 640.0000002000005,
+              "z": 640.6444376135591
+            }
+          },
+          {
+            "part_definition_id": "sensor_port_2",
+            "dimensions_mm": {
+              "x": 48.048333006017174,
+              "y": 48.00000020000028,
+              "z": 140.04833300601706
+            }
+          },
+          {
+            "part_definition_id": "mount_neg750",
+            "dimensions_mm": {
+              "x": 120.00000020000016,
+              "y": 680.0000002000002,
+              "z": 310.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "mount_750",
+            "dimensions_mm": {
+              "x": 120.00000020000016,
+              "y": 680.0000002000002,
+              "z": 310.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "drive",
+            "dimensions_mm": {
+              "x": 240.38263491430052,
+              "y": 380.00000020000016,
+              "z": 380.3826349143005
+            }
+          },
+          {
+            "part_definition_id": "feed_inlet",
+            "dimensions_mm": {
+              "x": 220.221525560911,
+              "y": 220.00000020000027,
+              "z": 300.2215255609111
+            }
+          },
+          {
+            "part_definition_id": "hot_discharge",
+            "dimensions_mm": {
+              "x": 220.221525560911,
+              "y": 220.00000020000027,
+              "z": 320.221525560911
+            }
+          }
+        ],
+        "components": [
+          {
+            "object_id": "ASSET-03/support",
+            "ref_des": "support",
+            "part_definition_id": "support"
+          },
+          {
+            "object_id": "ASSET-03/foot_0",
+            "ref_des": "foot_0",
+            "part_definition_id": "foot_0"
+          },
+          {
+            "object_id": "ASSET-03/foot_1",
+            "ref_des": "foot_1",
+            "part_definition_id": "foot_1"
+          },
+          {
+            "object_id": "ASSET-03/foot_2",
+            "ref_des": "foot_2",
+            "part_definition_id": "foot_2"
+          },
+          {
+            "object_id": "ASSET-03/foot_3",
+            "ref_des": "foot_3",
+            "part_definition_id": "foot_3"
+          },
+          {
+            "object_id": "ASSET-03/shell_cutaway",
+            "ref_des": "shell_cutaway",
+            "part_definition_id": "shell_cutaway"
+          },
+          {
+            "object_id": "ASSET-03/insulation_cutaway",
+            "ref_des": "insulation_cutaway",
+            "part_definition_id": "insulation_cutaway"
+          },
+          {
+            "object_id": "ASSET-03/auger_shaft",
+            "ref_des": "auger_shaft",
+            "part_definition_id": "auger_shaft"
+          },
+          {
+            "object_id": "ASSET-03/auger_flight",
+            "ref_des": "auger_flight",
+            "part_definition_id": "auger_flight"
+          },
+          {
+            "object_id": "ASSET-03/heater_zone_0_cutaway",
+            "ref_des": "heater_zone_0_cutaway",
+            "part_definition_id": "heater_zone_0_cutaway"
+          },
+          {
+            "object_id": "ASSET-03/sensor_port_0",
+            "ref_des": "sensor_port_0",
+            "part_definition_id": "sensor_port_0"
+          },
+          {
+            "object_id": "ASSET-03/heater_zone_1_cutaway",
+            "ref_des": "heater_zone_1_cutaway",
+            "part_definition_id": "heater_zone_1_cutaway"
+          },
+          {
+            "object_id": "ASSET-03/sensor_port_1",
+            "ref_des": "sensor_port_1",
+            "part_definition_id": "sensor_port_1"
+          },
+          {
+            "object_id": "ASSET-03/heater_zone_2_cutaway",
+            "ref_des": "heater_zone_2_cutaway",
+            "part_definition_id": "heater_zone_2_cutaway"
+          },
+          {
+            "object_id": "ASSET-03/sensor_port_2",
+            "ref_des": "sensor_port_2",
+            "part_definition_id": "sensor_port_2"
+          },
+          {
+            "object_id": "ASSET-03/mount_neg750",
+            "ref_des": "mount_neg750",
+            "part_definition_id": "mount_neg750"
+          },
+          {
+            "object_id": "ASSET-03/mount_750",
+            "ref_des": "mount_750",
+            "part_definition_id": "mount_750"
+          },
+          {
+            "object_id": "ASSET-03/drive",
+            "ref_des": "drive",
+            "part_definition_id": "drive"
+          },
+          {
+            "object_id": "ASSET-03/feed_inlet",
+            "ref_des": "feed_inlet",
+            "part_definition_id": "feed_inlet"
+          },
+          {
+            "object_id": "ASSET-03/hot_discharge",
+            "ref_des": "hot_discharge",
+            "part_definition_id": "hot_discharge"
+          }
+        ],
+        "mechanical": {
+          "physical_form": "PREHEATING AUGER",
+          "enclosure_type": "Parametric concept assembly",
+          "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+          "manufacturability_rating": "Not evaluated",
+          "component_placements": [
+            {
+              "ref_des": "support",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 100.0
+              },
+              "size": {
+                "x_mm": 2400.0000002,
+                "y_mm": 1400.0000002000002,
+                "z_mm": 100.00000020000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_0",
+              "position": {
+                "x_mm": -1080.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_1",
+              "position": {
+                "x_mm": -1080.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_2",
+              "position": {
+                "x_mm": 1080.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_3",
+              "position": {
+                "x_mm": 1080.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "shell_cutaway",
+              "position": {
+                "x_mm": -975.0,
+                "y_mm": 0.0,
+                "z_mm": 719.9999999999999
+              },
+              "size": {
+                "x_mm": 1950.5236055985165,
+                "y_mm": 520.0000002000003,
+                "z_mm": 520.5236055985167
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "insulation_cutaway",
+              "position": {
+                "x_mm": -974.9999999999999,
+                "y_mm": 0.0,
+                "z_mm": 719.9999999999998
+              },
+              "size": {
+                "x_mm": 1950.6242989443851,
+                "y_mm": 620.0000002000003,
+                "z_mm": 620.6242989443853
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "auger_shaft",
+              "position": {
+                "x_mm": -950.0,
+                "y_mm": 0.0,
+                "z_mm": 719.9999999999999
+              },
+              "size": {
+                "x_mm": 1900.0704855421081,
+                "y_mm": 70.00000020000016,
+                "z_mm": 70.07048554210837
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "auger_flight",
+              "position": {
+                "x_mm": 0.00010140565439087368,
+                "y_mm": 0.0006345148487127972,
+                "z_mm": 719.9996861272768
+              },
+              "size": {
+                "x_mm": 1859.7815468297322,
+                "y_mm": 449.7801436019793,
+                "z_mm": 449.7810938083627
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "heater_zone_0_cutaway",
+              "position": {
+                "x_mm": -825.0,
+                "y_mm": 0.0,
+                "z_mm": 720.0
+              },
+              "size": {
+                "x_mm": 250.64443761355892,
+                "y_mm": 640.0000002000005,
+                "z_mm": 640.6444376135591
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sensor_port_0",
+              "position": {
+                "x_mm": -700.0,
+                "y_mm": 0.0,
+                "z_mm": 1010.0
+              },
+              "size": {
+                "x_mm": 48.048333006017174,
+                "y_mm": 48.00000020000028,
+                "z_mm": 140.04833300601706
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "heater_zone_1_cutaway",
+              "position": {
+                "x_mm": -124.99999999999999,
+                "y_mm": 0.0,
+                "z_mm": 720.0
+              },
+              "size": {
+                "x_mm": 250.64443761355906,
+                "y_mm": 640.0000002000005,
+                "z_mm": 640.6444376135591
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sensor_port_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 1010.0
+              },
+              "size": {
+                "x_mm": 48.04833300601691,
+                "y_mm": 48.00000020000002,
+                "z_mm": 140.04833300601695
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "heater_zone_2_cutaway",
+              "position": {
+                "x_mm": 575.0,
+                "y_mm": 0.0,
+                "z_mm": 720.0
+              },
+              "size": {
+                "x_mm": 250.64443761355903,
+                "y_mm": 640.0000002000005,
+                "z_mm": 640.6444376135591
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sensor_port_2",
+              "position": {
+                "x_mm": 700.0,
+                "y_mm": 0.0,
+                "z_mm": 1010.0
+              },
+              "size": {
+                "x_mm": 48.048333006017174,
+                "y_mm": 48.00000020000028,
+                "z_mm": 140.04833300601706
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "mount_neg750",
+              "position": {
+                "x_mm": -750.0,
+                "y_mm": 0.0,
+                "z_mm": 320.0
+              },
+              "size": {
+                "x_mm": 120.00000020000016,
+                "y_mm": 680.0000002000002,
+                "z_mm": 310.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "mount_750",
+              "position": {
+                "x_mm": 750.0,
+                "y_mm": 0.0,
+                "z_mm": 320.0
+              },
+              "size": {
+                "x_mm": 120.00000020000016,
+                "y_mm": 680.0000002000002,
+                "z_mm": 310.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "drive",
+              "position": {
+                "x_mm": -1250.0,
+                "y_mm": 0.0,
+                "z_mm": 720.0
+              },
+              "size": {
+                "x_mm": 240.38263491430052,
+                "y_mm": 380.00000020000016,
+                "z_mm": 380.3826349143005
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "feed_inlet",
+              "position": {
+                "x_mm": -750.0,
+                "y_mm": 0.0,
+                "z_mm": 1000.0
+              },
+              "size": {
+                "x_mm": 220.221525560911,
+                "y_mm": 220.00000020000027,
+                "z_mm": 300.2215255609111
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "hot_discharge",
+              "position": {
+                "x_mm": 830.0,
+                "y_mm": 0.0,
+                "z_mm": 200.0
+              },
+              "size": {
+                "x_mm": 220.221525560911,
+                "y_mm": 220.00000020000027,
+                "z_mm": 320.221525560911
+              },
+              "layer": "mechanism"
+            }
+          ],
+          "fabrication_details": [
+            "Every dimension is an authoring assumption, not a NASA measurement.",
+            "Motion is design inspection only, not simulated plant operation."
+          ]
+        }
+      },
+      "sources": [
+        "03-preheating-auger.md"
+      ],
+      "status": "Concept engineering preview",
+      "model_source": "assets/machine-previews/build_all.py",
+      "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.",
+      "cad_generation": {
+        "adapter": "forma-opencad",
+        "status": "provided",
+        "required": false
+      },
+      "project_id": "3e31f4d2-7f01-4921-b0f0-c03fe57643ed",
+      "chat_id": "a75e7421-4a67-4fc7-a5d9-cff0e21c21e8",
+      "authoring_agent": "opencode",
+      "compiled_by": "forma.compile_project",
+      "compile_revision": 1,
+      "created_at": "2026-11-15T06:39:16.369192Z",
+      "source_prompt": "# ASSET-03 \u2014 Electrically heated regolith preheating auger\n\n**Priority:** Core MVP. **Flow:** ASSET-02 feed \u2192 warm preconditioned regolith \u2192 ASSET-04 MRE reactor.\n\n## Research context\n\nNASA's MRE plant system model explicitly includes a **preheating auger** that begins heating excavated regolith before it enters the electrolysis reactor, reducing the heat needed in the reactor. This is **not** an icy-regolith dryer/water extractor; those belong to a different ISRU process. The thermal plant must account for the power and time required to raise bulk feed temperature.\n\n## Forma / OpenCAD build brief\n\nCreate a long insulated tubular auger with a visible longitudinal cutaway option, rotating helical screw, inlet/outlet gate, external resistance-heating zones, temperature sensors, insulated shroud, motor and mounting frame. Geometry parts: `shell`, `insulation`, `auger_shaft`, `heater_zones`, `drive`, `sensor_ports`, `feed_inlet`, `hot_discharge`. Parametrize length, screw diameter/pitch, fill factor, maximum zone temperature, insulation thickness, heater rating and permitted RPM. Use a thermal gradient UI overlay only when computed from model state.\n\n## Executable machine contract\n\n- **Commands:** `start_preheat(setpoint_K)`, `advance_feed(kg_per_s)`, `hold`, `release_to_reactor(lot_id)`, `shutdown`.\n- **Inputs:** actual lot mass/composition, inlet temperature K, heat capacity model J/(kg\u00b7K), supplied heater power W, available reactor capacity, thermal-loss parameters.\n- **Outputs:** outlet lot mass/composition/temperature K, elapsed processing time s, consumed energy J or kWh, losses W and safety events.\n- **States:** COLD, HEATING, AT_TEMPERATURE, CONVEYING, HOLDING, SHUTTING_DOWN, FAULT.\n- **Physics:** integrate `m*c_p*dT/dt = P_heater - Q_loss - sensible enthalpy carried by throughput` with declared assumptions/phase-appropriate modifications; never let stock preheat instantly to setpoint. Transfer only a real lot at its computed temperature.\n- **Failure cases:** insufficient electrical power, heat leakage, blocked discharge, sensor failure, heating-zone over-limit.\n\n## MVP acceptance\n\nMachine takes **time and power** to heat a named input lot, sends the lot to ASSET-04 only when ready and the reactor can receive it, and reduces throughput or stops when power is restricted. Actual auger motion and temperature inspection agree with controller state.\n\n## Technical sources\n\n- [NASA NTRS \u2014 System Modeling of a Lunar MRE Plant](https://ntrs.nasa.gov/citations/20240013999) (preheating auger purpose and process order).\n- [NASA NTRS \u2014 MRE 2024 conference abstract](https://ntrs.nasa.gov/citations/20240012420) (thermal equilibrium / plant subsystem assumptions).\n## Integration contract (NASA-APP)\n\n- **OpenForma:** author the indicated MechanicalIR/ElectricalIR/FluidicIR/ThermalIR/ProcessIR/ChemicalIR artifacts only where real supported schemas and capabilities exist. Maintain source, validation result and model/version provenance.\n- **OpenCAD:** create a real parametric/assemblable asset with named separate moving parts, joints and attachment frames; export through an existing supported OpenIndustries handoff. Do not imply a mesh alone implements physics.\n- **OpenIndustries:** attach the asset to a stable scene object with machine/task IDs. Machine state and real execution events drive pose, material transfer and telemetry; no canned footage or free-running decorative animation.\n- **Controller:** only validated commands can transition this device; the Python numerical process solver returns physically bounded deltas/measurements and never manipulates the viewer.\n\n**Status:** design brief only. All dimensions, performance parameters, efficiencies and operating limits not explicitly identified as published references are **TBD engineering inputs**, not NASA specifications. This is a simulated machine, not a space-qualified build."
+    },
+    "project_version_history": [],
+    "validation": {
+      "critical": [],
+      "warning": [],
+      "info": []
+    },
+    "is_valid": true
+  },
+  "is_valid": true,
+  "validation": {
+    "critical": [],
+    "warning": [],
+    "info": []
+  },
+  "mermaid_code": "graph LR\n  support[\"<b>support</b><br/>support<br/><small>support</small>\"]\n  foot_0[\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\"]\n  foot_1[\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\"]\n  foot_2[\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\"]\n  foot_3[\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\"]\n  shell_cutaway[\"<b>shell_cutaway</b><br/>shell_cutaway<br/><small>shell_cutaway</small>\"]\n  insulation_cutaway[\"<b>insulation_cutaway</b><br/>insulation_cutaway<br/><small>insulation_cutaway</small>\"]\n  auger_shaft[\"<b>auger_shaft</b><br/>auger_shaft<br/><small>auger_shaft</small>\"]\n  auger_flight[\"<b>auger_flight</b><br/>auger_flight<br/><small>auger_flight</small>\"]\n  heater_zone_0_cutaway[\"<b>heater_zone_0_cutaway</b><br/>heater_zone_0_cutaway<br/><small>heater_zone_0_cutaway</small>\"]\n  sensor_port_0[\"<b>sensor_port_0</b><br/>sensor_port_0<br/><small>sensor_port_0</small>\"]\n  heater_zone_1_cutaway[\"<b>heater_zone_1_cutaway</b><br/>heater_zone_1_cutaway<br/><small>heater_zone_1_cutaway</small>\"]\n  sensor_port_1[\"<b>sensor_port_1</b><br/>sensor_port_1<br/><small>sensor_port_1</small>\"]\n  heater_zone_2_cutaway[\"<b>heater_zone_2_cutaway</b><br/>heater_zone_2_cutaway<br/><small>heater_zone_2_cutaway</small>\"]\n  sensor_port_2[\"<b>sensor_port_2</b><br/>sensor_port_2<br/><small>sensor_port_2</small>\"]\n  mount_neg750[\"<b>mount_neg750</b><br/>mount_neg750<br/><small>mount_neg750</small>\"]\n  mount_750[\"<b>mount_750</b><br/>mount_750<br/><small>mount_750</small>\"]\n  drive[\"<b>drive</b><br/>drive<br/><small>drive</small>\"]\n  feed_inlet[\"<b>feed_inlet</b><br/>feed_inlet<br/><small>feed_inlet</small>\"]\n  hot_discharge[\"<b>hot_discharge</b><br/>hot_discharge<br/><small>hot_discharge</small>\"]",
+  "svg_schematic": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\n  <!-- Grid Background -->\n  <defs>\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\n    </pattern>\n  </defs>\n  <rect width='100%' height='100%' fill='url(#grid)' />\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-03 - PREHEATING AUGER</text>\n  <!-- Wires / Connections -->\n  <!-- Components -->\n  <g id='comp-support'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-shell_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>shell_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>shell_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>shell_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-insulation_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>insulation_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>insulation_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>insulation_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-auger_shaft'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>auger_shaft</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>auger_shaft</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>auger_shaft</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-auger_flight'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>auger_flight</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>auger_flight</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>auger_flight</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-heater_zone_0_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>heater_zone_0_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>heater_zone_0_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>heater_zone_0_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sensor_port_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sensor_port_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sensor_port_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sensor_port_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-heater_zone_1_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>heater_zone_1_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>heater_zone_1_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>heater_zone_1_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sensor_port_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sensor_port_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sensor_port_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sensor_port_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-heater_zone_2_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>heater_zone_2_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>heater_zone_2_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>heater_zone_2_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sensor_port_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sensor_port_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sensor_port_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sensor_port_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-mount_neg750'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>mount_neg750</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>mount_neg750</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>mount_neg750</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-mount_750'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>mount_750</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>mount_750</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>mount_750</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-drive'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>drive</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>drive</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>drive</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-feed_inlet'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>feed_inlet</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>feed_inlet</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>feed_inlet</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-hot_discharge'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>hot_discharge</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>hot_discharge</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>hot_discharge</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n</svg>"
+}

@@ -1,0 +1,1259 @@
+{
+  "domain": "mechanical",
+  "schema_version": "1.0",
+  "artifact_id": "ASSET-01-mechanical",
+  "revision": 1,
+  "parts": [
+    {
+      "part_definition_id": "part_chassis",
+      "dimensions_mm": {
+        "width": 800.0,
+        "depth": 1000.0,
+        "height": 200.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#chassis"
+      ]
+    },
+    {
+      "part_definition_id": "part_equipment_deck",
+      "dimensions_mm": {
+        "width": 620.0,
+        "depth": 700.0,
+        "height": 70.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#equipment_deck"
+      ]
+    },
+    {
+      "part_definition_id": "part_wheel_l_front",
+      "dimensions_mm": {
+        "width": 140.0,
+        "depth": 460.0,
+        "height": 460.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#wheel_l_front"
+      ]
+    },
+    {
+      "part_definition_id": "part_drive_l_front",
+      "dimensions_mm": {
+        "width": 130.0,
+        "depth": 140.0,
+        "height": 140.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#drive_l_front"
+      ]
+    },
+    {
+      "part_definition_id": "part_wheel_l_rear",
+      "dimensions_mm": {
+        "width": 140.0,
+        "depth": 460.0,
+        "height": 460.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#wheel_l_rear"
+      ]
+    },
+    {
+      "part_definition_id": "part_drive_l_rear",
+      "dimensions_mm": {
+        "width": 130.0,
+        "depth": 140.0,
+        "height": 140.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#drive_l_rear"
+      ]
+    },
+    {
+      "part_definition_id": "part_wheel_r_front",
+      "dimensions_mm": {
+        "width": 140.0,
+        "depth": 460.0,
+        "height": 460.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#wheel_r_front"
+      ]
+    },
+    {
+      "part_definition_id": "part_drive_r_front",
+      "dimensions_mm": {
+        "width": 130.0,
+        "depth": 140.0,
+        "height": 140.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#drive_r_front"
+      ]
+    },
+    {
+      "part_definition_id": "part_wheel_r_rear",
+      "dimensions_mm": {
+        "width": 140.0,
+        "depth": 460.0,
+        "height": 460.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#wheel_r_rear"
+      ]
+    },
+    {
+      "part_definition_id": "part_drive_r_rear",
+      "dimensions_mm": {
+        "width": 130.0,
+        "depth": 140.0,
+        "height": 140.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#drive_r_rear"
+      ]
+    },
+    {
+      "part_definition_id": "part_arm_l",
+      "dimensions_mm": {
+        "width": 920.0,
+        "depth": 761.9849744928423,
+        "height": 231.9971246680439
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#arm_l"
+      ]
+    },
+    {
+      "part_definition_id": "part_pivot_l",
+      "dimensions_mm": {
+        "width": 930.0,
+        "depth": 89.97526665988346,
+        "height": 89.95054011685704
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#pivot_l"
+      ]
+    },
+    {
+      "part_definition_id": "part_drum_l",
+      "dimensions_mm": {
+        "width": 820.0,
+        "depth": 500.0,
+        "height": 500.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#drum_l"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_01",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 75.0,
+        "height": 130.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_01"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_02",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324216,
+        "height": 144.95689014324222
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_02"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_03",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 130.0,
+        "height": 75.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_03"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_04",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324228,
+        "height": 144.95689014324222
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_04"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_05",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 75.0,
+        "height": 130.00000000000003
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_05"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_06",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324216,
+        "height": 144.95689014324225
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_06"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_07",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 130.0,
+        "height": 75.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_07"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_l_08",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.9568901432424,
+        "height": 144.95689014324222
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_l_08"
+      ]
+    },
+    {
+      "part_definition_id": "part_arm_r",
+      "dimensions_mm": {
+        "width": 920.0,
+        "depth": 761.9849744928423,
+        "height": 231.9971246680439
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#arm_r"
+      ]
+    },
+    {
+      "part_definition_id": "part_pivot_r",
+      "dimensions_mm": {
+        "width": 930.0,
+        "depth": 89.97526665988346,
+        "height": 89.95054011685704
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#pivot_r"
+      ]
+    },
+    {
+      "part_definition_id": "part_drum_r",
+      "dimensions_mm": {
+        "width": 820.0,
+        "depth": 500.0,
+        "height": 500.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#drum_r"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_01",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 75.0,
+        "height": 130.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_01"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_02",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324216,
+        "height": 144.95689014324222
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_02"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_03",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 130.0,
+        "height": 75.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_03"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_04",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324216,
+        "height": 144.95689014324222
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_04"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_05",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 75.0,
+        "height": 130.00000000000003
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_05"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_06",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324216,
+        "height": 144.95689014324225
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_06"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_07",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 130.0,
+        "height": 75.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_07"
+      ]
+    },
+    {
+      "part_definition_id": "part_scoop_r_08",
+      "dimensions_mm": {
+        "width": 680.0,
+        "depth": 144.95689014324228,
+        "height": 144.95689014324222
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#scoop_r_08"
+      ]
+    },
+    {
+      "part_definition_id": "part_dump_port",
+      "dimensions_mm": {
+        "width": 220.0,
+        "depth": 60.0,
+        "height": 100.0
+      },
+      "geometry_refs": [
+        "excavator.meshes.json#dump_port"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "object_id": "ASSET-01/chassis",
+      "ref_des": "chassis",
+      "part_definition_id": "part_chassis"
+    },
+    {
+      "object_id": "ASSET-01/equipment_deck",
+      "ref_des": "equipment_deck",
+      "part_definition_id": "part_equipment_deck"
+    },
+    {
+      "object_id": "ASSET-01/wheel_l_front",
+      "ref_des": "wheel_l_front",
+      "part_definition_id": "part_wheel_l_front"
+    },
+    {
+      "object_id": "ASSET-01/drive_l_front",
+      "ref_des": "drive_l_front",
+      "part_definition_id": "part_drive_l_front"
+    },
+    {
+      "object_id": "ASSET-01/wheel_l_rear",
+      "ref_des": "wheel_l_rear",
+      "part_definition_id": "part_wheel_l_rear"
+    },
+    {
+      "object_id": "ASSET-01/drive_l_rear",
+      "ref_des": "drive_l_rear",
+      "part_definition_id": "part_drive_l_rear"
+    },
+    {
+      "object_id": "ASSET-01/wheel_r_front",
+      "ref_des": "wheel_r_front",
+      "part_definition_id": "part_wheel_r_front"
+    },
+    {
+      "object_id": "ASSET-01/drive_r_front",
+      "ref_des": "drive_r_front",
+      "part_definition_id": "part_drive_r_front"
+    },
+    {
+      "object_id": "ASSET-01/wheel_r_rear",
+      "ref_des": "wheel_r_rear",
+      "part_definition_id": "part_wheel_r_rear"
+    },
+    {
+      "object_id": "ASSET-01/drive_r_rear",
+      "ref_des": "drive_r_rear",
+      "part_definition_id": "part_drive_r_rear"
+    },
+    {
+      "object_id": "ASSET-01/arm_l",
+      "ref_des": "arm_l",
+      "part_definition_id": "part_arm_l"
+    },
+    {
+      "object_id": "ASSET-01/pivot_l",
+      "ref_des": "pivot_l",
+      "part_definition_id": "part_pivot_l"
+    },
+    {
+      "object_id": "ASSET-01/drum_l",
+      "ref_des": "drum_l",
+      "part_definition_id": "part_drum_l"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_01",
+      "ref_des": "scoop_l_01",
+      "part_definition_id": "part_scoop_l_01"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_02",
+      "ref_des": "scoop_l_02",
+      "part_definition_id": "part_scoop_l_02"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_03",
+      "ref_des": "scoop_l_03",
+      "part_definition_id": "part_scoop_l_03"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_04",
+      "ref_des": "scoop_l_04",
+      "part_definition_id": "part_scoop_l_04"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_05",
+      "ref_des": "scoop_l_05",
+      "part_definition_id": "part_scoop_l_05"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_06",
+      "ref_des": "scoop_l_06",
+      "part_definition_id": "part_scoop_l_06"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_07",
+      "ref_des": "scoop_l_07",
+      "part_definition_id": "part_scoop_l_07"
+    },
+    {
+      "object_id": "ASSET-01/scoop_l_08",
+      "ref_des": "scoop_l_08",
+      "part_definition_id": "part_scoop_l_08"
+    },
+    {
+      "object_id": "ASSET-01/arm_r",
+      "ref_des": "arm_r",
+      "part_definition_id": "part_arm_r"
+    },
+    {
+      "object_id": "ASSET-01/pivot_r",
+      "ref_des": "pivot_r",
+      "part_definition_id": "part_pivot_r"
+    },
+    {
+      "object_id": "ASSET-01/drum_r",
+      "ref_des": "drum_r",
+      "part_definition_id": "part_drum_r"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_01",
+      "ref_des": "scoop_r_01",
+      "part_definition_id": "part_scoop_r_01"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_02",
+      "ref_des": "scoop_r_02",
+      "part_definition_id": "part_scoop_r_02"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_03",
+      "ref_des": "scoop_r_03",
+      "part_definition_id": "part_scoop_r_03"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_04",
+      "ref_des": "scoop_r_04",
+      "part_definition_id": "part_scoop_r_04"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_05",
+      "ref_des": "scoop_r_05",
+      "part_definition_id": "part_scoop_r_05"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_06",
+      "ref_des": "scoop_r_06",
+      "part_definition_id": "part_scoop_r_06"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_07",
+      "ref_des": "scoop_r_07",
+      "part_definition_id": "part_scoop_r_07"
+    },
+    {
+      "object_id": "ASSET-01/scoop_r_08",
+      "ref_des": "scoop_r_08",
+      "part_definition_id": "part_scoop_r_08"
+    },
+    {
+      "object_id": "ASSET-01/dump_port",
+      "ref_des": "dump_port",
+      "part_definition_id": "part_dump_port"
+    }
+  ],
+  "mechanical": {
+    "physical_form": "Four-wheel rover with opposed front/rear hollow bucket drums and forked lift arms",
+    "enclosure_type": "Concept chassis; hollow metallic housing",
+    "mounting_guidance": "Z-up mm; +Y forward. Named joints and frames accompany STEP and separate meshes.",
+    "manufacturability_rating": "Not evaluated",
+    "fabrication_details": [
+      "All dimensions, payload and volume limits are engineering assumptions.",
+      "No structural, thermal, drive sizing, soil interaction or manufacturing verification."
+    ],
+    "component_placements": [
+      {
+        "ref_des": "chassis",
+        "label": "chassis",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 800.0,
+          "y_mm": 1000.0,
+          "z_mm": 200.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "equipment_deck",
+        "label": "equipment deck",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 575.0
+        },
+        "size": {
+          "x_mm": 620.0,
+          "y_mm": 700.0,
+          "z_mm": 70.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "wheel_l_front",
+        "label": "wheel l front",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": -580.0,
+          "y_mm": 450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 140.0,
+          "y_mm": 460.0,
+          "z_mm": 460.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "drive_l_front",
+        "label": "drive l front",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": -465.0,
+          "y_mm": 450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 130.0,
+          "y_mm": 140.0,
+          "z_mm": 140.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "wheel_l_rear",
+        "label": "wheel l rear",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": -580.0,
+          "y_mm": -450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 140.0,
+          "y_mm": 460.0,
+          "z_mm": 460.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "drive_l_rear",
+        "label": "drive l rear",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": -465.0,
+          "y_mm": -450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 130.0,
+          "y_mm": 140.0,
+          "z_mm": 140.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "wheel_r_front",
+        "label": "wheel r front",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 580.0,
+          "y_mm": 450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 140.0,
+          "y_mm": 460.0,
+          "z_mm": 460.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "drive_r_front",
+        "label": "drive r front",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 465.0,
+          "y_mm": 450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 130.0,
+          "y_mm": 140.0,
+          "z_mm": 140.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "wheel_r_rear",
+        "label": "wheel r rear",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 580.0,
+          "y_mm": -450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 140.0,
+          "y_mm": 460.0,
+          "z_mm": 460.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "drive_r_rear",
+        "label": "drive r rear",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 465.0,
+          "y_mm": -450.0,
+          "z_mm": 230.0
+        },
+        "size": {
+          "x_mm": 130.0,
+          "y_mm": 140.0,
+          "z_mm": 140.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "arm_l",
+        "label": "arm l",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 699.0046374216226,
+          "z_mm": 406.0014376659781
+        },
+        "size": {
+          "x_mm": 920.0,
+          "y_mm": 761.9849744928423,
+          "z_mm": 231.9971246680439
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "pivot_l",
+        "label": "pivot l",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 350.0,
+          "z_mm": 490.0247299415715
+        },
+        "size": {
+          "x_mm": 930.0,
+          "y_mm": 89.97526665988346,
+          "z_mm": 89.95054011685704
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "drum_l",
+        "label": "drum l",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 1050.0,
+          "z_mm": 320.0
+        },
+        "size": {
+          "x_mm": 820.0,
+          "y_mm": 500.0,
+          "z_mm": 500.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_01",
+        "label": "scoop l 01",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 1322.5,
+          "z_mm": 320.0
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 75.0,
+          "z_mm": 130.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_02",
+        "label": "scoop l 02",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 1242.6865978733342,
+          "z_mm": 512.6865978733342
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324216,
+          "z_mm": 144.95689014324222
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_03",
+        "label": "scoop l 03",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 1050.0,
+          "z_mm": 592.5
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 130.0,
+          "z_mm": 75.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_04",
+        "label": "scoop l 04",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 857.3134021266658,
+          "z_mm": 512.6865978733342
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324228,
+          "z_mm": 144.95689014324222
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_05",
+        "label": "scoop l 05",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 777.5,
+          "z_mm": 320.00000000000006
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 75.0,
+          "z_mm": 130.00000000000003
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_06",
+        "label": "scoop l 06",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 857.3134021266658,
+          "z_mm": 127.31340212666582
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324216,
+          "z_mm": 144.95689014324225
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_07",
+        "label": "scoop l 07",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 1050.0,
+          "z_mm": 47.5
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 130.0,
+          "z_mm": 75.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_l_08",
+        "label": "scoop l 08",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 1242.686597873334,
+          "z_mm": 127.31340212666575
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.9568901432424,
+          "z_mm": 144.95689014324222
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "arm_r",
+        "label": "arm r",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -699.0046374216226,
+          "z_mm": 406.0014376659781
+        },
+        "size": {
+          "x_mm": 920.0,
+          "y_mm": 761.9849744928423,
+          "z_mm": 231.9971246680439
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "pivot_r",
+        "label": "pivot r",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -350.0,
+          "z_mm": 490.0247299415715
+        },
+        "size": {
+          "x_mm": 930.0,
+          "y_mm": 89.97526665988346,
+          "z_mm": 89.95054011685704
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "drum_r",
+        "label": "drum r",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -1050.0,
+          "z_mm": 320.0
+        },
+        "size": {
+          "x_mm": 820.0,
+          "y_mm": 500.0,
+          "z_mm": 500.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_01",
+        "label": "scoop r 01",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -777.5,
+          "z_mm": 320.0
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 75.0,
+          "z_mm": 130.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_02",
+        "label": "scoop r 02",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -857.3134021266658,
+          "z_mm": 512.6865978733342
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324216,
+          "z_mm": 144.95689014324222
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_03",
+        "label": "scoop r 03",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -1050.0,
+          "z_mm": 592.5
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 130.0,
+          "z_mm": 75.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_04",
+        "label": "scoop r 04",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -1242.6865978733342,
+          "z_mm": 512.6865978733342
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324216,
+          "z_mm": 144.95689014324222
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_05",
+        "label": "scoop r 05",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -1322.5,
+          "z_mm": 320.00000000000006
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 75.0,
+          "z_mm": 130.00000000000003
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_06",
+        "label": "scoop r 06",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -1242.6865978733342,
+          "z_mm": 127.31340212666582
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324216,
+          "z_mm": 144.95689014324225
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_07",
+        "label": "scoop r 07",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -1050.0,
+          "z_mm": 47.5
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 130.0,
+          "z_mm": 75.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "scoop_r_08",
+        "label": "scoop r 08",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -857.3134021266658,
+          "z_mm": 127.31340212666575
+        },
+        "size": {
+          "x_mm": 680.0,
+          "y_mm": 144.95689014324228,
+          "z_mm": 144.95689014324222
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      },
+      {
+        "ref_des": "dump_port",
+        "label": "dump port",
+        "category": "Mechanical",
+        "layer": "mechanism",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 530.0,
+          "z_mm": 540.0
+        },
+        "size": {
+          "x_mm": 220.0,
+          "y_mm": 60.0,
+          "z_mm": 100.0
+        },
+        "notes": "Native mesh bounds in ground-centered rest frame; mm."
+      }
+    ],
+    "motion_intents": [
+      {
+        "motion_id": "joint_wheel_l_front",
+        "label": "joint_wheel_l_front",
+        "type": "revolute",
+        "target_ref": "wheel_l_front",
+        "parent_ref": "chassis",
+        "axis": "X",
+        "pivot_mm": [
+          -580.0,
+          450.0,
+          230.0
+        ],
+        "min_deg": 0,
+        "max_deg": 360,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_wheel_l_rear",
+        "label": "joint_wheel_l_rear",
+        "type": "revolute",
+        "target_ref": "wheel_l_rear",
+        "parent_ref": "chassis",
+        "axis": "X",
+        "pivot_mm": [
+          -580.0,
+          -450.0,
+          230.0
+        ],
+        "min_deg": 0,
+        "max_deg": 360,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_wheel_r_front",
+        "label": "joint_wheel_r_front",
+        "type": "revolute",
+        "target_ref": "wheel_r_front",
+        "parent_ref": "chassis",
+        "axis": "X",
+        "pivot_mm": [
+          580.0,
+          450.0,
+          230.0
+        ],
+        "min_deg": 0,
+        "max_deg": 360,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_wheel_r_rear",
+        "label": "joint_wheel_r_rear",
+        "type": "revolute",
+        "target_ref": "wheel_r_rear",
+        "parent_ref": "chassis",
+        "axis": "X",
+        "pivot_mm": [
+          580.0,
+          -450.0,
+          230.0
+        ],
+        "min_deg": 0,
+        "max_deg": 360,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_arm_l",
+        "label": "joint_arm_l",
+        "type": "revolute",
+        "target_ref": "arm_l",
+        "parent_ref": "chassis",
+        "axis": "X",
+        "pivot_mm": [
+          0,
+          350.0,
+          490.0
+        ],
+        "min_deg": 0,
+        "max_deg": 75.0,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_drum_l",
+        "label": "joint_drum_l",
+        "type": "revolute",
+        "target_ref": "drum_l",
+        "parent_ref": "arm_l",
+        "axis": "X",
+        "pivot_mm": [
+          0,
+          1050.0,
+          320.0
+        ],
+        "min_deg": 0,
+        "max_deg": 360,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_arm_r",
+        "label": "joint_arm_r",
+        "type": "revolute",
+        "target_ref": "arm_r",
+        "parent_ref": "chassis",
+        "axis": "X",
+        "pivot_mm": [
+          0,
+          -350.0,
+          490.0
+        ],
+        "min_deg": -75.0,
+        "max_deg": 0,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      },
+      {
+        "motion_id": "joint_drum_r",
+        "label": "joint_drum_r",
+        "type": "revolute",
+        "target_ref": "drum_r",
+        "parent_ref": "arm_r",
+        "axis": "X",
+        "pivot_mm": [
+          0,
+          -1050.0,
+          320.0
+        ],
+        "min_deg": -360,
+        "max_deg": 0,
+        "notes": "Signed +X angular range; OpenCAD uses signed axis and nonnegative travel. Rest is zero."
+      }
+    ],
+    "cad_sources": [
+      {
+        "name": "NASA RASSOR geometric/task reference",
+        "source_type": "Reference CAD",
+        "url": "https://science.nasa.gov/3d-resources/regolith-advanced-surface-systems-operations-robot-rassor/",
+        "file_formats": [
+          "GLB"
+        ],
+        "notes": "Original new parametric model, not a copy of NASA dimensions."
+      }
+    ]
+  },
+  "cad_model": {
+    "source": "OpenCAD",
+    "model_path": "../assembly.py",
+    "step": "excavator.step",
+    "meshes": "excavator.meshes.json",
+    "kinematics": "excavator.kinematics.json"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-09",
+  "project_id": "8f192576-1904-45d9-8619-557c396a448f",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "09-thermal-control-and-heat-rejection.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 40,
+  "moving_body_count": 24,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "9afbc5a6ec6d6fffa748834ebd776b99d7af0dc7bfd85fe668cd413649ffb7b5",
+    "excavator.kinematics.json": "17b5af2cee25b2acdc75f19a5f50a0718076f7a723061bf68c1ce54ac21d17a9",
+    "excavator.meshes.json": "719b21b87f9b2ceed3e87db5eacd57feab9dd09548053a58997e5f679b37d0ea",
+    "forma-compiled.json": "41ff03c3c1e9fe19de296251e32ffc42219a6f44d33fe5fe88283866347ef271",
+    "mcp-request.json": "21974e43f323c143805851dbc89b2c6876d6f985c066857310ce6c8b3cf9aece",
+    "mcp-response.json": "64e82070c596353188ce590513ac3c8a4207ba5f5a51f47bd0fcc3336b065649",
+    "mechanical.ir.json": "df9ddc564d6a7fc724909b14564bdfb1364a5c2957a357dedbc3016d1f9501d4",
+    "preview.gif": "c4f2bbfbd696149c1ab99961013bc0916ca0084b9bd07abf65241bd72545cd93",
+    "preview.png": "0025cb58085d0de10f3b21a1c7371cf9455100550d7fd26282d92d56507aa5ae",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

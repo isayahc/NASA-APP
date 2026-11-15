@@ -1,0 +1,927 @@
+{
+  "hardware_ir_version": "0.2",
+  "overview": {
+    "title": "ASSET-02 - REGOLITH HOPPER & FEEDER",
+    "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+    "category": "Industrial",
+    "difficulty": "Advanced"
+  },
+  "components": [
+    {
+      "ref_des": "support",
+      "name": "support",
+      "part_number": "support",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_0",
+      "name": "foot_0",
+      "part_number": "foot_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_1",
+      "name": "foot_1",
+      "part_number": "foot_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_2",
+      "name": "foot_2",
+      "part_number": "foot_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_3",
+      "name": "foot_3",
+      "part_number": "foot_3",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "hopper_shell",
+      "name": "hopper_shell",
+      "part_number": "hopper_shell",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "inlet_rim",
+      "name": "inlet_rim",
+      "part_number": "inlet_rim",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "support_leg_0_0",
+      "name": "support_leg_0_0",
+      "part_number": "support_leg_0_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "support_leg_0_1",
+      "name": "support_leg_0_1",
+      "part_number": "support_leg_0_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "support_leg_1_0",
+      "name": "support_leg_1_0",
+      "part_number": "support_leg_1_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "support_leg_1_1",
+      "name": "support_leg_1_1",
+      "part_number": "support_leg_1_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "gate",
+      "name": "gate",
+      "part_number": "gate",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "feed_chute",
+      "name": "feed_chute",
+      "part_number": "feed_chute",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "feeder_trough_cutaway",
+      "name": "feeder_trough_cutaway",
+      "part_number": "feeder_trough_cutaway",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "auger_shaft",
+      "name": "auger_shaft",
+      "part_number": "auger_shaft",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "auger_flight",
+      "name": "auger_flight",
+      "part_number": "auger_flight",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "drive",
+      "name": "drive",
+      "part_number": "drive",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "outlet",
+      "name": "outlet",
+      "part_number": "outlet",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    }
+  ],
+  "nets": [],
+  "mechanical": {
+    "physical_form": "REGOLITH HOPPER & FEEDER",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 2400.0000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "hopper_shell",
+        "position": {
+          "x_mm": -500.00000000000006,
+          "y_mm": 0.0,
+          "z_mm": 1175.0
+        },
+        "size": {
+          "x_mm": 1350.0000002000002,
+          "y_mm": 1350.0000002,
+          "z_mm": 1000.0000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "inlet_rim",
+        "position": {
+          "x_mm": -500.00000000000006,
+          "y_mm": 500.0,
+          "z_mm": 1520.0
+        },
+        "size": {
+          "x_mm": 1080.0000002000002,
+          "y_mm": 40.00000019999999,
+          "z_mm": 50.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "support_leg_0_0",
+        "position": {
+          "x_mm": -950.0,
+          "y_mm": -450.0,
+          "z_mm": 770.0
+        },
+        "size": {
+          "x_mm": 70.00000020000016,
+          "y_mm": 70.00000020000027,
+          "z_mm": 1280.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "support_leg_0_1",
+        "position": {
+          "x_mm": -950.0,
+          "y_mm": 450.0,
+          "z_mm": 770.0
+        },
+        "size": {
+          "x_mm": 70.00000020000016,
+          "y_mm": 70.00000020000027,
+          "z_mm": 1280.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "support_leg_1_0",
+        "position": {
+          "x_mm": -50.0,
+          "y_mm": -450.0,
+          "z_mm": 770.0
+        },
+        "size": {
+          "x_mm": 70.00000020000022,
+          "y_mm": 70.00000020000027,
+          "z_mm": 1280.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "support_leg_1_1",
+        "position": {
+          "x_mm": -50.0,
+          "y_mm": 450.0,
+          "z_mm": 770.0
+        },
+        "size": {
+          "x_mm": 70.00000020000022,
+          "y_mm": 70.00000020000027,
+          "z_mm": 1280.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "gate",
+        "position": {
+          "x_mm": -500.0,
+          "y_mm": 0.0,
+          "z_mm": 850.0
+        },
+        "size": {
+          "x_mm": 340.00000020000016,
+          "y_mm": 340.0000002000001,
+          "z_mm": 25.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_chute",
+        "position": {
+          "x_mm": -500.0,
+          "y_mm": 0.0,
+          "z_mm": 700.0
+        },
+        "size": {
+          "x_mm": 300.0000002,
+          "y_mm": 300.0000002,
+          "z_mm": 230.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feeder_trough_cutaway",
+        "position": {
+          "x_mm": -725.0,
+          "y_mm": 0.0,
+          "z_mm": 479.9999999999999
+        },
+        "size": {
+          "x_mm": 1750.3826349143005,
+          "y_mm": 380.0000002000003,
+          "z_mm": 380.3826349143009
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "auger_shaft",
+        "position": {
+          "x_mm": -725.0,
+          "y_mm": 0.0,
+          "z_mm": 479.9999999999999
+        },
+        "size": {
+          "x_mm": 1750.0704855421081,
+          "y_mm": 70.00000020000013,
+          "z_mm": 70.07048554210832
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "auger_flight",
+        "position": {
+          "x_mm": 150.00019550502736,
+          "y_mm": 0.0024146666775948233,
+          "z_mm": 479.9987942055575
+        },
+        "size": {
+          "x_mm": 1702.9990566139454,
+          "y_mm": 322.99339692607344,
+          "z_mm": 322.9970081767433
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "drive",
+        "position": {
+          "x_mm": -1025.0,
+          "y_mm": 0.0,
+          "z_mm": 480.0
+        },
+        "size": {
+          "x_mm": 250.30208023760588,
+          "y_mm": 300.0000002000002,
+          "z_mm": 300.3020802376059
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "outlet",
+        "position": {
+          "x_mm": 1010.0,
+          "y_mm": 0.0,
+          "z_mm": 480.0
+        },
+        "size": {
+          "x_mm": 100.38263491430052,
+          "y_mm": 380.00000020000016,
+          "z_mm": 380.3826349143005
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  },
+  "cad_model": {
+    "format": "step",
+    "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-02\\assembly.step",
+    "sha256": "b06c53620f1fa69156bcf6a7efca5b833694ac17b9ea2d57eb23a3ca8e1eb02c",
+    "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-02\\excavator.meshes.json",
+    "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-02\\excavator.kinematics.json",
+    "units": "mm"
+  },
+  "assembly_metadata": {
+    "asset_id": "ASSET-02",
+    "mechanical_ir": {
+      "domain": "mechanical",
+      "schema_version": "1.0",
+      "artifact_id": "ASSET-02-mechanical",
+      "revision": 1,
+      "parts": [
+        {
+          "part_definition_id": "support",
+          "dimensions_mm": {
+            "x": 2400.0000002,
+            "y": 1400.0000002000002,
+            "z": 100.00000020000004
+          }
+        },
+        {
+          "part_definition_id": "foot_0",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_1",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_2",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_3",
+          "dimensions_mm": {
+            "x": 140.00000020000004,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "hopper_shell",
+          "dimensions_mm": {
+            "x": 1350.0000002000002,
+            "y": 1350.0000002,
+            "z": 1000.0000002
+          }
+        },
+        {
+          "part_definition_id": "inlet_rim",
+          "dimensions_mm": {
+            "x": 1080.0000002000002,
+            "y": 40.00000019999999,
+            "z": 50.00000020000016
+          }
+        },
+        {
+          "part_definition_id": "support_leg_0_0",
+          "dimensions_mm": {
+            "x": 70.00000020000016,
+            "y": 70.00000020000027,
+            "z": 1280.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "support_leg_0_1",
+          "dimensions_mm": {
+            "x": 70.00000020000016,
+            "y": 70.00000020000027,
+            "z": 1280.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "support_leg_1_0",
+          "dimensions_mm": {
+            "x": 70.00000020000022,
+            "y": 70.00000020000027,
+            "z": 1280.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "support_leg_1_1",
+          "dimensions_mm": {
+            "x": 70.00000020000022,
+            "y": 70.00000020000027,
+            "z": 1280.0000002000002
+          }
+        },
+        {
+          "part_definition_id": "gate",
+          "dimensions_mm": {
+            "x": 340.00000020000016,
+            "y": 340.0000002000001,
+            "z": 25.00000020000016
+          }
+        },
+        {
+          "part_definition_id": "feed_chute",
+          "dimensions_mm": {
+            "x": 300.0000002,
+            "y": 300.0000002,
+            "z": 230.00000019999993
+          }
+        },
+        {
+          "part_definition_id": "feeder_trough_cutaway",
+          "dimensions_mm": {
+            "x": 1750.3826349143005,
+            "y": 380.0000002000003,
+            "z": 380.3826349143009
+          }
+        },
+        {
+          "part_definition_id": "auger_shaft",
+          "dimensions_mm": {
+            "x": 1750.0704855421081,
+            "y": 70.00000020000013,
+            "z": 70.07048554210832
+          }
+        },
+        {
+          "part_definition_id": "auger_flight",
+          "dimensions_mm": {
+            "x": 1702.9990566139454,
+            "y": 322.99339692607344,
+            "z": 322.9970081767433
+          }
+        },
+        {
+          "part_definition_id": "drive",
+          "dimensions_mm": {
+            "x": 250.30208023760588,
+            "y": 300.0000002000002,
+            "z": 300.3020802376059
+          }
+        },
+        {
+          "part_definition_id": "outlet",
+          "dimensions_mm": {
+            "x": 100.38263491430052,
+            "y": 380.00000020000016,
+            "z": 380.3826349143005
+          }
+        }
+      ],
+      "components": [
+        {
+          "object_id": "ASSET-02/support",
+          "ref_des": "support",
+          "part_definition_id": "support"
+        },
+        {
+          "object_id": "ASSET-02/foot_0",
+          "ref_des": "foot_0",
+          "part_definition_id": "foot_0"
+        },
+        {
+          "object_id": "ASSET-02/foot_1",
+          "ref_des": "foot_1",
+          "part_definition_id": "foot_1"
+        },
+        {
+          "object_id": "ASSET-02/foot_2",
+          "ref_des": "foot_2",
+          "part_definition_id": "foot_2"
+        },
+        {
+          "object_id": "ASSET-02/foot_3",
+          "ref_des": "foot_3",
+          "part_definition_id": "foot_3"
+        },
+        {
+          "object_id": "ASSET-02/hopper_shell",
+          "ref_des": "hopper_shell",
+          "part_definition_id": "hopper_shell"
+        },
+        {
+          "object_id": "ASSET-02/inlet_rim",
+          "ref_des": "inlet_rim",
+          "part_definition_id": "inlet_rim"
+        },
+        {
+          "object_id": "ASSET-02/support_leg_0_0",
+          "ref_des": "support_leg_0_0",
+          "part_definition_id": "support_leg_0_0"
+        },
+        {
+          "object_id": "ASSET-02/support_leg_0_1",
+          "ref_des": "support_leg_0_1",
+          "part_definition_id": "support_leg_0_1"
+        },
+        {
+          "object_id": "ASSET-02/support_leg_1_0",
+          "ref_des": "support_leg_1_0",
+          "part_definition_id": "support_leg_1_0"
+        },
+        {
+          "object_id": "ASSET-02/support_leg_1_1",
+          "ref_des": "support_leg_1_1",
+          "part_definition_id": "support_leg_1_1"
+        },
+        {
+          "object_id": "ASSET-02/gate",
+          "ref_des": "gate",
+          "part_definition_id": "gate"
+        },
+        {
+          "object_id": "ASSET-02/feed_chute",
+          "ref_des": "feed_chute",
+          "part_definition_id": "feed_chute"
+        },
+        {
+          "object_id": "ASSET-02/feeder_trough_cutaway",
+          "ref_des": "feeder_trough_cutaway",
+          "part_definition_id": "feeder_trough_cutaway"
+        },
+        {
+          "object_id": "ASSET-02/auger_shaft",
+          "ref_des": "auger_shaft",
+          "part_definition_id": "auger_shaft"
+        },
+        {
+          "object_id": "ASSET-02/auger_flight",
+          "ref_des": "auger_flight",
+          "part_definition_id": "auger_flight"
+        },
+        {
+          "object_id": "ASSET-02/drive",
+          "ref_des": "drive",
+          "part_definition_id": "drive"
+        },
+        {
+          "object_id": "ASSET-02/outlet",
+          "ref_des": "outlet",
+          "part_definition_id": "outlet"
+        }
+      ],
+      "mechanical": {
+        "physical_form": "REGOLITH HOPPER & FEEDER",
+        "enclosure_type": "Parametric concept assembly",
+        "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+        "manufacturability_rating": "Not evaluated",
+        "component_placements": [
+          {
+            "ref_des": "support",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 100.0
+            },
+            "size": {
+              "x_mm": 2400.0000002,
+              "y_mm": 1400.0000002000002,
+              "z_mm": 100.00000020000004
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_0",
+            "position": {
+              "x_mm": -1080.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_1",
+            "position": {
+              "x_mm": -1080.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_2",
+            "position": {
+              "x_mm": 1080.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_3",
+            "position": {
+              "x_mm": 1080.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000020000004,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "hopper_shell",
+            "position": {
+              "x_mm": -500.00000000000006,
+              "y_mm": 0.0,
+              "z_mm": 1175.0
+            },
+            "size": {
+              "x_mm": 1350.0000002000002,
+              "y_mm": 1350.0000002,
+              "z_mm": 1000.0000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "inlet_rim",
+            "position": {
+              "x_mm": -500.00000000000006,
+              "y_mm": 500.0,
+              "z_mm": 1520.0
+            },
+            "size": {
+              "x_mm": 1080.0000002000002,
+              "y_mm": 40.00000019999999,
+              "z_mm": 50.00000020000016
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "support_leg_0_0",
+            "position": {
+              "x_mm": -950.0,
+              "y_mm": -450.0,
+              "z_mm": 770.0
+            },
+            "size": {
+              "x_mm": 70.00000020000016,
+              "y_mm": 70.00000020000027,
+              "z_mm": 1280.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "support_leg_0_1",
+            "position": {
+              "x_mm": -950.0,
+              "y_mm": 450.0,
+              "z_mm": 770.0
+            },
+            "size": {
+              "x_mm": 70.00000020000016,
+              "y_mm": 70.00000020000027,
+              "z_mm": 1280.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "support_leg_1_0",
+            "position": {
+              "x_mm": -50.0,
+              "y_mm": -450.0,
+              "z_mm": 770.0
+            },
+            "size": {
+              "x_mm": 70.00000020000022,
+              "y_mm": 70.00000020000027,
+              "z_mm": 1280.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "support_leg_1_1",
+            "position": {
+              "x_mm": -50.0,
+              "y_mm": 450.0,
+              "z_mm": 770.0
+            },
+            "size": {
+              "x_mm": 70.00000020000022,
+              "y_mm": 70.00000020000027,
+              "z_mm": 1280.0000002000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "gate",
+            "position": {
+              "x_mm": -500.0,
+              "y_mm": 0.0,
+              "z_mm": 850.0
+            },
+            "size": {
+              "x_mm": 340.00000020000016,
+              "y_mm": 340.0000002000001,
+              "z_mm": 25.00000020000016
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "feed_chute",
+            "position": {
+              "x_mm": -500.0,
+              "y_mm": 0.0,
+              "z_mm": 700.0
+            },
+            "size": {
+              "x_mm": 300.0000002,
+              "y_mm": 300.0000002,
+              "z_mm": 230.00000019999993
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "feeder_trough_cutaway",
+            "position": {
+              "x_mm": -725.0,
+              "y_mm": 0.0,
+              "z_mm": 479.9999999999999
+            },
+            "size": {
+              "x_mm": 1750.3826349143005,
+              "y_mm": 380.0000002000003,
+              "z_mm": 380.3826349143009
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "auger_shaft",
+            "position": {
+              "x_mm": -725.0,
+              "y_mm": 0.0,
+              "z_mm": 479.9999999999999
+            },
+            "size": {
+              "x_mm": 1750.0704855421081,
+              "y_mm": 70.00000020000013,
+              "z_mm": 70.07048554210832
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "auger_flight",
+            "position": {
+              "x_mm": 150.00019550502736,
+              "y_mm": 0.0024146666775948233,
+              "z_mm": 479.9987942055575
+            },
+            "size": {
+              "x_mm": 1702.9990566139454,
+              "y_mm": 322.99339692607344,
+              "z_mm": 322.9970081767433
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "drive",
+            "position": {
+              "x_mm": -1025.0,
+              "y_mm": 0.0,
+              "z_mm": 480.0
+            },
+            "size": {
+              "x_mm": 250.30208023760588,
+              "y_mm": 300.0000002000002,
+              "z_mm": 300.3020802376059
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "outlet",
+            "position": {
+              "x_mm": 1010.0,
+              "y_mm": 0.0,
+              "z_mm": 480.0
+            },
+            "size": {
+              "x_mm": 100.38263491430052,
+              "y_mm": 380.00000020000016,
+              "z_mm": 380.3826349143005
+            },
+            "layer": "mechanism"
+          }
+        ],
+        "fabrication_details": [
+          "Every dimension is an authoring assumption, not a NASA measurement.",
+          "Motion is design inspection only, not simulated plant operation."
+        ]
+      }
+    },
+    "sources": [
+      "02-regolith-hopper-and-feeder.md"
+    ],
+    "status": "Concept engineering preview",
+    "model_source": "assets/machine-previews/build_all.py",
+    "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated."
+  }
+}

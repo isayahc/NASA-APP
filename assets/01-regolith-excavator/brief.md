@@ -27,7 +27,7 @@ A dispatched dig/haul/unload sequence moves a named finite lot into ASSET-02; it
 
 ## Imported NASA reference mesh
 
-- [NASA RASSOR derived STL](rassor/rassor-nasa-reference.stl) — validated **250,000-triangle** decimated visual reference converted from NASA's 2025 GLB. See [asset attribution and conversion instructions](rassor/README.md) and [SHA-256 provenance manifest](rassor/rassor-nasa-reference.metadata.json).
+- [NASA RASSOR derived STL](../rassor/rassor-nasa-reference.stl) — validated **250,000-triangle** decimated visual reference converted from NASA's 2025 GLB. See [asset attribution and conversion instructions](../rassor/README.md) and [SHA-256 provenance manifest](../rassor/rassor-nasa-reference.metadata.json).
 - Do **not** treat the STL as a rigged robot, kinematic assembly or flight-qualified geometry. Extract/rebuild separate drums, wheels and articulated link frames before attaching task-driven motion and excavator physics.
 
 ## Technical sources
@@ -43,4 +43,4 @@ A dispatched dig/haul/unload sequence moves a named finite lot into ASSET-02; it
 - **OpenIndustries:** attach the asset to a stable scene object with machine/task IDs. Machine state and real execution events drive pose, material transfer and telemetry; no canned footage or free-running decorative animation.
 - **Controller:** only validated commands can transition this device; the Python numerical process solver returns physically bounded deltas/measurements and never manipulates the viewer.
 
-**Status:** design brief only. All dimensions, performance parameters, efficiencies and operating limits not explicitly identified as published references are **TBD engineering inputs**, not NASA specifications. This is a simulated machine, not a space-qualified build.
+**Status:** [Forma 0.4.0 engineering asset built](README.md), including native STEP, 33 named bodies, eight driven joints and six attachment frames. Forma MCP persisted project `e6b2cc77-ac4b-41c8-bd40-cc68e06a1842`; its compiler returned no findings. Runtime excavation/material transfer is not implemented. Numeric dimensions and capacity settings are explicitly assumed concept inputs, not NASA specifications or qualified operating limits.

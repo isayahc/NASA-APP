@@ -1,0 +1,61 @@
+{
+  "asset_id": "ASSET-01",
+  "revision": 1,
+  "authoring_agent": "opencode",
+  "openforma": {
+    "repository": "https://github.com/Mapped-Assembly/OpenForma",
+    "revision": "694c53800974747d1c472da34a905db90366081a"
+  },
+  "opencad": {
+    "repository": "https://github.com/Mapped-Assembly/OpenCAD",
+    "revision": "9c0c6dc0b5794debdfb8c7507078bae3303dd8bd"
+  },
+  "parameters": {
+    "revision": 1,
+    "chassis_width_mm": 800.0,
+    "chassis_length_mm": 1000.0,
+    "chassis_height_mm": 200.0,
+    "ground_clearance_mm": 340.0,
+    "wheel_radius_mm": 230.0,
+    "wheel_width_mm": 130.0,
+    "wheelbase_mm": 900.0,
+    "wheel_track_mm": 1160.0,
+    "drum_radius_mm": 250.0,
+    "drum_width_mm": 820.0,
+    "drum_wall_mm": 8.0,
+    "drum_offset_mm": 1050.0,
+    "drum_center_height_mm": 320.0,
+    "scoops_per_drum": 8,
+    "scoop_width_mm": 680.0,
+    "scoop_depth_mm": 60.0,
+    "arm_pivot_offset_mm": 350.0,
+    "arm_pivot_height_mm": 490.0,
+    "arm_lift_deg": 75.0,
+    "bucket_capacity_l_per_drum": 30.0,
+    "payload_kg": 40.0
+  },
+  "parameter_provenance": "All numerical inputs are uncalibrated design assumptions.",
+  "working_capacity": "30 L per drum and 40 kg total are independent assumed limits, not computed regolith payload.",
+  "source_brief": "../01-regolith-excavator.md",
+  "limitations": [
+    "No OI runtime/task/controller binding yet",
+    "No material transfer or power simulation",
+    "No collision-free sweep or structural qualification",
+    "No electrical drive specification",
+    "Kinematics tracks are design inspection samples, not a dig/haul/dump execution"
+  ],
+  "sha256": {
+    "assembly.py": "b0d114c477beaf6da3ecb11e686431d09ea1bc017059ffd7a3ed43a90cc24117",
+    "design.py": "8ec74d6c632f1a3ba2705218ba62a9ee73fdb40019ecde71142a8f75a6553270",
+    "parameters.json": "c3f43bf0ac01363bd7165b2c04ec9d16a0121ee7c47a3600934b997828a0c514",
+    "build.py": "f12655a4c522ef268fecd1bf3e86b3843adca419253102d62cc7b48acfeb96a6",
+    "release-0.4.0/excavator.kinematics.json": "0f828214bfea7e316f1e96072f032179120fab69e803ba7fa8cd56d46899785e",
+    "release-0.4.0/excavator.meshes.json": "1f0428320922ae3f899058295351e0d6758323fe7513269f6a66ca5e85917920",
+    "release-0.4.0/excavator.tree.json": "5432c0eb9d89cb624dbb5442691ae53e42618ad4af493cadf85f02aaa3f3331c",
+    "release-0.4.0/forma.product.json": "5a6e0ec98bb709bb5e2d08beecfbb9d59953b44694741d5f61cd44dc264187ed",
+    "release-0.4.0/frames.json": "bd074c64531c6072c205ad3c88d1cafd4481eab6076e3b506bf598d6b36ecd52",
+    "release-0.4.0/mechanical.ir.json": "be625235232fc563d93306e40062bf9197b1527996afda2bd2a602657d4722cd",
+    "release-0.4.0/validation.json": "9584cb44875d1bf0fd7f01a07649f37fe285850653eee9d91eb64474ea8317db",
+    "release-0.4.0/excavator.step": "2892eb89bf3a8842b69d8a1c6c1852869dc994426aa9938c4a6bb82f724502ca"
+  }
+}

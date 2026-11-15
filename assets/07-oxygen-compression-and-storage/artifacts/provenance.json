@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-07",
+  "project_id": "18bbfd42-3328-4197-a52c-b601f78fd0cd",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "07-oxygen-compression-and-storage.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 37,
+  "moving_body_count": 3,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "c7709d5991d69e14efc9b8f56975835611f1b7655a2b6f771b1ad718f94254b1",
+    "excavator.kinematics.json": "3fc1fbad0c741cfaade6fab30ab56384a3d234048c579a8382f395e487dc37b5",
+    "excavator.meshes.json": "1672ca239ff69379590e90801b39adf56e9bd87911376b1451195b7d15750268",
+    "forma-compiled.json": "fc0b1099d497690e52a8fb8bcffce5cbe7438ad9f5cd0e7336de335b277d619e",
+    "mcp-request.json": "34c2d7f44a4f2040892e6d6e34c578c5b8e9f9e419e9edc25ba3ffbe10c512b1",
+    "mcp-response.json": "52c6fc921ed43511ec9823c6dd3ae2ed96c5672e42ae23313dab3350eeea98ce",
+    "mechanical.ir.json": "39e8460b30711a6114762d226407bd5229746d519143dbc7916afa5afeeeed9e",
+    "preview.gif": "bc857a559eff8adff37a5df68623c4896aa04776f1926193db2503e9ca4caf46",
+    "preview.png": "3e3e44be20a649f2cc4a8b79414e226d015cedb2cd8b735104493a32b235fc1d",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "mechanical": {
+    "is_valid": true,
+    "findings": []
+  },
+  "product": {
+    "local": {
+      "ASSET-01-mechanical": []
+    },
+    "composition": [],
+    "blocked_domains": {},
+    "is_valid": true
+  },
+  "cad": {
+    "bytes": 5080769,
+    "compliant_preview": null,
+    "features": 522,
+    "format": "step",
+    "mechanism": null,
+    "opencad_version": "0.2.4",
+    "valid": true
+  },
+  "scope": "Schema, references and native CAD export only; not excavation physics or factory operation."
+}
