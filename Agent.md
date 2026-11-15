@@ -51,17 +51,22 @@ NASA-APP/
 ├── integrations/
 │   ├── forma/                          # OpenForma engineering IR + revisions
 │   ├── openindustries/                 # Scene, task/runtime and asset bridge
+│   │   └── foundry-runtime.ts         # Implemented OI-native task/ledger domain
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
 ├── scenarios/
-│   └── lunar-south-pole/               # Explicit simulated site assumptions
+│   └── lunar-south-pole/
+│       └── first-transfer.json        # Finite, modeled regolith/energy inputs
 ├── tests/
+│   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
 │   ├── architecture/                   # ADRs, clocks, adapters, protocols
 │   └── research/                       # Sources and calibration provenance
-└── scripts/                            # One-command demo/bootstrap (future)
+└── scripts/
+    ├── run_foundry.sh                 # Static OI scene launcher
+    └── run_foundry_sim.ts            # Headless executable material/thermal demo
 ```
 
 ## Implemented spatial scene integration (#4)
@@ -69,6 +74,14 @@ NASA-APP/
 The scene builder is `scripts/build_lunar_scene.mjs` and the one-command local entry point is `bash scripts/run_foundry.sh` (see `docs/architecture/lunar-scene.md`). Use the **real native OI STEP importer**, OI `astra.scene` serialization, OI System Inspector, and OI local SQLite scene backend; do **not** create another renderer.
 
 The source plan `scenes/lunar-foundry.plan.json` defines stable instance identities, connection/port declarations, static placement, and explicitly `executable: false`. The imported MechanicalIR/STEP bindings prove source identity only. Do not infer valid power, piping, collisions, robot dynamics, process outputs or autonomous behavior from a static asset. #5 and #6 own those follow-on responsibilities.
+
+## Implemented finite factory execution (#5)
+
+The first executable slice uses `integrations/openindustries/foundry-runtime.ts` with actual pinned OpenIndustries `advanceJobSchedule`, resource balance ledger v2, transactional command receipts, SQLite authority and event history. It is a deterministic domain for **regolith delivery → hopper metering → preheat**, not a general chemistry solver.
+
+Read `scenarios/lunar-south-pole/first-transfer.json` for the explicit site-material assumptions; `scripts/run_foundry_sim.ts` runs the headless demonstration and `tests/foundry_runtime.test.ts` tests mass/energy conservation, power cuts, paused/cancelled jobs, duplicate commands, blocked machinery and restart/replay.
+
+**Never** treat task completion in a SQLite snapshot as a robot animation or physical lunar measurement. OI's browser currently displays the static CAD scene from #4; #6 must supply verified real-time pose/telemetry synchronization. No oxygen is produced or claimed in #5.
 
 ## Source-of-truth stack
 
