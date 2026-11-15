@@ -1,0 +1,40 @@
+{
+  "format": "nasa.foundry-first-transfer",
+  "version": 1,
+  "site": "hypothetical-lunar-south-pole",
+  "scene_id": "lunar-foundry-mvp",
+  "machine_ids": {
+    "excavator": "foundry-machine-01",
+    "hopper": "foundry-machine-02",
+    "preheater": "foundry-machine-03"
+  },
+  "lot": {
+    "id": "regolith-0001",
+    "provenance": "assumed-lunar-south-pole-regolith-scenario",
+    "composition": {
+      "source": "engineering-assumption-not-lunar-measurement",
+      "oxygen_bearing_oxide_mass_fraction": 0.43,
+      "remainder": "other-regolith-components-not-resolved"
+    }
+  },
+  "opening": {
+    "source_regolith_g": 10000,
+    "available_energy_mJ": 250000000
+  },
+  "constraints": {
+    "delivery_g": 1000,
+    "hopper_capacity_g": 4000,
+    "preheater_capacity_g": 2000,
+    "delivery_ticks": 4,
+    "feed_ticks": 5,
+    "heating_ticks": 65,
+    "tick_ms": 1000,
+    "power_limit_w": 900,
+    "heater_requested_w": 900,
+    "ambient_temperature_mK": 250000,
+    "initial_temperature_mK": 250000,
+    "target_temperature_mK": 300000,
+    "heat_capacity_J_kg_K": 800,
+    "heat_loss_W_K": 2
+  }
+}
