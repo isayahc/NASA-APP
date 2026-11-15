@@ -14,6 +14,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 import trimesh
+import numpy as np
 
 SOURCE_URL = (
     "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/"
@@ -63,7 +64,7 @@ def build_stl(output_path: Path, max_faces: int) -> dict[str, object]:
         mesh = mesh.simplify_quadric_decimation(face_count=max_faces)
     if mesh.is_empty or len(mesh.faces) == 0:
         raise ValueError("Mesh became empty after decimation")
-    if not mesh.is_finite:
+    if not np.isfinite(mesh.vertices).all():
         raise ValueError("Mesh contains non-finite geometry")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
