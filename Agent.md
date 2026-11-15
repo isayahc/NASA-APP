@@ -16,6 +16,12 @@ The factory's work must be meaningful **without** external requests, fake failur
 NASA-APP/
 ├── README.md
 ├── Agent.md
+├── assets/                            # Subsystem briefs and verified NASA references
+│   ├── 01-regolith-excavator.md     # Plus other subsystem design briefs
+│   └── rassor/
+│       ├── README.md
+│       ├── rassor-nasa-reference.stl
+│       └── rassor-nasa-reference.metadata.json
 ├── apps/
 │   └── mission-control/
 │       ├── package.json
