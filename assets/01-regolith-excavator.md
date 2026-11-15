@@ -25,6 +25,11 @@ Model a compact four-wheel or tracked chassis on a low lunar gravity site; **two
 
 A dispatched dig/haul/unload sequence moves a named finite lot into ASSET-02; its mass, timestamps and visible wheel/drum/arm poses change consistently. A failed delivery does **not** credit the hopper. Geometry may start simplified; the state/inventory behavior may not.
 
+## Imported NASA reference mesh
+
+- [NASA RASSOR derived STL](rassor/rassor-nasa-reference.stl) — validated **250,000-triangle** decimated visual reference converted from NASA's 2025 GLB. See [asset attribution and conversion instructions](rassor/README.md) and [SHA-256 provenance manifest](rassor/rassor-nasa-reference.metadata.json).
+- Do **not** treat the STL as a rigged robot, kinematic assembly or flight-qualified geometry. Extract/rebuild separate drums, wheels and articulated link frames before attaching task-driven motion and excavator physics.
+
 ## Technical sources
 
 - [NASA — RASSOR technology](https://technology.nasa.gov/patent/KSC-TOPS-7) (counterrotating bucket-drum excavation and dump behavior).
