@@ -3,10 +3,11 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { mkdtempSync, rmSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { join, resolve } from "node:path";
+import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { FoundryDatabase, JOBS, type Scenario, type FoundrySnapshot } from "../integrations/openindustries/foundry-runtime.ts";
 
-const scenario = JSON.parse(readFileSync(resolve("scenarios/lunar-south-pole/first-transfer.json"), "utf8")) as Scenario;
+const scenario = JSON.parse(readFileSync(fileURLToPath(new URL("../scenarios/lunar-south-pole/first-transfer.json", import.meta.url)), "utf8")) as Scenario;
 const credentials = { username: "operator", password: "integration-test-password" };
 
 async function setup(s: Scenario = scenario) {
