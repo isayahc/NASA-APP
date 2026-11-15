@@ -4,7 +4,7 @@
 
 > **Mission:** Can an autonomous lunar factory continuously extract, process, and stockpile oxygen from lunar regolith, while adapting its operations to support future exploration missions?
 
-**Status: architecture and MVP specification.** This repository is being bootstrapped. The tree below is the **target structure**, not a claim that these code modules already exist. See [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) for the implementation backlog and acceptance gates.
+**Status: asset library and static OpenIndustries scene available; the autonomous factory runtime is not yet implemented.** This repository is being bootstrapped. The tree below is the **target structure**, not a claim that these code modules already exist. See [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) for the implementation backlog and acceptance gates.
 
 ## Why this factory?
 
@@ -87,6 +87,8 @@ NASA-APP/
 │       ├── README.md
 │       ├── rassor-nasa-reference.stl
 │       └── rassor-nasa-reference.metadata.json
+├── scenes/
+│   └── lunar-foundry.plan.json       # Versioned ten-machine scene/port design
 ├── apps/
 │   └── mission-control/
 │       ├── package.json
@@ -153,7 +155,13 @@ Primary references:
 
 ## Running locally
 
-**Not yet runnable.** The repository currently contains planning documentation; application files, dependencies, executable startup commands and tests must be implemented and verified. Do not interpret the planned tree as a working installation.
+**Spatial preview is runnable, not the autonomous factory.** On WSL2/Linux with Node.js 22.16+, Git and npm, run:
+
+```bash
+bash scripts/run_foundry.sh
+```
+
+This builds a real CAD-backed portable OpenIndustries scene, persists it to its local scene store, starts the existing OI workbench and prints a direct scene URL. Use `--build-only` to generate without starting a server. See [spatial integration ADR](docs/architecture/lunar-scene.md) and [issue #4](https://github.com/isayahc/NASA-APP/issues/4). The machine task/physics runtime, OpenCode orchestration and continuous oxygen production are **not yet implemented**.
 
 When the first vertical slice is built, this section must provide a **tested one-command start**, stop/reset instructions, offline solver/test commands, and a separate OpenCode-enabled mode that documents required provider credentials. A model outage must not prevent deterministic factory simulation from running; it must simply report **autonomy disabled**.
 
