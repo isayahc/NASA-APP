@@ -83,6 +83,8 @@ def build_stl(output_path: Path, max_faces: int, blender_executable: str) -> dic
         command = [
             blender_executable,
             "--background",
+            "--python-exit-code",
+            "1",
             "--python",
             str(BLENDER_SCRIPT.resolve()),
             "--",
