@@ -6,6 +6,7 @@
  */
 import { configureFoundryKinematics, receiveFoundryKinematics } from './foundry-kinematics-browser.mjs';
 import { configureFoundryMaterial, receiveFoundryMaterial, setMaterialConnection } from './foundry-material-browser.mjs';
+import { configureFoundryInspection, receiveFoundryInspection, setInspectionFreshness } from './foundry-inspection-store.mjs';
 
 export const PROTOCOL = "nasa.foundry.snapshot.v1";
 export const SNAPSHOT_EVENT = "nasa-foundry:snapshot";
@@ -87,15 +88,34 @@ export async function startFoundryBrowserStream({
   const materialResponse = await fetcher('/api/foundry/material-map', { cache: 'no-store' });
   if (!materialResponse.ok) throw Error('Material port mapping unavailable');
   configureFoundryMaterial(await materialResponse.json(), config.oi_scene_id);
+  const inspectionResponse = await fetcher('/api/foundry/inspection-map', { cache: 'no-store' });
+  if (!inspectionResponse.ok) throw Error('Engineering inspection mapping unavailable');
+  configureFoundryInspection(await inspectionResponse.json(), config.oi_scene_id);
 
   let accepted = null;
   let eventSource;
+  let staleTimer;
+  const stale = () => {
+    clearTimeout(staleTimer);
+    setInspectionFreshness('stale');
+    setMaterialConnection(false);
+  };
+  const fresh = () => {
+    clearTimeout(staleTimer);
+    setInspectionFreshness('fresh');
+    setMaterialConnection(true);
+    staleTimer = setTimeout(() => {
+      stale();
+      panel.setAttribute('data-stream-status', 'offline');
+      panel.textContent = 'Foundry stream stale · authority heartbeat overdue';
+    }, 35000);
+  };
   const connect = () => {
     eventSource = new EventSourceClass("/api/foundry/events");
     eventSource.addEventListener("open", () => {
-      panel.setAttribute("data-stream-status", "connected");
-      panel.textContent = accepted ? stateText(accepted) : "Foundry stream connected · awaiting committed state";
-      setMaterialConnection(true);
+      panel.setAttribute("data-stream-status", "connecting");
+      panel.textContent = 'Foundry stream connected · awaiting verified authority';
+      stale();
     });
     eventSource.addEventListener("snapshot", (event) => {
       let proposed;
@@ -108,24 +128,34 @@ export async function startFoundryBrowserStream({
       panel.textContent = stateText(next);
       receiveFoundryKinematics(next);
       receiveFoundryMaterial(next);
+      receiveFoundryInspection(next);
+      fresh();
       windowObject.dispatchEvent(new CustomEvent(SNAPSHOT_EVENT, { detail: next }));
+    });
+    eventSource.addEventListener('authority-health', event => {
+      let health;
+      try { health = JSON.parse(event.data); } catch { return; }
+      if (!accepted || health.instance_id !== accepted.instance_id || health.revision !== accepted.revision) return;
+      fresh();
+      panel.setAttribute('data-stream-status', 'connected');
+      panel.textContent = stateText(accepted);
     });
     eventSource.addEventListener("stream-error", () => {
       panel.setAttribute("data-stream-status", "offline");
       panel.textContent = "Foundry controller unavailable · last snapshot is stale";
-      setMaterialConnection(false);
+      stale();
     });
     eventSource.addEventListener("error", () => {
       panel.setAttribute("data-stream-status", "offline");
       panel.textContent = "Foundry stream disconnected · reconnecting without advancing simulation";
-      setMaterialConnection(false);
+      stale();
     });
   };
   const offline = () => {
     eventSource?.close();
     panel.setAttribute('data-stream-status', 'offline');
     panel.textContent = 'Foundry stream offline · retaining last committed state and pose';
-    setMaterialConnection(false);
+    stale();
   };
   const online = () => { eventSource?.close(); connect(); };
   windowObject.addEventListener('offline', offline);
@@ -135,6 +165,7 @@ export async function startFoundryBrowserStream({
     getSnapshot: () => accepted,
     close: () => {
       eventSource.close(); panel.remove();
+      stale();
       windowObject.removeEventListener('offline', offline);
       windowObject.removeEventListener('online', online);
     },

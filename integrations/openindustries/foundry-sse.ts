@@ -75,6 +75,8 @@ export class FoundrySseBridge {
   private keepalive: ReturnType<typeof setInterval> | null = null;
   private busy = false;
   private stopped = false;
+  private healthy = false;
+  private verifiedAt = 0;
 
   constructor(
     private readonly reader: SnapshotReader,
@@ -102,8 +104,10 @@ export class FoundrySseBridge {
     this.timer.unref?.();
     this.keepalive = setInterval(() => {
       for (const client of this.subscribers)
-        if (!client.response.destroyed && !client.response.writableEnded)
+        if (!client.response.destroyed && !client.response.writableEnded) {
           client.response.write(": keepalive\n\n");
+          if (this.healthy) this.sendHealth(client);
+        }
     }, this.options.heartbeatMs ?? 15000);
     this.keepalive.unref?.();
   }
@@ -121,17 +125,34 @@ export class FoundrySseBridge {
       if (this.latest && (next.revision < this.latest.revision ||
           next.simulation_time_ms < this.latest.simulation_time_ms))
         throw Error("AUTHORITATIVE_STATE_REGRESSED");
+      const recovered = !this.healthy;
+      this.healthy = true;
+      this.verifiedAt = Date.now();
       if (!this.latest || next.revision > this.latest.revision) {
         this.latest = next;
         for (const client of this.subscribers) this.send(client, next);
       }
+      if (recovered) for (const client of this.subscribers) this.sendHealth(client);
     } catch (error) {
+      this.healthy = false;
       // A backend failure never becomes a fictitious new snapshot.
       for (const client of this.subscribers)
         if (!client.response.destroyed && !client.response.writableEnded)
           client.response.write('event: stream-error\ndata: {"error":"AUTHORITY_UNAVAILABLE"}\n\n');
       throw error;
     } finally { this.busy = false; }
+  }
+
+  private sendHealth(client: Subscriber): void {
+    if (this.latest && this.authorityHealthy() &&
+        !client.response.destroyed && !client.response.writableEnded)
+      client.response.write('event: authority-health\ndata: ' + JSON.stringify({
+        instance_id: this.latest.instance_id, revision: this.latest.revision,
+      }) + '\n\n');
+  }
+
+  private authorityHealthy(): boolean {
+    return this.healthy && Date.now() - this.verifiedAt <= Math.max(1000, (this.options.pollMs ?? 200) * 3);
   }
 
   private send(client: Subscriber, frame: FoundryStreamFrame): void {
@@ -198,6 +219,8 @@ export class FoundrySseBridge {
     res.write("retry: 750\n\n");
     this.subscribers.add(subscriber);
     this.send(subscriber, this.latest);
+    if (this.authorityHealthy()) this.sendHealth(subscriber);
+    else res.write('event: stream-error\ndata: {"error":"AUTHORITY_UNAVAILABLE"}\n\n');
     res.on("close", () => this.subscribers.delete(subscriber));
     return true;
   }

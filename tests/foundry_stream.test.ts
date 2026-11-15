@@ -18,7 +18,7 @@ const input = JSON.parse(readFileSync(
   "utf8",
 ));
 
-async function fixture() {
+async function fixture(observe = (snapshot: any) => snapshot) {
   /** Construct an authenticated OI domain without mocks or synthetic events. */
   const directory = mkdtempSync(join(tmpdir(), "nasa-f1-"));
   const db = new FoundryDatabase(join(directory, "factory.sqlite"));
@@ -27,7 +27,7 @@ async function fixture() {
   }, true);
   const token = session.token;
   db.create(token, INSTANCE, input);
-  const stream = new FoundrySseBridge({ read: () => db.read(token, INSTANCE) }, {
+  const stream = new FoundrySseBridge({ read: () => observe(db.read(token, INSTANCE)) }, {
     oiSceneId: SCENE, instanceId: INSTANCE, pollMs: 50, heartbeatMs: 1000,
   });
   await stream.start();
@@ -58,7 +58,7 @@ async function fixture() {
   return { db, token, stream, base, execute, close };
 }
 
-async function firstSnapshotEvent(response: Response): Promise<{ id: string; data: unknown }> {
+async function firstSnapshotEvent(response: Response, eventName = 'snapshot'): Promise<{ id: string; data: any }> {
   /** Read one complete SSE snapshot, tolerating chunking and heartbeat blocks. */
   assert(response.body);
   const reader = response.body.getReader();
@@ -73,12 +73,12 @@ async function firstSnapshotEvent(response: Response): Promise<{ id: string; dat
       const index = partial.indexOf("\n\n");
       const block = partial.slice(0, index);
       partial = partial.slice(index + 2);
-      if (!block.includes("event: snapshot")) continue;
+      if (!block.includes('event: ' + eventName)) continue;
       const id = block.split("\n").find((line) => line.startsWith("id: "))?.slice(4);
       const data = block.split("\n").find((line) => line.startsWith("data: "))?.slice(6);
-      assert(id && data);
+      assert(data && (id || eventName !== 'snapshot'));
       void reader.cancel().catch(() => {});
-      return { id, data: JSON.parse(data) };
+      return { id: id ?? '', data: JSON.parse(data) };
     }
   }
   throw Error("SSE snapshot timed out");
@@ -195,5 +195,30 @@ test("invalid backend projection fails closed and never broadcasts a false revis
     await assert.rejects(bad.start(), /INVALID_AUTHORITY_SNAPSHOT/);
     assert.deepEqual(h.stream.current(), before);
     bad.close();
+  } finally { await h.close(); }
+});
+
+test('verified same-head health recovers after authority failure without inventing revisions', async () => {
+  let unavailable = false;
+  const h = await fixture(snapshot => {
+    if (unavailable) throw Error('test authority unavailable');
+    return snapshot;
+  });
+  const connect = () => fetch(h.base + '/api/foundry/events', {
+    headers: { 'Last-Event-ID': 'f1-live:1' }, signal: AbortSignal.timeout(3000),
+  });
+  try {
+    const original = h.db.read(h.token, INSTANCE);
+    const healthy = await firstSnapshotEvent(await connect(), 'authority-health');
+    assert.deepEqual(healthy.data, { instance_id: INSTANCE, revision: 1 });
+    unavailable = true;
+    await assert.rejects(h.stream.refresh(), /unavailable/);
+    const failed = await firstSnapshotEvent(await connect(), 'stream-error');
+    assert.equal(failed.data.error, 'AUTHORITY_UNAVAILABLE');
+    unavailable = false;
+    await h.stream.refresh();
+    const recovered = await firstSnapshotEvent(await connect(), 'authority-health');
+    assert.deepEqual(recovered.data, healthy.data);
+    assert.deepEqual(h.db.read(h.token, INSTANCE), original);
   } finally { await h.close(); }
 });

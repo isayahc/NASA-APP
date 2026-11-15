@@ -1,0 +1,16 @@
+/* Keep existing F1/F3 diagnostics clear of OI's 240px native inspector. */
+html[data-nasa-foundry] #nasa-foundry-transport,
+html[data-nasa-foundry] #nasa-foundry-kinematics { right: 256px !important; }
+
+/* OI hides its inspector below 1050px. Expose the same inspector beneath the
+   viewport for foundry sessions, rather than introducing another mobile UI. */
+@media (max-width: 1050px) {
+  html[data-nasa-foundry] main { height: auto; }
+  html[data-nasa-foundry] .stage { min-height: 55dvh; }
+  html[data-nasa-foundry] .inspector { display: block; grid-column: 1 / -1; max-height: 75dvh; }
+  html[data-nasa-foundry] #nasa-foundry-transport,
+  html[data-nasa-foundry] #nasa-foundry-kinematics,
+  html[data-nasa-foundry] #nasa-foundry-material {
+    position: static !important; margin: 16px; width: auto !important; max-width: calc(100vw - 32px) !important;
+  }
+}

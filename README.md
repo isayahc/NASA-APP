@@ -123,6 +123,10 @@ NASA-APP/
 │   │   ├── foundry-material.mjs       # Validated lot/account/posting projection
 │   │   ├── foundry-material-map.mjs   # Reuse declared OI machine port anchors
 │   │   ├── foundry-material-browser.mjs # Ledger meters and spatial annotations
+│   │   ├── foundry-inspection-map.mjs  # Verify actual STEP/MechanicalIR source pins
+│   │   ├── foundry-inspection-store.mjs # F1 snapshot/freshness subscription
+│   │   ├── foundry-inspection-browser.mjs # Native System Inspector runtime section
+│   │   ├── foundry-inspection.css      # Native inspector responsive layout
 │   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
@@ -134,6 +138,7 @@ NASA-APP/
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
 │   ├── foundry_material.test.ts       # Finite lot balances and settled transfers
+│   ├── foundry_inspection.test.ts     # Durable transitions and engineering pins
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -147,7 +152,8 @@ NASA-APP/
     ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
     ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
     ├── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
-    └── verify_foundry_material_browser.ts # Ledger quantities and port evidence
+    ├── verify_foundry_material_browser.ts # Ledger quantities and port evidence
+    └── verify_foundry_inspection_browser.ts # Native live inspection and freshness
 ```
 
 The two documents intentionally carry the **same structure**. **apps/mission-control** should be a thin host/integration surface for OpenIndustries, *not* a rewritten 3D engine or competing dashboard. The **integrations/** folders are adapters to existing APIs/CLIs; their interfaces must be confirmed against actual repository versions before implementation.
@@ -213,7 +219,7 @@ Issue #6 feature F1 adds a **read-only Server-Sent Events stream** to the existi
 bash scripts/run_foundry_live.sh
 ```
 
-After launch, open the printed local scene URL. The browser diagnostic reports current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons; full machine inspection remains follow-on work.
+After launch, open the printed local scene URL. The browser diagnostic and native System Inspector report current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons.
 
 ### F3 — Task-driven CAD joints
 
@@ -233,7 +239,17 @@ lines are labeled **settled transfer history**, not live particle flow. The feed
 is a pass-through with no invented inventory. Default delivery is 1,000 g followed
 by five settled 200 g feed steps. See [material behavior and browser tests](docs/architecture/foundry-material.md).
 
+### F5 — Native live machine inspection
+
+Select an excavator, hopper or preheater in OI's System Inspector or scene collection.
+Its **Foundry runtime** section shows committed jobs/phases/transitions, lot masses
+and, for the preheater, electrical/thermal readings with units. Source links serve
+the actual hash-verified STEP and MechanicalIR files. Unimplemented machines show
+unavailable telemetry; disconnected/overdue streams retain values marked **STALE**.
+See the [operator walkthrough and browser verification](docs/architecture/foundry-inspection.md).
+
 ## Contribution and agent instructions
+
 
 See [Agent.md](Agent.md) for architecture ownership, coding rules, scientific correctness constraints, implementation order and test requirements.
 
