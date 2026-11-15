@@ -1,0 +1,61 @@
+{
+  "units": "mm",
+  "coordinate_system": "z-up",
+  "frames": {
+    "base": {
+      "body": "chassis",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "axes": "X width, Y forward, Z up"
+    },
+    "dig_tool_l": {
+      "body": "drum_l",
+      "origin_mm": [
+        0,
+        1050.0,
+        320.0
+      ],
+      "axes": "X drum axis, Y forward, Z up; rest coordinates"
+    },
+    "payload_l": {
+      "body": "drum_l",
+      "origin_mm": [
+        0,
+        1050.0,
+        320.0
+      ],
+      "axes": "X drum axis, Y forward, Z up; rest coordinates"
+    },
+    "dig_tool_r": {
+      "body": "drum_r",
+      "origin_mm": [
+        0,
+        -1050.0,
+        320.0
+      ],
+      "axes": "X drum axis, Y forward, Z up; rest coordinates"
+    },
+    "payload_r": {
+      "body": "drum_r",
+      "origin_mm": [
+        0,
+        -1050.0,
+        320.0
+      ],
+      "axes": "X drum axis, Y forward, Z up; rest coordinates"
+    },
+    "dump_frame": {
+      "body": "dump_port",
+      "origin_mm": [
+        0,
+        530.0,
+        540.0
+      ],
+      "axes": "+Y outward approach normal, +Z up"
+    }
+  },
+  "semantics": "Origins are in modeled rest/world coordinates. Apply owning body's evaluated transform; not COM-relative offsets."
+}

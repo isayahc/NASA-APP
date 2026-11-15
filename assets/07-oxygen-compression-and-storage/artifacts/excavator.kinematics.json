@@ -1,0 +1,73 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_valve_0_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "valve_0_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          -550.0,
+          180.0,
+          2075.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "valve_0_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_valve_1_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "valve_1_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          0.0,
+          180.0,
+          2075.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "valve_1_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_valve_2_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "valve_2_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          550.0,
+          180.0,
+          2075.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "valve_2_handle",
+        "metadata": {}
+      }
+    }
+  ]
+}

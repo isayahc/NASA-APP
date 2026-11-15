@@ -1,0 +1,1685 @@
+{
+  "project_id": "c43aec91-146e-4359-9c08-c04185ef96fb",
+  "chat_id": "a021c75a-e8c1-42a7-86a8-a69b373c5c03",
+  "persisted": true,
+  "visibility": "private",
+  "project_ir": {
+    "hardware_ir_version": "0.2",
+    "overview": {
+      "title": "ASSET-02 - REGOLITH HOPPER & FEEDER",
+      "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+      "difficulty": "Advanced",
+      "estimated_cost": 0.0,
+      "category": "Industrial"
+    },
+    "requirements": null,
+    "system_architecture": null,
+    "part_definitions": [
+      {
+        "part_definition_id": "PART_SUPPORT",
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_0",
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_1",
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_2",
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_3",
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_HOPPER_SHELL",
+        "manufacturer": null,
+        "part_number": "hopper_shell",
+        "name": "hopper_shell",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INLET_RIM",
+        "manufacturer": null,
+        "part_number": "inlet_rim",
+        "name": "inlet_rim",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SUPPORT_LEG_0_0",
+        "manufacturer": null,
+        "part_number": "support_leg_0_0",
+        "name": "support_leg_0_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SUPPORT_LEG_0_1",
+        "manufacturer": null,
+        "part_number": "support_leg_0_1",
+        "name": "support_leg_0_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SUPPORT_LEG_1_0",
+        "manufacturer": null,
+        "part_number": "support_leg_1_0",
+        "name": "support_leg_1_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SUPPORT_LEG_1_1",
+        "manufacturer": null,
+        "part_number": "support_leg_1_1",
+        "name": "support_leg_1_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_GATE",
+        "manufacturer": null,
+        "part_number": "gate",
+        "name": "gate",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FEED_CHUTE",
+        "manufacturer": null,
+        "part_number": "feed_chute",
+        "name": "feed_chute",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FEEDER_TROUGH_CUTAWAY",
+        "manufacturer": null,
+        "part_number": "feeder_trough_cutaway",
+        "name": "feeder_trough_cutaway",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_AUGER_SHAFT",
+        "manufacturer": null,
+        "part_number": "auger_shaft",
+        "name": "auger_shaft",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_AUGER_FLIGHT",
+        "manufacturer": null,
+        "part_number": "auger_flight",
+        "name": "auger_flight",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_DRIVE",
+        "manufacturer": null,
+        "part_number": "drive",
+        "name": "drive",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_OUTLET",
+        "manufacturer": null,
+        "part_number": "outlet",
+        "name": "outlet",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      }
+    ],
+    "components": [
+      {
+        "ref_des": "support",
+        "part_definition_id": "PART_SUPPORT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_0",
+        "part_definition_id": "PART_FOOT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_1",
+        "part_definition_id": "PART_FOOT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_2",
+        "part_definition_id": "PART_FOOT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_3",
+        "part_definition_id": "PART_FOOT_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "hopper_shell",
+        "part_definition_id": "PART_HOPPER_SHELL",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "inlet_rim",
+        "part_definition_id": "PART_INLET_RIM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "support_leg_0_0",
+        "part_definition_id": "PART_SUPPORT_LEG_0_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "support_leg_0_1",
+        "part_definition_id": "PART_SUPPORT_LEG_0_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "support_leg_1_0",
+        "part_definition_id": "PART_SUPPORT_LEG_1_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "support_leg_1_1",
+        "part_definition_id": "PART_SUPPORT_LEG_1_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "gate",
+        "part_definition_id": "PART_GATE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "feed_chute",
+        "part_definition_id": "PART_FEED_CHUTE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "feeder_trough_cutaway",
+        "part_definition_id": "PART_FEEDER_TROUGH_CUTAWAY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "auger_shaft",
+        "part_definition_id": "PART_AUGER_SHAFT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "auger_flight",
+        "part_definition_id": "PART_AUGER_FLIGHT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "drive",
+        "part_definition_id": "PART_DRIVE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "outlet",
+        "part_definition_id": "PART_OUTLET",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      }
+    ],
+    "bom": [
+      {
+        "line_id": "BOM_PART_SUPPORT",
+        "part_definition_id": "PART_SUPPORT",
+        "instance_refs": [
+          "support"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_0",
+        "part_definition_id": "PART_FOOT_0",
+        "instance_refs": [
+          "foot_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_1",
+        "part_definition_id": "PART_FOOT_1",
+        "instance_refs": [
+          "foot_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_2",
+        "part_definition_id": "PART_FOOT_2",
+        "instance_refs": [
+          "foot_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_3",
+        "part_definition_id": "PART_FOOT_3",
+        "instance_refs": [
+          "foot_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_HOPPER_SHELL",
+        "part_definition_id": "PART_HOPPER_SHELL",
+        "instance_refs": [
+          "hopper_shell"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "hopper_shell",
+        "name": "hopper_shell",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INLET_RIM",
+        "part_definition_id": "PART_INLET_RIM",
+        "instance_refs": [
+          "inlet_rim"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "inlet_rim",
+        "name": "inlet_rim",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SUPPORT_LEG_0_0",
+        "part_definition_id": "PART_SUPPORT_LEG_0_0",
+        "instance_refs": [
+          "support_leg_0_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support_leg_0_0",
+        "name": "support_leg_0_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SUPPORT_LEG_0_1",
+        "part_definition_id": "PART_SUPPORT_LEG_0_1",
+        "instance_refs": [
+          "support_leg_0_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support_leg_0_1",
+        "name": "support_leg_0_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SUPPORT_LEG_1_0",
+        "part_definition_id": "PART_SUPPORT_LEG_1_0",
+        "instance_refs": [
+          "support_leg_1_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support_leg_1_0",
+        "name": "support_leg_1_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SUPPORT_LEG_1_1",
+        "part_definition_id": "PART_SUPPORT_LEG_1_1",
+        "instance_refs": [
+          "support_leg_1_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support_leg_1_1",
+        "name": "support_leg_1_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_GATE",
+        "part_definition_id": "PART_GATE",
+        "instance_refs": [
+          "gate"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "gate",
+        "name": "gate",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FEED_CHUTE",
+        "part_definition_id": "PART_FEED_CHUTE",
+        "instance_refs": [
+          "feed_chute"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "feed_chute",
+        "name": "feed_chute",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FEEDER_TROUGH_CUTAWAY",
+        "part_definition_id": "PART_FEEDER_TROUGH_CUTAWAY",
+        "instance_refs": [
+          "feeder_trough_cutaway"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "feeder_trough_cutaway",
+        "name": "feeder_trough_cutaway",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_AUGER_SHAFT",
+        "part_definition_id": "PART_AUGER_SHAFT",
+        "instance_refs": [
+          "auger_shaft"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "auger_shaft",
+        "name": "auger_shaft",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_AUGER_FLIGHT",
+        "part_definition_id": "PART_AUGER_FLIGHT",
+        "instance_refs": [
+          "auger_flight"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "auger_flight",
+        "name": "auger_flight",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_DRIVE",
+        "part_definition_id": "PART_DRIVE",
+        "instance_refs": [
+          "drive"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "drive",
+        "name": "drive",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_OUTLET",
+        "part_definition_id": "PART_OUTLET",
+        "instance_refs": [
+          "outlet"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "outlet",
+        "name": "outlet",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      }
+    ],
+    "nets": [],
+    "buses": [],
+    "pin_mappings": [],
+    "assembly": [],
+    "mechanical": {
+      "cad_operations": [],
+      "physical_form": "REGOLITH HOPPER & FEEDER",
+      "enclosure_type": "Parametric concept assembly",
+      "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+      "fabrication_details": [
+        "Every dimension is an authoring assumption, not a NASA measurement.",
+        "Motion is design inspection only, not simulated plant operation."
+      ],
+      "fabrication_cost_estimate_usd": 0.0,
+      "cad_sources": [],
+      "manufacturability_rating": "Not evaluated",
+      "render_dimensions": null,
+      "component_placements": [
+        {
+          "ref_des": "support",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 100.0
+          },
+          "size": {
+            "x_mm": 2400.0000002,
+            "y_mm": 1400.0000002000002,
+            "z_mm": 100.00000020000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1080.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1080.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1080.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1080.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000020000004,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "hopper_shell",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -500.00000000000006,
+            "y_mm": 0.0,
+            "z_mm": 1175.0
+          },
+          "size": {
+            "x_mm": 1350.0000002000002,
+            "y_mm": 1350.0000002,
+            "z_mm": 1000.0000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "inlet_rim",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -500.00000000000006,
+            "y_mm": 500.0,
+            "z_mm": 1520.0
+          },
+          "size": {
+            "x_mm": 1080.0000002000002,
+            "y_mm": 40.00000019999999,
+            "z_mm": 50.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "support_leg_0_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -950.0,
+            "y_mm": -450.0,
+            "z_mm": 770.0
+          },
+          "size": {
+            "x_mm": 70.00000020000016,
+            "y_mm": 70.00000020000027,
+            "z_mm": 1280.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "support_leg_0_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -950.0,
+            "y_mm": 450.0,
+            "z_mm": 770.0
+          },
+          "size": {
+            "x_mm": 70.00000020000016,
+            "y_mm": 70.00000020000027,
+            "z_mm": 1280.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "support_leg_1_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -50.0,
+            "y_mm": -450.0,
+            "z_mm": 770.0
+          },
+          "size": {
+            "x_mm": 70.00000020000022,
+            "y_mm": 70.00000020000027,
+            "z_mm": 1280.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "support_leg_1_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -50.0,
+            "y_mm": 450.0,
+            "z_mm": 770.0
+          },
+          "size": {
+            "x_mm": 70.00000020000022,
+            "y_mm": 70.00000020000027,
+            "z_mm": 1280.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "gate",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -500.0,
+            "y_mm": 0.0,
+            "z_mm": 850.0
+          },
+          "size": {
+            "x_mm": 340.00000020000016,
+            "y_mm": 340.0000002000001,
+            "z_mm": 25.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "feed_chute",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -500.0,
+            "y_mm": 0.0,
+            "z_mm": 700.0
+          },
+          "size": {
+            "x_mm": 300.0000002,
+            "y_mm": 300.0000002,
+            "z_mm": 230.00000019999993
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "feeder_trough_cutaway",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -725.0,
+            "y_mm": 0.0,
+            "z_mm": 479.9999999999999
+          },
+          "size": {
+            "x_mm": 1750.3826349143005,
+            "y_mm": 380.0000002000003,
+            "z_mm": 380.3826349143009
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "auger_shaft",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -725.0,
+            "y_mm": 0.0,
+            "z_mm": 479.9999999999999
+          },
+          "size": {
+            "x_mm": 1750.0704855421081,
+            "y_mm": 70.00000020000013,
+            "z_mm": 70.07048554210832
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "auger_flight",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 150.00019550502736,
+            "y_mm": 0.0024146666775948233,
+            "z_mm": 479.9987942055575
+          },
+          "size": {
+            "x_mm": 1702.9990566139454,
+            "y_mm": 322.99339692607344,
+            "z_mm": 322.9970081767433
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "drive",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -1025.0,
+            "y_mm": 0.0,
+            "z_mm": 480.0
+          },
+          "size": {
+            "x_mm": 250.30208023760588,
+            "y_mm": 300.0000002000002,
+            "z_mm": 300.3020802376059
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "outlet",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 1010.0,
+            "y_mm": 0.0,
+            "z_mm": 480.0
+          },
+          "size": {
+            "x_mm": 100.38263491430052,
+            "y_mm": 380.00000020000016,
+            "z_mm": 380.3826349143005
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        }
+      ],
+      "spatial_relationships": [],
+      "motion_intents": [],
+      "mechanism_benchmark": null
+    },
+    "fluidic_system": null,
+    "firmware": null,
+    "cad_model": {
+      "format": "step",
+      "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-02\\assembly.step",
+      "sha256": "b06c53620f1fa69156bcf6a7efca5b833694ac17b9ea2d57eb23a3ca8e1eb02c",
+      "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-02\\excavator.meshes.json",
+      "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-02\\excavator.kinematics.json",
+      "units": "mm"
+    },
+    "constraints": [],
+    "power_rails": [],
+    "estimated_current_draw_ma": 0.0,
+    "fabrication_notes": [],
+    "assembly_metadata": {
+      "asset_id": "ASSET-02",
+      "mechanical_ir": {
+        "domain": "mechanical",
+        "schema_version": "1.0",
+        "artifact_id": "ASSET-02-mechanical",
+        "revision": 1,
+        "parts": [
+          {
+            "part_definition_id": "support",
+            "dimensions_mm": {
+              "x": 2400.0000002,
+              "y": 1400.0000002000002,
+              "z": 100.00000020000004
+            }
+          },
+          {
+            "part_definition_id": "foot_0",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_1",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_2",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_3",
+            "dimensions_mm": {
+              "x": 140.00000020000004,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "hopper_shell",
+            "dimensions_mm": {
+              "x": 1350.0000002000002,
+              "y": 1350.0000002,
+              "z": 1000.0000002
+            }
+          },
+          {
+            "part_definition_id": "inlet_rim",
+            "dimensions_mm": {
+              "x": 1080.0000002000002,
+              "y": 40.00000019999999,
+              "z": 50.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "support_leg_0_0",
+            "dimensions_mm": {
+              "x": 70.00000020000016,
+              "y": 70.00000020000027,
+              "z": 1280.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "support_leg_0_1",
+            "dimensions_mm": {
+              "x": 70.00000020000016,
+              "y": 70.00000020000027,
+              "z": 1280.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "support_leg_1_0",
+            "dimensions_mm": {
+              "x": 70.00000020000022,
+              "y": 70.00000020000027,
+              "z": 1280.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "support_leg_1_1",
+            "dimensions_mm": {
+              "x": 70.00000020000022,
+              "y": 70.00000020000027,
+              "z": 1280.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "gate",
+            "dimensions_mm": {
+              "x": 340.00000020000016,
+              "y": 340.0000002000001,
+              "z": 25.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "feed_chute",
+            "dimensions_mm": {
+              "x": 300.0000002,
+              "y": 300.0000002,
+              "z": 230.00000019999993
+            }
+          },
+          {
+            "part_definition_id": "feeder_trough_cutaway",
+            "dimensions_mm": {
+              "x": 1750.3826349143005,
+              "y": 380.0000002000003,
+              "z": 380.3826349143009
+            }
+          },
+          {
+            "part_definition_id": "auger_shaft",
+            "dimensions_mm": {
+              "x": 1750.0704855421081,
+              "y": 70.00000020000013,
+              "z": 70.07048554210832
+            }
+          },
+          {
+            "part_definition_id": "auger_flight",
+            "dimensions_mm": {
+              "x": 1702.9990566139454,
+              "y": 322.99339692607344,
+              "z": 322.9970081767433
+            }
+          },
+          {
+            "part_definition_id": "drive",
+            "dimensions_mm": {
+              "x": 250.30208023760588,
+              "y": 300.0000002000002,
+              "z": 300.3020802376059
+            }
+          },
+          {
+            "part_definition_id": "outlet",
+            "dimensions_mm": {
+              "x": 100.38263491430052,
+              "y": 380.00000020000016,
+              "z": 380.3826349143005
+            }
+          }
+        ],
+        "components": [
+          {
+            "object_id": "ASSET-02/support",
+            "ref_des": "support",
+            "part_definition_id": "support"
+          },
+          {
+            "object_id": "ASSET-02/foot_0",
+            "ref_des": "foot_0",
+            "part_definition_id": "foot_0"
+          },
+          {
+            "object_id": "ASSET-02/foot_1",
+            "ref_des": "foot_1",
+            "part_definition_id": "foot_1"
+          },
+          {
+            "object_id": "ASSET-02/foot_2",
+            "ref_des": "foot_2",
+            "part_definition_id": "foot_2"
+          },
+          {
+            "object_id": "ASSET-02/foot_3",
+            "ref_des": "foot_3",
+            "part_definition_id": "foot_3"
+          },
+          {
+            "object_id": "ASSET-02/hopper_shell",
+            "ref_des": "hopper_shell",
+            "part_definition_id": "hopper_shell"
+          },
+          {
+            "object_id": "ASSET-02/inlet_rim",
+            "ref_des": "inlet_rim",
+            "part_definition_id": "inlet_rim"
+          },
+          {
+            "object_id": "ASSET-02/support_leg_0_0",
+            "ref_des": "support_leg_0_0",
+            "part_definition_id": "support_leg_0_0"
+          },
+          {
+            "object_id": "ASSET-02/support_leg_0_1",
+            "ref_des": "support_leg_0_1",
+            "part_definition_id": "support_leg_0_1"
+          },
+          {
+            "object_id": "ASSET-02/support_leg_1_0",
+            "ref_des": "support_leg_1_0",
+            "part_definition_id": "support_leg_1_0"
+          },
+          {
+            "object_id": "ASSET-02/support_leg_1_1",
+            "ref_des": "support_leg_1_1",
+            "part_definition_id": "support_leg_1_1"
+          },
+          {
+            "object_id": "ASSET-02/gate",
+            "ref_des": "gate",
+            "part_definition_id": "gate"
+          },
+          {
+            "object_id": "ASSET-02/feed_chute",
+            "ref_des": "feed_chute",
+            "part_definition_id": "feed_chute"
+          },
+          {
+            "object_id": "ASSET-02/feeder_trough_cutaway",
+            "ref_des": "feeder_trough_cutaway",
+            "part_definition_id": "feeder_trough_cutaway"
+          },
+          {
+            "object_id": "ASSET-02/auger_shaft",
+            "ref_des": "auger_shaft",
+            "part_definition_id": "auger_shaft"
+          },
+          {
+            "object_id": "ASSET-02/auger_flight",
+            "ref_des": "auger_flight",
+            "part_definition_id": "auger_flight"
+          },
+          {
+            "object_id": "ASSET-02/drive",
+            "ref_des": "drive",
+            "part_definition_id": "drive"
+          },
+          {
+            "object_id": "ASSET-02/outlet",
+            "ref_des": "outlet",
+            "part_definition_id": "outlet"
+          }
+        ],
+        "mechanical": {
+          "physical_form": "REGOLITH HOPPER & FEEDER",
+          "enclosure_type": "Parametric concept assembly",
+          "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+          "manufacturability_rating": "Not evaluated",
+          "component_placements": [
+            {
+              "ref_des": "support",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 100.0
+              },
+              "size": {
+                "x_mm": 2400.0000002,
+                "y_mm": 1400.0000002000002,
+                "z_mm": 100.00000020000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_0",
+              "position": {
+                "x_mm": -1080.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_1",
+              "position": {
+                "x_mm": -1080.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_2",
+              "position": {
+                "x_mm": 1080.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_3",
+              "position": {
+                "x_mm": 1080.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000020000004,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "hopper_shell",
+              "position": {
+                "x_mm": -500.00000000000006,
+                "y_mm": 0.0,
+                "z_mm": 1175.0
+              },
+              "size": {
+                "x_mm": 1350.0000002000002,
+                "y_mm": 1350.0000002,
+                "z_mm": 1000.0000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "inlet_rim",
+              "position": {
+                "x_mm": -500.00000000000006,
+                "y_mm": 500.0,
+                "z_mm": 1520.0
+              },
+              "size": {
+                "x_mm": 1080.0000002000002,
+                "y_mm": 40.00000019999999,
+                "z_mm": 50.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "support_leg_0_0",
+              "position": {
+                "x_mm": -950.0,
+                "y_mm": -450.0,
+                "z_mm": 770.0
+              },
+              "size": {
+                "x_mm": 70.00000020000016,
+                "y_mm": 70.00000020000027,
+                "z_mm": 1280.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "support_leg_0_1",
+              "position": {
+                "x_mm": -950.0,
+                "y_mm": 450.0,
+                "z_mm": 770.0
+              },
+              "size": {
+                "x_mm": 70.00000020000016,
+                "y_mm": 70.00000020000027,
+                "z_mm": 1280.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "support_leg_1_0",
+              "position": {
+                "x_mm": -50.0,
+                "y_mm": -450.0,
+                "z_mm": 770.0
+              },
+              "size": {
+                "x_mm": 70.00000020000022,
+                "y_mm": 70.00000020000027,
+                "z_mm": 1280.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "support_leg_1_1",
+              "position": {
+                "x_mm": -50.0,
+                "y_mm": 450.0,
+                "z_mm": 770.0
+              },
+              "size": {
+                "x_mm": 70.00000020000022,
+                "y_mm": 70.00000020000027,
+                "z_mm": 1280.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "gate",
+              "position": {
+                "x_mm": -500.0,
+                "y_mm": 0.0,
+                "z_mm": 850.0
+              },
+              "size": {
+                "x_mm": 340.00000020000016,
+                "y_mm": 340.0000002000001,
+                "z_mm": 25.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "feed_chute",
+              "position": {
+                "x_mm": -500.0,
+                "y_mm": 0.0,
+                "z_mm": 700.0
+              },
+              "size": {
+                "x_mm": 300.0000002,
+                "y_mm": 300.0000002,
+                "z_mm": 230.00000019999993
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "feeder_trough_cutaway",
+              "position": {
+                "x_mm": -725.0,
+                "y_mm": 0.0,
+                "z_mm": 479.9999999999999
+              },
+              "size": {
+                "x_mm": 1750.3826349143005,
+                "y_mm": 380.0000002000003,
+                "z_mm": 380.3826349143009
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "auger_shaft",
+              "position": {
+                "x_mm": -725.0,
+                "y_mm": 0.0,
+                "z_mm": 479.9999999999999
+              },
+              "size": {
+                "x_mm": 1750.0704855421081,
+                "y_mm": 70.00000020000013,
+                "z_mm": 70.07048554210832
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "auger_flight",
+              "position": {
+                "x_mm": 150.00019550502736,
+                "y_mm": 0.0024146666775948233,
+                "z_mm": 479.9987942055575
+              },
+              "size": {
+                "x_mm": 1702.9990566139454,
+                "y_mm": 322.99339692607344,
+                "z_mm": 322.9970081767433
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "drive",
+              "position": {
+                "x_mm": -1025.0,
+                "y_mm": 0.0,
+                "z_mm": 480.0
+              },
+              "size": {
+                "x_mm": 250.30208023760588,
+                "y_mm": 300.0000002000002,
+                "z_mm": 300.3020802376059
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "outlet",
+              "position": {
+                "x_mm": 1010.0,
+                "y_mm": 0.0,
+                "z_mm": 480.0
+              },
+              "size": {
+                "x_mm": 100.38263491430052,
+                "y_mm": 380.00000020000016,
+                "z_mm": 380.3826349143005
+              },
+              "layer": "mechanism"
+            }
+          ],
+          "fabrication_details": [
+            "Every dimension is an authoring assumption, not a NASA measurement.",
+            "Motion is design inspection only, not simulated plant operation."
+          ]
+        }
+      },
+      "sources": [
+        "02-regolith-hopper-and-feeder.md"
+      ],
+      "status": "Concept engineering preview",
+      "model_source": "assets/machine-previews/build_all.py",
+      "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.",
+      "cad_generation": {
+        "adapter": "forma-opencad",
+        "status": "provided",
+        "required": false
+      },
+      "project_id": "c43aec91-146e-4359-9c08-c04185ef96fb",
+      "chat_id": "a021c75a-e8c1-42a7-86a8-a69b373c5c03",
+      "authoring_agent": "opencode",
+      "compiled_by": "forma.compile_project",
+      "compile_revision": 1,
+      "created_at": "2026-11-15T06:38:20.211192Z",
+      "source_prompt": "# ASSET-02 \u2014 Regolith receiving hopper, metering gate and screw feeder\n\n**Priority:** Core MVP. **Flow:** ASSET-01 excavator \u2192 finite hopper \u2192 metered feed into ASSET-03 preheater.\n\n## Research context\n\nNASA's 2024 MRE plant system model/poster uses a **receiving hopper** plus **screw conveyor (SCD)** between a RASSOR-type rover and preheating/processing. The 2012 NASA ISRU systems tool likewise separates excavation, regolith handling/feed and process reactor. Feed control matters because continuous plant throughput is limited by batch handoffs, material flow and power.\n\n## Forma / OpenCAD build brief\n\nBuild a raised rectangular or conical hopper on structural legs, dust-sealed receiving mouth, hinged metering gate, feed chute, screw shaft in a tubular or U-shaped trough, drive motor and discharge flange toward the auger. Keep separate geometry objects for `hopper_shell`, `gate`, `auger_shaft`, `drive`, `inlet`, `outlet` and `support` so the gate/shaft can visibly operate. Parametrize hopper volume and bulk-density assumption, outlet width, auger pitch, allowable RPM and inclination; no guessed dimensions need be called NASA-derived.\n\n**Visual demo action:** rover dumps a named lot, hopper level rises, gate opens, screw rotates **only while commanded**, and a measured portion moves into the preheater.\n\n## Executable machine contract\n\n- **Commands:** `accept_lot(source, lot_id)`, `open_gate(percent)`, `meter(target_kg_per_s, duration_s)`, `close_gate`, `clear_jam`.\n- **Inputs:** regolith lot composition and mass kg, bulk density kg/m\u00b3, machine electrical power W, available downstream capacity kg, gate opening and shaft RPM.\n- **Outputs:** consumed hopper kg, delivered feed lot ID/kg, remaining hopper kg, transferred particle composition and kg lost to explicitly modeled spill/dust.\n- **States:** EMPTY, RECEIVING, READY, FEEDING, BLOCKED, JAMMED, FAULT.\n- **Core model:** bounded mass-flow law from gate/RPM/available feed; calibrate coefficients as scenario assumptions and report them. Hard cap by actual mass and downstream capacity; conserve per-species mass on split/transfer.\n- **Failure cases:** hopper empty/full, sealed inlet, conveyor jam, power interruption, preheater backpressure/capacity full.\n\n## MVP acceptance\n\nA transferred `regolith-lot` enters this hopper, feeds ASSET-03 over simulation ticks, and the same mass/composition leaves the hopper. Gate and auger movement match task states. No feed can flow while gates are closed, disabled or jammed.\n\n## Technical sources\n\n- [NASA NTRS \u2014 MRE plant model, block diagram](https://ntrs.nasa.gov/citations/20240013999).\n- [NASA NTRS \u2014 MRE systems poster](https://ntrs.nasa.gov/api/citations/20240013999/downloads/LISC%20Fall%202024%20MRE%20Poster_v3.pdf?attachment=true) (RASSOR, supply hopper, auger/screw conveyor; figures are concept models, not detailed fabrication drawings).\n- [NASA NTRS \u2014 ISRU System Model Tool](https://ntrs.nasa.gov/api/citations/20120001380/downloads/20120001380.pdf) (separate regolith feed/handling module).\n## Integration contract (NASA-APP)\n\n- **OpenForma:** author the indicated MechanicalIR/ElectricalIR/FluidicIR/ThermalIR/ProcessIR/ChemicalIR artifacts only where real supported schemas and capabilities exist. Maintain source, validation result and model/version provenance.\n- **OpenCAD:** create a real parametric/assemblable asset with named separate moving parts, joints and attachment frames; export through an existing supported OpenIndustries handoff. Do not imply a mesh alone implements physics.\n- **OpenIndustries:** attach the asset to a stable scene object with machine/task IDs. Machine state and real execution events drive pose, material transfer and telemetry; no canned footage or free-running decorative animation.\n- **Controller:** only validated commands can transition this device; the Python numerical process solver returns physically bounded deltas/measurements and never manipulates the viewer.\n\n**Status:** design brief only. All dimensions, performance parameters, efficiencies and operating limits not explicitly identified as published references are **TBD engineering inputs**, not NASA specifications. This is a simulated machine, not a space-qualified build."
+    },
+    "project_version_history": [],
+    "validation": {
+      "critical": [],
+      "warning": [],
+      "info": []
+    },
+    "is_valid": true
+  },
+  "is_valid": true,
+  "validation": {
+    "critical": [],
+    "warning": [],
+    "info": []
+  },
+  "mermaid_code": "graph LR\n  support[\"<b>support</b><br/>support<br/><small>support</small>\"]\n  foot_0[\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\"]\n  foot_1[\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\"]\n  foot_2[\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\"]\n  foot_3[\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\"]\n  hopper_shell[\"<b>hopper_shell</b><br/>hopper_shell<br/><small>hopper_shell</small>\"]\n  inlet_rim[\"<b>inlet_rim</b><br/>inlet_rim<br/><small>inlet_rim</small>\"]\n  support_leg_0_0[\"<b>support_leg_0_0</b><br/>support_leg_0_0<br/><small>support_leg_0_0</small>\"]\n  support_leg_0_1[\"<b>support_leg_0_1</b><br/>support_leg_0_1<br/><small>support_leg_0_1</small>\"]\n  support_leg_1_0[\"<b>support_leg_1_0</b><br/>support_leg_1_0<br/><small>support_leg_1_0</small>\"]\n  support_leg_1_1[\"<b>support_leg_1_1</b><br/>support_leg_1_1<br/><small>support_leg_1_1</small>\"]\n  gate[\"<b>gate</b><br/>gate<br/><small>gate</small>\"]\n  feed_chute[\"<b>feed_chute</b><br/>feed_chute<br/><small>feed_chute</small>\"]\n  feeder_trough_cutaway[\"<b>feeder_trough_cutaway</b><br/>feeder_trough_cutaway<br/><small>feeder_trough_cutaway</small>\"]\n  auger_shaft[\"<b>auger_shaft</b><br/>auger_shaft<br/><small>auger_shaft</small>\"]\n  auger_flight[\"<b>auger_flight</b><br/>auger_flight<br/><small>auger_flight</small>\"]\n  drive[\"<b>drive</b><br/>drive<br/><small>drive</small>\"]\n  outlet[\"<b>outlet</b><br/>outlet<br/><small>outlet</small>\"]",
+  "svg_schematic": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\n  <!-- Grid Background -->\n  <defs>\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\n    </pattern>\n  </defs>\n  <rect width='100%' height='100%' fill='url(#grid)' />\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-02 - REGOLITH HOPPER &amp; FEEDER</text>\n  <!-- Wires / Connections -->\n  <!-- Components -->\n  <g id='comp-support'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-hopper_shell'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>hopper_shell</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>hopper_shell</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>hopper_shell</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-inlet_rim'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>inlet_rim</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>inlet_rim</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>inlet_rim</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-support_leg_0_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support_leg_0_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support_leg_0_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support_leg_0_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-support_leg_0_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support_leg_0_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support_leg_0_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support_leg_0_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-support_leg_1_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support_leg_1_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support_leg_1_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support_leg_1_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-support_leg_1_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support_leg_1_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support_leg_1_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support_leg_1_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-gate'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>gate</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>gate</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>gate</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-feed_chute'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>feed_chute</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>feed_chute</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>feed_chute</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-feeder_trough_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>feeder_trough_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>feeder_trough_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>feeder_trough_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-auger_shaft'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>auger_shaft</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>auger_shaft</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>auger_shaft</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-auger_flight'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>auger_flight</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>auger_flight</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>auger_flight</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-drive'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>drive</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>drive</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>drive</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-outlet'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>outlet</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>outlet</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>outlet</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n</svg>"
+}

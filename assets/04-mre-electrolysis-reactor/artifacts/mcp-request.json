@@ -1,0 +1,1215 @@
+{
+  "hardware_ir_version": "0.2",
+  "overview": {
+    "title": "ASSET-04 - MRE ELECTROLYSIS REACTOR",
+    "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+    "category": "Industrial",
+    "difficulty": "Advanced"
+  },
+  "components": [
+    {
+      "ref_des": "support",
+      "name": "support",
+      "part_number": "support",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_0",
+      "name": "foot_0",
+      "part_number": "foot_0",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_1",
+      "name": "foot_1",
+      "part_number": "foot_1",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_2",
+      "name": "foot_2",
+      "part_number": "foot_2",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "foot_3",
+      "name": "foot_3",
+      "part_number": "foot_3",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "vessel_shell_cutaway",
+      "name": "vessel_shell_cutaway",
+      "part_number": "vessel_shell_cutaway",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "insulation_cutaway",
+      "name": "insulation_cutaway",
+      "part_number": "insulation_cutaway",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "refractory_cutaway",
+      "name": "refractory_cutaway",
+      "part_number": "refractory_cutaway",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "vessel_floor",
+      "name": "vessel_floor",
+      "part_number": "vessel_floor",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "gas_hood",
+      "name": "gas_hood",
+      "part_number": "gas_hood",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "anode",
+      "name": "anode",
+      "part_number": "anode",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "anode_busbar",
+      "name": "anode_busbar",
+      "part_number": "anode_busbar",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "anode_feedthrough",
+      "name": "anode_feedthrough",
+      "part_number": "anode_feedthrough",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "cathode",
+      "name": "cathode",
+      "part_number": "cathode",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "cathode_busbar",
+      "name": "cathode_busbar",
+      "part_number": "cathode_busbar",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "cathode_feedthrough",
+      "name": "cathode_feedthrough",
+      "part_number": "cathode_feedthrough",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "feed_port",
+      "name": "feed_port",
+      "part_number": "feed_port",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "oxygen_outlet",
+      "name": "oxygen_outlet",
+      "part_number": "oxygen_outlet",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "slag_withdrawal",
+      "name": "slag_withdrawal",
+      "part_number": "slag_withdrawal",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "tap_gate_body",
+      "name": "tap_gate_body",
+      "part_number": "tap_gate_body",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "tap_gate_stem",
+      "name": "tap_gate_stem",
+      "part_number": "tap_gate_stem",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "tap_gate_handle",
+      "name": "tap_gate_handle",
+      "part_number": "tap_gate_handle",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "inspection_panel",
+      "name": "inspection_panel",
+      "part_number": "inspection_panel",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    },
+    {
+      "ref_des": "thermal_probe",
+      "name": "thermal_probe",
+      "part_number": "thermal_probe",
+      "category": "Mechanical",
+      "rationale": "Separate concept geometry body"
+    }
+  ],
+  "nets": [],
+  "mechanical": {
+    "physical_form": "MRE ELECTROLYSIS REACTOR",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 1800.0000002000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -780.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 780.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 780.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000019999993,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "vessel_shell_cutaway",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 195.00000000000003
+        },
+        "size": {
+          "x_mm": 1121.127765673728,
+          "y_mm": 1120.0000002000004,
+          "z_mm": 1051.127765673728
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "insulation_cutaway",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 225.00000000000003
+        },
+        "size": {
+          "x_mm": 1041.047210997033,
+          "y_mm": 1040.0000002000004,
+          "z_mm": 991.0472109970331
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refractory_cutaway",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 240.0
+        },
+        "size": {
+          "x_mm": 870.8760323090564,
+          "y_mm": 870.0000002000003,
+          "z_mm": 920.8760323090564
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "vessel_floor",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 195.0
+        },
+        "size": {
+          "x_mm": 1101.107627004554,
+          "y_mm": 1100.0000002000002,
+          "z_mm": 91.10762700455405
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "gas_hood",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 1250.0
+        },
+        "size": {
+          "x_mm": 1161.1680430120753,
+          "y_mm": 1160.0000002000004,
+          "z_mm": 121.16804301207549
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "anode",
+        "position": {
+          "x_mm": -200.0,
+          "y_mm": 0.0,
+          "z_mm": 980.0
+        },
+        "size": {
+          "x_mm": 90.00000020000044,
+          "y_mm": 180.00000020000044,
+          "z_mm": 920.0000002000005
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "anode_busbar",
+        "position": {
+          "x_mm": -200.0,
+          "y_mm": 0.0,
+          "z_mm": 1490.0
+        },
+        "size": {
+          "x_mm": 220.00000020000004,
+          "y_mm": 100.00000020000006,
+          "z_mm": 60.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "anode_feedthrough",
+        "position": {
+          "x_mm": -200.0,
+          "y_mm": 0.0,
+          "z_mm": 1320.0
+        },
+        "size": {
+          "x_mm": 170.1711788879766,
+          "y_mm": 170.00000020000013,
+          "z_mm": 100.17117888797657
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "cathode",
+        "position": {
+          "x_mm": 200.0,
+          "y_mm": 0.0,
+          "z_mm": 980.0
+        },
+        "size": {
+          "x_mm": 90.00000020000044,
+          "y_mm": 180.00000020000044,
+          "z_mm": 920.0000002000005
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "cathode_busbar",
+        "position": {
+          "x_mm": 200.0,
+          "y_mm": 0.0,
+          "z_mm": 1490.0
+        },
+        "size": {
+          "x_mm": 220.00000020000004,
+          "y_mm": 100.00000020000006,
+          "z_mm": 60.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "cathode_feedthrough",
+        "position": {
+          "x_mm": 200.0,
+          "y_mm": 0.0,
+          "z_mm": 1320.0
+        },
+        "size": {
+          "x_mm": 170.1711788879766,
+          "y_mm": 170.00000020000013,
+          "z_mm": 100.17117888797657
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_port",
+        "position": {
+          "x_mm": -380.0,
+          "y_mm": 0.0,
+          "z_mm": 1305.0
+        },
+        "size": {
+          "x_mm": 170.17117888797657,
+          "y_mm": 170.00000020000013,
+          "z_mm": 330.17117888797657
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "oxygen_outlet",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 300.0,
+          "z_mm": 1360.0
+        },
+        "size": {
+          "x_mm": 110.11076288045545,
+          "y_mm": 110.00000020000007,
+          "z_mm": 420.11076288045524
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "slag_withdrawal",
+        "position": {
+          "x_mm": 395.0,
+          "y_mm": 0.0,
+          "z_mm": 380.0
+        },
+        "size": {
+          "x_mm": 450.15104021880296,
+          "y_mm": 150.0000002000001,
+          "z_mm": 150.15104021880296
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tap_gate_body",
+        "position": {
+          "x_mm": 620.0,
+          "y_mm": 0.0,
+          "z_mm": 380.0
+        },
+        "size": {
+          "x_mm": 160.11076288045547,
+          "y_mm": 110.00000020000013,
+          "z_mm": 110.11076288045547
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tap_gate_stem",
+        "position": {
+          "x_mm": 700.0,
+          "y_mm": 0.0,
+          "z_mm": 395.0
+        },
+        "size": {
+          "x_mm": 32.032222070678245,
+          "y_mm": 32.000000200000265,
+          "z_mm": 90.03222207067824
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tap_gate_handle",
+        "position": {
+          "x_mm": 755.0,
+          "y_mm": 0.0,
+          "z_mm": 495.0
+        },
+        "size": {
+          "x_mm": 170.00000019999993,
+          "y_mm": 24.0000002,
+          "z_mm": 22.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "inspection_panel",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -570.0,
+          "z_mm": 820.0
+        },
+        "size": {
+          "x_mm": 350.0000002000002,
+          "y_mm": 30.00000020000016,
+          "z_mm": 470.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "thermal_probe",
+        "position": {
+          "x_mm": 380.0,
+          "y_mm": 80.0,
+          "z_mm": 1260.0
+        },
+        "size": {
+          "x_mm": 44.04430527218233,
+          "y_mm": 44.00000020000014,
+          "z_mm": 240.0443052721821
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  },
+  "cad_model": {
+    "format": "step",
+    "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-04\\assembly.step",
+    "sha256": "5756317f860001cdc30d901ea39749a5ceb94a24e082ef53f89dc8ac0f5f38a6",
+    "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-04\\excavator.meshes.json",
+    "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-04\\excavator.kinematics.json",
+    "units": "mm"
+  },
+  "assembly_metadata": {
+    "asset_id": "ASSET-04",
+    "mechanical_ir": {
+      "domain": "mechanical",
+      "schema_version": "1.0",
+      "artifact_id": "ASSET-04-mechanical",
+      "revision": 1,
+      "parts": [
+        {
+          "part_definition_id": "support",
+          "dimensions_mm": {
+            "x": 1800.0000002000002,
+            "y": 1400.0000002000002,
+            "z": 100.00000020000004
+          }
+        },
+        {
+          "part_definition_id": "foot_0",
+          "dimensions_mm": {
+            "x": 140.00000019999993,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_1",
+          "dimensions_mm": {
+            "x": 140.00000019999993,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_2",
+          "dimensions_mm": {
+            "x": 140.00000019999993,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "foot_3",
+          "dimensions_mm": {
+            "x": 140.00000019999993,
+            "y": 140.0000002,
+            "z": 100.00000020000002
+          }
+        },
+        {
+          "part_definition_id": "vessel_shell_cutaway",
+          "dimensions_mm": {
+            "x": 1121.127765673728,
+            "y": 1120.0000002000004,
+            "z": 1051.127765673728
+          }
+        },
+        {
+          "part_definition_id": "insulation_cutaway",
+          "dimensions_mm": {
+            "x": 1041.047210997033,
+            "y": 1040.0000002000004,
+            "z": 991.0472109970331
+          }
+        },
+        {
+          "part_definition_id": "refractory_cutaway",
+          "dimensions_mm": {
+            "x": 870.8760323090564,
+            "y": 870.0000002000003,
+            "z": 920.8760323090564
+          }
+        },
+        {
+          "part_definition_id": "vessel_floor",
+          "dimensions_mm": {
+            "x": 1101.107627004554,
+            "y": 1100.0000002000002,
+            "z": 91.10762700455405
+          }
+        },
+        {
+          "part_definition_id": "gas_hood",
+          "dimensions_mm": {
+            "x": 1161.1680430120753,
+            "y": 1160.0000002000004,
+            "z": 121.16804301207549
+          }
+        },
+        {
+          "part_definition_id": "anode",
+          "dimensions_mm": {
+            "x": 90.00000020000044,
+            "y": 180.00000020000044,
+            "z": 920.0000002000005
+          }
+        },
+        {
+          "part_definition_id": "anode_busbar",
+          "dimensions_mm": {
+            "x": 220.00000020000004,
+            "y": 100.00000020000006,
+            "z": 60.00000020000016
+          }
+        },
+        {
+          "part_definition_id": "anode_feedthrough",
+          "dimensions_mm": {
+            "x": 170.1711788879766,
+            "y": 170.00000020000013,
+            "z": 100.17117888797657
+          }
+        },
+        {
+          "part_definition_id": "cathode",
+          "dimensions_mm": {
+            "x": 90.00000020000044,
+            "y": 180.00000020000044,
+            "z": 920.0000002000005
+          }
+        },
+        {
+          "part_definition_id": "cathode_busbar",
+          "dimensions_mm": {
+            "x": 220.00000020000004,
+            "y": 100.00000020000006,
+            "z": 60.00000020000016
+          }
+        },
+        {
+          "part_definition_id": "cathode_feedthrough",
+          "dimensions_mm": {
+            "x": 170.1711788879766,
+            "y": 170.00000020000013,
+            "z": 100.17117888797657
+          }
+        },
+        {
+          "part_definition_id": "feed_port",
+          "dimensions_mm": {
+            "x": 170.17117888797657,
+            "y": 170.00000020000013,
+            "z": 330.17117888797657
+          }
+        },
+        {
+          "part_definition_id": "oxygen_outlet",
+          "dimensions_mm": {
+            "x": 110.11076288045545,
+            "y": 110.00000020000007,
+            "z": 420.11076288045524
+          }
+        },
+        {
+          "part_definition_id": "slag_withdrawal",
+          "dimensions_mm": {
+            "x": 450.15104021880296,
+            "y": 150.0000002000001,
+            "z": 150.15104021880296
+          }
+        },
+        {
+          "part_definition_id": "tap_gate_body",
+          "dimensions_mm": {
+            "x": 160.11076288045547,
+            "y": 110.00000020000013,
+            "z": 110.11076288045547
+          }
+        },
+        {
+          "part_definition_id": "tap_gate_stem",
+          "dimensions_mm": {
+            "x": 32.032222070678245,
+            "y": 32.000000200000265,
+            "z": 90.03222207067824
+          }
+        },
+        {
+          "part_definition_id": "tap_gate_handle",
+          "dimensions_mm": {
+            "x": 170.00000019999993,
+            "y": 24.0000002,
+            "z": 22.000000200000045
+          }
+        },
+        {
+          "part_definition_id": "inspection_panel",
+          "dimensions_mm": {
+            "x": 350.0000002000002,
+            "y": 30.00000020000016,
+            "z": 470.00000020000016
+          }
+        },
+        {
+          "part_definition_id": "thermal_probe",
+          "dimensions_mm": {
+            "x": 44.04430527218233,
+            "y": 44.00000020000014,
+            "z": 240.0443052721821
+          }
+        }
+      ],
+      "components": [
+        {
+          "object_id": "ASSET-04/support",
+          "ref_des": "support",
+          "part_definition_id": "support"
+        },
+        {
+          "object_id": "ASSET-04/foot_0",
+          "ref_des": "foot_0",
+          "part_definition_id": "foot_0"
+        },
+        {
+          "object_id": "ASSET-04/foot_1",
+          "ref_des": "foot_1",
+          "part_definition_id": "foot_1"
+        },
+        {
+          "object_id": "ASSET-04/foot_2",
+          "ref_des": "foot_2",
+          "part_definition_id": "foot_2"
+        },
+        {
+          "object_id": "ASSET-04/foot_3",
+          "ref_des": "foot_3",
+          "part_definition_id": "foot_3"
+        },
+        {
+          "object_id": "ASSET-04/vessel_shell_cutaway",
+          "ref_des": "vessel_shell_cutaway",
+          "part_definition_id": "vessel_shell_cutaway"
+        },
+        {
+          "object_id": "ASSET-04/insulation_cutaway",
+          "ref_des": "insulation_cutaway",
+          "part_definition_id": "insulation_cutaway"
+        },
+        {
+          "object_id": "ASSET-04/refractory_cutaway",
+          "ref_des": "refractory_cutaway",
+          "part_definition_id": "refractory_cutaway"
+        },
+        {
+          "object_id": "ASSET-04/vessel_floor",
+          "ref_des": "vessel_floor",
+          "part_definition_id": "vessel_floor"
+        },
+        {
+          "object_id": "ASSET-04/gas_hood",
+          "ref_des": "gas_hood",
+          "part_definition_id": "gas_hood"
+        },
+        {
+          "object_id": "ASSET-04/anode",
+          "ref_des": "anode",
+          "part_definition_id": "anode"
+        },
+        {
+          "object_id": "ASSET-04/anode_busbar",
+          "ref_des": "anode_busbar",
+          "part_definition_id": "anode_busbar"
+        },
+        {
+          "object_id": "ASSET-04/anode_feedthrough",
+          "ref_des": "anode_feedthrough",
+          "part_definition_id": "anode_feedthrough"
+        },
+        {
+          "object_id": "ASSET-04/cathode",
+          "ref_des": "cathode",
+          "part_definition_id": "cathode"
+        },
+        {
+          "object_id": "ASSET-04/cathode_busbar",
+          "ref_des": "cathode_busbar",
+          "part_definition_id": "cathode_busbar"
+        },
+        {
+          "object_id": "ASSET-04/cathode_feedthrough",
+          "ref_des": "cathode_feedthrough",
+          "part_definition_id": "cathode_feedthrough"
+        },
+        {
+          "object_id": "ASSET-04/feed_port",
+          "ref_des": "feed_port",
+          "part_definition_id": "feed_port"
+        },
+        {
+          "object_id": "ASSET-04/oxygen_outlet",
+          "ref_des": "oxygen_outlet",
+          "part_definition_id": "oxygen_outlet"
+        },
+        {
+          "object_id": "ASSET-04/slag_withdrawal",
+          "ref_des": "slag_withdrawal",
+          "part_definition_id": "slag_withdrawal"
+        },
+        {
+          "object_id": "ASSET-04/tap_gate_body",
+          "ref_des": "tap_gate_body",
+          "part_definition_id": "tap_gate_body"
+        },
+        {
+          "object_id": "ASSET-04/tap_gate_stem",
+          "ref_des": "tap_gate_stem",
+          "part_definition_id": "tap_gate_stem"
+        },
+        {
+          "object_id": "ASSET-04/tap_gate_handle",
+          "ref_des": "tap_gate_handle",
+          "part_definition_id": "tap_gate_handle"
+        },
+        {
+          "object_id": "ASSET-04/inspection_panel",
+          "ref_des": "inspection_panel",
+          "part_definition_id": "inspection_panel"
+        },
+        {
+          "object_id": "ASSET-04/thermal_probe",
+          "ref_des": "thermal_probe",
+          "part_definition_id": "thermal_probe"
+        }
+      ],
+      "mechanical": {
+        "physical_form": "MRE ELECTROLYSIS REACTOR",
+        "enclosure_type": "Parametric concept assembly",
+        "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+        "manufacturability_rating": "Not evaluated",
+        "component_placements": [
+          {
+            "ref_des": "support",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 100.0
+            },
+            "size": {
+              "x_mm": 1800.0000002000002,
+              "y_mm": 1400.0000002000002,
+              "z_mm": 100.00000020000004
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_0",
+            "position": {
+              "x_mm": -780.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_1",
+            "position": {
+              "x_mm": -780.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_2",
+            "position": {
+              "x_mm": 780.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "foot_3",
+            "position": {
+              "x_mm": 780.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "vessel_shell_cutaway",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 195.00000000000003
+            },
+            "size": {
+              "x_mm": 1121.127765673728,
+              "y_mm": 1120.0000002000004,
+              "z_mm": 1051.127765673728
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "insulation_cutaway",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 225.00000000000003
+            },
+            "size": {
+              "x_mm": 1041.047210997033,
+              "y_mm": 1040.0000002000004,
+              "z_mm": 991.0472109970331
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "refractory_cutaway",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 240.0
+            },
+            "size": {
+              "x_mm": 870.8760323090564,
+              "y_mm": 870.0000002000003,
+              "z_mm": 920.8760323090564
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "vessel_floor",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 195.0
+            },
+            "size": {
+              "x_mm": 1101.107627004554,
+              "y_mm": 1100.0000002000002,
+              "z_mm": 91.10762700455405
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "gas_hood",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 1250.0
+            },
+            "size": {
+              "x_mm": 1161.1680430120753,
+              "y_mm": 1160.0000002000004,
+              "z_mm": 121.16804301207549
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "anode",
+            "position": {
+              "x_mm": -200.0,
+              "y_mm": 0.0,
+              "z_mm": 980.0
+            },
+            "size": {
+              "x_mm": 90.00000020000044,
+              "y_mm": 180.00000020000044,
+              "z_mm": 920.0000002000005
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "anode_busbar",
+            "position": {
+              "x_mm": -200.0,
+              "y_mm": 0.0,
+              "z_mm": 1490.0
+            },
+            "size": {
+              "x_mm": 220.00000020000004,
+              "y_mm": 100.00000020000006,
+              "z_mm": 60.00000020000016
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "anode_feedthrough",
+            "position": {
+              "x_mm": -200.0,
+              "y_mm": 0.0,
+              "z_mm": 1320.0
+            },
+            "size": {
+              "x_mm": 170.1711788879766,
+              "y_mm": 170.00000020000013,
+              "z_mm": 100.17117888797657
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "cathode",
+            "position": {
+              "x_mm": 200.0,
+              "y_mm": 0.0,
+              "z_mm": 980.0
+            },
+            "size": {
+              "x_mm": 90.00000020000044,
+              "y_mm": 180.00000020000044,
+              "z_mm": 920.0000002000005
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "cathode_busbar",
+            "position": {
+              "x_mm": 200.0,
+              "y_mm": 0.0,
+              "z_mm": 1490.0
+            },
+            "size": {
+              "x_mm": 220.00000020000004,
+              "y_mm": 100.00000020000006,
+              "z_mm": 60.00000020000016
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "cathode_feedthrough",
+            "position": {
+              "x_mm": 200.0,
+              "y_mm": 0.0,
+              "z_mm": 1320.0
+            },
+            "size": {
+              "x_mm": 170.1711788879766,
+              "y_mm": 170.00000020000013,
+              "z_mm": 100.17117888797657
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "feed_port",
+            "position": {
+              "x_mm": -380.0,
+              "y_mm": 0.0,
+              "z_mm": 1305.0
+            },
+            "size": {
+              "x_mm": 170.17117888797657,
+              "y_mm": 170.00000020000013,
+              "z_mm": 330.17117888797657
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "oxygen_outlet",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 300.0,
+              "z_mm": 1360.0
+            },
+            "size": {
+              "x_mm": 110.11076288045545,
+              "y_mm": 110.00000020000007,
+              "z_mm": 420.11076288045524
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "slag_withdrawal",
+            "position": {
+              "x_mm": 395.0,
+              "y_mm": 0.0,
+              "z_mm": 380.0
+            },
+            "size": {
+              "x_mm": 450.15104021880296,
+              "y_mm": 150.0000002000001,
+              "z_mm": 150.15104021880296
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "tap_gate_body",
+            "position": {
+              "x_mm": 620.0,
+              "y_mm": 0.0,
+              "z_mm": 380.0
+            },
+            "size": {
+              "x_mm": 160.11076288045547,
+              "y_mm": 110.00000020000013,
+              "z_mm": 110.11076288045547
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "tap_gate_stem",
+            "position": {
+              "x_mm": 700.0,
+              "y_mm": 0.0,
+              "z_mm": 395.0
+            },
+            "size": {
+              "x_mm": 32.032222070678245,
+              "y_mm": 32.000000200000265,
+              "z_mm": 90.03222207067824
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "tap_gate_handle",
+            "position": {
+              "x_mm": 755.0,
+              "y_mm": 0.0,
+              "z_mm": 495.0
+            },
+            "size": {
+              "x_mm": 170.00000019999993,
+              "y_mm": 24.0000002,
+              "z_mm": 22.000000200000045
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "inspection_panel",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": -570.0,
+              "z_mm": 820.0
+            },
+            "size": {
+              "x_mm": 350.0000002000002,
+              "y_mm": 30.00000020000016,
+              "z_mm": 470.00000020000016
+            },
+            "layer": "mechanism"
+          },
+          {
+            "ref_des": "thermal_probe",
+            "position": {
+              "x_mm": 380.0,
+              "y_mm": 80.0,
+              "z_mm": 1260.0
+            },
+            "size": {
+              "x_mm": 44.04430527218233,
+              "y_mm": 44.00000020000014,
+              "z_mm": 240.0443052721821
+            },
+            "layer": "mechanism"
+          }
+        ],
+        "fabrication_details": [
+          "Every dimension is an authoring assumption, not a NASA measurement.",
+          "Motion is design inspection only, not simulated plant operation."
+        ]
+      }
+    },
+    "sources": [
+      "04-mre-electrolysis-reactor.md"
+    ],
+    "status": "Concept engineering preview",
+    "model_source": "assets/machine-previews/build_all.py",
+    "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated."
+  }
+}

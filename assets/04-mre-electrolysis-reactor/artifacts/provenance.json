@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-04",
+  "project_id": "24c81a14-3f79-472c-9450-fa9cefefee94",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "04-mre-electrolysis-reactor.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 24,
+  "moving_body_count": 2,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "5756317f860001cdc30d901ea39749a5ceb94a24e082ef53f89dc8ac0f5f38a6",
+    "excavator.kinematics.json": "dc45fb76e41e62863182ba1859a2113f257117e63dab39b8c85381b24e07e99f",
+    "excavator.meshes.json": "28f984de9dc91ece183b84b29d3cd7c0d2b37b64d0aa8ce74e81f975a2fcb7a1",
+    "forma-compiled.json": "62123479b7fa21b5cb29d626e75b4eda9426dd98b8e1e33d519090928d8c744b",
+    "mcp-request.json": "b089abe832c141c3728b658c9537ba18b6c82ed4a10f583e777ca8696096090c",
+    "mcp-response.json": "23fae0dde6e2a5ca369852e704a30ef04f5c49fe0338827d2dd01eb7a74ec38a",
+    "mechanical.ir.json": "9b1fbbced8dd4511171c434fec0145abbf56d070d44a28c9871f74b7d964f2a3",
+    "preview.gif": "362f71f1d71f43943b8e0af0f24c0609dca3f4b6a4e2b53293945158bf037985",
+    "preview.png": "6aaa8548b28062fd82384acef9aba1b3da69db1235cf9ef75011cbd7499ed893",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

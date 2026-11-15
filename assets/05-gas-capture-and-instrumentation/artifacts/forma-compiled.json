@@ -1,0 +1,2903 @@
+{
+  "project_id": "7c12bb1b-7fe1-4bd3-b50a-4fe1c30ff92b",
+  "chat_id": "febd2282-e8f3-4562-a9f4-4779693ba2c4",
+  "persisted": true,
+  "visibility": "private",
+  "project_ir": {
+    "hardware_ir_version": "0.2",
+    "overview": {
+      "title": "ASSET-05 - GAS CAPTURE & MONITORING",
+      "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+      "difficulty": "Advanced",
+      "estimated_cost": 0.0,
+      "category": "Industrial"
+    },
+    "requirements": null,
+    "system_architecture": null,
+    "part_definitions": [
+      {
+        "part_definition_id": "PART_SUPPORT",
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_0",
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_1",
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_2",
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_FOOT_3",
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_CAPTURE_MANIFOLD",
+        "manufacturer": null,
+        "part_number": "capture_manifold",
+        "name": "capture_manifold",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_0_BODY",
+        "manufacturer": null,
+        "part_number": "isolation_0_body",
+        "name": "isolation_0_body",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_0_STEM",
+        "manufacturer": null,
+        "part_number": "isolation_0_stem",
+        "name": "isolation_0_stem",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_0_HANDLE",
+        "manufacturer": null,
+        "part_number": "isolation_0_handle",
+        "name": "isolation_0_handle",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SAMPLE_RISER_0",
+        "manufacturer": null,
+        "part_number": "sample_riser_0",
+        "name": "sample_riser_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_TRANSDUCER_0",
+        "manufacturer": null,
+        "part_number": "transducer_0",
+        "name": "transducer_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_1_BODY",
+        "manufacturer": null,
+        "part_number": "isolation_1_body",
+        "name": "isolation_1_body",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_1_STEM",
+        "manufacturer": null,
+        "part_number": "isolation_1_stem",
+        "name": "isolation_1_stem",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_1_HANDLE",
+        "manufacturer": null,
+        "part_number": "isolation_1_handle",
+        "name": "isolation_1_handle",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SAMPLE_RISER_1",
+        "manufacturer": null,
+        "part_number": "sample_riser_1",
+        "name": "sample_riser_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_TRANSDUCER_1",
+        "manufacturer": null,
+        "part_number": "transducer_1",
+        "name": "transducer_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_2_BODY",
+        "manufacturer": null,
+        "part_number": "isolation_2_body",
+        "name": "isolation_2_body",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_2_STEM",
+        "manufacturer": null,
+        "part_number": "isolation_2_stem",
+        "name": "isolation_2_stem",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ISOLATION_2_HANDLE",
+        "manufacturer": null,
+        "part_number": "isolation_2_handle",
+        "name": "isolation_2_handle",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SAMPLE_RISER_2",
+        "manufacturer": null,
+        "part_number": "sample_riser_2",
+        "name": "sample_riser_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_TRANSDUCER_2",
+        "manufacturer": null,
+        "part_number": "transducer_2",
+        "name": "transducer_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_SAMPLING_BYPASS",
+        "manufacturer": null,
+        "part_number": "sampling_bypass",
+        "name": "sampling_bypass",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_BYPASS_CONNECTION_NEG550",
+        "manufacturer": null,
+        "part_number": "bypass_connection_neg550",
+        "name": "bypass_connection_neg550",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_BYPASS_CONNECTION_550",
+        "manufacturer": null,
+        "part_number": "bypass_connection_550",
+        "name": "bypass_connection_550",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INSTRUMENT_RACK",
+        "manufacturer": null,
+        "part_number": "instrument_rack",
+        "name": "instrument_rack",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ANALYZER_MODULE_0",
+        "manufacturer": null,
+        "part_number": "analyzer_module_0",
+        "name": "analyzer_module_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INSTRUMENT_FACE_0",
+        "manufacturer": null,
+        "part_number": "instrument_face_0",
+        "name": "instrument_face_0",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ANALYZER_MODULE_1",
+        "manufacturer": null,
+        "part_number": "analyzer_module_1",
+        "name": "analyzer_module_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INSTRUMENT_FACE_1",
+        "manufacturer": null,
+        "part_number": "instrument_face_1",
+        "name": "instrument_face_1",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_ANALYZER_MODULE_2",
+        "manufacturer": null,
+        "part_number": "analyzer_module_2",
+        "name": "analyzer_module_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_INSTRUMENT_FACE_2",
+        "manufacturer": null,
+        "part_number": "instrument_face_2",
+        "name": "instrument_face_2",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      },
+      {
+        "part_definition_id": "PART_PURGE_VENT",
+        "manufacturer": null,
+        "part_number": "purge_vent",
+        "name": "purge_vent",
+        "category": "Mechanical",
+        "description": "",
+        "electrical_specs": {},
+        "pins": [],
+        "dimensions_mm": {},
+        "datasheet_url": null,
+        "sourcing_url": null,
+        "sourcing_offers": [],
+        "unit_price": 0.0
+      }
+    ],
+    "components": [
+      {
+        "ref_des": "support",
+        "part_definition_id": "PART_SUPPORT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_0",
+        "part_definition_id": "PART_FOOT_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_1",
+        "part_definition_id": "PART_FOOT_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_2",
+        "part_definition_id": "PART_FOOT_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "foot_3",
+        "part_definition_id": "PART_FOOT_3",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "capture_manifold",
+        "part_definition_id": "PART_CAPTURE_MANIFOLD",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_0_body",
+        "part_definition_id": "PART_ISOLATION_0_BODY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_0_stem",
+        "part_definition_id": "PART_ISOLATION_0_STEM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_0_handle",
+        "part_definition_id": "PART_ISOLATION_0_HANDLE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sample_riser_0",
+        "part_definition_id": "PART_SAMPLE_RISER_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "transducer_0",
+        "part_definition_id": "PART_TRANSDUCER_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_1_body",
+        "part_definition_id": "PART_ISOLATION_1_BODY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_1_stem",
+        "part_definition_id": "PART_ISOLATION_1_STEM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_1_handle",
+        "part_definition_id": "PART_ISOLATION_1_HANDLE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sample_riser_1",
+        "part_definition_id": "PART_SAMPLE_RISER_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "transducer_1",
+        "part_definition_id": "PART_TRANSDUCER_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_2_body",
+        "part_definition_id": "PART_ISOLATION_2_BODY",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_2_stem",
+        "part_definition_id": "PART_ISOLATION_2_STEM",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "isolation_2_handle",
+        "part_definition_id": "PART_ISOLATION_2_HANDLE",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sample_riser_2",
+        "part_definition_id": "PART_SAMPLE_RISER_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "transducer_2",
+        "part_definition_id": "PART_TRANSDUCER_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "sampling_bypass",
+        "part_definition_id": "PART_SAMPLING_BYPASS",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "bypass_connection_neg550",
+        "part_definition_id": "PART_BYPASS_CONNECTION_NEG550",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "bypass_connection_550",
+        "part_definition_id": "PART_BYPASS_CONNECTION_550",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "instrument_rack",
+        "part_definition_id": "PART_INSTRUMENT_RACK",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "analyzer_module_0",
+        "part_definition_id": "PART_ANALYZER_MODULE_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "instrument_face_0",
+        "part_definition_id": "PART_INSTRUMENT_FACE_0",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "analyzer_module_1",
+        "part_definition_id": "PART_ANALYZER_MODULE_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "instrument_face_1",
+        "part_definition_id": "PART_INSTRUMENT_FACE_1",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "analyzer_module_2",
+        "part_definition_id": "PART_ANALYZER_MODULE_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "instrument_face_2",
+        "part_definition_id": "PART_INSTRUMENT_FACE_2",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      },
+      {
+        "ref_des": "purge_vent",
+        "part_definition_id": "PART_PURGE_VENT",
+        "rationale": "Separate concept geometry body",
+        "configuration": {}
+      }
+    ],
+    "bom": [
+      {
+        "line_id": "BOM_PART_SUPPORT",
+        "part_definition_id": "PART_SUPPORT",
+        "instance_refs": [
+          "support"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "support",
+        "name": "support",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_0",
+        "part_definition_id": "PART_FOOT_0",
+        "instance_refs": [
+          "foot_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_0",
+        "name": "foot_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_1",
+        "part_definition_id": "PART_FOOT_1",
+        "instance_refs": [
+          "foot_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_1",
+        "name": "foot_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_2",
+        "part_definition_id": "PART_FOOT_2",
+        "instance_refs": [
+          "foot_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_2",
+        "name": "foot_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_FOOT_3",
+        "part_definition_id": "PART_FOOT_3",
+        "instance_refs": [
+          "foot_3"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "foot_3",
+        "name": "foot_3",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_CAPTURE_MANIFOLD",
+        "part_definition_id": "PART_CAPTURE_MANIFOLD",
+        "instance_refs": [
+          "capture_manifold"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "capture_manifold",
+        "name": "capture_manifold",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_0_BODY",
+        "part_definition_id": "PART_ISOLATION_0_BODY",
+        "instance_refs": [
+          "isolation_0_body"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_0_body",
+        "name": "isolation_0_body",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_0_STEM",
+        "part_definition_id": "PART_ISOLATION_0_STEM",
+        "instance_refs": [
+          "isolation_0_stem"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_0_stem",
+        "name": "isolation_0_stem",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_0_HANDLE",
+        "part_definition_id": "PART_ISOLATION_0_HANDLE",
+        "instance_refs": [
+          "isolation_0_handle"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_0_handle",
+        "name": "isolation_0_handle",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SAMPLE_RISER_0",
+        "part_definition_id": "PART_SAMPLE_RISER_0",
+        "instance_refs": [
+          "sample_riser_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sample_riser_0",
+        "name": "sample_riser_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_TRANSDUCER_0",
+        "part_definition_id": "PART_TRANSDUCER_0",
+        "instance_refs": [
+          "transducer_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "transducer_0",
+        "name": "transducer_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_1_BODY",
+        "part_definition_id": "PART_ISOLATION_1_BODY",
+        "instance_refs": [
+          "isolation_1_body"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_1_body",
+        "name": "isolation_1_body",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_1_STEM",
+        "part_definition_id": "PART_ISOLATION_1_STEM",
+        "instance_refs": [
+          "isolation_1_stem"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_1_stem",
+        "name": "isolation_1_stem",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_1_HANDLE",
+        "part_definition_id": "PART_ISOLATION_1_HANDLE",
+        "instance_refs": [
+          "isolation_1_handle"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_1_handle",
+        "name": "isolation_1_handle",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SAMPLE_RISER_1",
+        "part_definition_id": "PART_SAMPLE_RISER_1",
+        "instance_refs": [
+          "sample_riser_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sample_riser_1",
+        "name": "sample_riser_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_TRANSDUCER_1",
+        "part_definition_id": "PART_TRANSDUCER_1",
+        "instance_refs": [
+          "transducer_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "transducer_1",
+        "name": "transducer_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_2_BODY",
+        "part_definition_id": "PART_ISOLATION_2_BODY",
+        "instance_refs": [
+          "isolation_2_body"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_2_body",
+        "name": "isolation_2_body",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_2_STEM",
+        "part_definition_id": "PART_ISOLATION_2_STEM",
+        "instance_refs": [
+          "isolation_2_stem"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_2_stem",
+        "name": "isolation_2_stem",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ISOLATION_2_HANDLE",
+        "part_definition_id": "PART_ISOLATION_2_HANDLE",
+        "instance_refs": [
+          "isolation_2_handle"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "isolation_2_handle",
+        "name": "isolation_2_handle",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SAMPLE_RISER_2",
+        "part_definition_id": "PART_SAMPLE_RISER_2",
+        "instance_refs": [
+          "sample_riser_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sample_riser_2",
+        "name": "sample_riser_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_TRANSDUCER_2",
+        "part_definition_id": "PART_TRANSDUCER_2",
+        "instance_refs": [
+          "transducer_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "transducer_2",
+        "name": "transducer_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_SAMPLING_BYPASS",
+        "part_definition_id": "PART_SAMPLING_BYPASS",
+        "instance_refs": [
+          "sampling_bypass"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "sampling_bypass",
+        "name": "sampling_bypass",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_BYPASS_CONNECTION_NEG550",
+        "part_definition_id": "PART_BYPASS_CONNECTION_NEG550",
+        "instance_refs": [
+          "bypass_connection_neg550"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "bypass_connection_neg550",
+        "name": "bypass_connection_neg550",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_BYPASS_CONNECTION_550",
+        "part_definition_id": "PART_BYPASS_CONNECTION_550",
+        "instance_refs": [
+          "bypass_connection_550"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "bypass_connection_550",
+        "name": "bypass_connection_550",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INSTRUMENT_RACK",
+        "part_definition_id": "PART_INSTRUMENT_RACK",
+        "instance_refs": [
+          "instrument_rack"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "instrument_rack",
+        "name": "instrument_rack",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ANALYZER_MODULE_0",
+        "part_definition_id": "PART_ANALYZER_MODULE_0",
+        "instance_refs": [
+          "analyzer_module_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "analyzer_module_0",
+        "name": "analyzer_module_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INSTRUMENT_FACE_0",
+        "part_definition_id": "PART_INSTRUMENT_FACE_0",
+        "instance_refs": [
+          "instrument_face_0"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "instrument_face_0",
+        "name": "instrument_face_0",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ANALYZER_MODULE_1",
+        "part_definition_id": "PART_ANALYZER_MODULE_1",
+        "instance_refs": [
+          "analyzer_module_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "analyzer_module_1",
+        "name": "analyzer_module_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INSTRUMENT_FACE_1",
+        "part_definition_id": "PART_INSTRUMENT_FACE_1",
+        "instance_refs": [
+          "instrument_face_1"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "instrument_face_1",
+        "name": "instrument_face_1",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_ANALYZER_MODULE_2",
+        "part_definition_id": "PART_ANALYZER_MODULE_2",
+        "instance_refs": [
+          "analyzer_module_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "analyzer_module_2",
+        "name": "analyzer_module_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_INSTRUMENT_FACE_2",
+        "part_definition_id": "PART_INSTRUMENT_FACE_2",
+        "instance_refs": [
+          "instrument_face_2"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "instrument_face_2",
+        "name": "instrument_face_2",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      },
+      {
+        "line_id": "BOM_PART_PURGE_VENT",
+        "part_definition_id": "PART_PURGE_VENT",
+        "instance_refs": [
+          "purge_vent"
+        ],
+        "quantity": 1,
+        "manufacturer": null,
+        "part_number": "purge_vent",
+        "name": "purge_vent",
+        "category": "Mechanical",
+        "unit_price": 0.0,
+        "sourcing_url": null,
+        "extended_price": 0.0,
+        "rationale": "Separate concept geometry body"
+      }
+    ],
+    "nets": [],
+    "buses": [],
+    "pin_mappings": [],
+    "assembly": [],
+    "mechanical": {
+      "cad_operations": [],
+      "physical_form": "GAS CAPTURE & MONITORING",
+      "enclosure_type": "Parametric concept assembly",
+      "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+      "fabrication_details": [
+        "Every dimension is an authoring assumption, not a NASA measurement.",
+        "Motion is design inspection only, not simulated plant operation."
+      ],
+      "fabrication_cost_estimate_usd": 0.0,
+      "cad_sources": [],
+      "manufacturability_rating": "Not evaluated",
+      "render_dimensions": null,
+      "component_placements": [
+        {
+          "ref_des": "support",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "z_mm": 100.0
+          },
+          "size": {
+            "x_mm": 1800.0000002000002,
+            "y_mm": 1400.0000002000002,
+            "z_mm": 100.00000020000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -780.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -780.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 780.0,
+            "y_mm": -580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "foot_3",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 780.0,
+            "y_mm": 580.0,
+            "z_mm": 25.0
+          },
+          "size": {
+            "x_mm": 140.00000019999993,
+            "y_mm": 140.0000002,
+            "z_mm": 100.00000020000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "capture_manifold",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -750.0,
+            "y_mm": -270.0,
+            "z_mm": 620.0
+          },
+          "size": {
+            "x_mm": 1500.1107628804557,
+            "y_mm": 110.00000020000019,
+            "z_mm": 110.11076288045581
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_0_body",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -680.0,
+            "y_mm": -270.0,
+            "z_mm": 620.0
+          },
+          "size": {
+            "x_mm": 160.1107628804557,
+            "y_mm": 110.00000020000022,
+            "z_mm": 110.1107628804557
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_0_stem",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -600.0,
+            "y_mm": -270.0,
+            "z_mm": 635.0
+          },
+          "size": {
+            "x_mm": 32.032222070678245,
+            "y_mm": 32.00000020000027,
+            "z_mm": 90.03222207067824
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_0_handle",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -545.0,
+            "y_mm": -270.0,
+            "z_mm": 735.0
+          },
+          "size": {
+            "x_mm": 170.0000002,
+            "y_mm": 24.000000200000045,
+            "z_mm": 22.00000019999993
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sample_riser_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -600.0,
+            "y_mm": -270.0,
+            "z_mm": 710.0
+          },
+          "size": {
+            "x_mm": 44.04430527218233,
+            "y_mm": 44.00000020000016,
+            "z_mm": 380.0443052721823
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "transducer_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -600.0,
+            "y_mm": -270.0,
+            "z_mm": 1120.0
+          },
+          "size": {
+            "x_mm": 120.00000020000016,
+            "y_mm": 100.00000020000004,
+            "z_mm": 110.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_1_body",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -80.0,
+            "y_mm": -270.0,
+            "z_mm": 620.0
+          },
+          "size": {
+            "x_mm": 160.11076288045564,
+            "y_mm": 110.00000020000022,
+            "z_mm": 110.1107628804557
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_1_stem",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": -270.0,
+            "z_mm": 635.0
+          },
+          "size": {
+            "x_mm": 32.03222207067798,
+            "y_mm": 32.000000200000045,
+            "z_mm": 90.03222207067802
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_1_handle",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 54.99999999999999,
+            "y_mm": -270.0,
+            "z_mm": 735.0
+          },
+          "size": {
+            "x_mm": 170.0000002,
+            "y_mm": 24.000000200000045,
+            "z_mm": 22.00000019999993
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sample_riser_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": -270.0,
+            "z_mm": 710.0
+          },
+          "size": {
+            "x_mm": 44.04430527218225,
+            "y_mm": 44.00000020000007,
+            "z_mm": 380.0443052721823
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "transducer_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": -270.0,
+            "z_mm": 1120.0
+          },
+          "size": {
+            "x_mm": 120.00000020000006,
+            "y_mm": 100.00000020000004,
+            "z_mm": 110.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_2_body",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 520.0,
+            "y_mm": -270.0,
+            "z_mm": 620.0
+          },
+          "size": {
+            "x_mm": 160.11076288045564,
+            "y_mm": 110.00000020000022,
+            "z_mm": 110.1107628804557
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_2_stem",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 600.0,
+            "y_mm": -270.0,
+            "z_mm": 635.0
+          },
+          "size": {
+            "x_mm": 32.032222070678245,
+            "y_mm": 32.00000020000027,
+            "z_mm": 90.03222207067824
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "isolation_2_handle",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 655.0,
+            "y_mm": -270.0,
+            "z_mm": 735.0
+          },
+          "size": {
+            "x_mm": 170.00000019999993,
+            "y_mm": 24.000000200000045,
+            "z_mm": 22.00000019999993
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sample_riser_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 600.0,
+            "y_mm": -270.0,
+            "z_mm": 710.0
+          },
+          "size": {
+            "x_mm": 44.04430527218233,
+            "y_mm": 44.00000020000016,
+            "z_mm": 380.0443052721823
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "transducer_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 600.0,
+            "y_mm": -270.0,
+            "z_mm": 1120.0
+          },
+          "size": {
+            "x_mm": 120.00000020000016,
+            "y_mm": 100.00000020000004,
+            "z_mm": 110.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "sampling_bypass",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 940.0
+          },
+          "size": {
+            "x_mm": 1100.048333006017,
+            "y_mm": 48.00000020000016,
+            "z_mm": 48.04833300601729
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "bypass_connection_neg550",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": -550.0,
+            "y_mm": 180.0,
+            "z_mm": 940.0
+          },
+          "size": {
+            "x_mm": 48.048333006017174,
+            "y_mm": 450.0483330060172,
+            "z_mm": 48.000000200000386
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "bypass_connection_550",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 550.0,
+            "y_mm": 180.0,
+            "z_mm": 940.0
+          },
+          "size": {
+            "x_mm": 48.048333006017174,
+            "y_mm": 450.0483330060172,
+            "z_mm": 48.000000200000386
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "instrument_rack",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 430.0,
+            "z_mm": 640.0
+          },
+          "size": {
+            "x_mm": 850.0000002000002,
+            "y_mm": 340.00000020000016,
+            "z_mm": 950.0000002000002
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "analyzer_module_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 430.0,
+            "z_mm": 380.0
+          },
+          "size": {
+            "x_mm": 770.0000002000002,
+            "y_mm": 380.00000020000016,
+            "z_mm": 220.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "instrument_face_0",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 232.0,
+            "z_mm": 380.0
+          },
+          "size": {
+            "x_mm": 540.0000002,
+            "y_mm": 12.000000199999988,
+            "z_mm": 120.00000020000004
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "analyzer_module_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 430.0,
+            "z_mm": 650.0
+          },
+          "size": {
+            "x_mm": 770.0000002000002,
+            "y_mm": 380.00000020000016,
+            "z_mm": 220.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "instrument_face_1",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 232.0,
+            "z_mm": 650.0
+          },
+          "size": {
+            "x_mm": 540.0000002,
+            "y_mm": 12.000000199999988,
+            "z_mm": 120.00000019999993
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "analyzer_module_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 430.0,
+            "z_mm": 920.0
+          },
+          "size": {
+            "x_mm": 770.0000002000002,
+            "y_mm": 380.00000020000016,
+            "z_mm": 220.00000020000016
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "instrument_face_2",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 0.0,
+            "y_mm": 232.0,
+            "z_mm": 920.0
+          },
+          "size": {
+            "x_mm": 540.0000002,
+            "y_mm": 12.000000199999988,
+            "z_mm": 120.00000019999993
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        },
+        {
+          "ref_des": "purge_vent",
+          "label": null,
+          "category": null,
+          "layer": "mechanism",
+          "position": {
+            "x_mm": 700.0,
+            "y_mm": 200.0,
+            "z_mm": 225.0
+          },
+          "size": {
+            "x_mm": 60.06041620752126,
+            "y_mm": 60.00000020000016,
+            "z_mm": 750.0604162075213
+          },
+          "orientation_deg": {
+            "x_deg": 0.0,
+            "y_deg": 0.0,
+            "z_deg": 0.0
+          },
+          "mounting_face": null,
+          "notes": null
+        }
+      ],
+      "spatial_relationships": [],
+      "motion_intents": [],
+      "mechanism_benchmark": null
+    },
+    "fluidic_system": null,
+    "firmware": null,
+    "cad_model": {
+      "format": "step",
+      "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-05\\assembly.step",
+      "sha256": "8eaf9ff5b3fe89b52e4aa0e4ff6e45cbc39cd5df5b0c361f5773d1d06096e76c",
+      "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-05\\excavator.meshes.json",
+      "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-05\\excavator.kinematics.json",
+      "units": "mm"
+    },
+    "constraints": [],
+    "power_rails": [],
+    "estimated_current_draw_ma": 0.0,
+    "fabrication_notes": [],
+    "assembly_metadata": {
+      "asset_id": "ASSET-05",
+      "mechanical_ir": {
+        "domain": "mechanical",
+        "schema_version": "1.0",
+        "artifact_id": "ASSET-05-mechanical",
+        "revision": 1,
+        "parts": [
+          {
+            "part_definition_id": "support",
+            "dimensions_mm": {
+              "x": 1800.0000002000002,
+              "y": 1400.0000002000002,
+              "z": 100.00000020000004
+            }
+          },
+          {
+            "part_definition_id": "foot_0",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_1",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_2",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "foot_3",
+            "dimensions_mm": {
+              "x": 140.00000019999993,
+              "y": 140.0000002,
+              "z": 100.00000020000002
+            }
+          },
+          {
+            "part_definition_id": "capture_manifold",
+            "dimensions_mm": {
+              "x": 1500.1107628804557,
+              "y": 110.00000020000019,
+              "z": 110.11076288045581
+            }
+          },
+          {
+            "part_definition_id": "isolation_0_body",
+            "dimensions_mm": {
+              "x": 160.1107628804557,
+              "y": 110.00000020000022,
+              "z": 110.1107628804557
+            }
+          },
+          {
+            "part_definition_id": "isolation_0_stem",
+            "dimensions_mm": {
+              "x": 32.032222070678245,
+              "y": 32.00000020000027,
+              "z": 90.03222207067824
+            }
+          },
+          {
+            "part_definition_id": "isolation_0_handle",
+            "dimensions_mm": {
+              "x": 170.0000002,
+              "y": 24.000000200000045,
+              "z": 22.00000019999993
+            }
+          },
+          {
+            "part_definition_id": "sample_riser_0",
+            "dimensions_mm": {
+              "x": 44.04430527218233,
+              "y": 44.00000020000016,
+              "z": 380.0443052721823
+            }
+          },
+          {
+            "part_definition_id": "transducer_0",
+            "dimensions_mm": {
+              "x": 120.00000020000016,
+              "y": 100.00000020000004,
+              "z": 110.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "isolation_1_body",
+            "dimensions_mm": {
+              "x": 160.11076288045564,
+              "y": 110.00000020000022,
+              "z": 110.1107628804557
+            }
+          },
+          {
+            "part_definition_id": "isolation_1_stem",
+            "dimensions_mm": {
+              "x": 32.03222207067798,
+              "y": 32.000000200000045,
+              "z": 90.03222207067802
+            }
+          },
+          {
+            "part_definition_id": "isolation_1_handle",
+            "dimensions_mm": {
+              "x": 170.0000002,
+              "y": 24.000000200000045,
+              "z": 22.00000019999993
+            }
+          },
+          {
+            "part_definition_id": "sample_riser_1",
+            "dimensions_mm": {
+              "x": 44.04430527218225,
+              "y": 44.00000020000007,
+              "z": 380.0443052721823
+            }
+          },
+          {
+            "part_definition_id": "transducer_1",
+            "dimensions_mm": {
+              "x": 120.00000020000006,
+              "y": 100.00000020000004,
+              "z": 110.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "isolation_2_body",
+            "dimensions_mm": {
+              "x": 160.11076288045564,
+              "y": 110.00000020000022,
+              "z": 110.1107628804557
+            }
+          },
+          {
+            "part_definition_id": "isolation_2_stem",
+            "dimensions_mm": {
+              "x": 32.032222070678245,
+              "y": 32.00000020000027,
+              "z": 90.03222207067824
+            }
+          },
+          {
+            "part_definition_id": "isolation_2_handle",
+            "dimensions_mm": {
+              "x": 170.00000019999993,
+              "y": 24.000000200000045,
+              "z": 22.00000019999993
+            }
+          },
+          {
+            "part_definition_id": "sample_riser_2",
+            "dimensions_mm": {
+              "x": 44.04430527218233,
+              "y": 44.00000020000016,
+              "z": 380.0443052721823
+            }
+          },
+          {
+            "part_definition_id": "transducer_2",
+            "dimensions_mm": {
+              "x": 120.00000020000016,
+              "y": 100.00000020000004,
+              "z": 110.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "sampling_bypass",
+            "dimensions_mm": {
+              "x": 1100.048333006017,
+              "y": 48.00000020000016,
+              "z": 48.04833300601729
+            }
+          },
+          {
+            "part_definition_id": "bypass_connection_neg550",
+            "dimensions_mm": {
+              "x": 48.048333006017174,
+              "y": 450.0483330060172,
+              "z": 48.000000200000386
+            }
+          },
+          {
+            "part_definition_id": "bypass_connection_550",
+            "dimensions_mm": {
+              "x": 48.048333006017174,
+              "y": 450.0483330060172,
+              "z": 48.000000200000386
+            }
+          },
+          {
+            "part_definition_id": "instrument_rack",
+            "dimensions_mm": {
+              "x": 850.0000002000002,
+              "y": 340.00000020000016,
+              "z": 950.0000002000002
+            }
+          },
+          {
+            "part_definition_id": "analyzer_module_0",
+            "dimensions_mm": {
+              "x": 770.0000002000002,
+              "y": 380.00000020000016,
+              "z": 220.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "instrument_face_0",
+            "dimensions_mm": {
+              "x": 540.0000002,
+              "y": 12.000000199999988,
+              "z": 120.00000020000004
+            }
+          },
+          {
+            "part_definition_id": "analyzer_module_1",
+            "dimensions_mm": {
+              "x": 770.0000002000002,
+              "y": 380.00000020000016,
+              "z": 220.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "instrument_face_1",
+            "dimensions_mm": {
+              "x": 540.0000002,
+              "y": 12.000000199999988,
+              "z": 120.00000019999993
+            }
+          },
+          {
+            "part_definition_id": "analyzer_module_2",
+            "dimensions_mm": {
+              "x": 770.0000002000002,
+              "y": 380.00000020000016,
+              "z": 220.00000020000016
+            }
+          },
+          {
+            "part_definition_id": "instrument_face_2",
+            "dimensions_mm": {
+              "x": 540.0000002,
+              "y": 12.000000199999988,
+              "z": 120.00000019999993
+            }
+          },
+          {
+            "part_definition_id": "purge_vent",
+            "dimensions_mm": {
+              "x": 60.06041620752126,
+              "y": 60.00000020000016,
+              "z": 750.0604162075213
+            }
+          }
+        ],
+        "components": [
+          {
+            "object_id": "ASSET-05/support",
+            "ref_des": "support",
+            "part_definition_id": "support"
+          },
+          {
+            "object_id": "ASSET-05/foot_0",
+            "ref_des": "foot_0",
+            "part_definition_id": "foot_0"
+          },
+          {
+            "object_id": "ASSET-05/foot_1",
+            "ref_des": "foot_1",
+            "part_definition_id": "foot_1"
+          },
+          {
+            "object_id": "ASSET-05/foot_2",
+            "ref_des": "foot_2",
+            "part_definition_id": "foot_2"
+          },
+          {
+            "object_id": "ASSET-05/foot_3",
+            "ref_des": "foot_3",
+            "part_definition_id": "foot_3"
+          },
+          {
+            "object_id": "ASSET-05/capture_manifold",
+            "ref_des": "capture_manifold",
+            "part_definition_id": "capture_manifold"
+          },
+          {
+            "object_id": "ASSET-05/isolation_0_body",
+            "ref_des": "isolation_0_body",
+            "part_definition_id": "isolation_0_body"
+          },
+          {
+            "object_id": "ASSET-05/isolation_0_stem",
+            "ref_des": "isolation_0_stem",
+            "part_definition_id": "isolation_0_stem"
+          },
+          {
+            "object_id": "ASSET-05/isolation_0_handle",
+            "ref_des": "isolation_0_handle",
+            "part_definition_id": "isolation_0_handle"
+          },
+          {
+            "object_id": "ASSET-05/sample_riser_0",
+            "ref_des": "sample_riser_0",
+            "part_definition_id": "sample_riser_0"
+          },
+          {
+            "object_id": "ASSET-05/transducer_0",
+            "ref_des": "transducer_0",
+            "part_definition_id": "transducer_0"
+          },
+          {
+            "object_id": "ASSET-05/isolation_1_body",
+            "ref_des": "isolation_1_body",
+            "part_definition_id": "isolation_1_body"
+          },
+          {
+            "object_id": "ASSET-05/isolation_1_stem",
+            "ref_des": "isolation_1_stem",
+            "part_definition_id": "isolation_1_stem"
+          },
+          {
+            "object_id": "ASSET-05/isolation_1_handle",
+            "ref_des": "isolation_1_handle",
+            "part_definition_id": "isolation_1_handle"
+          },
+          {
+            "object_id": "ASSET-05/sample_riser_1",
+            "ref_des": "sample_riser_1",
+            "part_definition_id": "sample_riser_1"
+          },
+          {
+            "object_id": "ASSET-05/transducer_1",
+            "ref_des": "transducer_1",
+            "part_definition_id": "transducer_1"
+          },
+          {
+            "object_id": "ASSET-05/isolation_2_body",
+            "ref_des": "isolation_2_body",
+            "part_definition_id": "isolation_2_body"
+          },
+          {
+            "object_id": "ASSET-05/isolation_2_stem",
+            "ref_des": "isolation_2_stem",
+            "part_definition_id": "isolation_2_stem"
+          },
+          {
+            "object_id": "ASSET-05/isolation_2_handle",
+            "ref_des": "isolation_2_handle",
+            "part_definition_id": "isolation_2_handle"
+          },
+          {
+            "object_id": "ASSET-05/sample_riser_2",
+            "ref_des": "sample_riser_2",
+            "part_definition_id": "sample_riser_2"
+          },
+          {
+            "object_id": "ASSET-05/transducer_2",
+            "ref_des": "transducer_2",
+            "part_definition_id": "transducer_2"
+          },
+          {
+            "object_id": "ASSET-05/sampling_bypass",
+            "ref_des": "sampling_bypass",
+            "part_definition_id": "sampling_bypass"
+          },
+          {
+            "object_id": "ASSET-05/bypass_connection_neg550",
+            "ref_des": "bypass_connection_neg550",
+            "part_definition_id": "bypass_connection_neg550"
+          },
+          {
+            "object_id": "ASSET-05/bypass_connection_550",
+            "ref_des": "bypass_connection_550",
+            "part_definition_id": "bypass_connection_550"
+          },
+          {
+            "object_id": "ASSET-05/instrument_rack",
+            "ref_des": "instrument_rack",
+            "part_definition_id": "instrument_rack"
+          },
+          {
+            "object_id": "ASSET-05/analyzer_module_0",
+            "ref_des": "analyzer_module_0",
+            "part_definition_id": "analyzer_module_0"
+          },
+          {
+            "object_id": "ASSET-05/instrument_face_0",
+            "ref_des": "instrument_face_0",
+            "part_definition_id": "instrument_face_0"
+          },
+          {
+            "object_id": "ASSET-05/analyzer_module_1",
+            "ref_des": "analyzer_module_1",
+            "part_definition_id": "analyzer_module_1"
+          },
+          {
+            "object_id": "ASSET-05/instrument_face_1",
+            "ref_des": "instrument_face_1",
+            "part_definition_id": "instrument_face_1"
+          },
+          {
+            "object_id": "ASSET-05/analyzer_module_2",
+            "ref_des": "analyzer_module_2",
+            "part_definition_id": "analyzer_module_2"
+          },
+          {
+            "object_id": "ASSET-05/instrument_face_2",
+            "ref_des": "instrument_face_2",
+            "part_definition_id": "instrument_face_2"
+          },
+          {
+            "object_id": "ASSET-05/purge_vent",
+            "ref_des": "purge_vent",
+            "part_definition_id": "purge_vent"
+          }
+        ],
+        "mechanical": {
+          "physical_form": "GAS CAPTURE & MONITORING",
+          "enclosure_type": "Parametric concept assembly",
+          "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+          "manufacturability_rating": "Not evaluated",
+          "component_placements": [
+            {
+              "ref_des": "support",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 0.0,
+                "z_mm": 100.0
+              },
+              "size": {
+                "x_mm": 1800.0000002000002,
+                "y_mm": 1400.0000002000002,
+                "z_mm": 100.00000020000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_0",
+              "position": {
+                "x_mm": -780.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_1",
+              "position": {
+                "x_mm": -780.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_2",
+              "position": {
+                "x_mm": 780.0,
+                "y_mm": -580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "foot_3",
+              "position": {
+                "x_mm": 780.0,
+                "y_mm": 580.0,
+                "z_mm": 25.0
+              },
+              "size": {
+                "x_mm": 140.00000019999993,
+                "y_mm": 140.0000002,
+                "z_mm": 100.00000020000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "capture_manifold",
+              "position": {
+                "x_mm": -750.0,
+                "y_mm": -270.0,
+                "z_mm": 620.0
+              },
+              "size": {
+                "x_mm": 1500.1107628804557,
+                "y_mm": 110.00000020000019,
+                "z_mm": 110.11076288045581
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_0_body",
+              "position": {
+                "x_mm": -680.0,
+                "y_mm": -270.0,
+                "z_mm": 620.0
+              },
+              "size": {
+                "x_mm": 160.1107628804557,
+                "y_mm": 110.00000020000022,
+                "z_mm": 110.1107628804557
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_0_stem",
+              "position": {
+                "x_mm": -600.0,
+                "y_mm": -270.0,
+                "z_mm": 635.0
+              },
+              "size": {
+                "x_mm": 32.032222070678245,
+                "y_mm": 32.00000020000027,
+                "z_mm": 90.03222207067824
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_0_handle",
+              "position": {
+                "x_mm": -545.0,
+                "y_mm": -270.0,
+                "z_mm": 735.0
+              },
+              "size": {
+                "x_mm": 170.0000002,
+                "y_mm": 24.000000200000045,
+                "z_mm": 22.00000019999993
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sample_riser_0",
+              "position": {
+                "x_mm": -600.0,
+                "y_mm": -270.0,
+                "z_mm": 710.0
+              },
+              "size": {
+                "x_mm": 44.04430527218233,
+                "y_mm": 44.00000020000016,
+                "z_mm": 380.0443052721823
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "transducer_0",
+              "position": {
+                "x_mm": -600.0,
+                "y_mm": -270.0,
+                "z_mm": 1120.0
+              },
+              "size": {
+                "x_mm": 120.00000020000016,
+                "y_mm": 100.00000020000004,
+                "z_mm": 110.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_1_body",
+              "position": {
+                "x_mm": -80.0,
+                "y_mm": -270.0,
+                "z_mm": 620.0
+              },
+              "size": {
+                "x_mm": 160.11076288045564,
+                "y_mm": 110.00000020000022,
+                "z_mm": 110.1107628804557
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_1_stem",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": -270.0,
+                "z_mm": 635.0
+              },
+              "size": {
+                "x_mm": 32.03222207067798,
+                "y_mm": 32.000000200000045,
+                "z_mm": 90.03222207067802
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_1_handle",
+              "position": {
+                "x_mm": 54.99999999999999,
+                "y_mm": -270.0,
+                "z_mm": 735.0
+              },
+              "size": {
+                "x_mm": 170.0000002,
+                "y_mm": 24.000000200000045,
+                "z_mm": 22.00000019999993
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sample_riser_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": -270.0,
+                "z_mm": 710.0
+              },
+              "size": {
+                "x_mm": 44.04430527218225,
+                "y_mm": 44.00000020000007,
+                "z_mm": 380.0443052721823
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "transducer_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": -270.0,
+                "z_mm": 1120.0
+              },
+              "size": {
+                "x_mm": 120.00000020000006,
+                "y_mm": 100.00000020000004,
+                "z_mm": 110.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_2_body",
+              "position": {
+                "x_mm": 520.0,
+                "y_mm": -270.0,
+                "z_mm": 620.0
+              },
+              "size": {
+                "x_mm": 160.11076288045564,
+                "y_mm": 110.00000020000022,
+                "z_mm": 110.1107628804557
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_2_stem",
+              "position": {
+                "x_mm": 600.0,
+                "y_mm": -270.0,
+                "z_mm": 635.0
+              },
+              "size": {
+                "x_mm": 32.032222070678245,
+                "y_mm": 32.00000020000027,
+                "z_mm": 90.03222207067824
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "isolation_2_handle",
+              "position": {
+                "x_mm": 655.0,
+                "y_mm": -270.0,
+                "z_mm": 735.0
+              },
+              "size": {
+                "x_mm": 170.00000019999993,
+                "y_mm": 24.000000200000045,
+                "z_mm": 22.00000019999993
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sample_riser_2",
+              "position": {
+                "x_mm": 600.0,
+                "y_mm": -270.0,
+                "z_mm": 710.0
+              },
+              "size": {
+                "x_mm": 44.04430527218233,
+                "y_mm": 44.00000020000016,
+                "z_mm": 380.0443052721823
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "transducer_2",
+              "position": {
+                "x_mm": 600.0,
+                "y_mm": -270.0,
+                "z_mm": 1120.0
+              },
+              "size": {
+                "x_mm": 120.00000020000016,
+                "y_mm": 100.00000020000004,
+                "z_mm": 110.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "sampling_bypass",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 940.0
+              },
+              "size": {
+                "x_mm": 1100.048333006017,
+                "y_mm": 48.00000020000016,
+                "z_mm": 48.04833300601729
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "bypass_connection_neg550",
+              "position": {
+                "x_mm": -550.0,
+                "y_mm": 180.0,
+                "z_mm": 940.0
+              },
+              "size": {
+                "x_mm": 48.048333006017174,
+                "y_mm": 450.0483330060172,
+                "z_mm": 48.000000200000386
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "bypass_connection_550",
+              "position": {
+                "x_mm": 550.0,
+                "y_mm": 180.0,
+                "z_mm": 940.0
+              },
+              "size": {
+                "x_mm": 48.048333006017174,
+                "y_mm": 450.0483330060172,
+                "z_mm": 48.000000200000386
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "instrument_rack",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 430.0,
+                "z_mm": 640.0
+              },
+              "size": {
+                "x_mm": 850.0000002000002,
+                "y_mm": 340.00000020000016,
+                "z_mm": 950.0000002000002
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "analyzer_module_0",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 430.0,
+                "z_mm": 380.0
+              },
+              "size": {
+                "x_mm": 770.0000002000002,
+                "y_mm": 380.00000020000016,
+                "z_mm": 220.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "instrument_face_0",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 232.0,
+                "z_mm": 380.0
+              },
+              "size": {
+                "x_mm": 540.0000002,
+                "y_mm": 12.000000199999988,
+                "z_mm": 120.00000020000004
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "analyzer_module_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 430.0,
+                "z_mm": 650.0
+              },
+              "size": {
+                "x_mm": 770.0000002000002,
+                "y_mm": 380.00000020000016,
+                "z_mm": 220.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "instrument_face_1",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 232.0,
+                "z_mm": 650.0
+              },
+              "size": {
+                "x_mm": 540.0000002,
+                "y_mm": 12.000000199999988,
+                "z_mm": 120.00000019999993
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "analyzer_module_2",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 430.0,
+                "z_mm": 920.0
+              },
+              "size": {
+                "x_mm": 770.0000002000002,
+                "y_mm": 380.00000020000016,
+                "z_mm": 220.00000020000016
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "instrument_face_2",
+              "position": {
+                "x_mm": 0.0,
+                "y_mm": 232.0,
+                "z_mm": 920.0
+              },
+              "size": {
+                "x_mm": 540.0000002,
+                "y_mm": 12.000000199999988,
+                "z_mm": 120.00000019999993
+              },
+              "layer": "mechanism"
+            },
+            {
+              "ref_des": "purge_vent",
+              "position": {
+                "x_mm": 700.0,
+                "y_mm": 200.0,
+                "z_mm": 225.0
+              },
+              "size": {
+                "x_mm": 60.06041620752126,
+                "y_mm": 60.00000020000016,
+                "z_mm": 750.0604162075213
+              },
+              "layer": "mechanism"
+            }
+          ],
+          "fabrication_details": [
+            "Every dimension is an authoring assumption, not a NASA measurement.",
+            "Motion is design inspection only, not simulated plant operation."
+          ]
+        }
+      },
+      "sources": [
+        "05-gas-capture-and-instrumentation.md"
+      ],
+      "status": "Concept engineering preview",
+      "model_source": "assets/machine-previews/build_all.py",
+      "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.",
+      "cad_generation": {
+        "adapter": "forma-opencad",
+        "status": "provided",
+        "required": false
+      },
+      "project_id": "7c12bb1b-7fe1-4bd3-b50a-4fe1c30ff92b",
+      "chat_id": "febd2282-e8f3-4562-a9f4-4779693ba2c4",
+      "authoring_agent": "opencode",
+      "compiled_by": "forma.compile_project",
+      "compile_revision": 1,
+      "created_at": "2026-11-15T06:39:54.037055Z",
+      "source_prompt": "# ASSET-05 \u2014 Reactor gas capture manifold and oxygen/volatile monitoring\n\n**Priority:** Core MVP. **Flow:** crude gas from ASSET-04 \u2192 measured gas stream \u2192 ASSET-06 purification.\n\n## Research context\n\nNASA Kennedy built a **Volatile and Oxygen Measurement System (VMOMS)** for molten regolith electrolysis testing. It monitored gases released during evacuation, heating and electrolysis and used zirconia oxygen sensors, a residual gas analyzer and gas chromatography. The system also monitored reactor gas pressure. This is direct evidence that **gas quantity/purity measurement and safety monitoring** must be separately represented; do not infer perfect O\u2082 purity from reactor current alone.\n\n## Forma / OpenCAD build brief\n\nModel reactor hood outlet, gas manifold tubes, isolating valves, instrument box/rack with sensor ports, pressure transducer, flow element, sampling bypass, residual-gas analyzer housing and purge/vent port. Make valve handles and moving shutters independent components. This is a **conceptual simplified space-compatible layout**, not a duplicate of the NASA lab instrument; do not copy its setpoints/design pressure into the lunar plant without an engineering basis.\n\n## Executable machine contract\n\n- **Commands:** `open_capture_path`, `sample_gas(duration_s)`, `measure_stream`, `isolate`, `relieve_to_loss_stream` (controller-gated).\n- **Inputs:** reactor gas moles/composition/temperature/pressure, upstream gas-production rate, valve states, sensor measurement assumptions and available electrical power.\n- **Outputs:** actual stream transferred by species (mol, kg), simulated noisy measurements with separate truth/reading, sample timestamp, measured O\u2082 fraction, pressure, flow, explicit vent/loss inventory.\n- **States:** ISOLATED, READY, CAPTURING, MEASURING, VENTING, BLOCKED, SENSOR_FAULT.\n- **Model requirements:** prevent a manifold from pulling gas faster than generated/available; preserve gas species through transfers and leak/vent loss. Keep **true process state** separate from **synthetic instrument reading**. Alarm on invalid/overpressure scenario limits, not unverified universal numeric safety thresholds.\n- **Failure cases:** sensor unavailable/drift, line blocked, valve closed, gas pressure out of simulated operating band, downstream refusal.\n\n## MVP acceptance\n\nWhen electrolysis produces gas, ASSET-05 transfers and reports a bounded amount; changing reactor output changes meter readings, and downstream ASSET-06 cannot receive more gas than arrives. Instrument fault must yield an **unknown/invalid reading**, not fabricated certainty.\n\n## Technical sources\n\n- [NASA NTRS \u2014 Development of VMOMS](https://ntrs.nasa.gov/citations/20250002903) (monitoring hardware and quantities).\n- [NASA NTRS \u2014 LR-1 MRE test](https://ntrs.nasa.gov/citations/20260006167) (VMOMS used during the measured large-scale test).\n## Integration contract (NASA-APP)\n\n- **OpenForma:** author the indicated MechanicalIR/ElectricalIR/FluidicIR/ThermalIR/ProcessIR/ChemicalIR artifacts only where real supported schemas and capabilities exist. Maintain source, validation result and model/version provenance.\n- **OpenCAD:** create a real parametric/assemblable asset with named separate moving parts, joints and attachment frames; export through an existing supported OpenIndustries handoff. Do not imply a mesh alone implements physics.\n- **OpenIndustries:** attach the asset to a stable scene object with machine/task IDs. Machine state and real execution events drive pose, material transfer and telemetry; no canned footage or free-running decorative animation.\n- **Controller:** only validated commands can transition this device; the Python numerical process solver returns physically bounded deltas/measurements and never manipulates the viewer.\n\n**Status:** design brief only. All dimensions, performance parameters, efficiencies and operating limits not explicitly identified as published references are **TBD engineering inputs**, not NASA specifications. This is a simulated machine, not a space-qualified build."
+    },
+    "project_version_history": [],
+    "validation": {
+      "critical": [],
+      "warning": [],
+      "info": []
+    },
+    "is_valid": true
+  },
+  "is_valid": true,
+  "validation": {
+    "critical": [],
+    "warning": [],
+    "info": []
+  },
+  "mermaid_code": "graph LR\n  support[\"<b>support</b><br/>support<br/><small>support</small>\"]\n  foot_0[\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\"]\n  foot_1[\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\"]\n  foot_2[\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\"]\n  foot_3[\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\"]\n  capture_manifold[\"<b>capture_manifold</b><br/>capture_manifold<br/><small>capture_manifold</small>\"]\n  isolation_0_body[\"<b>isolation_0_body</b><br/>isolation_0_body<br/><small>isolation_0_body</small>\"]\n  isolation_0_stem[\"<b>isolation_0_stem</b><br/>isolation_0_stem<br/><small>isolation_0_stem</small>\"]\n  isolation_0_handle[\"<b>isolation_0_handle</b><br/>isolation_0_handle<br/><small>isolation_0_handle</small>\"]\n  sample_riser_0[\"<b>sample_riser_0</b><br/>sample_riser_0<br/><small>sample_riser_0</small>\"]\n  transducer_0[\"<b>transducer_0</b><br/>transducer_0<br/><small>transducer_0</small>\"]\n  isolation_1_body[\"<b>isolation_1_body</b><br/>isolation_1_body<br/><small>isolation_1_body</small>\"]\n  isolation_1_stem[\"<b>isolation_1_stem</b><br/>isolation_1_stem<br/><small>isolation_1_stem</small>\"]\n  isolation_1_handle[\"<b>isolation_1_handle</b><br/>isolation_1_handle<br/><small>isolation_1_handle</small>\"]\n  sample_riser_1[\"<b>sample_riser_1</b><br/>sample_riser_1<br/><small>sample_riser_1</small>\"]\n  transducer_1[\"<b>transducer_1</b><br/>transducer_1<br/><small>transducer_1</small>\"]\n  isolation_2_body[\"<b>isolation_2_body</b><br/>isolation_2_body<br/><small>isolation_2_body</small>\"]\n  isolation_2_stem[\"<b>isolation_2_stem</b><br/>isolation_2_stem<br/><small>isolation_2_stem</small>\"]\n  isolation_2_handle[\"<b>isolation_2_handle</b><br/>isolation_2_handle<br/><small>isolation_2_handle</small>\"]\n  sample_riser_2[\"<b>sample_riser_2</b><br/>sample_riser_2<br/><small>sample_riser_2</small>\"]\n  transducer_2[\"<b>transducer_2</b><br/>transducer_2<br/><small>transducer_2</small>\"]\n  sampling_bypass[\"<b>sampling_bypass</b><br/>sampling_bypass<br/><small>sampling_bypass</small>\"]\n  bypass_connection_neg550[\"<b>bypass_connection_neg550</b><br/>bypass_connection_neg550<br/><small>bypass_connection_neg550</small>\"]\n  bypass_connection_550[\"<b>bypass_connection_550</b><br/>bypass_connection_550<br/><small>bypass_connection_550</small>\"]\n  instrument_rack[\"<b>instrument_rack</b><br/>instrument_rack<br/><small>instrument_rack</small>\"]\n  analyzer_module_0[\"<b>analyzer_module_0</b><br/>analyzer_module_0<br/><small>analyzer_module_0</small>\"]\n  instrument_face_0[\"<b>instrument_face_0</b><br/>instrument_face_0<br/><small>instrument_face_0</small>\"]\n  analyzer_module_1[\"<b>analyzer_module_1</b><br/>analyzer_module_1<br/><small>analyzer_module_1</small>\"]\n  instrument_face_1[\"<b>instrument_face_1</b><br/>instrument_face_1<br/><small>instrument_face_1</small>\"]\n  analyzer_module_2[\"<b>analyzer_module_2</b><br/>analyzer_module_2<br/><small>analyzer_module_2</small>\"]\n  instrument_face_2[\"<b>instrument_face_2</b><br/>instrument_face_2<br/><small>instrument_face_2</small>\"]\n  purge_vent[\"<b>purge_vent</b><br/>purge_vent<br/><small>purge_vent</small>\"]",
+  "svg_schematic": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\n  <!-- Grid Background -->\n  <defs>\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\n    </pattern>\n  </defs>\n  <rect width='100%' height='100%' fill='url(#grid)' />\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-05 - GAS CAPTURE &amp; MONITORING</text>\n  <!-- Wires / Connections -->\n  <!-- Components -->\n  <g id='comp-support'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-capture_manifold'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>capture_manifold</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>capture_manifold</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>capture_manifold</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_0_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_0_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_0_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_0_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_0_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_0_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_0_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_0_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_0_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_0_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_0_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_0_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sample_riser_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sample_riser_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sample_riser_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sample_riser_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-transducer_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>transducer_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>transducer_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>transducer_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_1_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_1_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_1_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_1_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_1_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_1_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_1_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_1_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_1_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_1_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_1_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_1_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sample_riser_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sample_riser_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sample_riser_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sample_riser_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-transducer_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>transducer_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>transducer_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>transducer_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_2_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_2_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_2_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_2_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_2_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_2_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_2_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_2_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-isolation_2_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>isolation_2_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>isolation_2_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>isolation_2_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sample_riser_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sample_riser_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sample_riser_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sample_riser_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-transducer_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>transducer_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>transducer_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>transducer_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-sampling_bypass'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>sampling_bypass</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>sampling_bypass</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>sampling_bypass</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-bypass_connection_neg550'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>bypass_connection_neg550</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>bypass_connection_neg550</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>bypass_connection_neg550</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-bypass_connection_550'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>bypass_connection_550</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>bypass_connection_550</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>bypass_connection_550</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-instrument_rack'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>instrument_rack</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>instrument_rack</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>instrument_rack</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-analyzer_module_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>analyzer_module_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>analyzer_module_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>analyzer_module_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-instrument_face_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>instrument_face_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>instrument_face_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>instrument_face_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-analyzer_module_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>analyzer_module_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>analyzer_module_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>analyzer_module_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-instrument_face_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>instrument_face_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>instrument_face_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>instrument_face_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-analyzer_module_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>analyzer_module_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>analyzer_module_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>analyzer_module_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-instrument_face_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>instrument_face_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>instrument_face_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>instrument_face_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-purge_vent'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>purge_vent</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>purge_vent</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>purge_vent</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n</svg>"
+}

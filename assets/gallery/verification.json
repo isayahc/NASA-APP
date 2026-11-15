@@ -1,0 +1,101 @@
+[
+  {
+    "asset": 1,
+    "directory": "01-regolith-excavator",
+    "gif": "01-regolith-excavator/renders/preview.gif",
+    "frames": 90,
+    "project_id": "e6b2cc77-ac4b-41c8-bd40-cc68e06a1842",
+    "recorded_components": 33,
+    "online_readback": false
+  },
+  {
+    "asset": 2,
+    "directory": "02-regolith-hopper-and-feeder",
+    "gif": "02-regolith-hopper-and-feeder/renders/preview.gif",
+    "frames": 72,
+    "project_id": "c43aec91-146e-4359-9c08-c04185ef96fb",
+    "recorded_components": 18,
+    "online_readback": false
+  },
+  {
+    "asset": 3,
+    "directory": "03-preheating-auger",
+    "gif": "03-preheating-auger/renders/preview.gif",
+    "frames": 72,
+    "project_id": "3e31f4d2-7f01-4921-b0f0-c03fe57643ed",
+    "recorded_components": 20,
+    "online_readback": false
+  },
+  {
+    "asset": 4,
+    "directory": "04-mre-electrolysis-reactor",
+    "gif": "04-mre-electrolysis-reactor/renders/preview.gif",
+    "frames": 72,
+    "project_id": "24c81a14-3f79-472c-9450-fa9cefefee94",
+    "recorded_components": 24,
+    "online_readback": false
+  },
+  {
+    "asset": 5,
+    "directory": "05-gas-capture-and-instrumentation",
+    "gif": "05-gas-capture-and-instrumentation/renders/preview.gif",
+    "frames": 72,
+    "project_id": "7c12bb1b-7fe1-4bd3-b50a-4fe1c30ff92b",
+    "recorded_components": 32,
+    "online_readback": false
+  },
+  {
+    "asset": 6,
+    "directory": "06-oxygen-purification",
+    "gif": "06-oxygen-purification/renders/preview.gif",
+    "frames": 72,
+    "project_id": "122fde2a-b108-40b8-a6a3-8505a3a5f686",
+    "recorded_components": 25,
+    "online_readback": false
+  },
+  {
+    "asset": 7,
+    "directory": "07-oxygen-compression-and-storage",
+    "gif": "07-oxygen-compression-and-storage/renders/preview.gif",
+    "frames": 72,
+    "project_id": "18bbfd42-3328-4197-a52c-b601f78fd0cd",
+    "recorded_components": 37,
+    "online_readback": false
+  },
+  {
+    "asset": 8,
+    "directory": "08-power-generation-and-distribution",
+    "gif": "08-power-generation-and-distribution/renders/preview.gif",
+    "frames": 72,
+    "project_id": "d7ddb4bb-2c37-4a09-95bb-d97da7e68348",
+    "recorded_components": 86,
+    "online_readback": false
+  },
+  {
+    "asset": 9,
+    "directory": "09-thermal-control-and-heat-rejection",
+    "gif": "09-thermal-control-and-heat-rejection/renders/preview.gif",
+    "frames": 72,
+    "project_id": "8f192576-1904-45d9-8619-557c396a448f",
+    "recorded_components": 40,
+    "online_readback": false
+  },
+  {
+    "asset": 10,
+    "directory": "10-slag-and-reduced-metals-receiver",
+    "gif": "10-slag-and-reduced-metals-receiver/renders/preview.gif",
+    "frames": 72,
+    "project_id": "b49e3ade-9ec5-4d9d-8844-2112b31deb11",
+    "recorded_components": 13,
+    "online_readback": false
+  },
+  {
+    "asset": 11,
+    "directory": "11-oxygen-liquefaction-and-lox-depot",
+    "gif": "11-oxygen-liquefaction-and-lox-depot/renders/preview.gif",
+    "frames": 72,
+    "project_id": "2e570e78-f14b-4a05-886d-9bc24ed0a769",
+    "recorded_components": 28,
+    "online_readback": false
+  }
+]

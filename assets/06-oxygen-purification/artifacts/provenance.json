@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-06",
+  "project_id": "122fde2a-b108-40b8-a6a3-8505a3a5f686",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "06-oxygen-purification.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 25,
+  "moving_body_count": 3,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "80bd287f97bd1d5bc279ad9a287e13984912c37c28bd94a2e91075612333c0f7",
+    "excavator.kinematics.json": "bde311a25a6996d74eb7a0e446ffebdc20a3cd072c159b9110c66c50e424899b",
+    "excavator.meshes.json": "5f8095fc3b8c1bbbae0ae3b5dde93c7955b3649e7f34ddc69141b7c3bc5ede97",
+    "forma-compiled.json": "dd1734cc8f6816b334df162d4bacec74fe8b06d8d50e3dead572dcb036b858fa",
+    "mcp-request.json": "e51f1c1668e41c20de87287f6a4d42198ce1737d71b9521a3eb7e24be46757ff",
+    "mcp-response.json": "ebab9816ab9f57d976662316182a93e11007cdf6b5a4409da783ffaaf4457ba9",
+    "mechanical.ir.json": "44decfeb7a74edd51ce14069f8a5df75eabbafa2c0da167af119fc92f583bcaa",
+    "preview.gif": "d224349082b445af16d9cef9169d9608652d50870459334a4724bd412f6b3562",
+    "preview.png": "1002212aa298306a8ea586c0674f4239d2e62fab824bda9abd3a6faf7f0fde2b",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

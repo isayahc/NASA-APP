@@ -1,0 +1,562 @@
+{
+  "domain": "mechanical",
+  "schema_version": "1.0",
+  "artifact_id": "ASSET-03-mechanical",
+  "revision": 1,
+  "parts": [
+    {
+      "part_definition_id": "support",
+      "dimensions_mm": {
+        "x": 2400.0000002,
+        "y": 1400.0000002000002,
+        "z": 100.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "foot_0",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_1",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_2",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_3",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "shell_cutaway",
+      "dimensions_mm": {
+        "x": 1950.5236055985165,
+        "y": 520.0000002000003,
+        "z": 520.5236055985167
+      }
+    },
+    {
+      "part_definition_id": "insulation_cutaway",
+      "dimensions_mm": {
+        "x": 1950.6242989443851,
+        "y": 620.0000002000003,
+        "z": 620.6242989443853
+      }
+    },
+    {
+      "part_definition_id": "auger_shaft",
+      "dimensions_mm": {
+        "x": 1900.0704855421081,
+        "y": 70.00000020000016,
+        "z": 70.07048554210837
+      }
+    },
+    {
+      "part_definition_id": "auger_flight",
+      "dimensions_mm": {
+        "x": 1859.7815468297322,
+        "y": 449.7801436019793,
+        "z": 449.7810938083627
+      }
+    },
+    {
+      "part_definition_id": "heater_zone_0_cutaway",
+      "dimensions_mm": {
+        "x": 250.64443761355892,
+        "y": 640.0000002000005,
+        "z": 640.6444376135591
+      }
+    },
+    {
+      "part_definition_id": "sensor_port_0",
+      "dimensions_mm": {
+        "x": 48.048333006017174,
+        "y": 48.00000020000028,
+        "z": 140.04833300601706
+      }
+    },
+    {
+      "part_definition_id": "heater_zone_1_cutaway",
+      "dimensions_mm": {
+        "x": 250.64443761355906,
+        "y": 640.0000002000005,
+        "z": 640.6444376135591
+      }
+    },
+    {
+      "part_definition_id": "sensor_port_1",
+      "dimensions_mm": {
+        "x": 48.04833300601691,
+        "y": 48.00000020000002,
+        "z": 140.04833300601695
+      }
+    },
+    {
+      "part_definition_id": "heater_zone_2_cutaway",
+      "dimensions_mm": {
+        "x": 250.64443761355903,
+        "y": 640.0000002000005,
+        "z": 640.6444376135591
+      }
+    },
+    {
+      "part_definition_id": "sensor_port_2",
+      "dimensions_mm": {
+        "x": 48.048333006017174,
+        "y": 48.00000020000028,
+        "z": 140.04833300601706
+      }
+    },
+    {
+      "part_definition_id": "mount_neg750",
+      "dimensions_mm": {
+        "x": 120.00000020000016,
+        "y": 680.0000002000002,
+        "z": 310.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "mount_750",
+      "dimensions_mm": {
+        "x": 120.00000020000016,
+        "y": 680.0000002000002,
+        "z": 310.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "drive",
+      "dimensions_mm": {
+        "x": 240.38263491430052,
+        "y": 380.00000020000016,
+        "z": 380.3826349143005
+      }
+    },
+    {
+      "part_definition_id": "feed_inlet",
+      "dimensions_mm": {
+        "x": 220.221525560911,
+        "y": 220.00000020000027,
+        "z": 300.2215255609111
+      }
+    },
+    {
+      "part_definition_id": "hot_discharge",
+      "dimensions_mm": {
+        "x": 220.221525560911,
+        "y": 220.00000020000027,
+        "z": 320.221525560911
+      }
+    }
+  ],
+  "components": [
+    {
+      "object_id": "ASSET-03/support",
+      "ref_des": "support",
+      "part_definition_id": "support"
+    },
+    {
+      "object_id": "ASSET-03/foot_0",
+      "ref_des": "foot_0",
+      "part_definition_id": "foot_0"
+    },
+    {
+      "object_id": "ASSET-03/foot_1",
+      "ref_des": "foot_1",
+      "part_definition_id": "foot_1"
+    },
+    {
+      "object_id": "ASSET-03/foot_2",
+      "ref_des": "foot_2",
+      "part_definition_id": "foot_2"
+    },
+    {
+      "object_id": "ASSET-03/foot_3",
+      "ref_des": "foot_3",
+      "part_definition_id": "foot_3"
+    },
+    {
+      "object_id": "ASSET-03/shell_cutaway",
+      "ref_des": "shell_cutaway",
+      "part_definition_id": "shell_cutaway"
+    },
+    {
+      "object_id": "ASSET-03/insulation_cutaway",
+      "ref_des": "insulation_cutaway",
+      "part_definition_id": "insulation_cutaway"
+    },
+    {
+      "object_id": "ASSET-03/auger_shaft",
+      "ref_des": "auger_shaft",
+      "part_definition_id": "auger_shaft"
+    },
+    {
+      "object_id": "ASSET-03/auger_flight",
+      "ref_des": "auger_flight",
+      "part_definition_id": "auger_flight"
+    },
+    {
+      "object_id": "ASSET-03/heater_zone_0_cutaway",
+      "ref_des": "heater_zone_0_cutaway",
+      "part_definition_id": "heater_zone_0_cutaway"
+    },
+    {
+      "object_id": "ASSET-03/sensor_port_0",
+      "ref_des": "sensor_port_0",
+      "part_definition_id": "sensor_port_0"
+    },
+    {
+      "object_id": "ASSET-03/heater_zone_1_cutaway",
+      "ref_des": "heater_zone_1_cutaway",
+      "part_definition_id": "heater_zone_1_cutaway"
+    },
+    {
+      "object_id": "ASSET-03/sensor_port_1",
+      "ref_des": "sensor_port_1",
+      "part_definition_id": "sensor_port_1"
+    },
+    {
+      "object_id": "ASSET-03/heater_zone_2_cutaway",
+      "ref_des": "heater_zone_2_cutaway",
+      "part_definition_id": "heater_zone_2_cutaway"
+    },
+    {
+      "object_id": "ASSET-03/sensor_port_2",
+      "ref_des": "sensor_port_2",
+      "part_definition_id": "sensor_port_2"
+    },
+    {
+      "object_id": "ASSET-03/mount_neg750",
+      "ref_des": "mount_neg750",
+      "part_definition_id": "mount_neg750"
+    },
+    {
+      "object_id": "ASSET-03/mount_750",
+      "ref_des": "mount_750",
+      "part_definition_id": "mount_750"
+    },
+    {
+      "object_id": "ASSET-03/drive",
+      "ref_des": "drive",
+      "part_definition_id": "drive"
+    },
+    {
+      "object_id": "ASSET-03/feed_inlet",
+      "ref_des": "feed_inlet",
+      "part_definition_id": "feed_inlet"
+    },
+    {
+      "object_id": "ASSET-03/hot_discharge",
+      "ref_des": "hot_discharge",
+      "part_definition_id": "hot_discharge"
+    }
+  ],
+  "mechanical": {
+    "physical_form": "PREHEATING AUGER",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 2400.0000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "shell_cutaway",
+        "position": {
+          "x_mm": -975.0,
+          "y_mm": 0.0,
+          "z_mm": 719.9999999999999
+        },
+        "size": {
+          "x_mm": 1950.5236055985165,
+          "y_mm": 520.0000002000003,
+          "z_mm": 520.5236055985167
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "insulation_cutaway",
+        "position": {
+          "x_mm": -974.9999999999999,
+          "y_mm": 0.0,
+          "z_mm": 719.9999999999998
+        },
+        "size": {
+          "x_mm": 1950.6242989443851,
+          "y_mm": 620.0000002000003,
+          "z_mm": 620.6242989443853
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "auger_shaft",
+        "position": {
+          "x_mm": -950.0,
+          "y_mm": 0.0,
+          "z_mm": 719.9999999999999
+        },
+        "size": {
+          "x_mm": 1900.0704855421081,
+          "y_mm": 70.00000020000016,
+          "z_mm": 70.07048554210837
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "auger_flight",
+        "position": {
+          "x_mm": 0.00010140565439087368,
+          "y_mm": 0.0006345148487127972,
+          "z_mm": 719.9996861272768
+        },
+        "size": {
+          "x_mm": 1859.7815468297322,
+          "y_mm": 449.7801436019793,
+          "z_mm": 449.7810938083627
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "heater_zone_0_cutaway",
+        "position": {
+          "x_mm": -825.0,
+          "y_mm": 0.0,
+          "z_mm": 720.0
+        },
+        "size": {
+          "x_mm": 250.64443761355892,
+          "y_mm": 640.0000002000005,
+          "z_mm": 640.6444376135591
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sensor_port_0",
+        "position": {
+          "x_mm": -700.0,
+          "y_mm": 0.0,
+          "z_mm": 1010.0
+        },
+        "size": {
+          "x_mm": 48.048333006017174,
+          "y_mm": 48.00000020000028,
+          "z_mm": 140.04833300601706
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "heater_zone_1_cutaway",
+        "position": {
+          "x_mm": -124.99999999999999,
+          "y_mm": 0.0,
+          "z_mm": 720.0
+        },
+        "size": {
+          "x_mm": 250.64443761355906,
+          "y_mm": 640.0000002000005,
+          "z_mm": 640.6444376135591
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sensor_port_1",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 1010.0
+        },
+        "size": {
+          "x_mm": 48.04833300601691,
+          "y_mm": 48.00000020000002,
+          "z_mm": 140.04833300601695
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "heater_zone_2_cutaway",
+        "position": {
+          "x_mm": 575.0,
+          "y_mm": 0.0,
+          "z_mm": 720.0
+        },
+        "size": {
+          "x_mm": 250.64443761355903,
+          "y_mm": 640.0000002000005,
+          "z_mm": 640.6444376135591
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "sensor_port_2",
+        "position": {
+          "x_mm": 700.0,
+          "y_mm": 0.0,
+          "z_mm": 1010.0
+        },
+        "size": {
+          "x_mm": 48.048333006017174,
+          "y_mm": 48.00000020000028,
+          "z_mm": 140.04833300601706
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "mount_neg750",
+        "position": {
+          "x_mm": -750.0,
+          "y_mm": 0.0,
+          "z_mm": 320.0
+        },
+        "size": {
+          "x_mm": 120.00000020000016,
+          "y_mm": 680.0000002000002,
+          "z_mm": 310.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "mount_750",
+        "position": {
+          "x_mm": 750.0,
+          "y_mm": 0.0,
+          "z_mm": 320.0
+        },
+        "size": {
+          "x_mm": 120.00000020000016,
+          "y_mm": 680.0000002000002,
+          "z_mm": 310.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "drive",
+        "position": {
+          "x_mm": -1250.0,
+          "y_mm": 0.0,
+          "z_mm": 720.0
+        },
+        "size": {
+          "x_mm": 240.38263491430052,
+          "y_mm": 380.00000020000016,
+          "z_mm": 380.3826349143005
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "feed_inlet",
+        "position": {
+          "x_mm": -750.0,
+          "y_mm": 0.0,
+          "z_mm": 1000.0
+        },
+        "size": {
+          "x_mm": 220.221525560911,
+          "y_mm": 220.00000020000027,
+          "z_mm": 300.2215255609111
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "hot_discharge",
+        "position": {
+          "x_mm": 830.0,
+          "y_mm": 0.0,
+          "z_mm": 200.0
+        },
+        "size": {
+          "x_mm": 220.221525560911,
+          "y_mm": 220.00000020000027,
+          "z_mm": 320.221525560911
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  }
+}

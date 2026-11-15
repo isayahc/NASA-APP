@@ -1,0 +1,2215 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"project_id\": \"24c81a14-3f79-472c-9450-fa9cefefee94\", \"chat_id\": \"ae5acd07-e8ba-4a1c-828d-32f2d9146a49\", \"persisted\": true, \"visibility\": \"private\", \"project_ir\": {\"hardware_ir_version\": \"0.2\", \"overview\": {\"title\": \"ASSET-04 - MRE ELECTROLYSIS REACTOR\", \"description\": \"Brief-driven mechanical concept. No process performance or physical qualification claimed.\", \"difficulty\": \"Advanced\", \"estimated_cost\": 0.0, \"category\": \"Industrial\"}, \"requirements\": null, \"system_architecture\": null, \"part_definitions\": [{\"part_definition_id\": \"PART_SUPPORT\", \"manufacturer\": null, \"part_number\": \"support\", \"name\": \"support\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_FOOT_0\", \"manufacturer\": null, \"part_number\": \"foot_0\", \"name\": \"foot_0\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_FOOT_1\", \"manufacturer\": null, \"part_number\": \"foot_1\", \"name\": \"foot_1\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_FOOT_2\", \"manufacturer\": null, \"part_number\": \"foot_2\", \"name\": \"foot_2\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_FOOT_3\", \"manufacturer\": null, \"part_number\": \"foot_3\", \"name\": \"foot_3\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_VESSEL_SHELL_CUTAWAY\", \"manufacturer\": null, \"part_number\": \"vessel_shell_cutaway\", \"name\": \"vessel_shell_cutaway\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_INSULATION_CUTAWAY\", \"manufacturer\": null, \"part_number\": \"insulation_cutaway\", \"name\": \"insulation_cutaway\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_REFRACTORY_CUTAWAY\", \"manufacturer\": null, \"part_number\": \"refractory_cutaway\", \"name\": \"refractory_cutaway\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_VESSEL_FLOOR\", \"manufacturer\": null, \"part_number\": \"vessel_floor\", \"name\": \"vessel_floor\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_GAS_HOOD\", \"manufacturer\": null, \"part_number\": \"gas_hood\", \"name\": \"gas_hood\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_ANODE\", \"manufacturer\": null, \"part_number\": \"anode\", \"name\": \"anode\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_ANODE_BUSBAR\", \"manufacturer\": null, \"part_number\": \"anode_busbar\", \"name\": \"anode_busbar\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_ANODE_FEEDTHROUGH\", \"manufacturer\": null, \"part_number\": \"anode_feedthrough\", \"name\": \"anode_feedthrough\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_CATHODE\", \"manufacturer\": null, \"part_number\": \"cathode\", \"name\": \"cathode\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_CATHODE_BUSBAR\", \"manufacturer\": null, \"part_number\": \"cathode_busbar\", \"name\": \"cathode_busbar\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_CATHODE_FEEDTHROUGH\", \"manufacturer\": null, \"part_number\": \"cathode_feedthrough\", \"name\": \"cathode_feedthrough\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_FEED_PORT\", \"manufacturer\": null, \"part_number\": \"feed_port\", \"name\": \"feed_port\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_OXYGEN_OUTLET\", \"manufacturer\": null, \"part_number\": \"oxygen_outlet\", \"name\": \"oxygen_outlet\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_SLAG_WITHDRAWAL\", \"manufacturer\": null, \"part_number\": \"slag_withdrawal\", \"name\": \"slag_withdrawal\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_TAP_GATE_BODY\", \"manufacturer\": null, \"part_number\": \"tap_gate_body\", \"name\": \"tap_gate_body\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_TAP_GATE_STEM\", \"manufacturer\": null, \"part_number\": \"tap_gate_stem\", \"name\": \"tap_gate_stem\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_TAP_GATE_HANDLE\", \"manufacturer\": null, \"part_number\": \"tap_gate_handle\", \"name\": \"tap_gate_handle\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_INSPECTION_PANEL\", \"manufacturer\": null, \"part_number\": \"inspection_panel\", \"name\": \"inspection_panel\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}, {\"part_definition_id\": \"PART_THERMAL_PROBE\", \"manufacturer\": null, \"part_number\": \"thermal_probe\", \"name\": \"thermal_probe\", \"category\": \"Mechanical\", \"description\": \"\", \"electrical_specs\": {}, \"pins\": [], \"dimensions_mm\": {}, \"datasheet_url\": null, \"sourcing_url\": null, \"sourcing_offers\": [], \"unit_price\": 0.0}], \"components\": [{\"ref_des\": \"support\", \"part_definition_id\": \"PART_SUPPORT\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"foot_0\", \"part_definition_id\": \"PART_FOOT_0\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"foot_1\", \"part_definition_id\": \"PART_FOOT_1\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"foot_2\", \"part_definition_id\": \"PART_FOOT_2\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"foot_3\", \"part_definition_id\": \"PART_FOOT_3\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"vessel_shell_cutaway\", \"part_definition_id\": \"PART_VESSEL_SHELL_CUTAWAY\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"insulation_cutaway\", \"part_definition_id\": \"PART_INSULATION_CUTAWAY\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"refractory_cutaway\", \"part_definition_id\": \"PART_REFRACTORY_CUTAWAY\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"vessel_floor\", \"part_definition_id\": \"PART_VESSEL_FLOOR\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"gas_hood\", \"part_definition_id\": \"PART_GAS_HOOD\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"anode\", \"part_definition_id\": \"PART_ANODE\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"anode_busbar\", \"part_definition_id\": \"PART_ANODE_BUSBAR\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"anode_feedthrough\", \"part_definition_id\": \"PART_ANODE_FEEDTHROUGH\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"cathode\", \"part_definition_id\": \"PART_CATHODE\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"cathode_busbar\", \"part_definition_id\": \"PART_CATHODE_BUSBAR\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"cathode_feedthrough\", \"part_definition_id\": \"PART_CATHODE_FEEDTHROUGH\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"feed_port\", \"part_definition_id\": \"PART_FEED_PORT\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"oxygen_outlet\", \"part_definition_id\": \"PART_OXYGEN_OUTLET\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"slag_withdrawal\", \"part_definition_id\": \"PART_SLAG_WITHDRAWAL\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"tap_gate_body\", \"part_definition_id\": \"PART_TAP_GATE_BODY\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"tap_gate_stem\", \"part_definition_id\": \"PART_TAP_GATE_STEM\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"tap_gate_handle\", \"part_definition_id\": \"PART_TAP_GATE_HANDLE\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"inspection_panel\", \"part_definition_id\": \"PART_INSPECTION_PANEL\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}, {\"ref_des\": \"thermal_probe\", \"part_definition_id\": \"PART_THERMAL_PROBE\", \"rationale\": \"Separate concept geometry body\", \"configuration\": {}}], \"bom\": [{\"line_id\": \"BOM_PART_SUPPORT\", \"part_definition_id\": \"PART_SUPPORT\", \"instance_refs\": [\"support\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"support\", \"name\": \"support\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_FOOT_0\", \"part_definition_id\": \"PART_FOOT_0\", \"instance_refs\": [\"foot_0\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"foot_0\", \"name\": \"foot_0\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_FOOT_1\", \"part_definition_id\": \"PART_FOOT_1\", \"instance_refs\": [\"foot_1\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"foot_1\", \"name\": \"foot_1\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_FOOT_2\", \"part_definition_id\": \"PART_FOOT_2\", \"instance_refs\": [\"foot_2\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"foot_2\", \"name\": \"foot_2\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_FOOT_3\", \"part_definition_id\": \"PART_FOOT_3\", \"instance_refs\": [\"foot_3\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"foot_3\", \"name\": \"foot_3\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_VESSEL_SHELL_CUTAWAY\", \"part_definition_id\": \"PART_VESSEL_SHELL_CUTAWAY\", \"instance_refs\": [\"vessel_shell_cutaway\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"vessel_shell_cutaway\", \"name\": \"vessel_shell_cutaway\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_INSULATION_CUTAWAY\", \"part_definition_id\": \"PART_INSULATION_CUTAWAY\", \"instance_refs\": [\"insulation_cutaway\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"insulation_cutaway\", \"name\": \"insulation_cutaway\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_REFRACTORY_CUTAWAY\", \"part_definition_id\": \"PART_REFRACTORY_CUTAWAY\", \"instance_refs\": [\"refractory_cutaway\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"refractory_cutaway\", \"name\": \"refractory_cutaway\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_VESSEL_FLOOR\", \"part_definition_id\": \"PART_VESSEL_FLOOR\", \"instance_refs\": [\"vessel_floor\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"vessel_floor\", \"name\": \"vessel_floor\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_GAS_HOOD\", \"part_definition_id\": \"PART_GAS_HOOD\", \"instance_refs\": [\"gas_hood\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"gas_hood\", \"name\": \"gas_hood\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_ANODE\", \"part_definition_id\": \"PART_ANODE\", \"instance_refs\": [\"anode\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"anode\", \"name\": \"anode\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_ANODE_BUSBAR\", \"part_definition_id\": \"PART_ANODE_BUSBAR\", \"instance_refs\": [\"anode_busbar\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"anode_busbar\", \"name\": \"anode_busbar\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_ANODE_FEEDTHROUGH\", \"part_definition_id\": \"PART_ANODE_FEEDTHROUGH\", \"instance_refs\": [\"anode_feedthrough\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"anode_feedthrough\", \"name\": \"anode_feedthrough\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_CATHODE\", \"part_definition_id\": \"PART_CATHODE\", \"instance_refs\": [\"cathode\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"cathode\", \"name\": \"cathode\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_CATHODE_BUSBAR\", \"part_definition_id\": \"PART_CATHODE_BUSBAR\", \"instance_refs\": [\"cathode_busbar\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"cathode_busbar\", \"name\": \"cathode_busbar\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_CATHODE_FEEDTHROUGH\", \"part_definition_id\": \"PART_CATHODE_FEEDTHROUGH\", \"instance_refs\": [\"cathode_feedthrough\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"cathode_feedthrough\", \"name\": \"cathode_feedthrough\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_FEED_PORT\", \"part_definition_id\": \"PART_FEED_PORT\", \"instance_refs\": [\"feed_port\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"feed_port\", \"name\": \"feed_port\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_OXYGEN_OUTLET\", \"part_definition_id\": \"PART_OXYGEN_OUTLET\", \"instance_refs\": [\"oxygen_outlet\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"oxygen_outlet\", \"name\": \"oxygen_outlet\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_SLAG_WITHDRAWAL\", \"part_definition_id\": \"PART_SLAG_WITHDRAWAL\", \"instance_refs\": [\"slag_withdrawal\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"slag_withdrawal\", \"name\": \"slag_withdrawal\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_TAP_GATE_BODY\", \"part_definition_id\": \"PART_TAP_GATE_BODY\", \"instance_refs\": [\"tap_gate_body\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"tap_gate_body\", \"name\": \"tap_gate_body\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_TAP_GATE_STEM\", \"part_definition_id\": \"PART_TAP_GATE_STEM\", \"instance_refs\": [\"tap_gate_stem\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"tap_gate_stem\", \"name\": \"tap_gate_stem\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_TAP_GATE_HANDLE\", \"part_definition_id\": \"PART_TAP_GATE_HANDLE\", \"instance_refs\": [\"tap_gate_handle\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"tap_gate_handle\", \"name\": \"tap_gate_handle\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_INSPECTION_PANEL\", \"part_definition_id\": \"PART_INSPECTION_PANEL\", \"instance_refs\": [\"inspection_panel\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"inspection_panel\", \"name\": \"inspection_panel\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}, {\"line_id\": \"BOM_PART_THERMAL_PROBE\", \"part_definition_id\": \"PART_THERMAL_PROBE\", \"instance_refs\": [\"thermal_probe\"], \"quantity\": 1, \"manufacturer\": null, \"part_number\": \"thermal_probe\", \"name\": \"thermal_probe\", \"category\": \"Mechanical\", \"unit_price\": 0.0, \"sourcing_url\": null, \"extended_price\": 0.0, \"rationale\": \"Separate concept geometry body\"}], \"nets\": [], \"buses\": [], \"pin_mappings\": [], \"assembly\": [], \"mechanical\": {\"cad_operations\": [], \"physical_form\": \"MRE ELECTROLYSIS REACTOR\", \"enclosure_type\": \"Parametric concept assembly\", \"mounting_guidance\": \"Millimeters, Z up; inspection cutaways are explicitly named.\", \"fabrication_details\": [\"Every dimension is an authoring assumption, not a NASA measurement.\", \"Motion is design inspection only, not simulated plant operation.\"], \"fabrication_cost_estimate_usd\": 0.0, \"cad_sources\": [], \"manufacturability_rating\": \"Not evaluated\", \"render_dimensions\": null, \"component_placements\": [{\"ref_des\": \"support\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 100.0}, \"size\": {\"x_mm\": 1800.0000002000002, \"y_mm\": 1400.0000002000002, \"z_mm\": 100.00000020000004}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"foot_0\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": -780.0, \"y_mm\": -580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"foot_1\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": -780.0, \"y_mm\": 580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"foot_2\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 780.0, \"y_mm\": -580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"foot_3\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 780.0, \"y_mm\": 580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"vessel_shell_cutaway\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 195.00000000000003}, \"size\": {\"x_mm\": 1121.127765673728, \"y_mm\": 1120.0000002000004, \"z_mm\": 1051.127765673728}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"insulation_cutaway\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 225.00000000000003}, \"size\": {\"x_mm\": 1041.047210997033, \"y_mm\": 1040.0000002000004, \"z_mm\": 991.0472109970331}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"refractory_cutaway\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 240.0}, \"size\": {\"x_mm\": 870.8760323090564, \"y_mm\": 870.0000002000003, \"z_mm\": 920.8760323090564}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"vessel_floor\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 195.0}, \"size\": {\"x_mm\": 1101.107627004554, \"y_mm\": 1100.0000002000002, \"z_mm\": 91.10762700455405}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"gas_hood\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 1250.0}, \"size\": {\"x_mm\": 1161.1680430120753, \"y_mm\": 1160.0000002000004, \"z_mm\": 121.16804301207549}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"anode\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": -200.0, \"y_mm\": 0.0, \"z_mm\": 980.0}, \"size\": {\"x_mm\": 90.00000020000044, \"y_mm\": 180.00000020000044, \"z_mm\": 920.0000002000005}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"anode_busbar\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": -200.0, \"y_mm\": 0.0, \"z_mm\": 1490.0}, \"size\": {\"x_mm\": 220.00000020000004, \"y_mm\": 100.00000020000006, \"z_mm\": 60.00000020000016}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"anode_feedthrough\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": -200.0, \"y_mm\": 0.0, \"z_mm\": 1320.0}, \"size\": {\"x_mm\": 170.1711788879766, \"y_mm\": 170.00000020000013, \"z_mm\": 100.17117888797657}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"cathode\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 200.0, \"y_mm\": 0.0, \"z_mm\": 980.0}, \"size\": {\"x_mm\": 90.00000020000044, \"y_mm\": 180.00000020000044, \"z_mm\": 920.0000002000005}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"cathode_busbar\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 200.0, \"y_mm\": 0.0, \"z_mm\": 1490.0}, \"size\": {\"x_mm\": 220.00000020000004, \"y_mm\": 100.00000020000006, \"z_mm\": 60.00000020000016}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"cathode_feedthrough\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 200.0, \"y_mm\": 0.0, \"z_mm\": 1320.0}, \"size\": {\"x_mm\": 170.1711788879766, \"y_mm\": 170.00000020000013, \"z_mm\": 100.17117888797657}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"feed_port\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": -380.0, \"y_mm\": 0.0, \"z_mm\": 1305.0}, \"size\": {\"x_mm\": 170.17117888797657, \"y_mm\": 170.00000020000013, \"z_mm\": 330.17117888797657}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"oxygen_outlet\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 300.0, \"z_mm\": 1360.0}, \"size\": {\"x_mm\": 110.11076288045545, \"y_mm\": 110.00000020000007, \"z_mm\": 420.11076288045524}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"slag_withdrawal\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 395.0, \"y_mm\": 0.0, \"z_mm\": 380.0}, \"size\": {\"x_mm\": 450.15104021880296, \"y_mm\": 150.0000002000001, \"z_mm\": 150.15104021880296}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"tap_gate_body\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 620.0, \"y_mm\": 0.0, \"z_mm\": 380.0}, \"size\": {\"x_mm\": 160.11076288045547, \"y_mm\": 110.00000020000013, \"z_mm\": 110.11076288045547}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"tap_gate_stem\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 700.0, \"y_mm\": 0.0, \"z_mm\": 395.0}, \"size\": {\"x_mm\": 32.032222070678245, \"y_mm\": 32.000000200000265, \"z_mm\": 90.03222207067824}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"tap_gate_handle\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 755.0, \"y_mm\": 0.0, \"z_mm\": 495.0}, \"size\": {\"x_mm\": 170.00000019999993, \"y_mm\": 24.0000002, \"z_mm\": 22.000000200000045}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"inspection_panel\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 0.0, \"y_mm\": -570.0, \"z_mm\": 820.0}, \"size\": {\"x_mm\": 350.0000002000002, \"y_mm\": 30.00000020000016, \"z_mm\": 470.00000020000016}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}, {\"ref_des\": \"thermal_probe\", \"label\": null, \"category\": null, \"layer\": \"mechanism\", \"position\": {\"x_mm\": 380.0, \"y_mm\": 80.0, \"z_mm\": 1260.0}, \"size\": {\"x_mm\": 44.04430527218233, \"y_mm\": 44.00000020000014, \"z_mm\": 240.0443052721821}, \"orientation_deg\": {\"x_deg\": 0.0, \"y_deg\": 0.0, \"z_deg\": 0.0}, \"mounting_face\": null, \"notes\": null}], \"spatial_relationships\": [], \"motion_intents\": [], \"mechanism_benchmark\": null}, \"fluidic_system\": null, \"firmware\": null, \"cad_model\": {\"format\": \"step\", \"path\": \"C:\\\\Users\\\\isaya\\\\code_projects\\\\NASA-APP\\\\assets\\\\machine-previews\\\\asset-04\\\\assembly.step\", \"sha256\": \"5756317f860001cdc30d901ea39749a5ceb94a24e082ef53f89dc8ac0f5f38a6\", \"mesh_path\": \"C:\\\\Users\\\\isaya\\\\code_projects\\\\NASA-APP\\\\assets\\\\machine-previews\\\\asset-04\\\\excavator.meshes.json\", \"kinematics_path\": \"C:\\\\Users\\\\isaya\\\\code_projects\\\\NASA-APP\\\\assets\\\\machine-previews\\\\asset-04\\\\excavator.kinematics.json\", \"units\": \"mm\"}, \"constraints\": [], \"power_rails\": [], \"estimated_current_draw_ma\": 0.0, \"fabrication_notes\": [], \"assembly_metadata\": {\"asset_id\": \"ASSET-04\", \"mechanical_ir\": {\"domain\": \"mechanical\", \"schema_version\": \"1.0\", \"artifact_id\": \"ASSET-04-mechanical\", \"revision\": 1, \"parts\": [{\"part_definition_id\": \"support\", \"dimensions_mm\": {\"x\": 1800.0000002000002, \"y\": 1400.0000002000002, \"z\": 100.00000020000004}}, {\"part_definition_id\": \"foot_0\", \"dimensions_mm\": {\"x\": 140.00000019999993, \"y\": 140.0000002, \"z\": 100.00000020000002}}, {\"part_definition_id\": \"foot_1\", \"dimensions_mm\": {\"x\": 140.00000019999993, \"y\": 140.0000002, \"z\": 100.00000020000002}}, {\"part_definition_id\": \"foot_2\", \"dimensions_mm\": {\"x\": 140.00000019999993, \"y\": 140.0000002, \"z\": 100.00000020000002}}, {\"part_definition_id\": \"foot_3\", \"dimensions_mm\": {\"x\": 140.00000019999993, \"y\": 140.0000002, \"z\": 100.00000020000002}}, {\"part_definition_id\": \"vessel_shell_cutaway\", \"dimensions_mm\": {\"x\": 1121.127765673728, \"y\": 1120.0000002000004, \"z\": 1051.127765673728}}, {\"part_definition_id\": \"insulation_cutaway\", \"dimensions_mm\": {\"x\": 1041.047210997033, \"y\": 1040.0000002000004, \"z\": 991.0472109970331}}, {\"part_definition_id\": \"refractory_cutaway\", \"dimensions_mm\": {\"x\": 870.8760323090564, \"y\": 870.0000002000003, \"z\": 920.8760323090564}}, {\"part_definition_id\": \"vessel_floor\", \"dimensions_mm\": {\"x\": 1101.107627004554, \"y\": 1100.0000002000002, \"z\": 91.10762700455405}}, {\"part_definition_id\": \"gas_hood\", \"dimensions_mm\": {\"x\": 1161.1680430120753, \"y\": 1160.0000002000004, \"z\": 121.16804301207549}}, {\"part_definition_id\": \"anode\", \"dimensions_mm\": {\"x\": 90.00000020000044, \"y\": 180.00000020000044, \"z\": 920.0000002000005}}, {\"part_definition_id\": \"anode_busbar\", \"dimensions_mm\": {\"x\": 220.00000020000004, \"y\": 100.00000020000006, \"z\": 60.00000020000016}}, {\"part_definition_id\": \"anode_feedthrough\", \"dimensions_mm\": {\"x\": 170.1711788879766, \"y\": 170.00000020000013, \"z\": 100.17117888797657}}, {\"part_definition_id\": \"cathode\", \"dimensions_mm\": {\"x\": 90.00000020000044, \"y\": 180.00000020000044, \"z\": 920.0000002000005}}, {\"part_definition_id\": \"cathode_busbar\", \"dimensions_mm\": {\"x\": 220.00000020000004, \"y\": 100.00000020000006, \"z\": 60.00000020000016}}, {\"part_definition_id\": \"cathode_feedthrough\", \"dimensions_mm\": {\"x\": 170.1711788879766, \"y\": 170.00000020000013, \"z\": 100.17117888797657}}, {\"part_definition_id\": \"feed_port\", \"dimensions_mm\": {\"x\": 170.17117888797657, \"y\": 170.00000020000013, \"z\": 330.17117888797657}}, {\"part_definition_id\": \"oxygen_outlet\", \"dimensions_mm\": {\"x\": 110.11076288045545, \"y\": 110.00000020000007, \"z\": 420.11076288045524}}, {\"part_definition_id\": \"slag_withdrawal\", \"dimensions_mm\": {\"x\": 450.15104021880296, \"y\": 150.0000002000001, \"z\": 150.15104021880296}}, {\"part_definition_id\": \"tap_gate_body\", \"dimensions_mm\": {\"x\": 160.11076288045547, \"y\": 110.00000020000013, \"z\": 110.11076288045547}}, {\"part_definition_id\": \"tap_gate_stem\", \"dimensions_mm\": {\"x\": 32.032222070678245, \"y\": 32.000000200000265, \"z\": 90.03222207067824}}, {\"part_definition_id\": \"tap_gate_handle\", \"dimensions_mm\": {\"x\": 170.00000019999993, \"y\": 24.0000002, \"z\": 22.000000200000045}}, {\"part_definition_id\": \"inspection_panel\", \"dimensions_mm\": {\"x\": 350.0000002000002, \"y\": 30.00000020000016, \"z\": 470.00000020000016}}, {\"part_definition_id\": \"thermal_probe\", \"dimensions_mm\": {\"x\": 44.04430527218233, \"y\": 44.00000020000014, \"z\": 240.0443052721821}}], \"components\": [{\"object_id\": \"ASSET-04/support\", \"ref_des\": \"support\", \"part_definition_id\": \"support\"}, {\"object_id\": \"ASSET-04/foot_0\", \"ref_des\": \"foot_0\", \"part_definition_id\": \"foot_0\"}, {\"object_id\": \"ASSET-04/foot_1\", \"ref_des\": \"foot_1\", \"part_definition_id\": \"foot_1\"}, {\"object_id\": \"ASSET-04/foot_2\", \"ref_des\": \"foot_2\", \"part_definition_id\": \"foot_2\"}, {\"object_id\": \"ASSET-04/foot_3\", \"ref_des\": \"foot_3\", \"part_definition_id\": \"foot_3\"}, {\"object_id\": \"ASSET-04/vessel_shell_cutaway\", \"ref_des\": \"vessel_shell_cutaway\", \"part_definition_id\": \"vessel_shell_cutaway\"}, {\"object_id\": \"ASSET-04/insulation_cutaway\", \"ref_des\": \"insulation_cutaway\", \"part_definition_id\": \"insulation_cutaway\"}, {\"object_id\": \"ASSET-04/refractory_cutaway\", \"ref_des\": \"refractory_cutaway\", \"part_definition_id\": \"refractory_cutaway\"}, {\"object_id\": \"ASSET-04/vessel_floor\", \"ref_des\": \"vessel_floor\", \"part_definition_id\": \"vessel_floor\"}, {\"object_id\": \"ASSET-04/gas_hood\", \"ref_des\": \"gas_hood\", \"part_definition_id\": \"gas_hood\"}, {\"object_id\": \"ASSET-04/anode\", \"ref_des\": \"anode\", \"part_definition_id\": \"anode\"}, {\"object_id\": \"ASSET-04/anode_busbar\", \"ref_des\": \"anode_busbar\", \"part_definition_id\": \"anode_busbar\"}, {\"object_id\": \"ASSET-04/anode_feedthrough\", \"ref_des\": \"anode_feedthrough\", \"part_definition_id\": \"anode_feedthrough\"}, {\"object_id\": \"ASSET-04/cathode\", \"ref_des\": \"cathode\", \"part_definition_id\": \"cathode\"}, {\"object_id\": \"ASSET-04/cathode_busbar\", \"ref_des\": \"cathode_busbar\", \"part_definition_id\": \"cathode_busbar\"}, {\"object_id\": \"ASSET-04/cathode_feedthrough\", \"ref_des\": \"cathode_feedthrough\", \"part_definition_id\": \"cathode_feedthrough\"}, {\"object_id\": \"ASSET-04/feed_port\", \"ref_des\": \"feed_port\", \"part_definition_id\": \"feed_port\"}, {\"object_id\": \"ASSET-04/oxygen_outlet\", \"ref_des\": \"oxygen_outlet\", \"part_definition_id\": \"oxygen_outlet\"}, {\"object_id\": \"ASSET-04/slag_withdrawal\", \"ref_des\": \"slag_withdrawal\", \"part_definition_id\": \"slag_withdrawal\"}, {\"object_id\": \"ASSET-04/tap_gate_body\", \"ref_des\": \"tap_gate_body\", \"part_definition_id\": \"tap_gate_body\"}, {\"object_id\": \"ASSET-04/tap_gate_stem\", \"ref_des\": \"tap_gate_stem\", \"part_definition_id\": \"tap_gate_stem\"}, {\"object_id\": \"ASSET-04/tap_gate_handle\", \"ref_des\": \"tap_gate_handle\", \"part_definition_id\": \"tap_gate_handle\"}, {\"object_id\": \"ASSET-04/inspection_panel\", \"ref_des\": \"inspection_panel\", \"part_definition_id\": \"inspection_panel\"}, {\"object_id\": \"ASSET-04/thermal_probe\", \"ref_des\": \"thermal_probe\", \"part_definition_id\": \"thermal_probe\"}], \"mechanical\": {\"physical_form\": \"MRE ELECTROLYSIS REACTOR\", \"enclosure_type\": \"Parametric concept assembly\", \"mounting_guidance\": \"Millimeters, Z up; inspection cutaways are explicitly named.\", \"manufacturability_rating\": \"Not evaluated\", \"component_placements\": [{\"ref_des\": \"support\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 100.0}, \"size\": {\"x_mm\": 1800.0000002000002, \"y_mm\": 1400.0000002000002, \"z_mm\": 100.00000020000004}, \"layer\": \"mechanism\"}, {\"ref_des\": \"foot_0\", \"position\": {\"x_mm\": -780.0, \"y_mm\": -580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"layer\": \"mechanism\"}, {\"ref_des\": \"foot_1\", \"position\": {\"x_mm\": -780.0, \"y_mm\": 580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"layer\": \"mechanism\"}, {\"ref_des\": \"foot_2\", \"position\": {\"x_mm\": 780.0, \"y_mm\": -580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"layer\": \"mechanism\"}, {\"ref_des\": \"foot_3\", \"position\": {\"x_mm\": 780.0, \"y_mm\": 580.0, \"z_mm\": 25.0}, \"size\": {\"x_mm\": 140.00000019999993, \"y_mm\": 140.0000002, \"z_mm\": 100.00000020000002}, \"layer\": \"mechanism\"}, {\"ref_des\": \"vessel_shell_cutaway\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 195.00000000000003}, \"size\": {\"x_mm\": 1121.127765673728, \"y_mm\": 1120.0000002000004, \"z_mm\": 1051.127765673728}, \"layer\": \"mechanism\"}, {\"ref_des\": \"insulation_cutaway\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 225.00000000000003}, \"size\": {\"x_mm\": 1041.047210997033, \"y_mm\": 1040.0000002000004, \"z_mm\": 991.0472109970331}, \"layer\": \"mechanism\"}, {\"ref_des\": \"refractory_cutaway\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 240.0}, \"size\": {\"x_mm\": 870.8760323090564, \"y_mm\": 870.0000002000003, \"z_mm\": 920.8760323090564}, \"layer\": \"mechanism\"}, {\"ref_des\": \"vessel_floor\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 195.0}, \"size\": {\"x_mm\": 1101.107627004554, \"y_mm\": 1100.0000002000002, \"z_mm\": 91.10762700455405}, \"layer\": \"mechanism\"}, {\"ref_des\": \"gas_hood\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 0.0, \"z_mm\": 1250.0}, \"size\": {\"x_mm\": 1161.1680430120753, \"y_mm\": 1160.0000002000004, \"z_mm\": 121.16804301207549}, \"layer\": \"mechanism\"}, {\"ref_des\": \"anode\", \"position\": {\"x_mm\": -200.0, \"y_mm\": 0.0, \"z_mm\": 980.0}, \"size\": {\"x_mm\": 90.00000020000044, \"y_mm\": 180.00000020000044, \"z_mm\": 920.0000002000005}, \"layer\": \"mechanism\"}, {\"ref_des\": \"anode_busbar\", \"position\": {\"x_mm\": -200.0, \"y_mm\": 0.0, \"z_mm\": 1490.0}, \"size\": {\"x_mm\": 220.00000020000004, \"y_mm\": 100.00000020000006, \"z_mm\": 60.00000020000016}, \"layer\": \"mechanism\"}, {\"ref_des\": \"anode_feedthrough\", \"position\": {\"x_mm\": -200.0, \"y_mm\": 0.0, \"z_mm\": 1320.0}, \"size\": {\"x_mm\": 170.1711788879766, \"y_mm\": 170.00000020000013, \"z_mm\": 100.17117888797657}, \"layer\": \"mechanism\"}, {\"ref_des\": \"cathode\", \"position\": {\"x_mm\": 200.0, \"y_mm\": 0.0, \"z_mm\": 980.0}, \"size\": {\"x_mm\": 90.00000020000044, \"y_mm\": 180.00000020000044, \"z_mm\": 920.0000002000005}, \"layer\": \"mechanism\"}, {\"ref_des\": \"cathode_busbar\", \"position\": {\"x_mm\": 200.0, \"y_mm\": 0.0, \"z_mm\": 1490.0}, \"size\": {\"x_mm\": 220.00000020000004, \"y_mm\": 100.00000020000006, \"z_mm\": 60.00000020000016}, \"layer\": \"mechanism\"}, {\"ref_des\": \"cathode_feedthrough\", \"position\": {\"x_mm\": 200.0, \"y_mm\": 0.0, \"z_mm\": 1320.0}, \"size\": {\"x_mm\": 170.1711788879766, \"y_mm\": 170.00000020000013, \"z_mm\": 100.17117888797657}, \"layer\": \"mechanism\"}, {\"ref_des\": \"feed_port\", \"position\": {\"x_mm\": -380.0, \"y_mm\": 0.0, \"z_mm\": 1305.0}, \"size\": {\"x_mm\": 170.17117888797657, \"y_mm\": 170.00000020000013, \"z_mm\": 330.17117888797657}, \"layer\": \"mechanism\"}, {\"ref_des\": \"oxygen_outlet\", \"position\": {\"x_mm\": 0.0, \"y_mm\": 300.0, \"z_mm\": 1360.0}, \"size\": {\"x_mm\": 110.11076288045545, \"y_mm\": 110.00000020000007, \"z_mm\": 420.11076288045524}, \"layer\": \"mechanism\"}, {\"ref_des\": \"slag_withdrawal\", \"position\": {\"x_mm\": 395.0, \"y_mm\": 0.0, \"z_mm\": 380.0}, \"size\": {\"x_mm\": 450.15104021880296, \"y_mm\": 150.0000002000001, \"z_mm\": 150.15104021880296}, \"layer\": \"mechanism\"}, {\"ref_des\": \"tap_gate_body\", \"position\": {\"x_mm\": 620.0, \"y_mm\": 0.0, \"z_mm\": 380.0}, \"size\": {\"x_mm\": 160.11076288045547, \"y_mm\": 110.00000020000013, \"z_mm\": 110.11076288045547}, \"layer\": \"mechanism\"}, {\"ref_des\": \"tap_gate_stem\", \"position\": {\"x_mm\": 700.0, \"y_mm\": 0.0, \"z_mm\": 395.0}, \"size\": {\"x_mm\": 32.032222070678245, \"y_mm\": 32.000000200000265, \"z_mm\": 90.03222207067824}, \"layer\": \"mechanism\"}, {\"ref_des\": \"tap_gate_handle\", \"position\": {\"x_mm\": 755.0, \"y_mm\": 0.0, \"z_mm\": 495.0}, \"size\": {\"x_mm\": 170.00000019999993, \"y_mm\": 24.0000002, \"z_mm\": 22.000000200000045}, \"layer\": \"mechanism\"}, {\"ref_des\": \"inspection_panel\", \"position\": {\"x_mm\": 0.0, \"y_mm\": -570.0, \"z_mm\": 820.0}, \"size\": {\"x_mm\": 350.0000002000002, \"y_mm\": 30.00000020000016, \"z_mm\": 470.00000020000016}, \"layer\": \"mechanism\"}, {\"ref_des\": \"thermal_probe\", \"position\": {\"x_mm\": 380.0, \"y_mm\": 80.0, \"z_mm\": 1260.0}, \"size\": {\"x_mm\": 44.04430527218233, \"y_mm\": 44.00000020000014, \"z_mm\": 240.0443052721821}, \"layer\": \"mechanism\"}], \"fabrication_details\": [\"Every dimension is an authoring assumption, not a NASA measurement.\", \"Motion is design inspection only, not simulated plant operation.\"]}}, \"sources\": [\"04-mre-electrolysis-reactor.md\"], \"status\": \"Concept engineering preview\", \"model_source\": \"assets/machine-previews/build_all.py\", \"assumptions\": \"All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.\", \"cad_generation\": {\"adapter\": \"forma-opencad\", \"status\": \"provided\", \"required\": false}, \"project_id\": \"24c81a14-3f79-472c-9450-fa9cefefee94\", \"chat_id\": \"ae5acd07-e8ba-4a1c-828d-32f2d9146a49\", \"authoring_agent\": \"opencode\", \"compiled_by\": \"forma.compile_project\", \"compile_revision\": 1, \"created_at\": \"2026-11-15T06:39:50.713786Z\", \"source_prompt\": \"# ASSET-04 \\u2014 Molten regolith electrolysis (MRE) reactor\\n\\n**Priority:** Core MVP, the principal machine. **Flow:** hot regolith + electrical energy \\u2192 crude O\\u2082 gas (ASSET-05) + reduced/residual molten solids (ASSET-10).\\n\\n## Research context\\n\\nNASA/Lunar Resources LR-1 test processed **25 kg of lunar regolith simulant**, averaging **0.07 kg O\\u2082/h** during **nine hours of sustained electrolysis under vacuum**. These are **reference ground-test results**, not a guaranteed continuous lunar factory rate. NASA's MRE system study models reactor energy, electrical current, thermal constraints, regolith composition and produced oxygen/byproducts. The process is high-temperature electrochemistry: oxygen-bearing mineral oxides undergo reduction at the cathode and O\\u2082 evolution at the anode, while electrical/Joule heating supports the molten state.\\n\\n## Forma / OpenCAD build brief\\n\\nGenerate a heavily insulated refractory vessel containing a molten bath, **separate anode/cathode assemblies**, high-current bus bars/feedthroughs, lid/gas hood, feed port, oxygen outlet, metal/slag withdrawal port, thermal sensor ports, support/skid, and removable inspection/maintenance panels. Use an **exploded engineering assembly** only as a view of the real parametric parts. Parameterize reaction-zone radius/height, electrode spacing and area, lining thickness, thermal insulation, current/voltage limits, feed residence time and vessel limits; all values require a model assumption/source. A glowing cutaway melt is an optical indicator **only** when controller temperature/melt state warrants it.\\n\\n## Executable machine contract\\n\\n- **Commands:** `charge(lot_id)`, `heat_to_melt(target_K)`, `set_current(A)`, `run_electrolysis(duration_s)`, `reduce_load`, `tap_products`, `shutdown`.\\n- **Inputs:** oxide species masses kg, inlet temperature K, electrical current A/voltage V, available power W, heat loss/lining properties, operating time s, efficiency/conversion assumptions.\\n- **Outputs:** evolved O\\u2082 mol and kg, gas composition, reduced metals/residual solids kg, reactor temperature K, electricity kWh, remaining feed, efficiency and fault reports.\\n- **States:** EMPTY, CHARGED, PREHEATING, MOLTEN, ELECTROLYZING, DRAINING, COOLING, BLOCKED, FAULT.\\n- **Numerical constraints:** enforce available oxide oxygen inventory **and** Faraday/charge limit: theoretical `n(O2) <= I*t/(4*F)` for a one-zone/constant-current ideal bound; apply explicit current efficiency and gas-capture losses separately. Check material and oxygen mass closure; heater/ohmic losses and energy balance. A reactor with cold solid feed cannot instantly run electrolysis or create product gas.\\n- **Failure cases:** unmolten batch, inadequate voltage/current/power, full downstream gas vessel, excess temperature, insufficient feed, degraded electrode, blocked tap.\\n\\n## MVP acceptance\\n\\nThe reactor starts from a finite composition-labeled batch, heats to valid conditions, only then produces modeled O\\u2082, consumes source oxygen/charge/energy and records reduced/residual products. A power cut lowers or halts computed output; tank gains cannot continue by animation alone. Compare a documented model scenario to the NASA LR-1 ground-test reference while clearly labeling the model assumptions.\\n\\n## Technical sources\\n\\n- [NASA NTRS \\u2014 Large-Scale MRE Demonstration (2026)](https://ntrs.nasa.gov/citations/20260006167) (measured 25 kg / ~0.07 kg/h / 9 h reference).\\n- [NASA NTRS \\u2014 Lunar MRE plant model](https://ntrs.nasa.gov/citations/20240013999) (thermal, electrical, material streams).\\n- [NASA NTRS \\u2014 Molten Regolith Electrolysis: Core Sample Analysis](https://ntrs.nasa.gov/api/citations/20250005608/downloads/MRE_SRR_Core_presentation.pdf?attachment=true) (electrode arrangement and four-electron O\\u2082 stoichiometry; diagram, not a ready-to-build drawing).\\n## Integration contract (NASA-APP)\\n\\n- **OpenForma:** author the indicated MechanicalIR/ElectricalIR/FluidicIR/ThermalIR/ProcessIR/ChemicalIR artifacts only where real supported schemas and capabilities exist. Maintain source, validation result and model/version provenance.\\n- **OpenCAD:** create a real parametric/assemblable asset with named separate moving parts, joints and attachment frames; export through an existing supported OpenIndustries handoff. Do not imply a mesh alone implements physics.\\n- **OpenIndustries:** attach the asset to a stable scene object with machine/task IDs. Machine state and real execution events drive pose, material transfer and telemetry; no canned footage or free-running decorative animation.\\n- **Controller:** only validated commands can transition this device; the Python numerical process solver returns physically bounded deltas/measurements and never manipulates the viewer.\\n\\n**Status:** design brief only. All dimensions, performance parameters, efficiencies and operating limits not explicitly identified as published references are **TBD engineering inputs**, not NASA specifications. This is a simulated machine, not a space-qualified build.\"}, \"project_version_history\": [], \"validation\": {\"critical\": [], \"warning\": [], \"info\": []}, \"is_valid\": true}, \"is_valid\": true, \"validation\": {\"critical\": [], \"warning\": [], \"info\": []}, \"mermaid_code\": \"graph LR\\n  support[\\\"<b>support</b><br/>support<br/><small>support</small>\\\"]\\n  foot_0[\\\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\\\"]\\n  foot_1[\\\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\\\"]\\n  foot_2[\\\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\\\"]\\n  foot_3[\\\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\\\"]\\n  vessel_shell_cutaway[\\\"<b>vessel_shell_cutaway</b><br/>vessel_shell_cutaway<br/><small>vessel_shell_cutaway</small>\\\"]\\n  insulation_cutaway[\\\"<b>insulation_cutaway</b><br/>insulation_cutaway<br/><small>insulation_cutaway</small>\\\"]\\n  refractory_cutaway[\\\"<b>refractory_cutaway</b><br/>refractory_cutaway<br/><small>refractory_cutaway</small>\\\"]\\n  vessel_floor[\\\"<b>vessel_floor</b><br/>vessel_floor<br/><small>vessel_floor</small>\\\"]\\n  gas_hood[\\\"<b>gas_hood</b><br/>gas_hood<br/><small>gas_hood</small>\\\"]\\n  anode[\\\"<b>anode</b><br/>anode<br/><small>anode</small>\\\"]\\n  anode_busbar[\\\"<b>anode_busbar</b><br/>anode_busbar<br/><small>anode_busbar</small>\\\"]\\n  anode_feedthrough[\\\"<b>anode_feedthrough</b><br/>anode_feedthrough<br/><small>anode_feedthrough</small>\\\"]\\n  cathode[\\\"<b>cathode</b><br/>cathode<br/><small>cathode</small>\\\"]\\n  cathode_busbar[\\\"<b>cathode_busbar</b><br/>cathode_busbar<br/><small>cathode_busbar</small>\\\"]\\n  cathode_feedthrough[\\\"<b>cathode_feedthrough</b><br/>cathode_feedthrough<br/><small>cathode_feedthrough</small>\\\"]\\n  feed_port[\\\"<b>feed_port</b><br/>feed_port<br/><small>feed_port</small>\\\"]\\n  oxygen_outlet[\\\"<b>oxygen_outlet</b><br/>oxygen_outlet<br/><small>oxygen_outlet</small>\\\"]\\n  slag_withdrawal[\\\"<b>slag_withdrawal</b><br/>slag_withdrawal<br/><small>slag_withdrawal</small>\\\"]\\n  tap_gate_body[\\\"<b>tap_gate_body</b><br/>tap_gate_body<br/><small>tap_gate_body</small>\\\"]\\n  tap_gate_stem[\\\"<b>tap_gate_stem</b><br/>tap_gate_stem<br/><small>tap_gate_stem</small>\\\"]\\n  tap_gate_handle[\\\"<b>tap_gate_handle</b><br/>tap_gate_handle<br/><small>tap_gate_handle</small>\\\"]\\n  inspection_panel[\\\"<b>inspection_panel</b><br/>inspection_panel<br/><small>inspection_panel</small>\\\"]\\n  thermal_probe[\\\"<b>thermal_probe</b><br/>thermal_probe<br/><small>thermal_probe</small>\\\"]\", \"svg_schematic\": \"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\\n  <!-- Grid Background -->\\n  <defs>\\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\\n    </pattern>\\n  </defs>\\n  <rect width='100%' height='100%' fill='url(#grid)' />\\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-04 - MRE ELECTROLYSIS REACTOR</text>\\n  <!-- Wires / Connections -->\\n  <!-- Components -->\\n  <g id='comp-support'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-foot_0'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-foot_1'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-foot_2'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-foot_3'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-vessel_shell_cutaway'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_shell_cutaway</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_shell_cutaway</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_shell_cutaway</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-insulation_cutaway'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>insulation_cutaway</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>insulation_cutaway</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>insulation_cutaway</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-refractory_cutaway'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>refractory_cutaway</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>refractory_cutaway</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>refractory_cutaway</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-vessel_floor'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_floor</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_floor</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_floor</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-gas_hood'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>gas_hood</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>gas_hood</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>gas_hood</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-anode'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>anode</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>anode</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>anode</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-anode_busbar'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>anode_busbar</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>anode_busbar</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>anode_busbar</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-anode_feedthrough'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>anode_feedthrough</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>anode_feedthrough</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>anode_feedthrough</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-cathode'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>cathode</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>cathode</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>cathode</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-cathode_busbar'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>cathode_busbar</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>cathode_busbar</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>cathode_busbar</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-cathode_feedthrough'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>cathode_feedthrough</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>cathode_feedthrough</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>cathode_feedthrough</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-feed_port'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>feed_port</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>feed_port</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>feed_port</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-oxygen_outlet'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>oxygen_outlet</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>oxygen_outlet</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>oxygen_outlet</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-slag_withdrawal'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>slag_withdrawal</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>slag_withdrawal</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>slag_withdrawal</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-tap_gate_body'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>tap_gate_body</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>tap_gate_body</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>tap_gate_body</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-tap_gate_stem'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>tap_gate_stem</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>tap_gate_stem</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>tap_gate_stem</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-tap_gate_handle'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>tap_gate_handle</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>tap_gate_handle</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>tap_gate_handle</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-inspection_panel'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>inspection_panel</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>inspection_panel</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>inspection_panel</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n  <g id='comp-thermal_probe'>\\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>thermal_probe</text>\\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>thermal_probe</text>\\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>thermal_probe</text>\\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\\n  </g>\\n</svg>\"}"
+    }
+  ],
+  "structuredContent": {
+    "project_id": "24c81a14-3f79-472c-9450-fa9cefefee94",
+    "chat_id": "ae5acd07-e8ba-4a1c-828d-32f2d9146a49",
+    "persisted": true,
+    "visibility": "private",
+    "project_ir": {
+      "hardware_ir_version": "0.2",
+      "overview": {
+        "title": "ASSET-04 - MRE ELECTROLYSIS REACTOR",
+        "description": "Brief-driven mechanical concept. No process performance or physical qualification claimed.",
+        "difficulty": "Advanced",
+        "estimated_cost": 0.0,
+        "category": "Industrial"
+      },
+      "requirements": null,
+      "system_architecture": null,
+      "part_definitions": [
+        {
+          "part_definition_id": "PART_SUPPORT",
+          "manufacturer": null,
+          "part_number": "support",
+          "name": "support",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_FOOT_0",
+          "manufacturer": null,
+          "part_number": "foot_0",
+          "name": "foot_0",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_FOOT_1",
+          "manufacturer": null,
+          "part_number": "foot_1",
+          "name": "foot_1",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_FOOT_2",
+          "manufacturer": null,
+          "part_number": "foot_2",
+          "name": "foot_2",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_FOOT_3",
+          "manufacturer": null,
+          "part_number": "foot_3",
+          "name": "foot_3",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_VESSEL_SHELL_CUTAWAY",
+          "manufacturer": null,
+          "part_number": "vessel_shell_cutaway",
+          "name": "vessel_shell_cutaway",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_INSULATION_CUTAWAY",
+          "manufacturer": null,
+          "part_number": "insulation_cutaway",
+          "name": "insulation_cutaway",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_REFRACTORY_CUTAWAY",
+          "manufacturer": null,
+          "part_number": "refractory_cutaway",
+          "name": "refractory_cutaway",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_VESSEL_FLOOR",
+          "manufacturer": null,
+          "part_number": "vessel_floor",
+          "name": "vessel_floor",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_GAS_HOOD",
+          "manufacturer": null,
+          "part_number": "gas_hood",
+          "name": "gas_hood",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_ANODE",
+          "manufacturer": null,
+          "part_number": "anode",
+          "name": "anode",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_ANODE_BUSBAR",
+          "manufacturer": null,
+          "part_number": "anode_busbar",
+          "name": "anode_busbar",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_ANODE_FEEDTHROUGH",
+          "manufacturer": null,
+          "part_number": "anode_feedthrough",
+          "name": "anode_feedthrough",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_CATHODE",
+          "manufacturer": null,
+          "part_number": "cathode",
+          "name": "cathode",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_CATHODE_BUSBAR",
+          "manufacturer": null,
+          "part_number": "cathode_busbar",
+          "name": "cathode_busbar",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_CATHODE_FEEDTHROUGH",
+          "manufacturer": null,
+          "part_number": "cathode_feedthrough",
+          "name": "cathode_feedthrough",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_FEED_PORT",
+          "manufacturer": null,
+          "part_number": "feed_port",
+          "name": "feed_port",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_OXYGEN_OUTLET",
+          "manufacturer": null,
+          "part_number": "oxygen_outlet",
+          "name": "oxygen_outlet",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_SLAG_WITHDRAWAL",
+          "manufacturer": null,
+          "part_number": "slag_withdrawal",
+          "name": "slag_withdrawal",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_TAP_GATE_BODY",
+          "manufacturer": null,
+          "part_number": "tap_gate_body",
+          "name": "tap_gate_body",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_TAP_GATE_STEM",
+          "manufacturer": null,
+          "part_number": "tap_gate_stem",
+          "name": "tap_gate_stem",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_TAP_GATE_HANDLE",
+          "manufacturer": null,
+          "part_number": "tap_gate_handle",
+          "name": "tap_gate_handle",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_INSPECTION_PANEL",
+          "manufacturer": null,
+          "part_number": "inspection_panel",
+          "name": "inspection_panel",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        },
+        {
+          "part_definition_id": "PART_THERMAL_PROBE",
+          "manufacturer": null,
+          "part_number": "thermal_probe",
+          "name": "thermal_probe",
+          "category": "Mechanical",
+          "description": "",
+          "electrical_specs": {},
+          "pins": [],
+          "dimensions_mm": {},
+          "datasheet_url": null,
+          "sourcing_url": null,
+          "sourcing_offers": [],
+          "unit_price": 0.0
+        }
+      ],
+      "components": [
+        {
+          "ref_des": "support",
+          "part_definition_id": "PART_SUPPORT",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "foot_0",
+          "part_definition_id": "PART_FOOT_0",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "foot_1",
+          "part_definition_id": "PART_FOOT_1",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "foot_2",
+          "part_definition_id": "PART_FOOT_2",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "foot_3",
+          "part_definition_id": "PART_FOOT_3",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "vessel_shell_cutaway",
+          "part_definition_id": "PART_VESSEL_SHELL_CUTAWAY",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "insulation_cutaway",
+          "part_definition_id": "PART_INSULATION_CUTAWAY",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "refractory_cutaway",
+          "part_definition_id": "PART_REFRACTORY_CUTAWAY",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "vessel_floor",
+          "part_definition_id": "PART_VESSEL_FLOOR",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "gas_hood",
+          "part_definition_id": "PART_GAS_HOOD",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "anode",
+          "part_definition_id": "PART_ANODE",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "anode_busbar",
+          "part_definition_id": "PART_ANODE_BUSBAR",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "anode_feedthrough",
+          "part_definition_id": "PART_ANODE_FEEDTHROUGH",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "cathode",
+          "part_definition_id": "PART_CATHODE",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "cathode_busbar",
+          "part_definition_id": "PART_CATHODE_BUSBAR",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "cathode_feedthrough",
+          "part_definition_id": "PART_CATHODE_FEEDTHROUGH",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "feed_port",
+          "part_definition_id": "PART_FEED_PORT",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "oxygen_outlet",
+          "part_definition_id": "PART_OXYGEN_OUTLET",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "slag_withdrawal",
+          "part_definition_id": "PART_SLAG_WITHDRAWAL",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "tap_gate_body",
+          "part_definition_id": "PART_TAP_GATE_BODY",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "tap_gate_stem",
+          "part_definition_id": "PART_TAP_GATE_STEM",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "tap_gate_handle",
+          "part_definition_id": "PART_TAP_GATE_HANDLE",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "inspection_panel",
+          "part_definition_id": "PART_INSPECTION_PANEL",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        },
+        {
+          "ref_des": "thermal_probe",
+          "part_definition_id": "PART_THERMAL_PROBE",
+          "rationale": "Separate concept geometry body",
+          "configuration": {}
+        }
+      ],
+      "bom": [
+        {
+          "line_id": "BOM_PART_SUPPORT",
+          "part_definition_id": "PART_SUPPORT",
+          "instance_refs": [
+            "support"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "support",
+          "name": "support",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_FOOT_0",
+          "part_definition_id": "PART_FOOT_0",
+          "instance_refs": [
+            "foot_0"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "foot_0",
+          "name": "foot_0",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_FOOT_1",
+          "part_definition_id": "PART_FOOT_1",
+          "instance_refs": [
+            "foot_1"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "foot_1",
+          "name": "foot_1",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_FOOT_2",
+          "part_definition_id": "PART_FOOT_2",
+          "instance_refs": [
+            "foot_2"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "foot_2",
+          "name": "foot_2",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_FOOT_3",
+          "part_definition_id": "PART_FOOT_3",
+          "instance_refs": [
+            "foot_3"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "foot_3",
+          "name": "foot_3",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_VESSEL_SHELL_CUTAWAY",
+          "part_definition_id": "PART_VESSEL_SHELL_CUTAWAY",
+          "instance_refs": [
+            "vessel_shell_cutaway"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "vessel_shell_cutaway",
+          "name": "vessel_shell_cutaway",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_INSULATION_CUTAWAY",
+          "part_definition_id": "PART_INSULATION_CUTAWAY",
+          "instance_refs": [
+            "insulation_cutaway"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "insulation_cutaway",
+          "name": "insulation_cutaway",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_REFRACTORY_CUTAWAY",
+          "part_definition_id": "PART_REFRACTORY_CUTAWAY",
+          "instance_refs": [
+            "refractory_cutaway"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "refractory_cutaway",
+          "name": "refractory_cutaway",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_VESSEL_FLOOR",
+          "part_definition_id": "PART_VESSEL_FLOOR",
+          "instance_refs": [
+            "vessel_floor"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "vessel_floor",
+          "name": "vessel_floor",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_GAS_HOOD",
+          "part_definition_id": "PART_GAS_HOOD",
+          "instance_refs": [
+            "gas_hood"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "gas_hood",
+          "name": "gas_hood",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_ANODE",
+          "part_definition_id": "PART_ANODE",
+          "instance_refs": [
+            "anode"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "anode",
+          "name": "anode",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_ANODE_BUSBAR",
+          "part_definition_id": "PART_ANODE_BUSBAR",
+          "instance_refs": [
+            "anode_busbar"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "anode_busbar",
+          "name": "anode_busbar",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_ANODE_FEEDTHROUGH",
+          "part_definition_id": "PART_ANODE_FEEDTHROUGH",
+          "instance_refs": [
+            "anode_feedthrough"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "anode_feedthrough",
+          "name": "anode_feedthrough",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_CATHODE",
+          "part_definition_id": "PART_CATHODE",
+          "instance_refs": [
+            "cathode"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "cathode",
+          "name": "cathode",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_CATHODE_BUSBAR",
+          "part_definition_id": "PART_CATHODE_BUSBAR",
+          "instance_refs": [
+            "cathode_busbar"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "cathode_busbar",
+          "name": "cathode_busbar",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_CATHODE_FEEDTHROUGH",
+          "part_definition_id": "PART_CATHODE_FEEDTHROUGH",
+          "instance_refs": [
+            "cathode_feedthrough"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "cathode_feedthrough",
+          "name": "cathode_feedthrough",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_FEED_PORT",
+          "part_definition_id": "PART_FEED_PORT",
+          "instance_refs": [
+            "feed_port"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "feed_port",
+          "name": "feed_port",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_OXYGEN_OUTLET",
+          "part_definition_id": "PART_OXYGEN_OUTLET",
+          "instance_refs": [
+            "oxygen_outlet"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "oxygen_outlet",
+          "name": "oxygen_outlet",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_SLAG_WITHDRAWAL",
+          "part_definition_id": "PART_SLAG_WITHDRAWAL",
+          "instance_refs": [
+            "slag_withdrawal"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "slag_withdrawal",
+          "name": "slag_withdrawal",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_TAP_GATE_BODY",
+          "part_definition_id": "PART_TAP_GATE_BODY",
+          "instance_refs": [
+            "tap_gate_body"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "tap_gate_body",
+          "name": "tap_gate_body",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_TAP_GATE_STEM",
+          "part_definition_id": "PART_TAP_GATE_STEM",
+          "instance_refs": [
+            "tap_gate_stem"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "tap_gate_stem",
+          "name": "tap_gate_stem",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_TAP_GATE_HANDLE",
+          "part_definition_id": "PART_TAP_GATE_HANDLE",
+          "instance_refs": [
+            "tap_gate_handle"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "tap_gate_handle",
+          "name": "tap_gate_handle",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_INSPECTION_PANEL",
+          "part_definition_id": "PART_INSPECTION_PANEL",
+          "instance_refs": [
+            "inspection_panel"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "inspection_panel",
+          "name": "inspection_panel",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        },
+        {
+          "line_id": "BOM_PART_THERMAL_PROBE",
+          "part_definition_id": "PART_THERMAL_PROBE",
+          "instance_refs": [
+            "thermal_probe"
+          ],
+          "quantity": 1,
+          "manufacturer": null,
+          "part_number": "thermal_probe",
+          "name": "thermal_probe",
+          "category": "Mechanical",
+          "unit_price": 0.0,
+          "sourcing_url": null,
+          "extended_price": 0.0,
+          "rationale": "Separate concept geometry body"
+        }
+      ],
+      "nets": [],
+      "buses": [],
+      "pin_mappings": [],
+      "assembly": [],
+      "mechanical": {
+        "cad_operations": [],
+        "physical_form": "MRE ELECTROLYSIS REACTOR",
+        "enclosure_type": "Parametric concept assembly",
+        "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+        "fabrication_details": [
+          "Every dimension is an authoring assumption, not a NASA measurement.",
+          "Motion is design inspection only, not simulated plant operation."
+        ],
+        "fabrication_cost_estimate_usd": 0.0,
+        "cad_sources": [],
+        "manufacturability_rating": "Not evaluated",
+        "render_dimensions": null,
+        "component_placements": [
+          {
+            "ref_des": "support",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 100.0
+            },
+            "size": {
+              "x_mm": 1800.0000002000002,
+              "y_mm": 1400.0000002000002,
+              "z_mm": 100.00000020000004
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "foot_0",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": -780.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "foot_1",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": -780.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "foot_2",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 780.0,
+              "y_mm": -580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "foot_3",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 780.0,
+              "y_mm": 580.0,
+              "z_mm": 25.0
+            },
+            "size": {
+              "x_mm": 140.00000019999993,
+              "y_mm": 140.0000002,
+              "z_mm": 100.00000020000002
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "vessel_shell_cutaway",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 195.00000000000003
+            },
+            "size": {
+              "x_mm": 1121.127765673728,
+              "y_mm": 1120.0000002000004,
+              "z_mm": 1051.127765673728
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "insulation_cutaway",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 225.00000000000003
+            },
+            "size": {
+              "x_mm": 1041.047210997033,
+              "y_mm": 1040.0000002000004,
+              "z_mm": 991.0472109970331
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "refractory_cutaway",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 240.0
+            },
+            "size": {
+              "x_mm": 870.8760323090564,
+              "y_mm": 870.0000002000003,
+              "z_mm": 920.8760323090564
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "vessel_floor",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 195.0
+            },
+            "size": {
+              "x_mm": 1101.107627004554,
+              "y_mm": 1100.0000002000002,
+              "z_mm": 91.10762700455405
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "gas_hood",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 0.0,
+              "z_mm": 1250.0
+            },
+            "size": {
+              "x_mm": 1161.1680430120753,
+              "y_mm": 1160.0000002000004,
+              "z_mm": 121.16804301207549
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "anode",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": -200.0,
+              "y_mm": 0.0,
+              "z_mm": 980.0
+            },
+            "size": {
+              "x_mm": 90.00000020000044,
+              "y_mm": 180.00000020000044,
+              "z_mm": 920.0000002000005
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "anode_busbar",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": -200.0,
+              "y_mm": 0.0,
+              "z_mm": 1490.0
+            },
+            "size": {
+              "x_mm": 220.00000020000004,
+              "y_mm": 100.00000020000006,
+              "z_mm": 60.00000020000016
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "anode_feedthrough",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": -200.0,
+              "y_mm": 0.0,
+              "z_mm": 1320.0
+            },
+            "size": {
+              "x_mm": 170.1711788879766,
+              "y_mm": 170.00000020000013,
+              "z_mm": 100.17117888797657
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "cathode",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 200.0,
+              "y_mm": 0.0,
+              "z_mm": 980.0
+            },
+            "size": {
+              "x_mm": 90.00000020000044,
+              "y_mm": 180.00000020000044,
+              "z_mm": 920.0000002000005
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "cathode_busbar",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 200.0,
+              "y_mm": 0.0,
+              "z_mm": 1490.0
+            },
+            "size": {
+              "x_mm": 220.00000020000004,
+              "y_mm": 100.00000020000006,
+              "z_mm": 60.00000020000016
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "cathode_feedthrough",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 200.0,
+              "y_mm": 0.0,
+              "z_mm": 1320.0
+            },
+            "size": {
+              "x_mm": 170.1711788879766,
+              "y_mm": 170.00000020000013,
+              "z_mm": 100.17117888797657
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "feed_port",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": -380.0,
+              "y_mm": 0.0,
+              "z_mm": 1305.0
+            },
+            "size": {
+              "x_mm": 170.17117888797657,
+              "y_mm": 170.00000020000013,
+              "z_mm": 330.17117888797657
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "oxygen_outlet",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": 300.0,
+              "z_mm": 1360.0
+            },
+            "size": {
+              "x_mm": 110.11076288045545,
+              "y_mm": 110.00000020000007,
+              "z_mm": 420.11076288045524
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "slag_withdrawal",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 395.0,
+              "y_mm": 0.0,
+              "z_mm": 380.0
+            },
+            "size": {
+              "x_mm": 450.15104021880296,
+              "y_mm": 150.0000002000001,
+              "z_mm": 150.15104021880296
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "tap_gate_body",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 620.0,
+              "y_mm": 0.0,
+              "z_mm": 380.0
+            },
+            "size": {
+              "x_mm": 160.11076288045547,
+              "y_mm": 110.00000020000013,
+              "z_mm": 110.11076288045547
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "tap_gate_stem",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 700.0,
+              "y_mm": 0.0,
+              "z_mm": 395.0
+            },
+            "size": {
+              "x_mm": 32.032222070678245,
+              "y_mm": 32.000000200000265,
+              "z_mm": 90.03222207067824
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "tap_gate_handle",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 755.0,
+              "y_mm": 0.0,
+              "z_mm": 495.0
+            },
+            "size": {
+              "x_mm": 170.00000019999993,
+              "y_mm": 24.0000002,
+              "z_mm": 22.000000200000045
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "inspection_panel",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 0.0,
+              "y_mm": -570.0,
+              "z_mm": 820.0
+            },
+            "size": {
+              "x_mm": 350.0000002000002,
+              "y_mm": 30.00000020000016,
+              "z_mm": 470.00000020000016
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          },
+          {
+            "ref_des": "thermal_probe",
+            "label": null,
+            "category": null,
+            "layer": "mechanism",
+            "position": {
+              "x_mm": 380.0,
+              "y_mm": 80.0,
+              "z_mm": 1260.0
+            },
+            "size": {
+              "x_mm": 44.04430527218233,
+              "y_mm": 44.00000020000014,
+              "z_mm": 240.0443052721821
+            },
+            "orientation_deg": {
+              "x_deg": 0.0,
+              "y_deg": 0.0,
+              "z_deg": 0.0
+            },
+            "mounting_face": null,
+            "notes": null
+          }
+        ],
+        "spatial_relationships": [],
+        "motion_intents": [],
+        "mechanism_benchmark": null
+      },
+      "fluidic_system": null,
+      "firmware": null,
+      "cad_model": {
+        "format": "step",
+        "path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-04\\assembly.step",
+        "sha256": "5756317f860001cdc30d901ea39749a5ceb94a24e082ef53f89dc8ac0f5f38a6",
+        "mesh_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-04\\excavator.meshes.json",
+        "kinematics_path": "C:\\Users\\isaya\\code_projects\\NASA-APP\\assets\\machine-previews\\asset-04\\excavator.kinematics.json",
+        "units": "mm"
+      },
+      "constraints": [],
+      "power_rails": [],
+      "estimated_current_draw_ma": 0.0,
+      "fabrication_notes": [],
+      "assembly_metadata": {
+        "asset_id": "ASSET-04",
+        "mechanical_ir": {
+          "domain": "mechanical",
+          "schema_version": "1.0",
+          "artifact_id": "ASSET-04-mechanical",
+          "revision": 1,
+          "parts": [
+            {
+              "part_definition_id": "support",
+              "dimensions_mm": {
+                "x": 1800.0000002000002,
+                "y": 1400.0000002000002,
+                "z": 100.00000020000004
+              }
+            },
+            {
+              "part_definition_id": "foot_0",
+              "dimensions_mm": {
+                "x": 140.00000019999993,
+                "y": 140.0000002,
+                "z": 100.00000020000002
+              }
+            },
+            {
+              "part_definition_id": "foot_1",
+              "dimensions_mm": {
+                "x": 140.00000019999993,
+                "y": 140.0000002,
+                "z": 100.00000020000002
+              }
+            },
+            {
+              "part_definition_id": "foot_2",
+              "dimensions_mm": {
+                "x": 140.00000019999993,
+                "y": 140.0000002,
+                "z": 100.00000020000002
+              }
+            },
+            {
+              "part_definition_id": "foot_3",
+              "dimensions_mm": {
+                "x": 140.00000019999993,
+                "y": 140.0000002,
+                "z": 100.00000020000002
+              }
+            },
+            {
+              "part_definition_id": "vessel_shell_cutaway",
+              "dimensions_mm": {
+                "x": 1121.127765673728,
+                "y": 1120.0000002000004,
+                "z": 1051.127765673728
+              }
+            },
+            {
+              "part_definition_id": "insulation_cutaway",
+              "dimensions_mm": {
+                "x": 1041.047210997033,
+                "y": 1040.0000002000004,
+                "z": 991.0472109970331
+              }
+            },
+            {
+              "part_definition_id": "refractory_cutaway",
+              "dimensions_mm": {
+                "x": 870.8760323090564,
+                "y": 870.0000002000003,
+                "z": 920.8760323090564
+              }
+            },
+            {
+              "part_definition_id": "vessel_floor",
+              "dimensions_mm": {
+                "x": 1101.107627004554,
+                "y": 1100.0000002000002,
+                "z": 91.10762700455405
+              }
+            },
+            {
+              "part_definition_id": "gas_hood",
+              "dimensions_mm": {
+                "x": 1161.1680430120753,
+                "y": 1160.0000002000004,
+                "z": 121.16804301207549
+              }
+            },
+            {
+              "part_definition_id": "anode",
+              "dimensions_mm": {
+                "x": 90.00000020000044,
+                "y": 180.00000020000044,
+                "z": 920.0000002000005
+              }
+            },
+            {
+              "part_definition_id": "anode_busbar",
+              "dimensions_mm": {
+                "x": 220.00000020000004,
+                "y": 100.00000020000006,
+                "z": 60.00000020000016
+              }
+            },
+            {
+              "part_definition_id": "anode_feedthrough",
+              "dimensions_mm": {
+                "x": 170.1711788879766,
+                "y": 170.00000020000013,
+                "z": 100.17117888797657
+              }
+            },
+            {
+              "part_definition_id": "cathode",
+              "dimensions_mm": {
+                "x": 90.00000020000044,
+                "y": 180.00000020000044,
+                "z": 920.0000002000005
+              }
+            },
+            {
+              "part_definition_id": "cathode_busbar",
+              "dimensions_mm": {
+                "x": 220.00000020000004,
+                "y": 100.00000020000006,
+                "z": 60.00000020000016
+              }
+            },
+            {
+              "part_definition_id": "cathode_feedthrough",
+              "dimensions_mm": {
+                "x": 170.1711788879766,
+                "y": 170.00000020000013,
+                "z": 100.17117888797657
+              }
+            },
+            {
+              "part_definition_id": "feed_port",
+              "dimensions_mm": {
+                "x": 170.17117888797657,
+                "y": 170.00000020000013,
+                "z": 330.17117888797657
+              }
+            },
+            {
+              "part_definition_id": "oxygen_outlet",
+              "dimensions_mm": {
+                "x": 110.11076288045545,
+                "y": 110.00000020000007,
+                "z": 420.11076288045524
+              }
+            },
+            {
+              "part_definition_id": "slag_withdrawal",
+              "dimensions_mm": {
+                "x": 450.15104021880296,
+                "y": 150.0000002000001,
+                "z": 150.15104021880296
+              }
+            },
+            {
+              "part_definition_id": "tap_gate_body",
+              "dimensions_mm": {
+                "x": 160.11076288045547,
+                "y": 110.00000020000013,
+                "z": 110.11076288045547
+              }
+            },
+            {
+              "part_definition_id": "tap_gate_stem",
+              "dimensions_mm": {
+                "x": 32.032222070678245,
+                "y": 32.000000200000265,
+                "z": 90.03222207067824
+              }
+            },
+            {
+              "part_definition_id": "tap_gate_handle",
+              "dimensions_mm": {
+                "x": 170.00000019999993,
+                "y": 24.0000002,
+                "z": 22.000000200000045
+              }
+            },
+            {
+              "part_definition_id": "inspection_panel",
+              "dimensions_mm": {
+                "x": 350.0000002000002,
+                "y": 30.00000020000016,
+                "z": 470.00000020000016
+              }
+            },
+            {
+              "part_definition_id": "thermal_probe",
+              "dimensions_mm": {
+                "x": 44.04430527218233,
+                "y": 44.00000020000014,
+                "z": 240.0443052721821
+              }
+            }
+          ],
+          "components": [
+            {
+              "object_id": "ASSET-04/support",
+              "ref_des": "support",
+              "part_definition_id": "support"
+            },
+            {
+              "object_id": "ASSET-04/foot_0",
+              "ref_des": "foot_0",
+              "part_definition_id": "foot_0"
+            },
+            {
+              "object_id": "ASSET-04/foot_1",
+              "ref_des": "foot_1",
+              "part_definition_id": "foot_1"
+            },
+            {
+              "object_id": "ASSET-04/foot_2",
+              "ref_des": "foot_2",
+              "part_definition_id": "foot_2"
+            },
+            {
+              "object_id": "ASSET-04/foot_3",
+              "ref_des": "foot_3",
+              "part_definition_id": "foot_3"
+            },
+            {
+              "object_id": "ASSET-04/vessel_shell_cutaway",
+              "ref_des": "vessel_shell_cutaway",
+              "part_definition_id": "vessel_shell_cutaway"
+            },
+            {
+              "object_id": "ASSET-04/insulation_cutaway",
+              "ref_des": "insulation_cutaway",
+              "part_definition_id": "insulation_cutaway"
+            },
+            {
+              "object_id": "ASSET-04/refractory_cutaway",
+              "ref_des": "refractory_cutaway",
+              "part_definition_id": "refractory_cutaway"
+            },
+            {
+              "object_id": "ASSET-04/vessel_floor",
+              "ref_des": "vessel_floor",
+              "part_definition_id": "vessel_floor"
+            },
+            {
+              "object_id": "ASSET-04/gas_hood",
+              "ref_des": "gas_hood",
+              "part_definition_id": "gas_hood"
+            },
+            {
+              "object_id": "ASSET-04/anode",
+              "ref_des": "anode",
+              "part_definition_id": "anode"
+            },
+            {
+              "object_id": "ASSET-04/anode_busbar",
+              "ref_des": "anode_busbar",
+              "part_definition_id": "anode_busbar"
+            },
+            {
+              "object_id": "ASSET-04/anode_feedthrough",
+              "ref_des": "anode_feedthrough",
+              "part_definition_id": "anode_feedthrough"
+            },
+            {
+              "object_id": "ASSET-04/cathode",
+              "ref_des": "cathode",
+              "part_definition_id": "cathode"
+            },
+            {
+              "object_id": "ASSET-04/cathode_busbar",
+              "ref_des": "cathode_busbar",
+              "part_definition_id": "cathode_busbar"
+            },
+            {
+              "object_id": "ASSET-04/cathode_feedthrough",
+              "ref_des": "cathode_feedthrough",
+              "part_definition_id": "cathode_feedthrough"
+            },
+            {
+              "object_id": "ASSET-04/feed_port",
+              "ref_des": "feed_port",
+              "part_definition_id": "feed_port"
+            },
+            {
+              "object_id": "ASSET-04/oxygen_outlet",
+              "ref_des": "oxygen_outlet",
+              "part_definition_id": "oxygen_outlet"
+            },
+            {
+              "object_id": "ASSET-04/slag_withdrawal",
+              "ref_des": "slag_withdrawal",
+              "part_definition_id": "slag_withdrawal"
+            },
+            {
+              "object_id": "ASSET-04/tap_gate_body",
+              "ref_des": "tap_gate_body",
+              "part_definition_id": "tap_gate_body"
+            },
+            {
+              "object_id": "ASSET-04/tap_gate_stem",
+              "ref_des": "tap_gate_stem",
+              "part_definition_id": "tap_gate_stem"
+            },
+            {
+              "object_id": "ASSET-04/tap_gate_handle",
+              "ref_des": "tap_gate_handle",
+              "part_definition_id": "tap_gate_handle"
+            },
+            {
+              "object_id": "ASSET-04/inspection_panel",
+              "ref_des": "inspection_panel",
+              "part_definition_id": "inspection_panel"
+            },
+            {
+              "object_id": "ASSET-04/thermal_probe",
+              "ref_des": "thermal_probe",
+              "part_definition_id": "thermal_probe"
+            }
+          ],
+          "mechanical": {
+            "physical_form": "MRE ELECTROLYSIS REACTOR",
+            "enclosure_type": "Parametric concept assembly",
+            "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+            "manufacturability_rating": "Not evaluated",
+            "component_placements": [
+              {
+                "ref_des": "support",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 0.0,
+                  "z_mm": 100.0
+                },
+                "size": {
+                  "x_mm": 1800.0000002000002,
+                  "y_mm": 1400.0000002000002,
+                  "z_mm": 100.00000020000004
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "foot_0",
+                "position": {
+                  "x_mm": -780.0,
+                  "y_mm": -580.0,
+                  "z_mm": 25.0
+                },
+                "size": {
+                  "x_mm": 140.00000019999993,
+                  "y_mm": 140.0000002,
+                  "z_mm": 100.00000020000002
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "foot_1",
+                "position": {
+                  "x_mm": -780.0,
+                  "y_mm": 580.0,
+                  "z_mm": 25.0
+                },
+                "size": {
+                  "x_mm": 140.00000019999993,
+                  "y_mm": 140.0000002,
+                  "z_mm": 100.00000020000002
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "foot_2",
+                "position": {
+                  "x_mm": 780.0,
+                  "y_mm": -580.0,
+                  "z_mm": 25.0
+                },
+                "size": {
+                  "x_mm": 140.00000019999993,
+                  "y_mm": 140.0000002,
+                  "z_mm": 100.00000020000002
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "foot_3",
+                "position": {
+                  "x_mm": 780.0,
+                  "y_mm": 580.0,
+                  "z_mm": 25.0
+                },
+                "size": {
+                  "x_mm": 140.00000019999993,
+                  "y_mm": 140.0000002,
+                  "z_mm": 100.00000020000002
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "vessel_shell_cutaway",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 0.0,
+                  "z_mm": 195.00000000000003
+                },
+                "size": {
+                  "x_mm": 1121.127765673728,
+                  "y_mm": 1120.0000002000004,
+                  "z_mm": 1051.127765673728
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "insulation_cutaway",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 0.0,
+                  "z_mm": 225.00000000000003
+                },
+                "size": {
+                  "x_mm": 1041.047210997033,
+                  "y_mm": 1040.0000002000004,
+                  "z_mm": 991.0472109970331
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "refractory_cutaway",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 0.0,
+                  "z_mm": 240.0
+                },
+                "size": {
+                  "x_mm": 870.8760323090564,
+                  "y_mm": 870.0000002000003,
+                  "z_mm": 920.8760323090564
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "vessel_floor",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 0.0,
+                  "z_mm": 195.0
+                },
+                "size": {
+                  "x_mm": 1101.107627004554,
+                  "y_mm": 1100.0000002000002,
+                  "z_mm": 91.10762700455405
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "gas_hood",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 0.0,
+                  "z_mm": 1250.0
+                },
+                "size": {
+                  "x_mm": 1161.1680430120753,
+                  "y_mm": 1160.0000002000004,
+                  "z_mm": 121.16804301207549
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "anode",
+                "position": {
+                  "x_mm": -200.0,
+                  "y_mm": 0.0,
+                  "z_mm": 980.0
+                },
+                "size": {
+                  "x_mm": 90.00000020000044,
+                  "y_mm": 180.00000020000044,
+                  "z_mm": 920.0000002000005
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "anode_busbar",
+                "position": {
+                  "x_mm": -200.0,
+                  "y_mm": 0.0,
+                  "z_mm": 1490.0
+                },
+                "size": {
+                  "x_mm": 220.00000020000004,
+                  "y_mm": 100.00000020000006,
+                  "z_mm": 60.00000020000016
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "anode_feedthrough",
+                "position": {
+                  "x_mm": -200.0,
+                  "y_mm": 0.0,
+                  "z_mm": 1320.0
+                },
+                "size": {
+                  "x_mm": 170.1711788879766,
+                  "y_mm": 170.00000020000013,
+                  "z_mm": 100.17117888797657
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "cathode",
+                "position": {
+                  "x_mm": 200.0,
+                  "y_mm": 0.0,
+                  "z_mm": 980.0
+                },
+                "size": {
+                  "x_mm": 90.00000020000044,
+                  "y_mm": 180.00000020000044,
+                  "z_mm": 920.0000002000005
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "cathode_busbar",
+                "position": {
+                  "x_mm": 200.0,
+                  "y_mm": 0.0,
+                  "z_mm": 1490.0
+                },
+                "size": {
+                  "x_mm": 220.00000020000004,
+                  "y_mm": 100.00000020000006,
+                  "z_mm": 60.00000020000016
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "cathode_feedthrough",
+                "position": {
+                  "x_mm": 200.0,
+                  "y_mm": 0.0,
+                  "z_mm": 1320.0
+                },
+                "size": {
+                  "x_mm": 170.1711788879766,
+                  "y_mm": 170.00000020000013,
+                  "z_mm": 100.17117888797657
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "feed_port",
+                "position": {
+                  "x_mm": -380.0,
+                  "y_mm": 0.0,
+                  "z_mm": 1305.0
+                },
+                "size": {
+                  "x_mm": 170.17117888797657,
+                  "y_mm": 170.00000020000013,
+                  "z_mm": 330.17117888797657
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "oxygen_outlet",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": 300.0,
+                  "z_mm": 1360.0
+                },
+                "size": {
+                  "x_mm": 110.11076288045545,
+                  "y_mm": 110.00000020000007,
+                  "z_mm": 420.11076288045524
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "slag_withdrawal",
+                "position": {
+                  "x_mm": 395.0,
+                  "y_mm": 0.0,
+                  "z_mm": 380.0
+                },
+                "size": {
+                  "x_mm": 450.15104021880296,
+                  "y_mm": 150.0000002000001,
+                  "z_mm": 150.15104021880296
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "tap_gate_body",
+                "position": {
+                  "x_mm": 620.0,
+                  "y_mm": 0.0,
+                  "z_mm": 380.0
+                },
+                "size": {
+                  "x_mm": 160.11076288045547,
+                  "y_mm": 110.00000020000013,
+                  "z_mm": 110.11076288045547
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "tap_gate_stem",
+                "position": {
+                  "x_mm": 700.0,
+                  "y_mm": 0.0,
+                  "z_mm": 395.0
+                },
+                "size": {
+                  "x_mm": 32.032222070678245,
+                  "y_mm": 32.000000200000265,
+                  "z_mm": 90.03222207067824
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "tap_gate_handle",
+                "position": {
+                  "x_mm": 755.0,
+                  "y_mm": 0.0,
+                  "z_mm": 495.0
+                },
+                "size": {
+                  "x_mm": 170.00000019999993,
+                  "y_mm": 24.0000002,
+                  "z_mm": 22.000000200000045
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "inspection_panel",
+                "position": {
+                  "x_mm": 0.0,
+                  "y_mm": -570.0,
+                  "z_mm": 820.0
+                },
+                "size": {
+                  "x_mm": 350.0000002000002,
+                  "y_mm": 30.00000020000016,
+                  "z_mm": 470.00000020000016
+                },
+                "layer": "mechanism"
+              },
+              {
+                "ref_des": "thermal_probe",
+                "position": {
+                  "x_mm": 380.0,
+                  "y_mm": 80.0,
+                  "z_mm": 1260.0
+                },
+                "size": {
+                  "x_mm": 44.04430527218233,
+                  "y_mm": 44.00000020000014,
+                  "z_mm": 240.0443052721821
+                },
+                "layer": "mechanism"
+              }
+            ],
+            "fabrication_details": [
+              "Every dimension is an authoring assumption, not a NASA measurement.",
+              "Motion is design inspection only, not simulated plant operation."
+            ]
+          }
+        },
+        "sources": [
+          "04-mre-electrolysis-reactor.md"
+        ],
+        "status": "Concept engineering preview",
+        "model_source": "assets/machine-previews/build_all.py",
+        "assumptions": "All dimensions and inspection trajectories are authored assumptions. Cutaways are inspection representations. No fill levels, thermal states or flow are simulated.",
+        "cad_generation": {
+          "adapter": "forma-opencad",
+          "status": "provided",
+          "required": false
+        },
+        "project_id": "24c81a14-3f79-472c-9450-fa9cefefee94",
+        "chat_id": "ae5acd07-e8ba-4a1c-828d-32f2d9146a49",
+        "authoring_agent": "opencode",
+        "compiled_by": "forma.compile_project",
+        "compile_revision": 1,
+        "created_at": "2026-11-15T06:39:50.713786Z",
+        "source_prompt": "# ASSET-04 \u2014 Molten regolith electrolysis (MRE) reactor\n\n**Priority:** Core MVP, the principal machine. **Flow:** hot regolith + electrical energy \u2192 crude O\u2082 gas (ASSET-05) + reduced/residual molten solids (ASSET-10).\n\n## Research context\n\nNASA/Lunar Resources LR-1 test processed **25 kg of lunar regolith simulant**, averaging **0.07 kg O\u2082/h** during **nine hours of sustained electrolysis under vacuum**. These are **reference ground-test results**, not a guaranteed continuous lunar factory rate. NASA's MRE system study models reactor energy, electrical current, thermal constraints, regolith composition and produced oxygen/byproducts. The process is high-temperature electrochemistry: oxygen-bearing mineral oxides undergo reduction at the cathode and O\u2082 evolution at the anode, while electrical/Joule heating supports the molten state.\n\n## Forma / OpenCAD build brief\n\nGenerate a heavily insulated refractory vessel containing a molten bath, **separate anode/cathode assemblies**, high-current bus bars/feedthroughs, lid/gas hood, feed port, oxygen outlet, metal/slag withdrawal port, thermal sensor ports, support/skid, and removable inspection/maintenance panels. Use an **exploded engineering assembly** only as a view of the real parametric parts. Parameterize reaction-zone radius/height, electrode spacing and area, lining thickness, thermal insulation, current/voltage limits, feed residence time and vessel limits; all values require a model assumption/source. A glowing cutaway melt is an optical indicator **only** when controller temperature/melt state warrants it.\n\n## Executable machine contract\n\n- **Commands:** `charge(lot_id)`, `heat_to_melt(target_K)`, `set_current(A)`, `run_electrolysis(duration_s)`, `reduce_load`, `tap_products`, `shutdown`.\n- **Inputs:** oxide species masses kg, inlet temperature K, electrical current A/voltage V, available power W, heat loss/lining properties, operating time s, efficiency/conversion assumptions.\n- **Outputs:** evolved O\u2082 mol and kg, gas composition, reduced metals/residual solids kg, reactor temperature K, electricity kWh, remaining feed, efficiency and fault reports.\n- **States:** EMPTY, CHARGED, PREHEATING, MOLTEN, ELECTROLYZING, DRAINING, COOLING, BLOCKED, FAULT.\n- **Numerical constraints:** enforce available oxide oxygen inventory **and** Faraday/charge limit: theoretical `n(O2) <= I*t/(4*F)` for a one-zone/constant-current ideal bound; apply explicit current efficiency and gas-capture losses separately. Check material and oxygen mass closure; heater/ohmic losses and energy balance. A reactor with cold solid feed cannot instantly run electrolysis or create product gas.\n- **Failure cases:** unmolten batch, inadequate voltage/current/power, full downstream gas vessel, excess temperature, insufficient feed, degraded electrode, blocked tap.\n\n## MVP acceptance\n\nThe reactor starts from a finite composition-labeled batch, heats to valid conditions, only then produces modeled O\u2082, consumes source oxygen/charge/energy and records reduced/residual products. A power cut lowers or halts computed output; tank gains cannot continue by animation alone. Compare a documented model scenario to the NASA LR-1 ground-test reference while clearly labeling the model assumptions.\n\n## Technical sources\n\n- [NASA NTRS \u2014 Large-Scale MRE Demonstration (2026)](https://ntrs.nasa.gov/citations/20260006167) (measured 25 kg / ~0.07 kg/h / 9 h reference).\n- [NASA NTRS \u2014 Lunar MRE plant model](https://ntrs.nasa.gov/citations/20240013999) (thermal, electrical, material streams).\n- [NASA NTRS \u2014 Molten Regolith Electrolysis: Core Sample Analysis](https://ntrs.nasa.gov/api/citations/20250005608/downloads/MRE_SRR_Core_presentation.pdf?attachment=true) (electrode arrangement and four-electron O\u2082 stoichiometry; diagram, not a ready-to-build drawing).\n## Integration contract (NASA-APP)\n\n- **OpenForma:** author the indicated MechanicalIR/ElectricalIR/FluidicIR/ThermalIR/ProcessIR/ChemicalIR artifacts only where real supported schemas and capabilities exist. Maintain source, validation result and model/version provenance.\n- **OpenCAD:** create a real parametric/assemblable asset with named separate moving parts, joints and attachment frames; export through an existing supported OpenIndustries handoff. Do not imply a mesh alone implements physics.\n- **OpenIndustries:** attach the asset to a stable scene object with machine/task IDs. Machine state and real execution events drive pose, material transfer and telemetry; no canned footage or free-running decorative animation.\n- **Controller:** only validated commands can transition this device; the Python numerical process solver returns physically bounded deltas/measurements and never manipulates the viewer.\n\n**Status:** design brief only. All dimensions, performance parameters, efficiencies and operating limits not explicitly identified as published references are **TBD engineering inputs**, not NASA specifications. This is a simulated machine, not a space-qualified build."
+      },
+      "project_version_history": [],
+      "validation": {
+        "critical": [],
+        "warning": [],
+        "info": []
+      },
+      "is_valid": true
+    },
+    "is_valid": true,
+    "validation": {
+      "critical": [],
+      "warning": [],
+      "info": []
+    },
+    "mermaid_code": "graph LR\n  support[\"<b>support</b><br/>support<br/><small>support</small>\"]\n  foot_0[\"<b>foot_0</b><br/>foot_0<br/><small>foot_0</small>\"]\n  foot_1[\"<b>foot_1</b><br/>foot_1<br/><small>foot_1</small>\"]\n  foot_2[\"<b>foot_2</b><br/>foot_2<br/><small>foot_2</small>\"]\n  foot_3[\"<b>foot_3</b><br/>foot_3<br/><small>foot_3</small>\"]\n  vessel_shell_cutaway[\"<b>vessel_shell_cutaway</b><br/>vessel_shell_cutaway<br/><small>vessel_shell_cutaway</small>\"]\n  insulation_cutaway[\"<b>insulation_cutaway</b><br/>insulation_cutaway<br/><small>insulation_cutaway</small>\"]\n  refractory_cutaway[\"<b>refractory_cutaway</b><br/>refractory_cutaway<br/><small>refractory_cutaway</small>\"]\n  vessel_floor[\"<b>vessel_floor</b><br/>vessel_floor<br/><small>vessel_floor</small>\"]\n  gas_hood[\"<b>gas_hood</b><br/>gas_hood<br/><small>gas_hood</small>\"]\n  anode[\"<b>anode</b><br/>anode<br/><small>anode</small>\"]\n  anode_busbar[\"<b>anode_busbar</b><br/>anode_busbar<br/><small>anode_busbar</small>\"]\n  anode_feedthrough[\"<b>anode_feedthrough</b><br/>anode_feedthrough<br/><small>anode_feedthrough</small>\"]\n  cathode[\"<b>cathode</b><br/>cathode<br/><small>cathode</small>\"]\n  cathode_busbar[\"<b>cathode_busbar</b><br/>cathode_busbar<br/><small>cathode_busbar</small>\"]\n  cathode_feedthrough[\"<b>cathode_feedthrough</b><br/>cathode_feedthrough<br/><small>cathode_feedthrough</small>\"]\n  feed_port[\"<b>feed_port</b><br/>feed_port<br/><small>feed_port</small>\"]\n  oxygen_outlet[\"<b>oxygen_outlet</b><br/>oxygen_outlet<br/><small>oxygen_outlet</small>\"]\n  slag_withdrawal[\"<b>slag_withdrawal</b><br/>slag_withdrawal<br/><small>slag_withdrawal</small>\"]\n  tap_gate_body[\"<b>tap_gate_body</b><br/>tap_gate_body<br/><small>tap_gate_body</small>\"]\n  tap_gate_stem[\"<b>tap_gate_stem</b><br/>tap_gate_stem<br/><small>tap_gate_stem</small>\"]\n  tap_gate_handle[\"<b>tap_gate_handle</b><br/>tap_gate_handle<br/><small>tap_gate_handle</small>\"]\n  inspection_panel[\"<b>inspection_panel</b><br/>inspection_panel<br/><small>inspection_panel</small>\"]\n  thermal_probe[\"<b>thermal_probe</b><br/>thermal_probe<br/><small>thermal_probe</small>\"]",
+    "svg_schematic": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='100%' height='100%'>\n  <!-- Grid Background -->\n  <defs>\n    <pattern id='grid' width='20' height='20' patternUnits='userSpaceOnUse'>\n      <path d='M 20 0 L 0 0 0 20' fill='none' stroke='#f0f2f5' stroke-width='1'/>\n    </pattern>\n  </defs>\n  <rect width='100%' height='100%' fill='url(#grid)' />\n  <rect width='100%' height='100%' fill='none' stroke='#cbd5e1' stroke-width='2' />\n  <text x='25' y='35' font-family='sans-serif' font-size='18' font-weight='bold' fill='#0f172a'>Electrical Assembly Schematic</text>\n  <text x='25' y='55' font-family='sans-serif' font-size='12' fill='#64748b'>ASSET-04 - MRE ELECTROLYSIS REACTOR</text>\n  <!-- Wires / Connections -->\n  <!-- Components -->\n  <g id='comp-support'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>support</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>support</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>support</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_0'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_0</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_0</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_0</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_1'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_1</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_1</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_1</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_2'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_2</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_2</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_2</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-foot_3'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>foot_3</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>foot_3</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>foot_3</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_shell_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_shell_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_shell_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_shell_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-insulation_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>insulation_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>insulation_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>insulation_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-refractory_cutaway'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>refractory_cutaway</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>refractory_cutaway</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>refractory_cutaway</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-vessel_floor'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>vessel_floor</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>vessel_floor</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>vessel_floor</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-gas_hood'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>gas_hood</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>gas_hood</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>gas_hood</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-anode'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>anode</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>anode</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>anode</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-anode_busbar'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>anode_busbar</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>anode_busbar</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>anode_busbar</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-anode_feedthrough'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>anode_feedthrough</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>anode_feedthrough</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>anode_feedthrough</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-cathode'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>cathode</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>cathode</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>cathode</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-cathode_busbar'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>cathode_busbar</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>cathode_busbar</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>cathode_busbar</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-cathode_feedthrough'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>cathode_feedthrough</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>cathode_feedthrough</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>cathode_feedthrough</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-feed_port'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>feed_port</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>feed_port</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>feed_port</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-oxygen_outlet'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>oxygen_outlet</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>oxygen_outlet</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>oxygen_outlet</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-slag_withdrawal'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>slag_withdrawal</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>slag_withdrawal</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>slag_withdrawal</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-tap_gate_body'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>tap_gate_body</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>tap_gate_body</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>tap_gate_body</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-tap_gate_stem'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>tap_gate_stem</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>tap_gate_stem</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>tap_gate_stem</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-tap_gate_handle'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>tap_gate_handle</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>tap_gate_handle</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>tap_gate_handle</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-inspection_panel'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>inspection_panel</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>inspection_panel</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>inspection_panel</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n  <g id='comp-thermal_probe'>\n    <rect x='390' y='390' width='220' height='120' rx='8' ry='8' fill='#f8fafc' stroke='#475569' stroke-width='2' filter='drop-shadow(0 2px 4px rgba(0,0,0,0.05))'/>\n    <rect x='402' y='402' width='100' height='18' rx='4' ry='4' fill='#e2e8f0' />\n    <text x='452' y='415' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e293b' text-anchor='middle'>MECHANICAL</text>\n    <text x='595' y='416' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f172a' text-anchor='end'>thermal_probe</text>\n    <text x='402' y='445' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>thermal_probe</text>\n    <text x='402' y='465' font-family='sans-serif' font-size='10' fill='#64748b'>thermal_probe</text>\n    <text x='402' y='492' font-family='sans-serif' font-size='10' font-weight='600' fill='#475569'>Est: $0.00</text>\n    <text x='598' y='492' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='end'>0 Physical Pins</text>\n    <circle cx='390' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n    <circle cx='610' cy='450' r='5' fill='#ffffff' stroke='#475569' stroke-width='2' />\n  </g>\n</svg>"
+  }
+}

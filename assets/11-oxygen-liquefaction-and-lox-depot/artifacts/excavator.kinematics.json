@@ -1,0 +1,27 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_inlet_valve_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "inlet_valve_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          -650.0,
+          -480.0,
+          765.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "inlet_valve_handle",
+        "metadata": {}
+      }
+    }
+  ]
+}

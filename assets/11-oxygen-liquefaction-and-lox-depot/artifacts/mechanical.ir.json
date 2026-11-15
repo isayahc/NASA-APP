@@ -1,0 +1,778 @@
+{
+  "domain": "mechanical",
+  "schema_version": "1.0",
+  "artifact_id": "ASSET-11-mechanical",
+  "revision": 1,
+  "parts": [
+    {
+      "part_definition_id": "support",
+      "dimensions_mm": {
+        "x": 2400.0000002,
+        "y": 1400.0000002000002,
+        "z": 100.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "foot_0",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_1",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_2",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_3",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "tank_inner",
+      "dimensions_mm": {
+        "x": 840.845824305296,
+        "y": 840.0000002000004,
+        "z": 1300.845824305296
+      }
+    },
+    {
+      "part_definition_id": "tank_vacuum_shell_cutaway",
+      "dimensions_mm": {
+        "x": 1061.0673496662066,
+        "y": 1060.0000002000002,
+        "z": 1451.0673496662066
+      }
+    },
+    {
+      "part_definition_id": "multilayer_insulation_cutaway",
+      "dimensions_mm": {
+        "x": 990.9968643240989,
+        "y": 990.0000002000004,
+        "z": 1400.996864324099
+      }
+    },
+    {
+      "part_definition_id": "tank_cap_370",
+      "dimensions_mm": {
+        "x": 1061.0673496662066,
+        "y": 1060.0000002000002,
+        "z": 91.06734966620672
+      }
+    },
+    {
+      "part_definition_id": "tank_cap_1830",
+      "dimensions_mm": {
+        "x": 1061.0673496662066,
+        "y": 1060.0000002000002,
+        "z": 91.06734966620661
+      }
+    },
+    {
+      "part_definition_id": "cryocooler_cabinet",
+      "dimensions_mm": {
+        "x": 480.00000020000004,
+        "y": 650.0000002,
+        "z": 1050.0000002000002
+      }
+    },
+    {
+      "part_definition_id": "cold_head",
+      "dimensions_mm": {
+        "x": 370.20138689173723,
+        "y": 200.00000020000022,
+        "z": 200.20138689173746
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_0",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.890129377478104
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_1",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.89012937747816
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_2",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.89012937747816
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_3",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.89012937747816
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_4",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.890129377477933
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_5",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.890129377477933
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_6",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.890129377477933
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_7",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.890129377477933
+      }
+    },
+    {
+      "part_definition_id": "refrigeration_ring_8",
+      "dimensions_mm": {
+        "x": 884.8901293774782,
+        "y": 884.0000002000004,
+        "z": 25.890129377477933
+      }
+    },
+    {
+      "part_definition_id": "gas_conditioning_inlet",
+      "dimensions_mm": {
+        "x": 1600.090624211282,
+        "y": 90.00000020000022,
+        "z": 90.09062421128215
+      }
+    },
+    {
+      "part_definition_id": "inlet_valve_body",
+      "dimensions_mm": {
+        "x": 160.1107628804557,
+        "y": 110.00000020000027,
+        "z": 110.1107628804557
+      }
+    },
+    {
+      "part_definition_id": "inlet_valve_stem",
+      "dimensions_mm": {
+        "x": 32.032222070678245,
+        "y": 32.00000020000027,
+        "z": 90.03222207067824
+      }
+    },
+    {
+      "part_definition_id": "inlet_valve_handle",
+      "dimensions_mm": {
+        "x": 170.0000002,
+        "y": 24.000000200000045,
+        "z": 22.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "vent_relief",
+      "dimensions_mm": {
+        "x": 70.07048554210803,
+        "y": 70.00000020000004,
+        "z": 350.07048554210814
+      }
+    },
+    {
+      "part_definition_id": "instrumentation",
+      "dimensions_mm": {
+        "x": 260.00000019999993,
+        "y": 100.00000019999999,
+        "z": 240.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "future_transfer_port",
+      "dimensions_mm": {
+        "x": 300.1006935458686,
+        "y": 100.00000020000009,
+        "z": 100.10069354586864
+      }
+    }
+  ],
+  "components": [
+    {
+      "object_id": "ASSET-11/support",
+      "ref_des": "support",
+      "part_definition_id": "support"
+    },
+    {
+      "object_id": "ASSET-11/foot_0",
+      "ref_des": "foot_0",
+      "part_definition_id": "foot_0"
+    },
+    {
+      "object_id": "ASSET-11/foot_1",
+      "ref_des": "foot_1",
+      "part_definition_id": "foot_1"
+    },
+    {
+      "object_id": "ASSET-11/foot_2",
+      "ref_des": "foot_2",
+      "part_definition_id": "foot_2"
+    },
+    {
+      "object_id": "ASSET-11/foot_3",
+      "ref_des": "foot_3",
+      "part_definition_id": "foot_3"
+    },
+    {
+      "object_id": "ASSET-11/tank_inner",
+      "ref_des": "tank_inner",
+      "part_definition_id": "tank_inner"
+    },
+    {
+      "object_id": "ASSET-11/tank_vacuum_shell_cutaway",
+      "ref_des": "tank_vacuum_shell_cutaway",
+      "part_definition_id": "tank_vacuum_shell_cutaway"
+    },
+    {
+      "object_id": "ASSET-11/multilayer_insulation_cutaway",
+      "ref_des": "multilayer_insulation_cutaway",
+      "part_definition_id": "multilayer_insulation_cutaway"
+    },
+    {
+      "object_id": "ASSET-11/tank_cap_370",
+      "ref_des": "tank_cap_370",
+      "part_definition_id": "tank_cap_370"
+    },
+    {
+      "object_id": "ASSET-11/tank_cap_1830",
+      "ref_des": "tank_cap_1830",
+      "part_definition_id": "tank_cap_1830"
+    },
+    {
+      "object_id": "ASSET-11/cryocooler_cabinet",
+      "ref_des": "cryocooler_cabinet",
+      "part_definition_id": "cryocooler_cabinet"
+    },
+    {
+      "object_id": "ASSET-11/cold_head",
+      "ref_des": "cold_head",
+      "part_definition_id": "cold_head"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_0",
+      "ref_des": "refrigeration_ring_0",
+      "part_definition_id": "refrigeration_ring_0"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_1",
+      "ref_des": "refrigeration_ring_1",
+      "part_definition_id": "refrigeration_ring_1"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_2",
+      "ref_des": "refrigeration_ring_2",
+      "part_definition_id": "refrigeration_ring_2"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_3",
+      "ref_des": "refrigeration_ring_3",
+      "part_definition_id": "refrigeration_ring_3"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_4",
+      "ref_des": "refrigeration_ring_4",
+      "part_definition_id": "refrigeration_ring_4"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_5",
+      "ref_des": "refrigeration_ring_5",
+      "part_definition_id": "refrigeration_ring_5"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_6",
+      "ref_des": "refrigeration_ring_6",
+      "part_definition_id": "refrigeration_ring_6"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_7",
+      "ref_des": "refrigeration_ring_7",
+      "part_definition_id": "refrigeration_ring_7"
+    },
+    {
+      "object_id": "ASSET-11/refrigeration_ring_8",
+      "ref_des": "refrigeration_ring_8",
+      "part_definition_id": "refrigeration_ring_8"
+    },
+    {
+      "object_id": "ASSET-11/gas_conditioning_inlet",
+      "ref_des": "gas_conditioning_inlet",
+      "part_definition_id": "gas_conditioning_inlet"
+    },
+    {
+      "object_id": "ASSET-11/inlet_valve_body",
+      "ref_des": "inlet_valve_body",
+      "part_definition_id": "inlet_valve_body"
+    },
+    {
+      "object_id": "ASSET-11/inlet_valve_stem",
+      "ref_des": "inlet_valve_stem",
+      "part_definition_id": "inlet_valve_stem"
+    },
+    {
+      "object_id": "ASSET-11/inlet_valve_handle",
+      "ref_des": "inlet_valve_handle",
+      "part_definition_id": "inlet_valve_handle"
+    },
+    {
+      "object_id": "ASSET-11/vent_relief",
+      "ref_des": "vent_relief",
+      "part_definition_id": "vent_relief"
+    },
+    {
+      "object_id": "ASSET-11/instrumentation",
+      "ref_des": "instrumentation",
+      "part_definition_id": "instrumentation"
+    },
+    {
+      "object_id": "ASSET-11/future_transfer_port",
+      "ref_des": "future_transfer_port",
+      "part_definition_id": "future_transfer_port"
+    }
+  ],
+  "mechanical": {
+    "physical_form": "CRYOGENIC OXYGEN DEPOT",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 2400.0000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tank_inner",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 450.0
+        },
+        "size": {
+          "x_mm": 840.845824305296,
+          "y_mm": 840.0000002000004,
+          "z_mm": 1300.845824305296
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tank_vacuum_shell_cutaway",
+        "position": {
+          "x_mm": 249.99999999999997,
+          "y_mm": 149.99999999999997,
+          "z_mm": 375.0
+        },
+        "size": {
+          "x_mm": 1061.0673496662066,
+          "y_mm": 1060.0000002000002,
+          "z_mm": 1451.0673496662066
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "multilayer_insulation_cutaway",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.0,
+          "z_mm": 400.00000000000006
+        },
+        "size": {
+          "x_mm": 990.9968643240989,
+          "y_mm": 990.0000002000004,
+          "z_mm": 1400.996864324099
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tank_cap_370",
+        "position": {
+          "x_mm": 249.99999999999997,
+          "y_mm": 149.99999999999997,
+          "z_mm": 325.0
+        },
+        "size": {
+          "x_mm": 1061.0673496662066,
+          "y_mm": 1060.0000002000002,
+          "z_mm": 91.06734966620672
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "tank_cap_1830",
+        "position": {
+          "x_mm": 249.99999999999997,
+          "y_mm": 149.99999999999997,
+          "z_mm": 1785.0
+        },
+        "size": {
+          "x_mm": 1061.0673496662066,
+          "y_mm": 1060.0000002000002,
+          "z_mm": 91.06734966620661
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "cryocooler_cabinet",
+        "position": {
+          "x_mm": -820.0,
+          "y_mm": 0.0,
+          "z_mm": 720.0
+        },
+        "size": {
+          "x_mm": 480.00000020000004,
+          "y_mm": 650.0000002,
+          "z_mm": 1050.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "cold_head",
+        "position": {
+          "x_mm": -685.0,
+          "y_mm": 150.0,
+          "z_mm": 1500.0
+        },
+        "size": {
+          "x_mm": 370.20138689173723,
+          "y_mm": 200.00000020000022,
+          "z_mm": 200.20138689173746
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_0",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 507.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.890129377478104
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_1",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 647.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.89012937747816
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_2",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 787.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.89012937747816
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_3",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 927.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.89012937747816
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_4",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 1067.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.890129377477933
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_5",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 1207.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.890129377477933
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_6",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 1347.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.890129377477933
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_7",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 1487.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.890129377477933
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "refrigeration_ring_8",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.00000000000003,
+          "z_mm": 1627.5
+        },
+        "size": {
+          "x_mm": 884.8901293774782,
+          "y_mm": 884.0000002000004,
+          "z_mm": 25.890129377477933
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "gas_conditioning_inlet",
+        "position": {
+          "x_mm": -800.0,
+          "y_mm": -480.0,
+          "z_mm": 649.9999999999999
+        },
+        "size": {
+          "x_mm": 1600.090624211282,
+          "y_mm": 90.00000020000022,
+          "z_mm": 90.09062421128215
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "inlet_valve_body",
+        "position": {
+          "x_mm": -730.0,
+          "y_mm": -480.00000000000006,
+          "z_mm": 650.0
+        },
+        "size": {
+          "x_mm": 160.1107628804557,
+          "y_mm": 110.00000020000027,
+          "z_mm": 110.1107628804557
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "inlet_valve_stem",
+        "position": {
+          "x_mm": -650.0,
+          "y_mm": -480.0,
+          "z_mm": 665.0
+        },
+        "size": {
+          "x_mm": 32.032222070678245,
+          "y_mm": 32.00000020000027,
+          "z_mm": 90.03222207067824
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "inlet_valve_handle",
+        "position": {
+          "x_mm": -595.0,
+          "y_mm": -480.0,
+          "z_mm": 765.0
+        },
+        "size": {
+          "x_mm": 170.0000002,
+          "y_mm": 24.000000200000045,
+          "z_mm": 22.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "vent_relief",
+        "position": {
+          "x_mm": 250.0,
+          "y_mm": 150.0,
+          "z_mm": 1885.0
+        },
+        "size": {
+          "x_mm": 70.07048554210803,
+          "y_mm": 70.00000020000004,
+          "z_mm": 350.07048554210814
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "instrumentation",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": -470.0,
+          "z_mm": 1100.0
+        },
+        "size": {
+          "x_mm": 260.00000019999993,
+          "y_mm": 100.00000019999999,
+          "z_mm": 240.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "future_transfer_port",
+        "position": {
+          "x_mm": 750.0,
+          "y_mm": 150.0,
+          "z_mm": 500.0
+        },
+        "size": {
+          "x_mm": 300.1006935458686,
+          "y_mm": 100.00000020000009,
+          "z_mm": 100.10069354586864
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  }
+}

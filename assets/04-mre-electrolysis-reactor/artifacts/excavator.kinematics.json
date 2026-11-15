@@ -1,0 +1,50 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_tap_gate_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "tap_gate_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          700.0,
+          0.0,
+          495.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "tap_gate_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_inspection_panel",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "inspection_panel",
+        "axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin_mm": [
+          -175.0,
+          -570.0,
+          820.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 0.9599310885968813,
+        "unit": "radian",
+        "label": "inspection_panel",
+        "metadata": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": "ASSET-10",
+  "project_id": "b49e3ade-9ec5-4d9d-8844-2112b31deb11",
+  "forma_version": "0.4.0",
+  "opencad_version": "0.2.4",
+  "source_brief": "10-slag-and-reduced-metals-receiver.md",
+  "model_sha256": "99c7d9f76f54140b173a2f921a90ea003474a7637008b9104b3f29be135ff018",
+  "body_count": 13,
+  "moving_body_count": 2,
+  "native_cad_valid": true,
+  "gif": {
+    "frames": 72,
+    "width": 960,
+    "height": 720
+  },
+  "sha256": {
+    "assembly.step": "687480e9d10f54aa46e0e56178105842ef058ddb8223a9b8c2e722fd1037126e",
+    "excavator.kinematics.json": "dc16c9b7ff41723cb778c352b9ce91510c9708cf4ec534ad94d51a0e67f3387c",
+    "excavator.meshes.json": "f3f9c990971ce977c3c64ad5c2d97a205284b30d587c91457120d8f5bff5cd84",
+    "forma-compiled.json": "3664d6e89b2975c95cd157707ce01d7e759b1723eaa177407a52c67c28f9f3e8",
+    "mcp-request.json": "ebb2ca4b3c05343d181c3b83e7838e92b6acb7bed470cdcc0d291269d164a232",
+    "mcp-response.json": "5a75d94ebe62579b871b6ca7fc2d4544eefd65f946fad85ef78754fc1b96b1d9",
+    "mechanical.ir.json": "2ae30a027693d9a80940393da25544b562550b8b88ef5c88b0fc5e0ff3878afb",
+    "preview.gif": "ae3b8853bb16f85071ae4261c28fb5caa4fa873b5707eda3372aeb2b3979ca11",
+    "preview.png": "ae3f2e514b7fb5e216595e3f89dc6b55dc8b2673f4865beb99583cbf6e17b701",
+    "validation.json": "8f1cb1ad48881800aafd59ade90d13a9ec055b5a0d6ea68794fcf5cb4b98adf1"
+  }
+}

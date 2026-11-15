@@ -1,0 +1,2344 @@
+{
+  "domain": "mechanical",
+  "schema_version": "1.0",
+  "artifact_id": "ASSET-08-mechanical",
+  "revision": 1,
+  "parts": [
+    {
+      "part_definition_id": "support",
+      "dimensions_mm": {
+        "x": 2400.0000002,
+        "y": 1400.0000002000002,
+        "z": 100.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "foot_0",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_1",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_2",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "foot_3",
+      "dimensions_mm": {
+        "x": 140.00000020000004,
+        "y": 140.0000002,
+        "z": 100.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "power_cabinet",
+      "dimensions_mm": {
+        "x": 700.0000002000003,
+        "y": 700.0000002000003,
+        "z": 1000.0000002000002
+      }
+    },
+    {
+      "part_definition_id": "converter",
+      "dimensions_mm": {
+        "x": 500.00000020000004,
+        "y": 120.00000020000004,
+        "z": 280.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "dc_bus",
+      "dimensions_mm": {
+        "x": 520.0000002,
+        "y": 60.000000200000045,
+        "z": 90.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "battery_module_0",
+      "dimensions_mm": {
+        "x": 310.0000002,
+        "y": 380.0000002,
+        "z": 120.00000020000002
+      }
+    },
+    {
+      "part_definition_id": "load_port_0",
+      "dimensions_mm": {
+        "x": 56.05638847368644,
+        "y": 50.05638847368641,
+        "z": 56.000000200000045
+      }
+    },
+    {
+      "part_definition_id": "battery_module_1",
+      "dimensions_mm": {
+        "x": 310.0000002,
+        "y": 380.0000002,
+        "z": 120.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "load_port_1",
+      "dimensions_mm": {
+        "x": 56.056388473686425,
+        "y": 50.05638847368641,
+        "z": 56.000000200000045
+      }
+    },
+    {
+      "part_definition_id": "battery_module_2",
+      "dimensions_mm": {
+        "x": 310.0000002,
+        "y": 380.0000002,
+        "z": 120.00000019999999
+      }
+    },
+    {
+      "part_definition_id": "load_port_2",
+      "dimensions_mm": {
+        "x": 56.05638847368644,
+        "y": 50.05638847368641,
+        "z": 56.000000200000045
+      }
+    },
+    {
+      "part_definition_id": "battery_module_3",
+      "dimensions_mm": {
+        "x": 310.0000002,
+        "y": 380.0000002,
+        "z": 120.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "load_port_3",
+      "dimensions_mm": {
+        "x": 56.05638847368645,
+        "y": 50.05638847368641,
+        "z": 56.000000200000045
+      }
+    },
+    {
+      "part_definition_id": "battery_module_4",
+      "dimensions_mm": {
+        "x": 310.0000002,
+        "y": 380.0000002,
+        "z": 120.00000019999993
+      }
+    },
+    {
+      "part_definition_id": "load_port_4",
+      "dimensions_mm": {
+        "x": 56.056388473686454,
+        "y": 50.05638847368641,
+        "z": 56.000000200000045
+      }
+    },
+    {
+      "part_definition_id": "battery_module_5",
+      "dimensions_mm": {
+        "x": 310.0000002,
+        "y": 380.0000002,
+        "z": 120.00000020000004
+      }
+    },
+    {
+      "part_definition_id": "load_port_5",
+      "dimensions_mm": {
+        "x": 56.05638847368641,
+        "y": 50.05638847368641,
+        "z": 56.000000200000045
+      }
+    },
+    {
+      "part_definition_id": "array_support_neg1",
+      "dimensions_mm": {
+        "x": 80.00000020000027,
+        "y": 80.00000020000023,
+        "z": 1250.0000002000002
+      }
+    },
+    {
+      "part_definition_id": "array_hinge_neg1",
+      "dimensions_mm": {
+        "x": 120.12083221504281,
+        "y": 1700.1208322150428,
+        "z": 120.00000020000084
+      }
+    },
+    {
+      "part_definition_id": "array_frame_neg1",
+      "dimensions_mm": {
+        "x": 1500.0000002000002,
+        "y": 1700.0000002000002,
+        "z": 50.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_0_0",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000016,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_0_1",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000016,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_0_2",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000013,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_0_3",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000013,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_0_4",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000016,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_0_5",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000016,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_1_0",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_1_1",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_1_2",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_1_3",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_1_4",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_1_5",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_2_0",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_2_1",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_2_2",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_2_3",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_2_4",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_2_5",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_3_0",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_3_1",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_3_2",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_3_3",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_3_4",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_3_5",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_4_0",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_4_1",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_4_2",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_4_3",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_4_4",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_neg1_4_5",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "array_support_1",
+      "dimensions_mm": {
+        "x": 80.00000020000027,
+        "y": 80.00000020000023,
+        "z": 1250.0000002000002
+      }
+    },
+    {
+      "part_definition_id": "array_hinge_1",
+      "dimensions_mm": {
+        "x": 120.12083221504281,
+        "y": 1700.1208322150428,
+        "z": 120.00000020000084
+      }
+    },
+    {
+      "part_definition_id": "array_frame_1",
+      "dimensions_mm": {
+        "x": 1500.0000002000002,
+        "y": 1700.0000002000002,
+        "z": 50.00000020000016
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_0_0",
+      "dimensions_mm": {
+        "x": 275.0000002,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_0_1",
+      "dimensions_mm": {
+        "x": 275.0000002,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_0_2",
+      "dimensions_mm": {
+        "x": 275.0000002,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_0_3",
+      "dimensions_mm": {
+        "x": 275.0000002,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_0_4",
+      "dimensions_mm": {
+        "x": 275.0000002,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_0_5",
+      "dimensions_mm": {
+        "x": 275.0000002,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_1_0",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_1_1",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_1_2",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_1_3",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_1_4",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_1_5",
+      "dimensions_mm": {
+        "x": 275.00000019999993,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_2_0",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_2_1",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_2_2",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_2_3",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_2_4",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_2_5",
+      "dimensions_mm": {
+        "x": 275.00000020000004,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_3_0",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_3_1",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_3_2",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_3_3",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_3_4",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_3_5",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_4_0",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_4_1",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_4_2",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_4_3",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000020000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_4_4",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.0000002,
+        "z": 12.000000200000159
+      }
+    },
+    {
+      "part_definition_id": "solar_cell_1_4_5",
+      "dimensions_mm": {
+        "x": 275.00000020000016,
+        "y": 255.00000019999993,
+        "z": 12.000000200000159
+      }
+    }
+  ],
+  "components": [
+    {
+      "object_id": "ASSET-08/support",
+      "ref_des": "support",
+      "part_definition_id": "support"
+    },
+    {
+      "object_id": "ASSET-08/foot_0",
+      "ref_des": "foot_0",
+      "part_definition_id": "foot_0"
+    },
+    {
+      "object_id": "ASSET-08/foot_1",
+      "ref_des": "foot_1",
+      "part_definition_id": "foot_1"
+    },
+    {
+      "object_id": "ASSET-08/foot_2",
+      "ref_des": "foot_2",
+      "part_definition_id": "foot_2"
+    },
+    {
+      "object_id": "ASSET-08/foot_3",
+      "ref_des": "foot_3",
+      "part_definition_id": "foot_3"
+    },
+    {
+      "object_id": "ASSET-08/power_cabinet",
+      "ref_des": "power_cabinet",
+      "part_definition_id": "power_cabinet"
+    },
+    {
+      "object_id": "ASSET-08/converter",
+      "ref_des": "converter",
+      "part_definition_id": "converter"
+    },
+    {
+      "object_id": "ASSET-08/dc_bus",
+      "ref_des": "dc_bus",
+      "part_definition_id": "dc_bus"
+    },
+    {
+      "object_id": "ASSET-08/battery_module_0",
+      "ref_des": "battery_module_0",
+      "part_definition_id": "battery_module_0"
+    },
+    {
+      "object_id": "ASSET-08/load_port_0",
+      "ref_des": "load_port_0",
+      "part_definition_id": "load_port_0"
+    },
+    {
+      "object_id": "ASSET-08/battery_module_1",
+      "ref_des": "battery_module_1",
+      "part_definition_id": "battery_module_1"
+    },
+    {
+      "object_id": "ASSET-08/load_port_1",
+      "ref_des": "load_port_1",
+      "part_definition_id": "load_port_1"
+    },
+    {
+      "object_id": "ASSET-08/battery_module_2",
+      "ref_des": "battery_module_2",
+      "part_definition_id": "battery_module_2"
+    },
+    {
+      "object_id": "ASSET-08/load_port_2",
+      "ref_des": "load_port_2",
+      "part_definition_id": "load_port_2"
+    },
+    {
+      "object_id": "ASSET-08/battery_module_3",
+      "ref_des": "battery_module_3",
+      "part_definition_id": "battery_module_3"
+    },
+    {
+      "object_id": "ASSET-08/load_port_3",
+      "ref_des": "load_port_3",
+      "part_definition_id": "load_port_3"
+    },
+    {
+      "object_id": "ASSET-08/battery_module_4",
+      "ref_des": "battery_module_4",
+      "part_definition_id": "battery_module_4"
+    },
+    {
+      "object_id": "ASSET-08/load_port_4",
+      "ref_des": "load_port_4",
+      "part_definition_id": "load_port_4"
+    },
+    {
+      "object_id": "ASSET-08/battery_module_5",
+      "ref_des": "battery_module_5",
+      "part_definition_id": "battery_module_5"
+    },
+    {
+      "object_id": "ASSET-08/load_port_5",
+      "ref_des": "load_port_5",
+      "part_definition_id": "load_port_5"
+    },
+    {
+      "object_id": "ASSET-08/array_support_neg1",
+      "ref_des": "array_support_neg1",
+      "part_definition_id": "array_support_neg1"
+    },
+    {
+      "object_id": "ASSET-08/array_hinge_neg1",
+      "ref_des": "array_hinge_neg1",
+      "part_definition_id": "array_hinge_neg1"
+    },
+    {
+      "object_id": "ASSET-08/array_frame_neg1",
+      "ref_des": "array_frame_neg1",
+      "part_definition_id": "array_frame_neg1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_0_0",
+      "ref_des": "solar_cell_neg1_0_0",
+      "part_definition_id": "solar_cell_neg1_0_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_0_1",
+      "ref_des": "solar_cell_neg1_0_1",
+      "part_definition_id": "solar_cell_neg1_0_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_0_2",
+      "ref_des": "solar_cell_neg1_0_2",
+      "part_definition_id": "solar_cell_neg1_0_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_0_3",
+      "ref_des": "solar_cell_neg1_0_3",
+      "part_definition_id": "solar_cell_neg1_0_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_0_4",
+      "ref_des": "solar_cell_neg1_0_4",
+      "part_definition_id": "solar_cell_neg1_0_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_0_5",
+      "ref_des": "solar_cell_neg1_0_5",
+      "part_definition_id": "solar_cell_neg1_0_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_1_0",
+      "ref_des": "solar_cell_neg1_1_0",
+      "part_definition_id": "solar_cell_neg1_1_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_1_1",
+      "ref_des": "solar_cell_neg1_1_1",
+      "part_definition_id": "solar_cell_neg1_1_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_1_2",
+      "ref_des": "solar_cell_neg1_1_2",
+      "part_definition_id": "solar_cell_neg1_1_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_1_3",
+      "ref_des": "solar_cell_neg1_1_3",
+      "part_definition_id": "solar_cell_neg1_1_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_1_4",
+      "ref_des": "solar_cell_neg1_1_4",
+      "part_definition_id": "solar_cell_neg1_1_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_1_5",
+      "ref_des": "solar_cell_neg1_1_5",
+      "part_definition_id": "solar_cell_neg1_1_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_2_0",
+      "ref_des": "solar_cell_neg1_2_0",
+      "part_definition_id": "solar_cell_neg1_2_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_2_1",
+      "ref_des": "solar_cell_neg1_2_1",
+      "part_definition_id": "solar_cell_neg1_2_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_2_2",
+      "ref_des": "solar_cell_neg1_2_2",
+      "part_definition_id": "solar_cell_neg1_2_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_2_3",
+      "ref_des": "solar_cell_neg1_2_3",
+      "part_definition_id": "solar_cell_neg1_2_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_2_4",
+      "ref_des": "solar_cell_neg1_2_4",
+      "part_definition_id": "solar_cell_neg1_2_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_2_5",
+      "ref_des": "solar_cell_neg1_2_5",
+      "part_definition_id": "solar_cell_neg1_2_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_3_0",
+      "ref_des": "solar_cell_neg1_3_0",
+      "part_definition_id": "solar_cell_neg1_3_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_3_1",
+      "ref_des": "solar_cell_neg1_3_1",
+      "part_definition_id": "solar_cell_neg1_3_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_3_2",
+      "ref_des": "solar_cell_neg1_3_2",
+      "part_definition_id": "solar_cell_neg1_3_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_3_3",
+      "ref_des": "solar_cell_neg1_3_3",
+      "part_definition_id": "solar_cell_neg1_3_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_3_4",
+      "ref_des": "solar_cell_neg1_3_4",
+      "part_definition_id": "solar_cell_neg1_3_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_3_5",
+      "ref_des": "solar_cell_neg1_3_5",
+      "part_definition_id": "solar_cell_neg1_3_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_4_0",
+      "ref_des": "solar_cell_neg1_4_0",
+      "part_definition_id": "solar_cell_neg1_4_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_4_1",
+      "ref_des": "solar_cell_neg1_4_1",
+      "part_definition_id": "solar_cell_neg1_4_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_4_2",
+      "ref_des": "solar_cell_neg1_4_2",
+      "part_definition_id": "solar_cell_neg1_4_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_4_3",
+      "ref_des": "solar_cell_neg1_4_3",
+      "part_definition_id": "solar_cell_neg1_4_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_4_4",
+      "ref_des": "solar_cell_neg1_4_4",
+      "part_definition_id": "solar_cell_neg1_4_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_neg1_4_5",
+      "ref_des": "solar_cell_neg1_4_5",
+      "part_definition_id": "solar_cell_neg1_4_5"
+    },
+    {
+      "object_id": "ASSET-08/array_support_1",
+      "ref_des": "array_support_1",
+      "part_definition_id": "array_support_1"
+    },
+    {
+      "object_id": "ASSET-08/array_hinge_1",
+      "ref_des": "array_hinge_1",
+      "part_definition_id": "array_hinge_1"
+    },
+    {
+      "object_id": "ASSET-08/array_frame_1",
+      "ref_des": "array_frame_1",
+      "part_definition_id": "array_frame_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_0_0",
+      "ref_des": "solar_cell_1_0_0",
+      "part_definition_id": "solar_cell_1_0_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_0_1",
+      "ref_des": "solar_cell_1_0_1",
+      "part_definition_id": "solar_cell_1_0_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_0_2",
+      "ref_des": "solar_cell_1_0_2",
+      "part_definition_id": "solar_cell_1_0_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_0_3",
+      "ref_des": "solar_cell_1_0_3",
+      "part_definition_id": "solar_cell_1_0_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_0_4",
+      "ref_des": "solar_cell_1_0_4",
+      "part_definition_id": "solar_cell_1_0_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_0_5",
+      "ref_des": "solar_cell_1_0_5",
+      "part_definition_id": "solar_cell_1_0_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_1_0",
+      "ref_des": "solar_cell_1_1_0",
+      "part_definition_id": "solar_cell_1_1_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_1_1",
+      "ref_des": "solar_cell_1_1_1",
+      "part_definition_id": "solar_cell_1_1_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_1_2",
+      "ref_des": "solar_cell_1_1_2",
+      "part_definition_id": "solar_cell_1_1_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_1_3",
+      "ref_des": "solar_cell_1_1_3",
+      "part_definition_id": "solar_cell_1_1_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_1_4",
+      "ref_des": "solar_cell_1_1_4",
+      "part_definition_id": "solar_cell_1_1_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_1_5",
+      "ref_des": "solar_cell_1_1_5",
+      "part_definition_id": "solar_cell_1_1_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_2_0",
+      "ref_des": "solar_cell_1_2_0",
+      "part_definition_id": "solar_cell_1_2_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_2_1",
+      "ref_des": "solar_cell_1_2_1",
+      "part_definition_id": "solar_cell_1_2_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_2_2",
+      "ref_des": "solar_cell_1_2_2",
+      "part_definition_id": "solar_cell_1_2_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_2_3",
+      "ref_des": "solar_cell_1_2_3",
+      "part_definition_id": "solar_cell_1_2_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_2_4",
+      "ref_des": "solar_cell_1_2_4",
+      "part_definition_id": "solar_cell_1_2_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_2_5",
+      "ref_des": "solar_cell_1_2_5",
+      "part_definition_id": "solar_cell_1_2_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_3_0",
+      "ref_des": "solar_cell_1_3_0",
+      "part_definition_id": "solar_cell_1_3_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_3_1",
+      "ref_des": "solar_cell_1_3_1",
+      "part_definition_id": "solar_cell_1_3_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_3_2",
+      "ref_des": "solar_cell_1_3_2",
+      "part_definition_id": "solar_cell_1_3_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_3_3",
+      "ref_des": "solar_cell_1_3_3",
+      "part_definition_id": "solar_cell_1_3_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_3_4",
+      "ref_des": "solar_cell_1_3_4",
+      "part_definition_id": "solar_cell_1_3_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_3_5",
+      "ref_des": "solar_cell_1_3_5",
+      "part_definition_id": "solar_cell_1_3_5"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_4_0",
+      "ref_des": "solar_cell_1_4_0",
+      "part_definition_id": "solar_cell_1_4_0"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_4_1",
+      "ref_des": "solar_cell_1_4_1",
+      "part_definition_id": "solar_cell_1_4_1"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_4_2",
+      "ref_des": "solar_cell_1_4_2",
+      "part_definition_id": "solar_cell_1_4_2"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_4_3",
+      "ref_des": "solar_cell_1_4_3",
+      "part_definition_id": "solar_cell_1_4_3"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_4_4",
+      "ref_des": "solar_cell_1_4_4",
+      "part_definition_id": "solar_cell_1_4_4"
+    },
+    {
+      "object_id": "ASSET-08/solar_cell_1_4_5",
+      "ref_des": "solar_cell_1_4_5",
+      "part_definition_id": "solar_cell_1_4_5"
+    }
+  ],
+  "mechanical": {
+    "physical_form": "POWER GENERATION & DISTRIBUTION",
+    "enclosure_type": "Parametric concept assembly",
+    "mounting_guidance": "Millimeters, Z up; inspection cutaways are explicitly named.",
+    "manufacturability_rating": "Not evaluated",
+    "component_placements": [
+      {
+        "ref_des": "support",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 100.0
+        },
+        "size": {
+          "x_mm": 2400.0000002,
+          "y_mm": 1400.0000002000002,
+          "z_mm": 100.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_0",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_1",
+        "position": {
+          "x_mm": -1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_2",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": -580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "foot_3",
+        "position": {
+          "x_mm": 1080.0,
+          "y_mm": 580.0,
+          "z_mm": 25.0
+        },
+        "size": {
+          "x_mm": 140.00000020000004,
+          "y_mm": 140.0000002,
+          "z_mm": 100.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "power_cabinet",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": 0.0,
+          "z_mm": 700.0
+        },
+        "size": {
+          "x_mm": 700.0000002000003,
+          "y_mm": 700.0000002000003,
+          "z_mm": 1000.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "converter",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -415.0,
+          "z_mm": 920.0
+        },
+        "size": {
+          "x_mm": 500.00000020000004,
+          "y_mm": 120.00000020000004,
+          "z_mm": 280.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "dc_bus",
+        "position": {
+          "x_mm": 0.0,
+          "y_mm": -420.0,
+          "z_mm": 630.0
+        },
+        "size": {
+          "x_mm": 520.0000002,
+          "y_mm": 60.000000200000045,
+          "z_mm": 90.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "battery_module_0",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": 0.0,
+          "z_mm": 240.0
+        },
+        "size": {
+          "x_mm": 310.0000002,
+          "y_mm": 380.0000002,
+          "z_mm": 120.00000020000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "load_port_0",
+        "position": {
+          "x_mm": -230.0,
+          "y_mm": -445.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 56.05638847368644,
+          "y_mm": 50.05638847368641,
+          "z_mm": 56.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "battery_module_1",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": 0.0,
+          "z_mm": 385.0
+        },
+        "size": {
+          "x_mm": 310.0000002,
+          "y_mm": 380.0000002,
+          "z_mm": 120.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "load_port_1",
+        "position": {
+          "x_mm": -140.0,
+          "y_mm": -445.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 56.056388473686425,
+          "y_mm": 50.05638847368641,
+          "z_mm": 56.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "battery_module_2",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": 0.0,
+          "z_mm": 530.0
+        },
+        "size": {
+          "x_mm": 310.0000002,
+          "y_mm": 380.0000002,
+          "z_mm": 120.00000019999999
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "load_port_2",
+        "position": {
+          "x_mm": -50.0,
+          "y_mm": -445.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 56.05638847368644,
+          "y_mm": 50.05638847368641,
+          "z_mm": 56.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "battery_module_3",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": 0.0,
+          "z_mm": 675.0
+        },
+        "size": {
+          "x_mm": 310.0000002,
+          "y_mm": 380.0000002,
+          "z_mm": 120.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "load_port_3",
+        "position": {
+          "x_mm": 40.0,
+          "y_mm": -445.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 56.05638847368645,
+          "y_mm": 50.05638847368641,
+          "z_mm": 56.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "battery_module_4",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": 0.0,
+          "z_mm": 820.0
+        },
+        "size": {
+          "x_mm": 310.0000002,
+          "y_mm": 380.0000002,
+          "z_mm": 120.00000019999993
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "load_port_4",
+        "position": {
+          "x_mm": 130.0,
+          "y_mm": -445.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 56.056388473686454,
+          "y_mm": 50.05638847368641,
+          "z_mm": 56.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "battery_module_5",
+        "position": {
+          "x_mm": 650.0,
+          "y_mm": 0.0,
+          "z_mm": 965.0
+        },
+        "size": {
+          "x_mm": 310.0000002,
+          "y_mm": 380.0000002,
+          "z_mm": 120.00000020000004
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "load_port_5",
+        "position": {
+          "x_mm": 220.0,
+          "y_mm": -445.0,
+          "z_mm": 440.0
+        },
+        "size": {
+          "x_mm": 56.05638847368641,
+          "y_mm": 50.05638847368641,
+          "z_mm": 56.000000200000045
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "array_support_neg1",
+        "position": {
+          "x_mm": -450.0,
+          "y_mm": 0.0,
+          "z_mm": 780.0
+        },
+        "size": {
+          "x_mm": 80.00000020000027,
+          "y_mm": 80.00000020000023,
+          "z_mm": 1250.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "array_hinge_neg1",
+        "position": {
+          "x_mm": -450.0,
+          "y_mm": 850.0,
+          "z_mm": 1450.0
+        },
+        "size": {
+          "x_mm": 120.12083221504281,
+          "y_mm": 1700.1208322150428,
+          "z_mm": 120.00000020000084
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "array_frame_neg1",
+        "position": {
+          "x_mm": -1200.0,
+          "y_mm": 0.0,
+          "z_mm": 1450.0
+        },
+        "size": {
+          "x_mm": 1500.0000002000002,
+          "y_mm": 1700.0000002000002,
+          "z_mm": 50.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_0_0",
+        "position": {
+          "x_mm": -510.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000016,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_0_1",
+        "position": {
+          "x_mm": -510.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000016,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_0_2",
+        "position": {
+          "x_mm": -510.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000013,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_0_3",
+        "position": {
+          "x_mm": -510.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000013,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_0_4",
+        "position": {
+          "x_mm": -510.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000016,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_0_5",
+        "position": {
+          "x_mm": -510.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000016,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_1_0",
+        "position": {
+          "x_mm": -805.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_1_1",
+        "position": {
+          "x_mm": -805.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_1_2",
+        "position": {
+          "x_mm": -805.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_1_3",
+        "position": {
+          "x_mm": -805.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_1_4",
+        "position": {
+          "x_mm": -805.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_1_5",
+        "position": {
+          "x_mm": -805.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_2_0",
+        "position": {
+          "x_mm": -1100.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_2_1",
+        "position": {
+          "x_mm": -1100.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_2_2",
+        "position": {
+          "x_mm": -1100.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_2_3",
+        "position": {
+          "x_mm": -1100.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_2_4",
+        "position": {
+          "x_mm": -1100.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_2_5",
+        "position": {
+          "x_mm": -1100.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_3_0",
+        "position": {
+          "x_mm": -1395.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_3_1",
+        "position": {
+          "x_mm": -1395.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_3_2",
+        "position": {
+          "x_mm": -1395.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_3_3",
+        "position": {
+          "x_mm": -1395.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_3_4",
+        "position": {
+          "x_mm": -1395.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_3_5",
+        "position": {
+          "x_mm": -1395.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_4_0",
+        "position": {
+          "x_mm": -1690.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_4_1",
+        "position": {
+          "x_mm": -1690.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_4_2",
+        "position": {
+          "x_mm": -1690.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_4_3",
+        "position": {
+          "x_mm": -1690.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_4_4",
+        "position": {
+          "x_mm": -1690.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_neg1_4_5",
+        "position": {
+          "x_mm": -1690.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "array_support_1",
+        "position": {
+          "x_mm": 450.0,
+          "y_mm": 0.0,
+          "z_mm": 780.0
+        },
+        "size": {
+          "x_mm": 80.00000020000027,
+          "y_mm": 80.00000020000023,
+          "z_mm": 1250.0000002000002
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "array_hinge_1",
+        "position": {
+          "x_mm": 450.0,
+          "y_mm": 850.0,
+          "z_mm": 1450.0
+        },
+        "size": {
+          "x_mm": 120.12083221504281,
+          "y_mm": 1700.1208322150428,
+          "z_mm": 120.00000020000084
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "array_frame_1",
+        "position": {
+          "x_mm": 1200.0,
+          "y_mm": 0.0,
+          "z_mm": 1450.0
+        },
+        "size": {
+          "x_mm": 1500.0000002000002,
+          "y_mm": 1700.0000002000002,
+          "z_mm": 50.00000020000016
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_0_0",
+        "position": {
+          "x_mm": 510.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.0000002,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_0_1",
+        "position": {
+          "x_mm": 510.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.0000002,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_0_2",
+        "position": {
+          "x_mm": 510.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.0000002,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_0_3",
+        "position": {
+          "x_mm": 510.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.0000002,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_0_4",
+        "position": {
+          "x_mm": 510.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.0000002,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_0_5",
+        "position": {
+          "x_mm": 510.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.0000002,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_1_0",
+        "position": {
+          "x_mm": 805.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_1_1",
+        "position": {
+          "x_mm": 805.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_1_2",
+        "position": {
+          "x_mm": 805.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_1_3",
+        "position": {
+          "x_mm": 805.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_1_4",
+        "position": {
+          "x_mm": 805.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_1_5",
+        "position": {
+          "x_mm": 805.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000019999993,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_2_0",
+        "position": {
+          "x_mm": 1100.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_2_1",
+        "position": {
+          "x_mm": 1100.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_2_2",
+        "position": {
+          "x_mm": 1100.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_2_3",
+        "position": {
+          "x_mm": 1100.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_2_4",
+        "position": {
+          "x_mm": 1100.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_2_5",
+        "position": {
+          "x_mm": 1100.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000004,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_3_0",
+        "position": {
+          "x_mm": 1395.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_3_1",
+        "position": {
+          "x_mm": 1395.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_3_2",
+        "position": {
+          "x_mm": 1395.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_3_3",
+        "position": {
+          "x_mm": 1395.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_3_4",
+        "position": {
+          "x_mm": 1395.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_3_5",
+        "position": {
+          "x_mm": 1395.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_4_0",
+        "position": {
+          "x_mm": 1690.0,
+          "y_mm": -685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_4_1",
+        "position": {
+          "x_mm": 1690.0,
+          "y_mm": -411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_4_2",
+        "position": {
+          "x_mm": 1690.0,
+          "y_mm": -137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_4_3",
+        "position": {
+          "x_mm": 1690.0,
+          "y_mm": 137.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000020000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_4_4",
+        "position": {
+          "x_mm": 1690.0,
+          "y_mm": 411.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.0000002,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      },
+      {
+        "ref_des": "solar_cell_1_4_5",
+        "position": {
+          "x_mm": 1690.0,
+          "y_mm": 685.0,
+          "z_mm": 1485.0
+        },
+        "size": {
+          "x_mm": 275.00000020000016,
+          "y_mm": 255.00000019999993,
+          "z_mm": 12.000000200000159
+        },
+        "layer": "mechanism"
+      }
+    ],
+    "fabrication_details": [
+      "Every dimension is an authoring assumption, not a NASA measurement.",
+      "Motion is design inspection only, not simulated plant operation."
+    ]
+  }
+}

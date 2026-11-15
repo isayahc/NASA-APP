@@ -1,0 +1,73 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_gate",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "gate",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          -500.0,
+          -170.0,
+          850.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.0471975511965976,
+        "unit": "radian",
+        "label": "gate",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "spin_auger_shaft",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "auger_shaft",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          150.0,
+          0.0,
+          480.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 6.283185307179586,
+        "unit": "radian",
+        "label": "auger_shaft",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "spin_auger_flight",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "auger_flight",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin_mm": [
+          150.0,
+          0.0,
+          480.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 6.283185307179586,
+        "unit": "radian",
+        "label": "auger_flight",
+        "metadata": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "tracks": [
+    {
+      "joint": {
+        "id": "move_isolation_0_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "isolation_0_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          -600.0,
+          -270.0,
+          735.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "isolation_0_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_isolation_1_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "isolation_1_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          0.0,
+          -270.0,
+          735.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "isolation_1_handle",
+        "metadata": {}
+      }
+    },
+    {
+      "joint": {
+        "id": "move_isolation_2_handle",
+        "type": "revolute",
+        "parent_shape_id": "support",
+        "child_shape_id": "isolation_2_handle",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_mm": [
+          600.0,
+          -270.0,
+          735.0
+        ],
+        "lower_limit": 0.0,
+        "upper_limit": 1.5707963267948966,
+        "unit": "radian",
+        "label": "isolation_2_handle",
+        "metadata": {}
+      }
+    }
+  ]
+}

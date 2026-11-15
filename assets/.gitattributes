@@ -1,0 +1,6 @@
+# Preserve exact bytes of generated evidence referenced by SHA-256 manifests.
+# CAD exporters also emit significant-to-hash trailing spaces.
+**/artifacts/** -text -whitespace
+*.gif binary
+*.png binary
+*.stl binary
