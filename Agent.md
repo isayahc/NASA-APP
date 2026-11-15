@@ -51,7 +51,10 @@ NASA-APP/
 ├── integrations/
 │   ├── forma/                          # OpenForma engineering IR + revisions
 │   ├── openindustries/                 # Scene, task/runtime and asset bridge
-│   │   └── foundry-runtime.ts         # Implemented OI-native task/ledger domain
+│   │   ├── foundry-runtime.ts         # Actual OI-native task/resource domain
+│   │   ├── foundry-sse.ts             # Read-only committed revision stream
+│   │   ├── foundry-browser-stream.mjs # Monotonic browser subscriber
+│   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
 ├── scenarios/
@@ -59,6 +62,7 @@ NASA-APP/
 │       └── first-transfer.json        # Finite, modeled regolith/energy inputs
 ├── tests/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
+│   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -66,7 +70,11 @@ NASA-APP/
 │   └── research/                       # Sources and calibration provenance
 └── scripts/
     ├── run_foundry.sh                 # Static OI scene launcher
-    └── run_foundry_sim.ts            # Headless executable material/thermal demo
+    ├── run_foundry_sim.ts            # Headless material/thermal simulation
+    ├── init_foundry_live.ts          # Persistent stream source setup
+    ├── run_foundry_live.sh           # Launch OI with SSE transport
+    ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
+    └── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
 ```
 
 ## Implemented spatial scene integration (#4)
@@ -82,6 +90,12 @@ The first executable slice uses `integrations/openindustries/foundry-runtime.ts`
 Read `scenarios/lunar-south-pole/first-transfer.json` for the explicit site-material assumptions; `scripts/run_foundry_sim.ts` runs the headless demonstration and `tests/foundry_runtime.test.ts` tests mass/energy conservation, power cuts, paused/cancelled jobs, duplicate commands, blocked machinery and restart/replay.
 
 **Never** treat task completion in a SQLite snapshot as a robot animation or physical lunar measurement. OI's browser currently displays the static CAD scene from #4; #6 must supply verified real-time pose/telemetry synchronization. No oxygen is produced or claimed in #5.
+
+## F1 stream is read-only and must remain authoritative
+
+The native OpenIndustries workbench can now be launched through `scripts/run_foundry_live.sh`, which extends the pinned OI Vite configuration without modifying the upstream 3D viewer. `integrations/openindustries/foundry-sse.ts` reads only committed `FoundryDatabase` snapshots and publishes instance-scoped revision SSE. The browser adapter `foundry-browser-stream.mjs` rejects duplicate, stale, wrong-instance and unbalanced state; accepted frames fire `nasa-foundry:snapshot` CustomEvents.
+
+Read `docs/architecture/foundry-stream.md` before implementing F2–F5. **Do not send controller write actions through the F1 stream, derive simulation time from rendering, or use the two-second durable scene poll for live telemetry.** Test against the real local OI scene, SQLite controller and Chromium browser, not hand-authored example responses alone.
 
 ## Source-of-truth stack
 
