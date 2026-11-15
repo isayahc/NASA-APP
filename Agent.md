@@ -1,6 +1,6 @@
 # NASA-APP — Agent implementation instructions
 
-This file governs coding agents and contributors implementing the **Autonomous Lunar Oxygen Foundry**. Read [README.md](README.md) and [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) before proposing a change. **The repository is currently a planned architecture, not a complete running factory.** Verify code and commands before saying they work.
+This file governs coding agents and contributors implementing the **Autonomous Lunar Oxygen Foundry**. Read [README.md](README.md) and [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) before proposing a change. **The repository contains actual mechanical assets and a CAD-backed scene generator, but not a running factory.** Verify code and commands before saying they work.
 
 ## Non-negotiable objective
 
@@ -24,6 +24,8 @@ NASA-APP/
 │       ├── README.md
 │       ├── rassor-nasa-reference.stl
 │       └── rassor-nasa-reference.metadata.json
+├── scenes/
+│   └── lunar-foundry.plan.json       # Versioned ten-machine scene/port design
 ├── apps/
 │   └── mission-control/
 │       ├── package.json
@@ -61,6 +63,12 @@ NASA-APP/
 │   └── research/                       # Sources and calibration provenance
 └── scripts/                            # One-command demo/bootstrap (future)
 ```
+
+## Implemented spatial scene integration (#4)
+
+The scene builder is `scripts/build_lunar_scene.mjs` and the one-command local entry point is `bash scripts/run_foundry.sh` (see `docs/architecture/lunar-scene.md`). Use the **real native OI STEP importer**, OI `astra.scene` serialization, OI System Inspector, and OI local SQLite scene backend; do **not** create another renderer.
+
+The source plan `scenes/lunar-foundry.plan.json` defines stable instance identities, connection/port declarations, static placement, and explicitly `executable: false`. The imported MechanicalIR/STEP bindings prove source identity only. Do not infer valid power, piping, collisions, robot dynamics, process outputs or autonomous behavior from a static asset. #5 and #6 own those follow-on responsibilities.
 
 ## Source-of-truth stack
 
