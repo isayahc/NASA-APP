@@ -30,6 +30,7 @@ jobs:
           node-version: "22.16.0"
       - name: Verify scripts and layout semantics
         run: |
+          bash -n scripts/run_foundry.sh
           node --check scripts/build_lunar_scene.mjs
           node --check scripts/verify_lunar_scene_browser.mjs
           node --test tests/lunar_scene.test.mjs
@@ -41,6 +42,8 @@ jobs:
           node --max-old-space-size=6144 --import tsx ../../scripts/build_lunar_scene.mjs \
             --oi-root . --app-root ../.. --output ../../.generated/lunar-foundry.oi.json \
             --store ../../.generated/oi-scene-store
+      - name: One-command local demo build is idempotent
+        run: bash scripts/run_foundry.sh --build-only
       - name: Install Chromium for actual OpenIndustries browser verification
         working-directory: vendor/openindustries
         run: npx playwright install --with-deps chromium
