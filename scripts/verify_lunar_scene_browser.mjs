@@ -45,8 +45,11 @@ async function main() {
     });
     async function importInto(page, file) {
       await page.goto("http://127.0.0.1:4186", { waitUntil: "domcontentloaded" });
-      await expect(page.getByRole("button", { name: /Drop files or browse/ })).toBeEnabled({ timeout: 30000 });
-      await page.getByLabel("Import files").setInputFiles({
+      await expect(page.getByRole("button", { name: "Import OI project", exact: true }))
+        .toBeEnabled({ timeout: 30000 });
+      const chooser = page.waitForEvent("filechooser", { timeout: 15000 });
+      await page.getByRole("button", { name: "+ Import project", exact: true }).click();
+      await (await chooser).setFiles({
         name: "lunar-foundry.oi.json",
         mimeType: "application/json",
         buffer: Buffer.from(JSON.stringify(file)),
@@ -65,13 +68,23 @@ async function main() {
     const page1 = await context1.newPage();
     page1.on("pageerror", (error) => errors.push(error.message));
     await importInto(page1, manifest);
-    // Explicit scene interaction: select an imported machine, not a placeholder.
-    await page1.locator(".asset").first().click();
+    // Use the *native* system inspector, which binds imported STEP source
+    // digests to the actual geometry and shows the declared/not-running state.
+    const inspector = page1.getByRole("region", { name: "System inspector", exact: true });
+    const components = inspector.getByLabel("Semantic components");
+    await expect(components.getByRole("button", { name: /Regolith Excavator/ }))
+      .toBeVisible({ timeout: 30000 });
+    await components.getByRole("button", { name: /Regolith Excavator/ }).click();
+    const detail = inspector.getByRole("article", { name: "Binding details" });
+    await expect(detail).toHaveAttribute("data-binding-status", "resolved");
+    await expect(detail).toContainText("NOT EXECUTABLE");
+    await expect(detail).toContainText("Declared");
+    await detail.getByRole("button", { name: /Locate/ }).click();
     await mkdir(dirname(config.screenshot), { recursive: true });
     await page1.screenshot({ path: config.screenshot, fullPage: false });
 
     const download = page1.waitForEvent("download", { timeout: 30000 });
-    await page1.getByRole("button", { name: "Export scene JSON", exact: true }).click();
+    await page1.getByRole("button", { name: "Export OI project", exact: true }).click();
     const file = await download;
     const downloadPath = config.scenePath.replace(/\.oi\.json$/, ".roundtrip.oi.json");
     await file.saveAs(downloadPath);
@@ -82,6 +95,10 @@ async function main() {
       manifest.assets.map((asset) => asset.source.digest));
     assert.equal(exported.bundledAssets.length, manifest.bundledAssets.length);
     assert(exported.bundledAssets.every((asset) => asset.parts.length > 0));
+    assert.equal(exported.inspection?.systems.length, manifest.instances.length,
+      "Native OI inspector bindings must survive export/reimport");
+    assert.deepEqual(exported.inspection?.systems.map((sys) => sys.targets[0].sourceDigest),
+      manifest.inspection.systems.map((sys) => sys.targets[0].sourceDigest));
 
     const context2 = await browser.newContext({ viewport: { width: 1500, height: 950 } });
     const page2 = await context2.newPage();
