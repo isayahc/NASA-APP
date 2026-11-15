@@ -3,7 +3,7 @@
 The original [NASA RASSOR 3D resource](https://science.nasa.gov/3d-resources/regolith-advanced-surface-systems-operations-robot-rassor/) is distributed as **GLB**, **not STL**. NASA's GitHub mirror is [nasa/NASA-3D-Resources](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Regolith%20Advanced%20Surface%20Systems%20Operations%20Robot%20%28RASSOR%29).
 
 - **NASA source credit:** NASA/Dewey L. Smith; NASA/Jason M. Schuler
-- **Conversion:** \`scripts/import_rassor.py\` loads the original GLB scene, bakes scene transforms, optionally simplifies to a **maximum 250,000 triangle target**, then exports binary STL.
+- **Conversion:** \`scripts/import_rassor.py\` uses Blender's glTF importer to decode the original GLB, bakes scene transforms, optionally simplifies to a **maximum 250,000 triangle target**, then exports binary STL.
 - **Derived output:** \`assets/rassor/rassor-nasa-reference.stl\`
 - **Integrity:** \`assets/rassor/rassor-nasa-reference.metadata.json\` records the original and derivative SHA-256 hashes, triangle counts and source attribution.
 - **NASA's official guidelines:** https://www.nasa.gov/nasa-brand-center/images-and-media/ — acknowledge NASA, avoid implied endorsement, and review any third-party restrictions.
