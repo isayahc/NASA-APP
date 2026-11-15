@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - .github/workflows/import-rassor.yml
+      - scripts/import_rassor.py
 
 permissions:
   contents: write
