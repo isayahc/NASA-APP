@@ -461,6 +461,12 @@ async function main() {
   const graphFile = opts.output.replace(/\.oi\.json$/, ".connections.json");
   if (graphFile === opts.output) throw Error("Output filename must end in .oi.json");
   await writeFile(graphFile, JSON.stringify(graph, null, 2) + "\n");
+  if (localScene) {
+    await writeFile(
+      opts.output.replace(/\.oi\.json$/, ".session.json"),
+      JSON.stringify(localScene, null, 2) + "\n",
+    );
+  }
   console.log(JSON.stringify({
     event: "complete", scene: opts.output, graph: graphFile,
     scene_bytes: payload.byteLength, room, machines: items.length, links: links.length,
