@@ -39,7 +39,8 @@ jobs:
         working-directory: vendor/openindustries
         run: |
           node --max-old-space-size=6144 --import tsx ../../scripts/build_lunar_scene.mjs \
-            --oi-root . --app-root ../.. --output ../../.generated/lunar-foundry.oi.json
+            --oi-root . --app-root ../.. --output ../../.generated/lunar-foundry.oi.json \
+            --store ../../.generated/oi-scene-store
       - name: Install Chromium for actual OpenIndustries browser verification
         working-directory: vendor/openindustries
         run: npx playwright install --with-deps chromium
@@ -57,6 +58,7 @@ jobs:
           path: |
             .generated/*.oi.json
             .generated/*.connections.json
+            .generated/*.session.json
             .generated/*.png
           if-no-files-found: warn
           retention-days: 7
