@@ -11,6 +11,7 @@
 import { randomUUID } from "node:crypto";
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { FoundryDatabase, type Scenario, type FoundrySnapshot } from "../integrations/openindustries/foundry-runtime.ts";
 
 interface Options {
@@ -36,9 +37,9 @@ function options(args: string[]): Options {
   const n = (flag: string): number | null => args.includes(flag)
     ? integer(field(flag, ""), flag) : null;
   return {
-    database: resolve(field("--db", ".generated/nasa-foundry.sqlite")),
-    scenario: resolve(field("--scenario", "scenarios/lunar-south-pole/first-transfer.json")),
-    output: resolve(field("--output", ".generated/first-transfer-evidence.json")),
+    database: resolve(field("--db", fileURLToPath(new URL("../.generated/nasa-foundry.sqlite", import.meta.url)))),
+    scenario: resolve(field("--scenario", fileURLToPath(new URL("../scenarios/lunar-south-pole/first-transfer.json", import.meta.url)))),
+    output: resolve(field("--output", fileURLToPath(new URL("../.generated/first-transfer-evidence.json", import.meta.url)))),
     ticks: integer(field("--ticks", "86"), "ticks"),
     cutPowerAt: n("--cut-power-at"),
     restorePowerAt: n("--restore-power-at"),
