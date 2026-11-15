@@ -1,0 +1,34 @@
+{
+  "asset_name": "NASA RASSOR visual reference",
+  "original_source_url": "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master/3D%20Models/Regolith%20Advanced%20Surface%20Systems%20Operations%20Robot%20%28RASSOR%29/Regolith%20Advanced%20Surface%20Systems%20Operations%20Robot%20%28RASSOR%29.glb",
+  "nasa_catalog": "https://science.nasa.gov/3d-resources/regolith-advanced-surface-systems-operations-robot-rassor/",
+  "source_credit": "NASA/Dewey L. Smith; NASA/Jason M. Schuler",
+  "source_format": "GLB",
+  "derived_format": "STL (binary)",
+  "source_bytes": 6283464,
+  "source_sha256": "87792d6778a755031e82a6db7af71613fc9e2442ddd042cc5fdaddca15efa385",
+  "original_triangle_count": 2029759,
+  "exported_triangle_count": 2029759,
+  "max_triangle_target": 250000,
+  "output_bytes": 101488034,
+  "output_sha256": "0335f32e643345f7b1cdd42dbb79fd11f98a23200efad2a5f3d56ab801a5e8bd",
+  "bounds_in_source_coordinates": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "notes": [
+    "Converted reference visualization mesh; not independently engineered.",
+    "STL discards materials, textures, hierarchy, joints, rigging and physical validity.",
+    "Source geometry dimensions/origin have not been validated as flight hardware.",
+    "Do not claim this file is NASA-certified, printable, manufacturable or functional.",
+    "NASA acknowledgment is required; no NASA endorsement is implied."
+  ]
+}
