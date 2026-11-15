@@ -101,6 +101,8 @@ export interface MachineTask {
   reason: string | null;
   completed_steps: number;
   phase_work_ms: number;
+  step_duration_ms: number;
+  planned_steps: number;
 }
 export interface MaterialTransfer {
   /** One physical OI ledger posting; mass never comes from a render event. */
@@ -557,6 +559,9 @@ export function projectFoundry(s: FoundryState): FoundrySnapshot {
       reason: job?.reason ?? null,
       completed_steps: job?.completed_steps ?? 0,
       phase_work_ms: job?.phase_work_ms ?? 0,
+      step_duration_ms: s.scenario.constraints.tick_ms,
+      planned_steps: id === JOBS.delivery ? s.scenario.constraints.delivery_ticks :
+        id === JOBS.feeding ? s.scenario.constraints.feed_ticks : s.scenario.constraints.heating_ticks,
     };
   }) as MachineTask[];
   return {
