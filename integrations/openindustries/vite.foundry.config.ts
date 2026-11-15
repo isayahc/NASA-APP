@@ -12,10 +12,12 @@ import baseConfig from "../../vendor/openindustries/vite.config.ts";
 import { FoundryDatabase } from "./foundry-runtime.ts";
 import { FoundrySseBridge, isLocal } from "./foundry-sse.ts";
 import { buildKinematicsMap } from "./foundry-kinematics-map.mjs";
+import { buildMaterialMap } from './foundry-material-map.mjs';
 
 const ROOT = fileURLToPath(new URL("../../", import.meta.url));
 const CLIENT_FILE = fileURLToPath(new URL("./foundry-browser-stream.mjs", import.meta.url));
 const ADAPTER_URL = '/@fs/' + fileURLToPath(new URL('./foundry-kinematics-browser.mjs', import.meta.url)).replaceAll('\\', '/');
+const MATERIAL_URL = '/@fs/' + fileURLToPath(new URL('./foundry-material-browser.mjs', import.meta.url)).replaceAll('\\', '/');
 
 function requiredEnv(name: string): string {
   /** Fail closed rather than starting a stream for an unknown runtime. */
@@ -38,12 +40,15 @@ function makePlugin() {
           'applyWorldPoses(world.groups, foundryRuntimePoses(workspace.items, evaluateWorkspace(workspace.items, workspace.animation, time)));\n      reportFoundryWorld(world.groups, workspace.items);'],
         ["controls.addEventListener('change',wake);", "controls.addEventListener('change',wake);\n    window.addEventListener('nasa-foundry:pose', wake);"],
         ['controls.dispose();', "window.removeEventListener('nasa-foundry:pose', wake);\n      controls.dispose();"],
+        ['if (cameraAvailable) renderer.render(world.scene, camera);',
+          'if (cameraAvailable) { renderer.render(world.scene, camera); renderFoundryMaterial(world.groups, workspace.items, camera, canvas); }'],
+        ['renderer.dispose();', 'removeFoundryMaterialOverlay(canvas);\n      renderer.dispose();'],
       ];
       for (const [before, after] of replacements) {
         if (code.split(before).length !== 2) throw Error('UNSUPPORTED_OI_VIEWER_POSE_BOUNDARY: ' + before);
         code = code.replace(before, after);
       }
-      return { code: `import { foundryRuntimePoses, reportFoundryWorld } from '${ADAPTER_URL}';\n` + code, map: null };
+      return { code: `import { foundryRuntimePoses, reportFoundryWorld } from '${ADAPTER_URL}';\nimport { renderFoundryMaterial, removeFoundryMaterialOverlay } from '${MATERIAL_URL}';\n` + code, map: null };
     },
     async configureServer(vite: {
       middlewares: { use: (fn: (req: any, res: any, next: () => void) => void) => void };
@@ -71,9 +76,10 @@ function makePlugin() {
         await bridge.start();
         const manifest = JSON.parse(await readFile(resolve(ROOT, '.generated/lunar-foundry.oi.json'), 'utf8'));
         const mapping = await buildKinematicsMap(ROOT, manifest);
+        const materialMapping = await buildMaterialMap(ROOT, manifest);
         vite.middlewares.use((request, response, next) => {
           const url = request.url ?? "";
-          if (url.split("?")[0] === "/api/foundry/kinematics") {
+          if (["/api/foundry/kinematics", "/api/foundry/material-map"].includes(url.split('?')[0])) {
             if (request.method !== 'GET' || !isLocal(request)) {
               response.writeHead(403, { 'Content-Type': 'application/json' });
               response.end('{"error":"LOCAL_READ_ONLY"}');
@@ -85,7 +91,7 @@ function makePlugin() {
               "X-Content-Type-Options": "nosniff",
               "Cross-Origin-Resource-Policy": "same-origin",
             });
-            response.end(JSON.stringify(mapping));
+            response.end(JSON.stringify(url.split('?')[0] === '/api/foundry/material-map' ? materialMapping : mapping));
             return;
           }
           void bridge!.handle(request, response).then((handled) => {

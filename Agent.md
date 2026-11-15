@@ -57,6 +57,9 @@ NASA-APP/
 │   │   ├── foundry-kinematics-map.mjs # Source-verified CAD joint bindings
 │   │   ├── foundry-kinematics.mjs     # Pure committed-progress joint poses
 │   │   ├── foundry-kinematics-browser.mjs # Ephemeral native OI view adapter
+│   │   ├── foundry-material.mjs       # Validated lot/account/posting projection
+│   │   ├── foundry-material-map.mjs   # Reuse declared OI machine port anchors
+│   │   ├── foundry-material-browser.mjs # Ledger meters and spatial annotations
 │   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
@@ -67,6 +70,7 @@ NASA-APP/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
+│   ├── foundry_material.test.ts       # Finite lot balances and settled transfers
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -79,7 +83,8 @@ NASA-APP/
     ├── run_foundry_live.sh           # Launch OI with SSE transport
     ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
     ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
-    └── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
+    ├── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
+    └── verify_foundry_material_browser.ts # Ledger quantities and port evidence
 ```
 
 ## Implemented spatial scene integration (#4)
@@ -111,6 +116,17 @@ checked Vite viewer seam; never write pose updates into durable scene revisions.
 Preserve parent composition (arms → drums → scoops), source hashes, unique part
 matching, limits, frozen failure/offline behavior, and browser matrix assertions.
 F2 controls remain independent; F3 adds no controller clock or commands.
+
+## F4 ledger-owned material presentation
+
+Read `docs/architecture/foundry-material.md`. The material view consumes the exact
+lot/account balances and signed settled postings of OI's resource ledger. It must
+never create mass, a separate feeder stock account, or an independent transfer
+clock. Keep integer grams, finite capacities, null ownership, composition assumptions,
+and cancellation returns explicit. Use #4 declared port anchors with OI's camera
+and world transforms; annotate receipts as historical, not continuous flow.
+Browser tests must compare rendered quantities/meters and port positions to actual
+SQLite projections, including full/empty/paused/blocked/cancelled states.
 
 ## Source-of-truth stack
 

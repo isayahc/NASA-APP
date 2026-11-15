@@ -120,6 +120,9 @@ NASA-APP/
 │   │   ├── foundry-kinematics-map.mjs # Source-verified CAD joint bindings
 │   │   ├── foundry-kinematics.mjs     # Pure committed-progress joint poses
 │   │   ├── foundry-kinematics-browser.mjs # Ephemeral native OI view adapter
+│   │   ├── foundry-material.mjs       # Validated lot/account/posting projection
+│   │   ├── foundry-material-map.mjs   # Reuse declared OI machine port anchors
+│   │   ├── foundry-material-browser.mjs # Ledger meters and spatial annotations
 │   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
@@ -130,6 +133,7 @@ NASA-APP/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
+│   ├── foundry_material.test.ts       # Finite lot balances and settled transfers
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -142,7 +146,8 @@ NASA-APP/
     ├── run_foundry_live.sh           # Launch OI with SSE transport
     ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
     ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
-    └── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
+    ├── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
+    └── verify_foundry_material_browser.ts # Ledger quantities and port evidence
 ```
 
 The two documents intentionally carry the **same structure**. **apps/mission-control** should be a thin host/integration surface for OpenIndustries, *not* a rewritten 3D engine or competing dashboard. The **integrations/** folders are adapters to existing APIs/CLIs; their interfaces must be confirmed against actual repository versions before implementation.
@@ -208,7 +213,7 @@ Issue #6 feature F1 adds a **read-only Server-Sent Events stream** to the existi
 bash scripts/run_foundry_live.sh
 ```
 
-After launch, open the printed local scene URL. The browser diagnostic reports current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons; material visualization and full machine inspection remain follow-on work.
+After launch, open the printed local scene URL. The browser diagnostic reports current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons; full machine inspection remains follow-on work.
 
 ### F3 — Task-driven CAD joints
 
@@ -218,6 +223,15 @@ wheels, arms/drums/scoops, hopper gate/screw and preheater auger. All poses are
 physics. Pause, blocked work, power loss and disconnection freeze progress.
 Refresh/reconnect rebuild the pose from the committed head, without scene edits.
 See the [joint audit, mapping policy and browser verification](docs/architecture/foundry-kinematics.md).
+
+### F4 — Real regolith-lot balances
+
+The live view shows the same finite lot across site, cargo, hopper and preheater,
+with integer grams/kilograms, mass-capacity meters, composition assumptions and
+ledger ownership. Quantity labels use the existing machine port anchors; dotted
+lines are labeled **settled transfer history**, not live particle flow. The feeder
+is a pass-through with no invented inventory. Default delivery is 1,000 g followed
+by five settled 200 g feed steps. See [material behavior and browser tests](docs/architecture/foundry-material.md).
 
 ## Contribution and agent instructions
 

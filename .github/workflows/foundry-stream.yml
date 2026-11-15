@@ -1,4 +1,4 @@
-name: Foundry authoritative stream and CAD kinematics
+name: Foundry authoritative stream, CAD kinematics and material ledger
 
 on:
   pull_request:
@@ -48,12 +48,18 @@ jobs:
       - name: Source-verified CAD joints and controller failure paths
         working-directory: vendor/openindustries
         run: node --import tsx --test ../../tests/foundry_kinematics.test.ts
+      - name: Ledger-backed lot quantities and spatial port mapping
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_material.test.ts
       - name: Native OpenIndustries browser receives committed SSE revisions
         working-directory: vendor/openindustries
         run: node --import tsx ../../scripts/verify_foundry_stream_browser.ts
       - name: Native OI task-driven CAD matrix verification
         working-directory: vendor/openindustries
         run: node --import tsx ../../scripts/verify_foundry_kinematics_browser.ts
+      - name: Native OI material balances, meters and port annotations
+        working-directory: vendor/openindustries
+        run: node --import tsx ../../scripts/verify_foundry_material_browser.ts
       - name: Upload live transport proof
         if: always()
         uses: actions/upload-artifact@v4
@@ -65,5 +71,8 @@ jobs:
             .generated/issue-12/*.png
             .generated/issue-12/*.webm
             .generated/issue-12/12-evidence.json
+            .generated/issue-13/*.png
+            .generated/issue-13/*.webm
+            .generated/issue-13/13-evidence.json
           if-no-files-found: warn
           retention-days: 7
