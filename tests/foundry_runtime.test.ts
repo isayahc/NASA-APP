@@ -9,6 +9,30 @@ import { FoundryDatabase, JOBS, type Scenario, type FoundrySnapshot } from "../i
 
 const scenario = JSON.parse(readFileSync(fileURLToPath(new URL("../scenarios/lunar-south-pole/first-transfer.json", import.meta.url)), "utf8")) as Scenario;
 const credentials = { username: "operator", password: "integration-test-password" };
+const plan = JSON.parse(readFileSync(
+  fileURLToPath(new URL("../scenes/lunar-foundry.plan.json", import.meta.url)), "utf8",
+)) as {
+  machines: { id: string; number: number; ports: string[] }[];
+  links: { from: string; to: string; kind: string }[];
+};
+
+test("source scenario binds exactly to imported OI machine IDs and declared regolith ports", () => {
+  const byId = new Map(plan.machines.map((machine) => [machine.id, machine]));
+  for (const id of Object.values(scenario.machine_ids)) {
+    assert(byId.has(id), "Scenario references missing OI asset: " + id);
+  }
+  assert(plan.links.some((link) =>
+    link.kind === "regolith" &&
+    link.from === scenario.machine_ids.excavator &&
+    link.to === scenario.machine_ids.hopper));
+  assert(plan.links.some((link) =>
+    link.kind === "regolith" &&
+    link.from === scenario.machine_ids.hopper &&
+    link.to === scenario.machine_ids.preheater));
+  assert.equal(scenario.scene_id, "lunar-foundry-mvp");
+});
+
+
 
 async function setup(s: Scenario = scenario) {
   /** Make an isolated, real file-backed SQLite authority. */
