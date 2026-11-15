@@ -19,7 +19,8 @@
   },
   "opening": {
     "source_regolith_g": 10000,
-    "available_energy_mJ": 250000000
+    "available_energy_mJ": 250000000,
+    "hopper_regolith_g": 0
   },
   "constraints": {
     "delivery_g": 1000,
