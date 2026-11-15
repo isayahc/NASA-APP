@@ -79,6 +79,12 @@ The directory layout below is **proposed and not yet implemented**. Components s
 NASA-APP/
 ├── README.md
 ├── Agent.md
+├── assets/                            # Subsystem briefs and verified NASA references
+│   ├── 01-regolith-excavator.md     # Plus other subsystem design briefs
+│   └── rassor/
+│       ├── README.md
+│       ├── rassor-nasa-reference.stl
+│       └── rassor-nasa-reference.metadata.json
 ├── apps/
 │   └── mission-control/
 │       ├── package.json
