@@ -1,0 +1,60 @@
+name: F1 authoritative foundry runtime stream
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  f1-stream:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenIndustries
+          ref: 838ea330296148621f7a23f7cb647b11e73b5184
+          path: vendor/openindustries
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - name: Install real OI simulation dependencies
+        run: npm ci --prefix vendor/openindustries
+      - name: Verify local workbench launcher syntax
+        run: |
+          bash -n scripts/run_foundry_live.sh
+          bash -n scripts/run_foundry.sh
+      - name: SSE browser module syntax
+        run: node --check integrations/openindustries/foundry-browser-stream.mjs
+      - name: Controller-backed SSE integration tests
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_stream.test.ts
+      - name: Existing foundry resource/thermal regression tests
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_runtime.test.ts
+      - name: Assemble the actual ten-machine OI scene in the native local store
+        working-directory: vendor/openindustries
+        run: |
+          node --max-old-space-size=6144 --import tsx ../../scripts/build_lunar_scene.mjs \
+            --oi-root . --app-root ../.. \
+            --output ../../.generated/lunar-foundry.oi.json \
+            --store ../../.generated/f1-browser-scene-store
+      - name: Install Chromium
+        working-directory: vendor/openindustries
+        run: npx playwright install --with-deps chromium
+      - name: Native OpenIndustries browser receives committed SSE revisions
+        working-directory: vendor/openindustries
+        run: node --import tsx ../../scripts/verify_foundry_stream_browser.ts
+      - name: Upload live transport proof
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: f1-authoritative-stream-evidence
+          path: |
+            .generated/f1-browser.png
+            .generated/f1-browser-evidence.json
+          if-no-files-found: warn
+          retention-days: 7

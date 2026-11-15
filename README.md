@@ -114,7 +114,10 @@ NASA-APP/
 ├── integrations/
 │   ├── forma/                          # OpenForma engineering IR + revisions
 │   ├── openindustries/                 # Scene, task/runtime and asset bridge
-│   │   └── foundry-runtime.ts         # Implemented OI-native task/ledger domain
+│   │   ├── foundry-runtime.ts         # Actual OI-native task/resource domain
+│   │   ├── foundry-sse.ts             # Read-only committed revision stream
+│   │   ├── foundry-browser-stream.mjs # Monotonic browser subscriber
+│   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
 ├── scenarios/
@@ -122,6 +125,7 @@ NASA-APP/
 │       └── first-transfer.json        # Finite, modeled regolith/energy inputs
 ├── tests/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
+│   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -129,7 +133,11 @@ NASA-APP/
 │   └── research/                       # Sources and calibration provenance
 └── scripts/
     ├── run_foundry.sh                 # Static OI scene launcher
-    └── run_foundry_sim.ts            # Headless executable material/thermal demo
+    ├── run_foundry_sim.ts            # Headless material/thermal simulation
+    ├── init_foundry_live.ts          # Persistent stream source setup
+    ├── run_foundry_live.sh           # Launch OI with SSE transport
+    ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
+    └── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
 ```
 
 The two documents intentionally carry the **same structure**. **apps/mission-control** should be a thin host/integration surface for OpenIndustries, *not* a rewritten 3D engine or competing dashboard. The **integrations/** folders are adapters to existing APIs/CLIs; their interfaces must be confirmed against actual repository versions before implementation.
@@ -186,6 +194,16 @@ To run the CI-tested failure paths:
 ```
 
 See [the OI-native runtime ADR](docs/architecture/foundry-runtime.md) and [issue #5](https://github.com/isayahc/NASA-APP/issues/5). **This runs headlessly**: issue #6 still needs to connect execution poses/telemetry to the live OpenIndustries scene. No provider credential is needed, and the runtime currently has no agent decisions; do not label it autonomous.
+
+## F1 — Live authoritative runtime snapshots in the OpenIndustries browser
+
+Issue #6 feature F1 adds a **read-only Server-Sent Events stream** to the existing OI workbench. It observes the actual finite-regolith OI SQLite controller and shows real committed job/inventory/temperature revisions, without advancing simulation time, animating machinery or rewriting OI's 3D renderer.
+
+```bash
+bash scripts/run_foundry_live.sh
+```
+
+After launch, open the printed local scene URL. The browser diagnostic reports current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons; F3–F5 will map committed state to CAD joints, material visualization and full machine inspection. **F1 does not make the physical factory autonomous.**
 
 ## Contribution and agent instructions
 
