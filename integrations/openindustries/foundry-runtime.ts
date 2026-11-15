@@ -125,6 +125,7 @@ export interface ThermalState {
   target_temperature_mK: number;
   input_energy_mJ: number;
   lost_energy_mJ: number;
+  numerical_residual_mJ: number;
   last_applied_power_w: number;
   output_ready: boolean;
 }
@@ -342,6 +343,14 @@ function jobPolicy(scenario: Scenario): JobPolicy {
       whole(domain.thermal.temperature_mK, "temperature in millikelvin", 1);
       whole(domain.thermal.input_energy_mJ, "cumulative heat energy");
       whole(domain.thermal.lost_energy_mJ, "cumulative thermal loss");
+      whole(domain.thermal.numerical_residual_mJ, "numerical energy residual");
+      const sampleMassG = amount(domain.resources, "preheater", "regolith");
+      const sensibleEnergyMJ = Math.floor(
+        sampleMassG * cfg.heat_capacity_J_kg_K *
+        (domain.thermal.temperature_mK - cfg.initial_temperature_mK) / 1000,
+      );
+      ensure(domain.thermal.input_energy_mJ === domain.thermal.lost_energy_mJ +
+        sensibleEnergyMJ + domain.thermal.numerical_residual_mJ, "thermal energy balance");
       whole(domain.power_limit_w, "power limit");
       ensure(domain.thermal.output_ready === false ||
         domain.thermal.temperature_mK >= cfg.target_temperature_mK, "premature ready");
@@ -413,7 +422,14 @@ function jobPolicy(scenario: Scenario): JobPolicy {
           (1000 * (requiredEnergy - appliedLossMilliJoule)) /
           (massG * cfg.heat_capacity_J_kg_K),
         );
+        const previousTemperatureMK = t.temperature_mK;
         t.temperature_mK = Math.max(cfg.ambient_temperature_mK, t.temperature_mK + changeMilliK);
+        const storedEnergyChangeMJ = Math.floor(
+          massG * cfg.heat_capacity_J_kg_K *
+          (t.temperature_mK - previousTemperatureMK) / 1000,
+        );
+        t.numerical_residual_mJ +=
+          requiredEnergy - appliedLossMilliJoule - storedEnergyChangeMJ;
         t.input_energy_mJ += requiredEnergy;
         t.lost_energy_mJ += appliedLossMilliJoule;
         t.last_applied_power_w = currentW;
@@ -468,6 +484,7 @@ function createDomain(id: string, scenario: Scenario): DomainState {
       target_temperature_mK: cfg.target_temperature_mK,
       input_energy_mJ: 0,
       lost_energy_mJ: 0,
+      numerical_residual_mJ: 0,
       last_applied_power_w: 0,
       output_ready: false,
     },
