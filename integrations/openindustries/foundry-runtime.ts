@@ -66,7 +66,7 @@ export interface Scenario {
       remainder: string;
     };
   };
-  opening: { source_regolith_g: number; available_energy_mJ: number };
+  opening: { source_regolith_g: number; hopper_regolith_g?: number; available_energy_mJ: number };
   constraints: {
     delivery_g: number;
     hopper_capacity_g: number;
@@ -222,6 +222,7 @@ export function validateScenario(input: unknown): Scenario {
   const c = s.constraints;
   ensure(c && typeof c === "object", "constraints");
   whole(s.opening?.source_regolith_g, "finite regolith");
+  whole(s.opening.hopper_regolith_g ?? 0, "opening hopper regolith");
   whole(s.opening?.available_energy_mJ, "finite energy");
   whole(c.delivery_g, "delivery", 1);
   whole(c.hopper_capacity_g, "hopper capacity", 1);
@@ -241,6 +242,7 @@ export function validateScenario(input: unknown): Scenario {
   whole(c.heat_loss_W_K, "loss coefficient");
   ensure(c.initial_temperature_mK >= c.ambient_temperature_mK, "initial ambient relationship");
   ensure(c.target_temperature_mK > c.initial_temperature_mK, "target > starting temperature");
+  ensure((s.opening.hopper_regolith_g ?? 0) <= c.hopper_capacity_g, "initial hopper overflow");
   ensure(c.delivery_g <= c.preheater_capacity_g && c.delivery_g <= c.hopper_capacity_g,
     "initial transfer exceeds physical capacity");
   ensure(c.delivery_g % c.feed_ticks === 0, "feed step must be exact integer grams");
@@ -333,7 +335,7 @@ function jobPolicy(scenario: Scenario): JobPolicy {
       validateResourceBalances(domain.resources);
       const mass = ["site", "transit", "hopper", "preheater"]
         .reduce((sum, name) => sum + amount(domain.resources, name as Account, "regolith"), 0);
-      ensure(mass === scenario.opening.source_regolith_g, "regolith conservation");
+      ensure(mass === scenario.opening.source_regolith_g + (scenario.opening.hopper_regolith_g ?? 0), "regolith conservation");
       const energy = amount(domain.resources, "energy", "electricity") +
         amount(domain.resources, "energy-spent", "electricity");
       ensure(energy === scenario.opening.available_energy_mJ, "energy conservation");
@@ -441,6 +443,9 @@ function createDomain(id: string, scenario: Scenario): DomainState {
   if (scenario.opening.source_regolith_g > 0)
     opening.push({ account_id: "site", resource_id: "regolith", lot_id: scenario.lot.id, unit: "g",
       quantity: scenario.opening.source_regolith_g });
+  if ((scenario.opening.hopper_regolith_g ?? 0) > 0)
+    opening.push({ account_id: "hopper", resource_id: "regolith", lot_id: scenario.lot.id, unit: "g",
+      quantity: scenario.opening.hopper_regolith_g! });
   if (scenario.opening.available_energy_mJ > 0)
     opening.push({ account_id: "energy", resource_id: "electricity",
       lot_id: "stored-energy", unit: "mJ", quantity: scenario.opening.available_energy_mJ });
@@ -544,7 +549,7 @@ export function projectFoundry(s: FoundryState): FoundrySnapshot {
       source: s.scenario.lot.provenance,
     },
     mass_conserved: Object.values(inventory).reduce((a,b) => a+b, 0) ===
-      s.scenario.opening.source_regolith_g,
+      s.scenario.opening.source_regolith_g + (s.scenario.opening.hopper_regolith_g ?? 0),
     energy_conserved: energyAvailable + energySpent === s.scenario.opening.available_energy_mJ,
   };
 }
