@@ -103,6 +103,19 @@ export interface MachineTask {
   phase_work_ms: number;
   step_duration_ms: number;
   planned_steps: number;
+  scheduled: boolean;
+  phase_id: string | null;
+  updated_at_ms: number | null;
+  last_transition: TaskTransition | null;
+}
+export interface TaskTransition {
+  from: SimulationJob['state'] | null;
+  to: SimulationJob['state'];
+  reason: string | null;
+  phase_id: string | null;
+  action: string;
+  revision: number;
+  at_ms: number;
 }
 export interface MaterialTransfer {
   /** One physical OI ledger posting; mass never comes from a render event. */
@@ -169,6 +182,8 @@ export interface FoundryState {
   model_sha256: string;
   scenario: Scenario;
   schedule: JobSchedule;
+  /** Optional on older databases; missing history is never reconstructed in the UI. */
+  task_transitions?: Record<string, TaskTransition>;
 }
 export interface FoundrySnapshot {
   version: 1;
@@ -190,6 +205,7 @@ export interface FoundrySnapshot {
   };
   energy_mJ: { available: number; spent: number; opening: number };
   thermal: ThermalState;
+  power: { requested_limit_w: number; available_limit_w: number };
   last_transfers: MaterialTransfer[];
   observations: MachineObservation[];
   machines: MachineTask[];
@@ -567,6 +583,10 @@ export function projectFoundry(s: FoundryState): FoundrySnapshot {
       id, machine_id: machineId,
       status: job?.state ?? "queued",
       reason: job?.reason ?? null,
+      scheduled: Boolean(job),
+      phase_id: job?.phases[job.phase_index]?.id ?? null,
+      updated_at_ms: job?.updated_at_ms ?? null,
+      last_transition: structuredClone(s.task_transitions?.[id] ?? null),
       completed_steps: job?.completed_steps ?? 0,
       phase_work_ms: job?.phase_work_ms ?? 0,
       step_duration_ms: s.scenario.constraints.tick_ms,
@@ -600,6 +620,8 @@ export function projectFoundry(s: FoundryState): FoundrySnapshot {
       opening: s.scenario.opening.available_energy_mJ,
     },
     thermal: structuredClone(domain.thermal),
+    power: { requested_limit_w: s.scenario.constraints.heater_requested_w,
+      available_limit_w: domain.power_limit_w },
     last_transfers: domain.transfer_log.slice(-10),
     observations: domain.observations.slice(-10),
     machines,
@@ -645,6 +667,18 @@ function transition(s: FoundryState, command: SimulationCommand): FoundryState {
       command.action, policy);
   } else {
     throw Error("UNSUPPORTED_FOUNDRY_COMMAND");
+  }
+  for (const job of next.schedule.jobs) {
+    const previous = s.schedule.jobs.find(j => j.id === job.id);
+    if (!previous || previous.state !== job.state || previous.reason !== job.reason ||
+        previous.phase_index !== job.phase_index) {
+      next.task_transitions ??= {};
+      next.task_transitions[job.id] = {
+        from: previous?.state ?? null, to: job.state, reason: job.reason,
+        phase_id: job.phases[job.phase_index]?.id ?? null, action: command.action,
+        revision: s.revision + 1, at_ms: next.simulation_time_ms,
+      };
+    }
   }
   validateFoundryState(next);
   return next;

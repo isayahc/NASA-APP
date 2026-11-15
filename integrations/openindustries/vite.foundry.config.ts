@@ -6,6 +6,7 @@
  * OI-owned. The plugin adds only a read-only runtime transport and diagnostic.
  */
 import { readFile } from "node:fs/promises";
+import { createHash } from 'node:crypto';
 import { resolve, relative, isAbsolute } from "node:path";
 import { fileURLToPath } from "node:url";
 import baseConfig from "../../vendor/openindustries/vite.config.ts";
@@ -13,11 +14,13 @@ import { FoundryDatabase } from "./foundry-runtime.ts";
 import { FoundrySseBridge, isLocal } from "./foundry-sse.ts";
 import { buildKinematicsMap } from "./foundry-kinematics-map.mjs";
 import { buildMaterialMap } from './foundry-material-map.mjs';
+import { buildInspectionMap } from './foundry-inspection-map.mjs';
 
 const ROOT = fileURLToPath(new URL("../../", import.meta.url));
 const CLIENT_FILE = fileURLToPath(new URL("./foundry-browser-stream.mjs", import.meta.url));
 const ADAPTER_URL = '/@fs/' + fileURLToPath(new URL('./foundry-kinematics-browser.mjs', import.meta.url)).replaceAll('\\', '/');
 const MATERIAL_URL = '/@fs/' + fileURLToPath(new URL('./foundry-material-browser.mjs', import.meta.url)).replaceAll('\\', '/');
+const INSPECTION_URL = '/@fs/' + fileURLToPath(new URL('./foundry-inspection-browser.mjs', import.meta.url)).replaceAll('\\', '/');
 
 function requiredEnv(name: string): string {
   /** Fail closed rather than starting a stream for an unknown runtime. */
@@ -32,6 +35,12 @@ function makePlugin() {
     name: "nasa-foundry-authoritative-stream",
     enforce: "pre" as const,
     transform(code: string, id: string) {
+      if (id.replaceAll('\\', '/').endsWith('/src/components/system-inspector.tsx')) {
+        const seam = '<h4>{current.binding.semantic.label ?? current.binding.semantic.entity_id}</h4>';
+        if (code.split(seam).length !== 2) throw Error('UNSUPPORTED_OI_INSPECTOR_BOUNDARY');
+        return { code: `import { FoundryInspection } from '${INSPECTION_URL}';\n` + code.replace(seam,
+          seam + '\n<FoundryInspection machineId={system.targets.find(t => t.bindingId === current.binding.binding_id)?.instanceId} assetId={workspace.items[current.targets[0]?.instance]?.asset.id} bindingStatus={current.status} stepHash={system.manifest.geometry.sha256} irHash={current.binding.semantic.sha256} />'), map: null };
+      }
       if (!id.replaceAll('\\', '/').endsWith('/src/components/workspace-viewer.tsx')) return;
       // Pinned source seam: preserve OI's renderer and applyWorldPoses, replacing
       // only its evaluated view pose. Fail explicitly if upstream changes it.
@@ -77,12 +86,29 @@ function makePlugin() {
         const manifest = JSON.parse(await readFile(resolve(ROOT, '.generated/lunar-foundry.oi.json'), 'utf8'));
         const mapping = await buildKinematicsMap(ROOT, manifest);
         const materialMapping = await buildMaterialMap(ROOT, manifest);
+        const inspectionMapping = await buildInspectionMap(ROOT, manifest);
         vite.middlewares.use((request, response, next) => {
           const url = request.url ?? "";
-          if (["/api/foundry/kinematics", "/api/foundry/material-map"].includes(url.split('?')[0])) {
+          const path = url.split('?')[0];
+          const artifact = inspectionMapping.machines.flatMap(m => m.artifacts).find(a => a.url === path);
+          if (["/api/foundry/kinematics", "/api/foundry/material-map", "/api/foundry/inspection-map"].includes(path) || artifact) {
             if (request.method !== 'GET' || !isLocal(request)) {
               response.writeHead(403, { 'Content-Type': 'application/json' });
               response.end('{"error":"LOCAL_READ_ONLY"}');
+              return;
+            }
+            if (artifact) {
+              // Only exact, startup-verified plan sources; never a user-supplied filesystem path.
+              void readFile(resolve(ROOT, artifact.path)).then(bytes => {
+                if (createHash('sha256').update(bytes).digest('hex') !== artifact.sha256) {
+                  response.writeHead(409); response.end('ENGINEERING_SOURCE_CHANGED'); return;
+                }
+                response.writeHead(200, { 'Content-Type': 'application/octet-stream',
+                  'Content-Disposition': `attachment; filename="${artifact.path.split('/').at(-1)}"`,
+                  'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff',
+                  'Cross-Origin-Resource-Policy': 'same-origin' });
+                response.end(bytes);
+              }).catch(() => { response.writeHead(503); response.end(); });
               return;
             }
             response.writeHead(200, {
@@ -91,7 +117,8 @@ function makePlugin() {
               "X-Content-Type-Options": "nosniff",
               "Cross-Origin-Resource-Policy": "same-origin",
             });
-            response.end(JSON.stringify(url.split('?')[0] === '/api/foundry/material-map' ? materialMapping : mapping));
+            response.end(JSON.stringify(path === '/api/foundry/inspection-map' ? inspectionMapping :
+              path === '/api/foundry/material-map' ? materialMapping : mapping));
             return;
           }
           void bridge!.handle(request, response).then((handled) => {
@@ -126,6 +153,7 @@ function makePlugin() {
 
 export default {
   ...baseConfig,
+  resolve: { ...baseConfig.resolve, dedupe: ['react', 'react-dom'] },
   plugins: [makePlugin(), ...(baseConfig.plugins ?? [])],
   server: {
     ...baseConfig.server,

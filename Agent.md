@@ -60,6 +60,10 @@ NASA-APP/
 │   │   ├── foundry-material.mjs       # Validated lot/account/posting projection
 │   │   ├── foundry-material-map.mjs   # Reuse declared OI machine port anchors
 │   │   ├── foundry-material-browser.mjs # Ledger meters and spatial annotations
+│   │   ├── foundry-inspection-map.mjs  # Verify actual STEP/MechanicalIR source pins
+│   │   ├── foundry-inspection-store.mjs # F1 snapshot/freshness subscription
+│   │   ├── foundry-inspection-browser.mjs # Native System Inspector runtime section
+│   │   ├── foundry-inspection.css      # Native inspector responsive layout
 │   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
@@ -71,6 +75,7 @@ NASA-APP/
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
 │   ├── foundry_material.test.ts       # Finite lot balances and settled transfers
+│   ├── foundry_inspection.test.ts     # Durable transitions and engineering pins
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -84,7 +89,8 @@ NASA-APP/
     ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
     ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
     ├── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
-    └── verify_foundry_material_browser.ts # Ledger quantities and port evidence
+    ├── verify_foundry_material_browser.ts # Ledger quantities and port evidence
+    └── verify_foundry_inspection_browser.ts # Native live inspection and freshness
 ```
 
 ## Implemented spatial scene integration (#4)
@@ -128,7 +134,20 @@ and world transforms; annotate receipts as historical, not continuous flow.
 Browser tests must compare rendered quantities/meters and port positions to actual
 SQLite projections, including full/empty/paused/blocked/cancelled states.
 
+## F5 native runtime inspection
+
+Read `docs/architecture/foundry-inspection.md`. Extend the pinned native System
+Inspector seam and its selected semantic/geometry binding; do not introduce another
+selection authority or dashboard. Only F1-accepted snapshots supply readings.
+Keep last-recorded power distinct from instantaneous demand, unavailable telemetry
+distinct from zero, and `resolved` source identity distinct from certified physics.
+Task transitions are recorded in the same controller transaction and survive replay;
+older missing history remains explicitly unavailable. Health heartbeats verify an
+idle authority without creating revisions; open/error/timeout alone cannot certify
+fresh readings. Source downloads are exact allowlisted, hash-checked local artifacts.
+
 ## Source-of-truth stack
+
 
 - **[Mapped-Assembly/OpenIndustries](https://github.com/Mapped-Assembly/OpenIndustries)** owns the spatial scene, interactive viewer, task execution/world state, and existing simulation infrastructure. Audit and extend existing simulation, Field Lab, material and robot/asset facilities before creating anything parallel.
 - **[Mapped-Assembly/OpenForma](https://github.com/Mapped-Assembly/OpenForma)** owns domain engineering artifacts and constraints, especially ChemicalIR and ProcessIR, plus supported electrical, thermal, fluidic and mechanical domains. Generation/validation does **not** prove production yield or physical feasibility.
