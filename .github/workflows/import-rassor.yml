@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install Draco glTF decoder
+        run: npm install --no-save --no-package-lock @gltf-transform/core@4.5.1 @gltf-transform/extensions@4.5.1 draco3dgltf@1.5.7
       - name: Install Blender and STL validation dependencies
         run: |
           sudo apt-get update -qq
