@@ -377,8 +377,21 @@ function jobPolicy(scenario: Scenario): JobPolicy {
         if (massG !== cfg.delivery_g)
           return { kind: "waiting" as const, reason: "no-validated-preheater-lot" };
         const t = domain.thermal;
-        const currentW = t.temperature_mK < cfg.target_temperature_mK
-          ? Math.min(cfg.heater_requested_w, domain.power_limit_w) : 0;
+        const aboveAmbientMK = Math.max(0, t.temperature_mK - cfg.ambient_temperature_mK);
+        const lossW = Math.floor((cfg.heat_loss_W_K * aboveAmbientMK) / 1000);
+        const lossMilliJoule = cfg.tick_ms * lossW;
+        // Bounded controller: supply enough power to approach the setpoint and
+        // maintain it against modeled heat loss. No per-frame temperature hacks.
+        const sensibleEnergyNeededMJ = Math.max(0, Math.ceil(
+          (cfg.target_temperature_mK - t.temperature_mK) *
+          massG * cfg.heat_capacity_J_kg_K / 1000,
+        ));
+        const requestedW = Math.ceil(
+          (sensibleEnergyNeededMJ + lossMilliJoule) / cfg.tick_ms,
+        );
+        const currentW = Math.min(
+          cfg.heater_requested_w, domain.power_limit_w, requestedW,
+        );
         if (t.temperature_mK < cfg.target_temperature_mK && currentW === 0)
           return { kind: "waiting" as const, reason: "insufficient-power" };
         const requiredEnergy = currentW * cfg.tick_ms;
@@ -388,23 +401,21 @@ function jobPolicy(scenario: Scenario): JobPolicy {
           move(domain, "energy", "energy-spent", "electricity",
             requiredEnergy, id, effect + ":energy", at, "stored-energy");
         }
-        const aboveAmbientMK = Math.max(0, t.temperature_mK - cfg.ambient_temperature_mK);
-        // UA * delta(K) gives W; multiply by duration(ms) to get mJ.
-        const lossW = Math.floor((cfg.heat_loss_W_K * aboveAmbientMK) / 1000);
-        const lossMilliJoule = Math.min(
-          cfg.tick_ms * lossW,
+        // Losses cannot exceed supplied heat plus the retained sensible energy.
+        const appliedLossMilliJoule = Math.min(
+          lossMilliJoule,
           Math.max(0, requiredEnergy + Math.floor(
             massG * cfg.heat_capacity_J_kg_K *
             (t.temperature_mK - cfg.ambient_temperature_mK) / 1000,
           )),
         );
         const changeMilliK = Math.floor(
-          (1000 * (requiredEnergy - lossMilliJoule)) /
+          (1000 * (requiredEnergy - appliedLossMilliJoule)) /
           (massG * cfg.heat_capacity_J_kg_K),
         );
         t.temperature_mK = Math.max(cfg.ambient_temperature_mK, t.temperature_mK + changeMilliK);
         t.input_energy_mJ += requiredEnergy;
-        t.lost_energy_mJ += lossMilliJoule;
+        t.lost_energy_mJ += appliedLossMilliJoule;
         t.last_applied_power_w = currentW;
         if (context.completes_phase && t.temperature_mK < cfg.target_temperature_mK)
           return { kind: "failed" as const, reason: "temperature-below-release-criterion" };
