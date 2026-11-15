@@ -36,7 +36,7 @@ function args(argv) {
   for (let i = 0; i < argv.length; ++i) {
     if (!argv[i].startsWith("--")) continue;
     const key = argv[i].slice(2);
-    if (!["oi-root", "app-root", "output", "plan", "first-four"].includes(key))
+    if (!["oi-root", "app-root", "output", "plan", "store", "first-four"].includes(key))
       throw Error("Unknown flag: " + argv[i]);
     if (key === "first-four") {
       values[key] = true;
@@ -51,6 +51,7 @@ function args(argv) {
     appRoot: resolve(values["app-root"] ?? DEFAULT_APP_ROOT),
     output: resolve(values.output ?? join(DEFAULT_APP_ROOT, ".generated/lunar-foundry.oi.json")),
     plan: values.plan ?? DEFAULT_PLAN,
+    store: values.store ? resolve(values.store) : null,
     firstFour: Boolean(values["first-four"]),
   };
 }
@@ -229,6 +230,71 @@ async function createKernel(oiRoot) {
   return factory({ wasmBinary: new Uint8Array(wasm) });
 }
 
+
+/** Publish verified portable geometry into OI's real local SQLite+asset backend.
+ *
+ * Direct backend use preserves the native System Inspector metadata. The MCP
+ * create_scene draft currently carries scene instances but not inspection data.
+ */
+async function persistLocalScene(oiRoot, storePath, manifest) {
+  const { LocalSceneBackend } =
+    await import(pathToFileURL(join(oiRoot, "server/local-scene-backend.ts")).href);
+  const { readManifest, hydrateManifest } =
+    await import(pathToFileURL(join(oiRoot, "src/lib/workspace.ts")).href);
+  const backend = new LocalSceneBackend(storePath);
+  try {
+    const versions = new Map();
+    for (const asset of manifest.bundledAssets) {
+      versions.set(asset.id, await backend.persistAsset(asset));
+    }
+    const digest = sha256(Buffer.from(JSON.stringify(manifest.assets) + JSON.stringify(manifest.instances)));
+    const makeUUID = (hex) =>
+      hex.slice(0, 8) + "-" + hex.slice(8, 12) + "-4" + hex.slice(13, 16) +
+      "-a" + hex.slice(17, 20) + "-" + hex.slice(20, 32);
+    const sceneId = makeUUID(digest);
+    const requestId = makeUUID(sha256(Buffer.from("NASA-APP-layout:" + digest)));
+    const document = {
+      ...manifest,
+      instances: manifest.instances.map((entry) => ({
+        ...entry,
+        cloudVersionId: versions.get(entry.assetId),
+      })),
+      authoring: {
+        via: "cli",
+        agent: "NASA-APP-spatial-builder",
+        parent_revision: null,
+        request_id: requestId,
+        request_digest: digest,
+      },
+    };
+    delete document.bundledAssets;
+    delete document.bundledVersions;
+    readManifest(document);
+    const current = await backend.head(sceneId);
+    if (current) {
+      if (JSON.stringify(current.document) !== JSON.stringify(document)) {
+        throw Error("Scene ID collision or altered local scene. Use a fresh store; existing revisions will not be overwritten.");
+      }
+    } else {
+      await backend.save(sceneId, "NASA-APP Lunar Oxygen Foundry (layout only)", document, 0, requestId);
+    }
+    const exported = await backend.exportScene(sceneId);
+    const reopened = hydrateManifest(readManifest(exported), []);
+    if (reopened.items.length !== manifest.instances.length || reopened.items.some((i) => i.missing))
+      throw Error("Persisted OI scene export/reload lost CAD geometry");
+    return {
+      scene_id: sceneId,
+      store_dir: storePath,
+      local_browser_url: "http://127.0.0.1:5173/?localSceneId=" + sceneId,
+      portable_asset_count: reopened.items.length,
+      inspected_system_count: exported.inspection?.systems.length ?? 0,
+      note: "Scene persistence verified; runtime machines still NOT EXECUTABLE.",
+    };
+  } finally {
+    backend.close();
+  }
+}
+
 async function main() {
   const opts = args(process.argv.slice(2));
   const source = JSON.parse(await readFile(guardedInputPath(opts.appRoot, opts.plan), "utf8"));
@@ -385,6 +451,7 @@ async function main() {
       (payload.byteLength / 1048576).toFixed(1) +
       " MiB); do not save an unloadable file. Reduce tessellation or split geometry.");
   graph.portable_scene_sha256 = sha256(payload);
+  const localScene = opts.store ? await persistLocalScene(opts.oiRoot, opts.store, manifest) : null;
   await mkdir(dirname(opts.output), { recursive: true });
   await writeFile(opts.output, payload);
   const graphFile = opts.output.replace(/\.oi\.json$/, ".connections.json");
@@ -394,6 +461,7 @@ async function main() {
     event: "complete", scene: opts.output, graph: graphFile,
     scene_bytes: payload.byteLength, room, machines: items.length, links: links.length,
     scene_sha256: graph.portable_scene_sha256,
+    ...(localScene ? { local_scene: localScene } : {}),
     note: "Static OpenIndustries scene with real CAD geometry; no factory execution.",
   }, null, 2));
 }
