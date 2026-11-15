@@ -79,6 +79,17 @@ def build_stl(output_path: Path, max_faces: int, blender_executable: str) -> dic
         temp = Path(directory)
         glb = temp / "nasa-original.glb"
         glb.write_bytes(source)
+        decoded = temp / "nasa-draco-decoded.glb"
+        subprocess.run(
+            [
+                "node",
+                str(Path(__file__).with_name("decode_rassor_draco.mjs").resolve()),
+                str(glb),
+                str(decoded),
+            ],
+            check=True,
+            timeout=300,
+        )
         output_path.parent.mkdir(parents=True, exist_ok=True)
         command = [
             blender_executable,
@@ -88,7 +99,7 @@ def build_stl(output_path: Path, max_faces: int, blender_executable: str) -> dic
             "--python",
             str(BLENDER_SCRIPT.resolve()),
             "--",
-            str(glb),
+            str(decoded),
             str(output_path.resolve()),
             str(max_faces),
         ]
