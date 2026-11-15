@@ -117,6 +117,9 @@ NASA-APP/
 │   │   ├── foundry-runtime.ts         # Actual OI-native task/resource domain
 │   │   ├── foundry-sse.ts             # Read-only committed revision stream
 │   │   ├── foundry-browser-stream.mjs # Monotonic browser subscriber
+│   │   ├── foundry-kinematics-map.mjs # Source-verified CAD joint bindings
+│   │   ├── foundry-kinematics.mjs     # Pure committed-progress joint poses
+│   │   ├── foundry-kinematics-browser.mjs # Ephemeral native OI view adapter
 │   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
@@ -126,6 +129,7 @@ NASA-APP/
 ├── tests/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
+│   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -137,7 +141,8 @@ NASA-APP/
     ├── init_foundry_live.ts          # Persistent stream source setup
     ├── run_foundry_live.sh           # Launch OI with SSE transport
     ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
-    └── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
+    ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
+    └── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
 ```
 
 The two documents intentionally carry the **same structure**. **apps/mission-control** should be a thin host/integration surface for OpenIndustries, *not* a rewritten 3D engine or competing dashboard. The **integrations/** folders are adapters to existing APIs/CLIs; their interfaces must be confirmed against actual repository versions before implementation.
@@ -174,7 +179,7 @@ Primary references:
 bash scripts/run_foundry.sh
 ```
 
-This builds a real CAD-backed portable OpenIndustries scene, persists it to its local scene store, starts the existing OI workbench and prints a direct scene URL. Use `--build-only` to generate without starting a server. See [spatial integration ADR](docs/architecture/lunar-scene.md) and [issue #4](https://github.com/isayahc/NASA-APP/issues/4). The runtime controller is now implemented as a **separate headless OI-backed first-transfer domain**; OpenCode autonomy, the live machine-state-to-3D binding, and oxygen production remain unfinished.
+This builds a real CAD-backed portable OpenIndustries scene, persists it to its local scene store, starts the existing OI workbench and prints a direct scene URL. Use `--build-only` to generate without starting a server. See [spatial integration ADR](docs/architecture/lunar-scene.md) and [issue #4](https://github.com/isayahc/NASA-APP/issues/4). For controller-driven joint poses, use the live launcher below. OpenCode autonomy and oxygen production remain unfinished.
 
 ### Run the executable regolith/preheat slice (without a browser)
 
@@ -193,7 +198,7 @@ To run the CI-tested failure paths:
 (cd vendor/openindustries && node --import tsx --test ../../tests/foundry_runtime.test.ts)
 ```
 
-See [the OI-native runtime ADR](docs/architecture/foundry-runtime.md) and [issue #5](https://github.com/isayahc/NASA-APP/issues/5). **This runs headlessly**: issue #6 still needs to connect execution poses/telemetry to the live OpenIndustries scene. No provider credential is needed, and the runtime currently has no agent decisions; do not label it autonomous.
+See [the OI-native runtime ADR](docs/architecture/foundry-runtime.md) and [issue #5](https://github.com/isayahc/NASA-APP/issues/5). This command runs headlessly; the live launcher connects committed state to the OI view. No provider credential is needed, and the runtime currently has no agent decisions; do not label it autonomous.
 
 ## F1 — Live authoritative runtime snapshots in the OpenIndustries browser
 
@@ -203,7 +208,16 @@ Issue #6 feature F1 adds a **read-only Server-Sent Events stream** to the existi
 bash scripts/run_foundry_live.sh
 ```
 
-After launch, open the printed local scene URL. The browser diagnostic reports current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons; F3–F5 will map committed state to CAD joints, material visualization and full machine inspection. **F1 does not make the physical factory autonomous.**
+After launch, open the printed local scene URL. The browser diagnostic reports current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons; material visualization and full machine inspection remain follow-on work.
+
+### F3 — Task-driven CAD joints
+
+The live launcher also applies committed work progress to the actual excavator
+wheels, arms/drums/scoops, hopper gate/screw and preheater auger. All poses are
+**simulated/derived**; wheel articulation is in place with no terrain or travel
+physics. Pause, blocked work, power loss and disconnection freeze progress.
+Refresh/reconnect rebuild the pose from the committed head, without scene edits.
+See the [joint audit, mapping policy and browser verification](docs/architecture/foundry-kinematics.md).
 
 ## Contribution and agent instructions
 

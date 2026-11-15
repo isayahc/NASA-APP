@@ -54,6 +54,9 @@ NASA-APP/
 │   │   ├── foundry-runtime.ts         # Actual OI-native task/resource domain
 │   │   ├── foundry-sse.ts             # Read-only committed revision stream
 │   │   ├── foundry-browser-stream.mjs # Monotonic browser subscriber
+│   │   ├── foundry-kinematics-map.mjs # Source-verified CAD joint bindings
+│   │   ├── foundry-kinematics.mjs     # Pure committed-progress joint poses
+│   │   ├── foundry-kinematics-browser.mjs # Ephemeral native OI view adapter
 │   │   └── vite.foundry.config.ts     # Plugin for original OI Vite UI
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
@@ -63,6 +66,7 @@ NASA-APP/
 ├── tests/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
+│   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
@@ -74,7 +78,8 @@ NASA-APP/
     ├── init_foundry_live.ts          # Persistent stream source setup
     ├── run_foundry_live.sh           # Launch OI with SSE transport
     ├── advance_foundry_live.ts       # CLI-only explicit real controller steps
-    └── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
+    ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
+    └── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
 ```
 
 ## Implemented spatial scene integration (#4)
@@ -89,13 +94,23 @@ The first executable slice uses `integrations/openindustries/foundry-runtime.ts`
 
 Read `scenarios/lunar-south-pole/first-transfer.json` for the explicit site-material assumptions; `scripts/run_foundry_sim.ts` runs the headless demonstration and `tests/foundry_runtime.test.ts` tests mass/energy conservation, power cuts, paused/cancelled jobs, duplicate commands, blocked machinery and restart/replay.
 
-**Never** treat task completion in a SQLite snapshot as a robot animation or physical lunar measurement. OI's browser currently displays the static CAD scene from #4; #6 must supply verified real-time pose/telemetry synchronization. No oxygen is produced or claimed in #5.
+**Never** treat task completion in a SQLite snapshot as physical lunar measurement. The static launcher displays #4 CAD; the live launcher combines F1 committed snapshots with F3 derived CAD joint poses. No oxygen is produced or claimed in #5.
 
 ## F1 stream is read-only and must remain authoritative
 
 The native OpenIndustries workbench can now be launched through `scripts/run_foundry_live.sh`, which extends the pinned OI Vite configuration without modifying the upstream 3D viewer. `integrations/openindustries/foundry-sse.ts` reads only committed `FoundryDatabase` snapshots and publishes instance-scoped revision SSE. The browser adapter `foundry-browser-stream.mjs` rejects duplicate, stale, wrong-instance and unbalanced state; accepted frames fire `nasa-foundry:snapshot` CustomEvents.
 
 Read `docs/architecture/foundry-stream.md` before implementing F2–F5. **Do not send controller write actions through the F1 stream, derive simulation time from rendering, or use the two-second durable scene poll for live telemetry.** Test against the real local OI scene, SQLite controller and Chromium browser, not hand-authored example responses alone.
+
+## F3 source-verified joint presentation
+
+Read `docs/architecture/foundry-kinematics.md` for the audited joints, coordinate
+conversion and explicitly assumed visual policy. Only committed successful job
+steps drive the 71 verified CAD parts. Use native OI `applyWorldPoses` through the
+checked Vite viewer seam; never write pose updates into durable scene revisions.
+Preserve parent composition (arms → drums → scoops), source hashes, unique part
+matching, limits, frozen failure/offline behavior, and browser matrix assertions.
+F2 controls remain independent; F3 adds no controller clock or commands.
 
 ## Source-of-truth stack
 

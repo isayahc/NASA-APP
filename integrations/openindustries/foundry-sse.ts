@@ -53,7 +53,7 @@ export function frameId(frame: FoundryStreamFrame): string {
   return frame.instance_id + ":" + frame.revision;
 }
 
-function isLocal(req: IncomingMessage): boolean {
+export function isLocal(req: IncomingMessage): boolean {
   /** Enforce browser same-origin and loopback Host, preventing cross-site reads. */
   const host = req.headers.host ?? "";
   if (!/^(localhost|127\.0\.0\.1):\d{2,5}$/.test(host)) return false;

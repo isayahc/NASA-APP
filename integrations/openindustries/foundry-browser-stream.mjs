@@ -4,6 +4,8 @@
  *
  * No task mutation, physical animation or fabricated telemetry occurs here.
  */
+import { configureFoundryKinematics, receiveFoundryKinematics } from './foundry-kinematics-browser.mjs';
+
 export const PROTOCOL = "nasa.foundry.snapshot.v1";
 export const SNAPSHOT_EVENT = "nasa-foundry:snapshot";
 
@@ -44,7 +46,7 @@ function stateText(frame) {
     "Preheater " + (snapshot.thermal.temperature_mK / 1000).toFixed(3) +
       " K · spent " + (snapshot.energy_mJ.spent / 1000000).toFixed(3) + " kJ",
     job,
-    "SIMULATED · model only · no live robot motion",
+    "SIMULATED · model only · joint poses derived from committed work",
   ].join("\n");
 }
 
@@ -78,34 +80,55 @@ export async function startFoundryBrowserStream({
   panel.textContent = "Foundry stream: connecting to local authoritative controller";
   documentObject.body.appendChild(panel);
 
-  const eventSource = new EventSourceClass("/api/foundry/events");
+  const mapResponse = await fetcher('/api/foundry/kinematics', { cache: 'no-store' });
+  if (!mapResponse.ok) throw Error('Kinematic CAD mapping unavailable');
+  configureFoundryKinematics(await mapResponse.json(), config.oi_scene_id);
+
   let accepted = null;
-  eventSource.addEventListener("open", () => {
-    panel.setAttribute("data-stream-status", "connected");
-    if (!accepted) panel.textContent = "Foundry stream connected · awaiting committed state";
-  });
-  eventSource.addEventListener("snapshot", (event) => {
-    let proposed;
-    try { proposed = JSON.parse(event.data); } catch { return; }
-    const next = acceptFrame(accepted, proposed, config.scene_id);
-    if (!next) return;
-    accepted = next;
-    panel.setAttribute("data-stream-status", "connected");
-    panel.setAttribute("data-runtime-revision", String(next.revision));
-    panel.textContent = stateText(next);
-    windowObject.dispatchEvent(new CustomEvent(SNAPSHOT_EVENT, { detail: next }));
-  });
-  eventSource.addEventListener("stream-error", () => {
-    panel.setAttribute("data-stream-status", "offline");
-    panel.textContent = "Foundry controller unavailable · last snapshot is stale";
-  });
-  eventSource.addEventListener("error", () => {
-    panel.setAttribute("data-stream-status", "offline");
-    panel.textContent = "Foundry stream disconnected · reconnecting without advancing simulation";
-  });
+  let eventSource;
+  const connect = () => {
+    eventSource = new EventSourceClass("/api/foundry/events");
+    eventSource.addEventListener("open", () => {
+      panel.setAttribute("data-stream-status", "connected");
+      panel.textContent = accepted ? stateText(accepted) : "Foundry stream connected · awaiting committed state";
+    });
+    eventSource.addEventListener("snapshot", (event) => {
+      let proposed;
+      try { proposed = JSON.parse(event.data); } catch { return; }
+      const next = acceptFrame(accepted, proposed, config.scene_id);
+      if (!next) return;
+      accepted = next;
+      panel.setAttribute("data-stream-status", "connected");
+      panel.setAttribute("data-runtime-revision", String(next.revision));
+      panel.textContent = stateText(next);
+      receiveFoundryKinematics(next);
+      windowObject.dispatchEvent(new CustomEvent(SNAPSHOT_EVENT, { detail: next }));
+    });
+    eventSource.addEventListener("stream-error", () => {
+      panel.setAttribute("data-stream-status", "offline");
+      panel.textContent = "Foundry controller unavailable · last snapshot is stale";
+    });
+    eventSource.addEventListener("error", () => {
+      panel.setAttribute("data-stream-status", "offline");
+      panel.textContent = "Foundry stream disconnected · reconnecting without advancing simulation";
+    });
+  };
+  const offline = () => {
+    eventSource?.close();
+    panel.setAttribute('data-stream-status', 'offline');
+    panel.textContent = 'Foundry stream offline · retaining last committed state and pose';
+  };
+  const online = () => { eventSource?.close(); connect(); };
+  windowObject.addEventListener('offline', offline);
+  windowObject.addEventListener('online', online);
+  connect();
   return {
     getSnapshot: () => accepted,
-    close: () => { eventSource.close(); panel.remove(); },
+    close: () => {
+      eventSource.close(); panel.remove();
+      windowObject.removeEventListener('offline', offline);
+      windowObject.removeEventListener('online', online);
+    },
   };
 }
 
@@ -114,5 +137,10 @@ if (typeof window !== "undefined" && typeof document !== "undefined" &&
   window.__NASA_FOUNDRY_STREAM_STARTED = true;
   startFoundryBrowserStream().catch((error) => {
     console.error("NASA-APP read-only stream setup failed:", error);
+    const panel = document.getElementById('nasa-foundry-transport');
+    if (panel) {
+      panel.setAttribute('data-stream-status', 'error');
+      panel.textContent = 'Foundry setup failed: ' + error.message;
+    }
   });
 }
