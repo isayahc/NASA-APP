@@ -1,0 +1,60 @@
+name: Windows PowerShell live foundry launcher
+
+on:
+  pull_request:
+    paths:
+      - "scripts/run_foundry_live.ps1"
+      - "docs/architecture/windows-launcher.md"
+      - ".github/workflows/windows-foundry-launcher.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  native-windows:
+    runs-on: windows-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenIndustries
+          ref: 838ea330296148621f7a23f7cb647b11e73b5184
+          path: vendor/openindustries
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - name: Parse PowerShell launcher
+        shell: pwsh
+        run: |
+          $tokens = $null
+          $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile(
+            (Join-Path $pwd 'scripts/run_foundry_live.ps1'),
+            [ref]$tokens,
+            [ref]$errors
+          ) | Out-Null
+          if ($errors.Count -gt 0) {
+            $errors | Format-List | Out-String | Write-Host
+            throw 'PowerShell parser failed'
+          }
+      - name: Install native Windows OpenIndustries dependencies
+        shell: pwsh
+        run: npm.cmd ci --prefix vendor/openindustries
+      - name: Full native PowerShell scene/controller/API/Vite smoke
+        shell: pwsh
+        run: |
+          .\scripts\run_foundry_live.ps1 -SmokeTest -NoBrowser
+      - name: Record diagnostic logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-foundry-startup-logs
+          path: |
+            .generated/foundry-api.stderr.log
+            .generated/foundry-api.stdout.log
+            .generated/foundry-vite.stderr.log
+            .generated/foundry-vite.stdout.log
+          if-no-files-found: warn
+          retention-days: 7

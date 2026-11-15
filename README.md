@@ -189,6 +189,18 @@ Primary references:
 
 ## Running locally
 
+### Windows PowerShell — native live factory
+
+From your NASA-APP checkout, with Windows Node.js 22.16+ and Git installed:
+
+```powershell
+.\scripts\run_foundry_live.ps1
+```
+
+This launches the **real OpenIndustries live workbench** (not just the static CAD lineup), initializes the persistent SQLite controller, and opens its browser URL. In **Foundry controls**, choose **Start** then **Step** or **Resume** to see committed tasks reflected in the CAD, material balances and inspector. Use `-BuildOnly` to prepare the scene without services, `-NoBrowser` to avoid opening a tab, or `-UseWsl` to invoke the original Bash launcher from PowerShell. See [native Windows setup and diagnostics](docs/architecture/windows-launcher.md).
+
+### WSL2/Linux — existing Bash path
+
 **Spatial preview is runnable, not the autonomous factory.** On WSL2/Linux with Node.js 22.16+, Git and npm, run:
 
 ```bash
