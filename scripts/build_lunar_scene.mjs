@@ -281,9 +281,94 @@ async function main() {
     }));
   }
   const { room, items, graph } = makeLayout(source, machineAssets, links, opts.firstFour);
+
+  // Native OI System Inspector binds each *actual STEP-derived* assembly to the
+  // real machine occurrence and its pinned MechanicalIR, not to a fake mesh.
+  const { readSystemInspection, meshFingerprint } =
+    await import(pathToFileURL(join(opts.oiRoot, "src/lib/system-inspection.ts")).href);
+  const systems = await Promise.all(machineAssets.map(async ({ machine, asset, cadHash, irHash }) => {
+    const bindingId = machine.id;
+    const label = machine.name;
+    return {
+      id: machine.id,
+      manifest: {
+        schema_version: "1.0",
+        product_id: "NASA-APP-" + machine.id,
+        geometry: {
+          artifact_id: machine.id + "-step",
+          revision: 1,
+          sha256: cadHash,
+          format: "step",
+          producer: "OpenCAD STEP imported by OpenIndustries OCCT",
+          producer_version: "0.0.23",
+          frame: "right-handed Z-up",
+          units: "mm",
+        },
+        entities: [{
+          entity_id: "assembly",
+          selector: "assembly",
+          kind: "assembly",
+          fidelity: "detailed",
+          source: "supplied_cad",
+          verified_from_artifact: true,
+        }],
+        bindings: [{
+          binding_id: bindingId,
+          semantic: {
+            domain: "MechanicalIR",
+            artifact_id: "ASSET-" + String(machine.number).padStart(2, "0") + "-mechanical",
+            revision: 1,
+            sha256: irHash,
+            entity_id: "assembly",
+            occurrence_path: [machine.id],
+            label,
+          },
+          selector: "assembly",
+          role: "physical_body",
+          resolution: "resolved",
+          fidelity: "detailed",
+          source: "supplied_cad",
+          assumptions: [
+            "Conceptual CAD geometry: no manufacturing or flight qualification.",
+            "Wired means a declared graph connection; not a physically routed or operational interface.",
+            "No task controller or process physics has been attached to this machine.",
+          ],
+        }],
+        evidence: {
+          mechanical_ir: machine.mechanical_ir,
+          step_source: machine.cad,
+          source_sha256: cadHash,
+          declared_connections: "scenes/lunar-foundry.plan.json",
+        },
+      },
+      targets: [{
+        bindingId,
+        instanceId: machine.id,
+        assetId: asset.id,
+        sourceDigest: cadHash,
+        meshSha256: await meshFingerprint(asset),
+      }],
+      annotations: [{
+        bindingId,
+        function: machine.name + " (spatial scene only)",
+        properties: [
+          { name: "Presence", value: "Imported STEP geometry", source: "NASA-APP #4 native OI importer" },
+          { name: "Connections", value: "Declared in a separate graph; unverified", source: "scenes/lunar-foundry.plan.json" },
+          { name: "Execution", value: "NOT EXECUTABLE", source: "NASA-APP #4: #5 and #6 are pending" },
+          { name: "STEP SHA-256", value: cadHash, source: machine.cad },
+        ],
+      }],
+    };
+  }));
+  const inspection = readSystemInspection({
+    format: "oi.system-inspection",
+    version: 1,
+    systems,
+  });
   const manifest = makeManifest({
     room,
     items,
+    inspection,
     animation: { duration: 3, loop: false, tracks: [] },
   }, true);
   const parsed = readManifest(manifest);
