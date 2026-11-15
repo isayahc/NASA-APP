@@ -183,7 +183,11 @@ function makeLayout(plan, machineAssets, links, firstFour) {
     const from = source.ports[link.from_port].world_m;
     const to = sink.ports[link.to_port].world_m;
     const distance = Math.hypot(from[0] - to[0], from[1] - to[1], from[2] - to[2]);
-    if (link.kind === "regolith" && source.number + 1 === sink.number && distance > gap + 1e-5)
+    // Horizontal station gap and vertical connection allowance are separate
+    // constraints; a higher feed hopper can legitimately have a taller port.
+    const horizontalDistance = Math.hypot(from[0] - to[0], from[2] - to[2]);
+    if (link.kind === "regolith" && source.number + 1 === sink.number &&
+        (horizontalDistance > gap + 1e-5 || Math.abs(from[1] - to[1]) > 0.75))
       throw Error("Process inlet/outlet anchors are not adjacent: " + source.id + " -> " + sink.id);
     return {
       id: "foundry-link-" + String(index + 1).padStart(2, "0"),
