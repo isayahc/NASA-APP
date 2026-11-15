@@ -1,7 +1,7 @@
 /** Tests use a REAL local OI SQLite controller and native HTTP SSE transport. */
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { createServer } from "node:http";
+import { createServer, request as rawHttpRequest } from "node:http";
 import { mkdtempSync, rmSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -162,10 +162,17 @@ test("cross-origin, remote Host, and writes are rejected without touching author
       headers: { Origin: "http://attacker.example" },
     });
     assert.equal(origin.status, 403);
-    const remote = await fetch(h.base + "/api/foundry/config", {
-      headers: { Host: "attacker.example" },
+    const remoteStatus = await new Promise<number>((done, reject) => {
+      const request = rawHttpRequest(h.base + "/api/foundry/config", {
+        headers: { Host: "attacker.example" },
+      }, (response) => {
+        response.resume();
+        done(response.statusCode ?? 0);
+      });
+      request.once("error", reject);
+      request.end();
     });
-    assert.equal(remote.status, 403);
+    assert.equal(remoteStatus, 403);
     const mutation = await fetch(h.base + "/api/foundry/snapshot", { method: "POST" });
     assert.equal(mutation.status, 403);
     const config = await (await fetch(h.base + "/api/foundry/config")).json();
