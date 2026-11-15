@@ -1,0 +1,67 @@
+name: Lunar foundry spatial integration
+
+on:
+  pull_request:
+    paths:
+      - "scenes/**"
+      - "scripts/build_lunar_scene.mjs"
+      - "scripts/verify_lunar_scene_browser.mjs"
+      - "tests/lunar_scene.test.mjs"
+      - ".github/workflows/lunar-scene.yml"
+      - "assets/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  spatial-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenIndustries
+          ref: 838ea330296148621f7a23f7cb647b11e73b5184
+          path: vendor/openindustries
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - name: Verify scripts and layout semantics
+        run: |
+          bash -n scripts/run_foundry.sh
+          node --check scripts/build_lunar_scene.mjs
+          node --check scripts/verify_lunar_scene_browser.mjs
+          node --test tests/lunar_scene.test.mjs
+      - name: Install actual OpenIndustries geometry and viewer dependencies
+        run: npm ci --prefix vendor/openindustries
+      - name: Build portable scene from actual STEP CAD with native OI importer
+        working-directory: vendor/openindustries
+        run: |
+          node --max-old-space-size=6144 --import tsx ../../scripts/build_lunar_scene.mjs \
+            --oi-root . --app-root ../.. --output ../../.generated/lunar-foundry.oi.json \
+            --store ../../.generated/oi-scene-store
+      - name: One-command local demo build is idempotent
+        run: bash scripts/run_foundry.sh --build-only
+      - name: Install Chromium for actual OpenIndustries browser verification
+        working-directory: vendor/openindustries
+        run: npx playwright install --with-deps chromium
+      - name: Browser import, render, select, export and reload
+        run: |
+          node --max-old-space-size=6144 scripts/verify_lunar_scene_browser.mjs \
+            --oi-root vendor/openindustries \
+            --scene .generated/lunar-foundry.oi.json \
+            --screenshot .generated/lunar-foundry-browser.png
+      - name: Preserve generated portable scene and browser screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lunar-foundry-spatial-scene
+          path: |
+            .generated/*.oi.json
+            .generated/*.connections.json
+            .generated/*.session.json
+            .generated/*.png
+          if-no-files-found: warn
+          retention-days: 7

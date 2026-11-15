@@ -1,0 +1,53 @@
+name: Foundry finite transfer and preheater
+
+on:
+  pull_request:
+    branches: [main, feat/lunar-foundry-scene-issue-4]
+    paths:
+      - "integrations/openindustries/foundry-runtime.ts"
+      - "scripts/run_foundry_sim.ts"
+      - "scenarios/lunar-south-pole/**"
+      - "tests/foundry_runtime.test.ts"
+      - "docs/architecture/foundry-runtime.md"
+      - ".github/workflows/foundry-runtime.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  oi-native-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenIndustries
+          ref: 838ea330296148621f7a23f7cb647b11e73b5184
+          path: vendor/openindustries
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - name: Install actual OI scheduler, ledger, authority and history dependencies
+        run: npm ci --prefix vendor/openindustries
+      - name: Real SQLite task and failure-path tests
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_runtime.test.ts
+      - name: Full deterministic production-line smoke
+        working-directory: vendor/openindustries
+        env:
+          NASA_FOUNDRY_PASSWORD: ci-only-local-foundry-password
+        run: |
+          node --import tsx ../../scripts/run_foundry_sim.ts \
+            --db ../../.generated/foundry-ci.sqlite \
+            --scenario ../../scenarios/lunar-south-pole/first-transfer.json \
+            --output ../../.generated/first-transfer-evidence.json \
+            --ticks 86
+      - name: Upload honest simulation evidence
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: foundry-transfer-preheat-evidence
+          path: .generated/first-transfer-evidence.json
+          retention-days: 7
