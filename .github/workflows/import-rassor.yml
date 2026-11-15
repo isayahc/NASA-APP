@@ -1,0 +1,51 @@
+name: Import NASA RASSOR reference STL
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/import-rassor.yml
+
+permissions:
+  contents: write
+
+jobs:
+  convert-and-commit:
+    if: github.repository == 'isayahc/NASA-APP'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install mesh converter
+        run: python -m pip install "trimesh>=4.0,<5" "fast-simplification>=0.1.11,<1" "numpy>=1.24,<3"
+      - name: Generate STL and provenance manifest
+        run: python scripts/import_rassor.py --max-faces 250000
+      - name: Check STL structure
+        run: |
+          python - <<'PY'
+          import json, struct
+          from pathlib import Path
+          stl = Path("assets/rassor/rassor-nasa-reference.stl").read_bytes()
+          assert len(stl) > 84
+          triangles = struct.unpack_from("<I", stl, 80)[0]
+          assert len(stl) == 84 + 50 * triangles, (len(stl), triangles)
+          manifest = json.loads(Path("assets/rassor/rassor-nasa-reference.metadata.json").read_text())
+          assert manifest["exported_triangle_count"] == triangles
+          print(f"Validated binary STL: {triangles} triangles, {len(stl)} bytes")
+          PY
+      - name: Commit NASA reference model
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/rassor/rassor-nasa-reference.stl assets/rassor/rassor-nasa-reference.metadata.json
+          if git diff --cached --quiet; then
+            echo "RASSOR asset already matches source; no commit needed."
+          else
+            git commit -m "assets: import NASA RASSOR visual reference as STL"
+            git push
+          fi
