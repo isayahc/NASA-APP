@@ -119,10 +119,15 @@ async function main() {
     await page.reload({ waitUntil: 'domcontentloaded' });
     assert.deepEqual((await waitPose()).machines, reconnected.machines);
     // An old frame cannot undo reconnect progress, even if delivered again.
-    await page.evaluate(async ({ url, old }: any) => {
-      const adapter = await import(url); adapter.receiveFoundryKinematics(old);
-    }, { url: '/@fs/' + resolve(ROOT, 'integrations/openindustries/foundry-kinematics-browser.mjs').replaceAll('\\', '/'),
-      old: makeFrame(checkpoints[0].state) });
+    await page.evaluate(async (old: any) => {
+      const moduleUrl = (window as any).__NASA_FOUNDRY_POSE_MODULE_URL;
+      if (typeof moduleUrl !== 'string' || !moduleUrl.includes('foundry-kinematics-browser.mjs'))
+        throw Error('Native OI kinematics module was not loaded');
+      // Import the *exact* existing ESM module URL, never an independently
+      // normalized /@fs path that can re-initialize a second module instance.
+      const adapter = await import(/* @vite-ignore */ moduleUrl);
+      adapter.receiveFoundryKinematics(old);
+    }, makeFrame(checkpoints[0].state));
     assert.deepEqual((await waitPose()).machines, reconnected.machines);
     command('cancel', { job_id: 'preheat-regolith' }); command('step');
     assert.deepEqual((await waitPose()).machines, reconnected.machines);
