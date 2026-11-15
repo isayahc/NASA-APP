@@ -178,6 +178,16 @@ export interface FoundrySnapshot {
   scene_id: string;
   model_sha256: string;
   inventory_g: Record<"site" | "transit" | "hopper" | "preheater", number>;
+  material: {
+    lot: Scenario['lot'];
+    total_g: number;
+    ledger_sequence: number;
+    feed_g_per_step: number;
+    accounts: { account_id: string; kind: string; owner_id: string | null;
+      capacity_g: number | null; quantity_g: number; lot_id: string }[];
+    postings: { id: string; sequence: number; at_ms: number; job_ids: string[];
+      postings: { account_id: string; lot_id: string; resource_id: string; unit: string; delta: number }[] }[];
+  };
   energy_mJ: { available: number; spent: number; opening: number };
   thermal: ThermalState;
   last_transfers: MaterialTransfer[];
@@ -569,6 +579,22 @@ export function projectFoundry(s: FoundryState): FoundrySnapshot {
     simulation_time_ms: s.simulation_time_ms,
     scene_id: s.scene_id, model_sha256: s.model_sha256,
     inventory_g: inventory,
+    material: {
+      lot: structuredClone(s.scenario.lot),
+      total_g: s.scenario.opening.source_regolith_g + (s.scenario.opening.hopper_regolith_g ?? 0),
+      ledger_sequence: r.sequence,
+      feed_g_per_step: s.scenario.constraints.delivery_g / s.scenario.constraints.feed_ticks,
+      accounts: r.accounts.filter(a => a.unit === 'g').map(a => ({
+        account_id: a.id, kind: a.kind, owner_id: a.owner_id,
+        capacity_g: a.capacity, lot_id: s.scenario.lot.id,
+        quantity_g: r.balances.filter(b => b.account_id === a.id && b.resource_id === 'regolith' &&
+          b.lot_id === s.scenario.lot.id).reduce((sum, b) => sum + b.quantity, 0),
+      })),
+      postings: r.entries.filter(e => e.postings.some(p => p.resource_id === 'regolith')).slice(-10).map(e => ({
+        id: e.context.id, sequence: e.sequence, at_ms: e.context.simulation_time_ms,
+        job_ids: [...e.context.job_ids], postings: structuredClone(e.postings.filter(p => p.resource_id === 'regolith')),
+      })),
+    },
     energy_mJ: {
       available: energyAvailable, spent: energySpent,
       opening: s.scenario.opening.available_energy_mJ,

@@ -5,6 +5,7 @@
  * No task mutation, physical animation or fabricated telemetry occurs here.
  */
 import { configureFoundryKinematics, receiveFoundryKinematics } from './foundry-kinematics-browser.mjs';
+import { configureFoundryMaterial, receiveFoundryMaterial, setMaterialConnection } from './foundry-material-browser.mjs';
 
 export const PROTOCOL = "nasa.foundry.snapshot.v1";
 export const SNAPSHOT_EVENT = "nasa-foundry:snapshot";
@@ -83,6 +84,9 @@ export async function startFoundryBrowserStream({
   const mapResponse = await fetcher('/api/foundry/kinematics', { cache: 'no-store' });
   if (!mapResponse.ok) throw Error('Kinematic CAD mapping unavailable');
   configureFoundryKinematics(await mapResponse.json(), config.oi_scene_id);
+  const materialResponse = await fetcher('/api/foundry/material-map', { cache: 'no-store' });
+  if (!materialResponse.ok) throw Error('Material port mapping unavailable');
+  configureFoundryMaterial(await materialResponse.json(), config.oi_scene_id);
 
   let accepted = null;
   let eventSource;
@@ -91,6 +95,7 @@ export async function startFoundryBrowserStream({
     eventSource.addEventListener("open", () => {
       panel.setAttribute("data-stream-status", "connected");
       panel.textContent = accepted ? stateText(accepted) : "Foundry stream connected · awaiting committed state";
+      setMaterialConnection(true);
     });
     eventSource.addEventListener("snapshot", (event) => {
       let proposed;
@@ -102,21 +107,25 @@ export async function startFoundryBrowserStream({
       panel.setAttribute("data-runtime-revision", String(next.revision));
       panel.textContent = stateText(next);
       receiveFoundryKinematics(next);
+      receiveFoundryMaterial(next);
       windowObject.dispatchEvent(new CustomEvent(SNAPSHOT_EVENT, { detail: next }));
     });
     eventSource.addEventListener("stream-error", () => {
       panel.setAttribute("data-stream-status", "offline");
       panel.textContent = "Foundry controller unavailable · last snapshot is stale";
+      setMaterialConnection(false);
     });
     eventSource.addEventListener("error", () => {
       panel.setAttribute("data-stream-status", "offline");
       panel.textContent = "Foundry stream disconnected · reconnecting without advancing simulation";
+      setMaterialConnection(false);
     });
   };
   const offline = () => {
     eventSource?.close();
     panel.setAttribute('data-stream-status', 'offline');
     panel.textContent = 'Foundry stream offline · retaining last committed state and pose';
+    setMaterialConnection(false);
   };
   const online = () => { eventSource?.close(); connect(); };
   windowObject.addEventListener('offline', offline);
