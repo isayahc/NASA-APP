@@ -1,0 +1,1 @@
+"""OpenForma contract discovery integration."""
