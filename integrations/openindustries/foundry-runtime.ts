@@ -184,6 +184,8 @@ export interface FoundryState {
   schedule: JobSchedule;
   /** Optional on older databases; missing history is never reconstructed in the UI. */
   task_transitions?: Record<string, TaskTransition>;
+  controls?: { running: boolean; speed: number };
+  successor_id?: string;
 }
 export interface FoundrySnapshot {
   version: 1;
@@ -212,6 +214,7 @@ export interface FoundrySnapshot {
   provenance: { origin: "simulated"; validity: "modeled"; source: string };
   mass_conserved: boolean;
   energy_conserved: boolean;
+  controls: { running: boolean; speed: number; started: boolean; successor_id: string | null };
 }
 interface CommandResult {
   command_id: string;
@@ -557,6 +560,8 @@ export function validateFoundryState(s: FoundryState): void {
   ensure(s.model_sha256 === createHash("sha256")
     .update(canonicalCommand(s.scenario)).digest("hex"), "scenario hash mismatch");
   jobPolicy(s.scenario).validate(sched.domain);
+  if (s.controls) ensure(typeof s.controls.running === 'boolean' && [0.25, 1, 2, 4].includes(s.controls.speed), 'control state');
+  if (s.successor_id) ensure(/^run-[a-f0-9]{32}$/.test(s.successor_id) && !s.controls?.running, 'reset lineage');
 }
 
 /** Project operator-facing values from committed OI state without inventing telemetry. */
@@ -632,11 +637,14 @@ export function projectFoundry(s: FoundryState): FoundrySnapshot {
     mass_conserved: Object.values(inventory).reduce((a,b) => a+b, 0) ===
       s.scenario.opening.source_regolith_g + (s.scenario.opening.hopper_regolith_g ?? 0),
     energy_conserved: energyAvailable + energySpent === s.scenario.opening.available_energy_mJ,
+    controls: { running: s.controls?.running ?? false, speed: s.controls?.speed ?? 1,
+      started: s.schedule.jobs.length > 0, successor_id: s.successor_id ?? null },
   };
 }
 
 /** Explicit controller command transition through OI job scheduling/ledger APIs. */
 function transition(s: FoundryState, command: SimulationCommand): FoundryState {
+  ensure(!s.successor_id, 'archived run; select its successor');
   const next = structuredClone(s);
   const scenario = next.scenario;
   const policy = jobPolicy(scenario);
@@ -644,12 +652,29 @@ function transition(s: FoundryState, command: SimulationCommand): FoundryState {
     ensure(Object.keys(command.payload).length === 0, "start accepts empty payload");
     ensure(next.schedule.jobs.length === 0, "already started");
     next.schedule = queueJobs(next.schedule, scenario, next.owner_id);
-  } else if (command.action === "step") {
+  } else if (command.action === 'resume-plant' || command.action === 'pause-plant') {
+    ensure(Object.keys(command.payload).length === 0, 'plant controls accept empty payload');
+    if (command.action === 'resume-plant') ensure(next.schedule.jobs.some(j =>
+      !['completed', 'failed', 'cancelled'].includes(j.state)), 'no unfinished jobs');
+    next.controls = { running: command.action === 'resume-plant', speed: s.controls?.speed ?? 1 };
+  } else if (command.action === 'set-speed') {
+    ensure(Object.keys(command.payload).length === 1 && [0.25, 1, 2, 4].includes(Number(command.payload.speed)) &&
+      typeof command.payload.speed === 'number', 'speed must be 0.25, 1, 2 or 4');
+    next.controls = { running: s.controls?.running ?? false, speed: command.payload.speed as number };
+  } else if (command.action === 'reset') {
+    ensure(Object.keys(command.payload).length === 0, 'reset accepts empty payload');
+    next.controls = { running: false, speed: s.controls?.speed ?? 1 };
+    next.successor_id = 'run-' + createHash('sha256').update(s.instance_id + ':' + command.command_id).digest('hex').slice(0, 32);
+  } else if (command.action === "step" || command.action === 'clock-step') {
     ensure(Object.keys(command.payload).length === 0, "step accepts empty payload");
+    ensure(command.action === 'clock-step' ? s.controls?.running : !s.controls?.running,
+      'manual step requires paused clock; clock step requires resumed clock');
     next.schedule = advanceJobSchedule(
       next.schedule, next.simulation_time_ms + scenario.constraints.tick_ms, 1, policy,
     );
     next.simulation_time_ms = next.schedule.cursor_ms;
+    if (next.controls?.running && next.schedule.jobs.every(j => ['completed', 'failed', 'cancelled'].includes(j.state)))
+      next.controls.running = false;
   } else if (command.action === "set-power") {
     ensure(Object.keys(command.payload).length === 1, "set-power requires limit_w only");
     const limit = whole(command.payload.limit_w, "limit W");
@@ -709,26 +734,43 @@ export class FoundryDatabase extends SqliteAuthority {
     const owner = this.identity(token);
     const scenario = validateScenario(input);
     ensure(/^[a-zA-Z0-9_.:-]{1,90}$/.test(id), "instance ID");
-    return this.transaction(() => {
-      ensure(!this.db.prepare("SELECT 1 FROM nasa_foundries WHERE id=?").get(id), "existing instance");
-      const domain = createDomain(id, scenario);
-      const schedule = createJobSchedule(id, RULE, 0, scenario.constraints.tick_ms,
-        domain as unknown as JsonObject);
-      const state: FoundryState = {
-        contract_version: 1, instance_id: id, owner_id: owner,
-        revision: 1, simulation_time_ms: 0, scene_id: scenario.scene_id,
-        model_sha256: createHash("sha256").update(canonicalCommand(scenario)).digest("hex"),
-        scenario, schedule,
-      };
-      validateFoundryState(state);
-      this.db.prepare("INSERT INTO nasa_foundries VALUES(?,?,?)")
-        .run(id, owner, JSON.stringify(state));
-      this.history.initialize({
-        instance_id: id, rule: RULE, revision: state.revision,
-        simulation_time_ms: 0, state: state as unknown as JsonObject,
-      });
-      return projectFoundry(state);
+    return this.transaction(() => this.insertRun(owner, id, scenario));
+  }
+
+  /** Caller owns the native OI transaction, including atomic reset+new history. */
+  private insertRun(owner: string, id: string, scenario: Scenario): FoundrySnapshot {
+    ensure(!this.db.prepare("SELECT 1 FROM nasa_foundries WHERE id=?").get(id), "existing instance");
+    const domain = createDomain(id, scenario);
+    const schedule = createJobSchedule(id, RULE, 0, scenario.constraints.tick_ms,
+      domain as unknown as JsonObject);
+    const state: FoundryState = {
+      contract_version: 1, instance_id: id, owner_id: owner,
+      revision: 1, simulation_time_ms: 0, scene_id: scenario.scene_id,
+      model_sha256: createHash("sha256").update(canonicalCommand(scenario)).digest("hex"),
+      scenario, schedule,
+    };
+    validateFoundryState(state);
+    this.db.prepare("INSERT INTO nasa_foundries VALUES(?,?,?)")
+      .run(id, owner, JSON.stringify(state));
+    this.history.initialize({
+      instance_id: id, rule: RULE, revision: state.revision,
+      simulation_time_ms: 0, state: state as unknown as JsonObject,
     });
+    return projectFoundry(state);
+  }
+
+  /** Follow explicit durable reset links; earlier runs and receipts remain intact. */
+  lineage(token: string, root: string): string[] {
+    const owner = this.identity(token), ids: string[] = [];
+    let id = root;
+    while (true) {
+      ensure(!ids.includes(id), 'cyclic run lineage');
+      const state = this.load(id);
+      ensure(state.owner_id === owner, 'unauthorized instance');
+      ids.push(id);
+      if (!state.successor_id) return ids;
+      id = state.successor_id;
+    }
   }
 
   /** Read a committed, checked snapshot; never return untrusted mutable state. */
@@ -789,7 +831,8 @@ export class FoundryDatabase extends SqliteAuthority {
       }),
       save: (s: FoundryState) => {
         this.db.prepare("UPDATE nasa_foundries SET state=? WHERE id=?")
-          .run(JSON.stringify(s), s.instance_id);
+           .run(JSON.stringify(s), s.instance_id);
+        if (s.successor_id) this.insertRun(s.owner_id, s.successor_id, s.scenario);
       },
       appendEvents: (id: string, commandId: string, principal: string, events: JsonObject[]) => {
         const head = this.history.head(id);

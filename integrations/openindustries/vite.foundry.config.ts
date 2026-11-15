@@ -15,12 +15,14 @@ import { FoundrySseBridge, isLocal } from "./foundry-sse.ts";
 import { buildKinematicsMap } from "./foundry-kinematics-map.mjs";
 import { buildMaterialMap } from './foundry-material-map.mjs';
 import { buildInspectionMap } from './foundry-inspection-map.mjs';
+import { FoundryControls } from './foundry-controls.ts';
 
 const ROOT = fileURLToPath(new URL("../../", import.meta.url));
 const CLIENT_FILE = fileURLToPath(new URL("./foundry-browser-stream.mjs", import.meta.url));
 const ADAPTER_URL = '/@fs/' + fileURLToPath(new URL('./foundry-kinematics-browser.mjs', import.meta.url)).replaceAll('\\', '/');
 const MATERIAL_URL = '/@fs/' + fileURLToPath(new URL('./foundry-material-browser.mjs', import.meta.url)).replaceAll('\\', '/');
 const INSPECTION_URL = '/@fs/' + fileURLToPath(new URL('./foundry-inspection-browser.mjs', import.meta.url)).replaceAll('\\', '/');
+const CONTROLS_URL = '/@fs/' + fileURLToPath(new URL('./foundry-controls-browser.mjs', import.meta.url)).replaceAll('\\', '/');
 
 function requiredEnv(name: string): string {
   /** Fail closed rather than starting a stream for an unknown runtime. */
@@ -35,6 +37,12 @@ function makePlugin() {
     name: "nasa-foundry-authoritative-stream",
     enforce: "pre" as const,
     transform(code: string, id: string) {
+      if (id.replaceAll('\\', '/').endsWith('/src/main.tsx')) {
+        const seam = '<SystemInspector selectionVersion=';
+        if (code.split(seam).length !== 2) throw Error('UNSUPPORTED_OI_CONTROLS_BOUNDARY');
+        return { code: `import { FoundryControlsPanel } from '${CONTROLS_URL}';\n` +
+          code.replace(seam, '<FoundryControlsPanel />' + seam), map: null };
+      }
       if (id.replaceAll('\\', '/').endsWith('/src/components/system-inspector.tsx')) {
         const seam = '<h4>{current.binding.semantic.label ?? current.binding.semantic.entity_id}</h4>';
         if (code.split(seam).length !== 2) throw Error('UNSUPPORTED_OI_INSPECTOR_BOUNDARY');
@@ -74,13 +82,21 @@ function makePlugin() {
       const sceneId = requiredEnv("NASA_FOUNDRY_OI_SCENE_ID");
       const db = new FoundryDatabase(dbPath);
       let bridge: FoundrySseBridge | null = null;
+      let controls: FoundryControls | null = null;
       try {
         const session = await db.authenticate({
           username: "local-founder", password: operatorPassword,
         });
+        let activeId = db.lineage(session.token, instanceId).at(-1)!;
+        controls = new FoundryControls(db, session.token, instanceId, async () => {
+          activeId = controls!.active();
+          bridge?.selectInstance(activeId);
+          await bridge?.refresh();
+        });
+        controls.initialize();
         bridge = new FoundrySseBridge(
-          { read: () => db.read(session.token, instanceId) },
-          { instanceId, oiSceneId: sceneId, pollMs: 200 },
+          { read: () => db.read(session.token, activeId) },
+          { instanceId: activeId, oiSceneId: sceneId, pollMs: 200 },
         );
         await bridge.start();
         const manifest = JSON.parse(await readFile(resolve(ROOT, '.generated/lunar-foundry.oi.json'), 'utf8'));
@@ -89,6 +105,10 @@ function makePlugin() {
         const inspectionMapping = await buildInspectionMap(ROOT, manifest);
         vite.middlewares.use((request, response, next) => {
           const url = request.url ?? "";
+          if (['/api/foundry/control-session', '/api/foundry/control-lease', '/api/foundry/commands'].includes(url.split('?')[0])) {
+            void controls!.handle(request, response); return;
+          }
+          controls!.observeStream(request, response);
           const path = url.split('?')[0];
           const artifact = inspectionMapping.machines.flatMap(m => m.artifacts).find(a => a.url === path);
           if (["/api/foundry/kinematics", "/api/foundry/material-map", "/api/foundry/inspection-map"].includes(path) || artifact) {
@@ -132,10 +152,12 @@ function makePlugin() {
           });
         });
         vite.httpServer?.once("close", () => {
+          controls?.close();
           bridge?.close();
           db.close();
         });
       } catch (error) {
+        controls?.close();
         bridge?.close();
         db.close();
         throw error;

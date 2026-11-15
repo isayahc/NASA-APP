@@ -115,6 +115,18 @@ export class FoundrySseBridge {
   /** Return last verified state; this is a snapshot, not a live scene revision. */
   current(): FoundryStreamFrame | null { return this.latest; }
 
+  /** Explicit reset notification; clients reload to establish a new instance scope. */
+  selectInstance(instanceId: string): void {
+    if (this.options.instanceId === instanceId) return;
+    this.options.instanceId = instanceId;
+    this.latest = null; this.healthy = false;
+    for (const client of this.subscribers) {
+      client.response.write('event: run-changed\ndata: {}\n\n');
+      client.response.end();
+    }
+    this.subscribers.clear();
+  }
+
   /** Re-read the real SQLite controller, broadcasting only monotonic revisions. */
   async refresh(): Promise<void> {
     if (this.busy || this.stopped) return;
@@ -184,6 +196,7 @@ export class FoundrySseBridge {
       res.writeHead(200, { "Content-Type": "application/json",
         "Cache-Control": "no-store" });
       res.end(JSON.stringify({ protocol: STREAM_PROTOCOL,
+        instance_id: this.options.instanceId,
         oi_scene_id: this.options.oiSceneId, scene_id: "lunar-foundry-mvp",
         read_only: true }));
       return true;

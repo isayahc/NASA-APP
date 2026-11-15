@@ -1,6 +1,6 @@
 # NASA-APP — Agent implementation instructions
 
-This file governs coding agents and contributors implementing the **Autonomous Lunar Oxygen Foundry**. Read [README.md](README.md) and [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) before proposing a change. **The repository contains actual mechanical assets and a CAD-backed scene generator, but not a running factory.** Verify code and commands before saying they work.
+This file governs coding agents and contributors implementing the **Autonomous Lunar Oxygen Foundry**. Read [README.md](README.md) and [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) before proposing a change. **The repository implements a finite task-driven regolith/preheat slice in native OI; autonomous oxygen production remains future work.** Verify code and commands before saying they work.
 
 ## Non-negotiable objective
 
@@ -52,6 +52,8 @@ NASA-APP/
 │   ├── forma/                          # OpenForma engineering IR + revisions
 │   ├── openindustries/                 # Scene, task/runtime and asset bridge
 │   │   ├── foundry-runtime.ts         # Actual OI-native task/resource domain
+│   │   ├── foundry-controls.ts        # Local authenticated commands and server clock
+│   │   ├── foundry-controls-browser.mjs # Native OI operator controls
 │   │   ├── foundry-sse.ts             # Read-only committed revision stream
 │   │   ├── foundry-browser-stream.mjs # Monotonic browser subscriber
 │   │   ├── foundry-kinematics-map.mjs # Source-verified CAD joint bindings
@@ -69,9 +71,11 @@ NASA-APP/
 │   └── opencode/                       # SDK sessions, tools and event handlers
 ├── scenarios/
 │   └── lunar-south-pole/
-│       └── first-transfer.json        # Finite, modeled regolith/energy inputs
+│       ├── first-transfer.json        # Finite, modeled regolith/energy inputs
+│       └── live-slice-e2e.json        # Complete browser acceptance fixture
 ├── tests/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
+│   ├── foundry_controls.test.ts       # HTTP auth/receipts, clock leases, atomic reset
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
 │   ├── foundry_material.test.ts       # Finite lot balances and settled transfers
@@ -90,7 +94,8 @@ NASA-APP/
     ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
     ├── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
     ├── verify_foundry_material_browser.ts # Ledger quantities and port evidence
-    └── verify_foundry_inspection_browser.ts # Native live inspection and freshness
+    ├── verify_foundry_inspection_browser.ts # Native live inspection and freshness
+    └── verify_foundry_slice_browser.ts # Complete controls-to-preheat evidence/performance
 ```
 
 ## Implemented spatial scene integration (#4)
@@ -146,7 +151,24 @@ older missing history remains explicitly unavailable. Health heartbeats verify a
 idle authority without creating revisions; open/error/timeout alone cannot certify
 fresh readings. Source downloads are exact allowlisted, hash-checked local artifacts.
 
+## F2 controls and F6 acceptance
+
+Read `docs/architecture/foundry-controls.md` and `docs/architecture/foundry-slice-verification.md`.
+Browser writes use a separate authenticated local bridge, never F1 GET endpoints.
+Start queues once; manual Step pays one fixed quantum while the plant clock is
+paused. Resume/speed schedule server-authorized quanta with a connected operator
+lease, never render-driven physics or catch-up on reconnect. Preserve native OI
+revision/idempotency checks and explicit errors. Reset atomically creates a fresh
+run/history and preserves all earlier runs; archived runs reject new writes.
+
+The complete browser gate must compare native matrices, ledger and inspection with
+actual SQLite state, check every receipt's conservation and clock increments, and
+re-execute the recorded trace. Preserve source/version/environment evidence and
+measured timing distributions. An idle/on-demand renderer is not a measured 60 FPS
+renderer, and a finite preheat batch is not continuous oxygen production.
+
 ## Source-of-truth stack
+
 
 
 - **[Mapped-Assembly/OpenIndustries](https://github.com/Mapped-Assembly/OpenIndustries)** owns the spatial scene, interactive viewer, task execution/world state, and existing simulation infrastructure. Audit and extend existing simulation, Field Lab, material and robot/asset facilities before creating anything parallel.

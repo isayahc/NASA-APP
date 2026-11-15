@@ -27,6 +27,7 @@ export function FoundryInspection({ machineId, assetId, bindingStatus, stepHash,
       row('Runtime machine', machineId, 'machine-id'),
       row('Committed revision', snapshot.revision, 'revision'),
       row('Simulation time', `${snapshot.simulation_time_ms} ms`, 'time'),
+      row('Plant clock', snapshot.controls.running ? 'automatic' : 'paused / manual', 'plant-clock'),
     ])));
     if (!task) children.push(h('p', { key: 'unimplemented', 'data-executable': 'false' },
       'Not executable — process model and telemetry not implemented. No production, power or temperature reading available.'));

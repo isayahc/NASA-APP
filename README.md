@@ -4,7 +4,7 @@
 
 > **Mission:** Can an autonomous lunar factory continuously extract, process, and stockpile oxygen from lunar regolith, while adapting its operations to support future exploration missions?
 
-**Status: asset library and static OpenIndustries scene available; the autonomous factory runtime is not yet implemented.** This repository is being bootstrapped. The tree below is the **target structure**, not a claim that these code modules already exist. See [Epic #1](https://github.com/isayahc/NASA-APP/issues/1) for the implementation backlog and acceptance gates.
+**Status: live finite regolith delivery, metering and energy-accounted preheat are implemented and browser-tested in native OpenIndustries.** Operator controls, CAD motion, material balances and inspection share the same SQLite authority. Autonomous operation and MRE oxygen production remain future work. The tree below includes **target structure**, not a claim that every proposed module exists. See [Epic #1](https://github.com/isayahc/NASA-APP/issues/1).
 
 ## Why this factory?
 
@@ -115,6 +115,8 @@ NASA-APP/
 │   ├── forma/                          # OpenForma engineering IR + revisions
 │   ├── openindustries/                 # Scene, task/runtime and asset bridge
 │   │   ├── foundry-runtime.ts         # Actual OI-native task/resource domain
+│   │   ├── foundry-controls.ts        # Local authenticated commands and server clock
+│   │   ├── foundry-controls-browser.mjs # Native OI operator controls
 │   │   ├── foundry-sse.ts             # Read-only committed revision stream
 │   │   ├── foundry-browser-stream.mjs # Monotonic browser subscriber
 │   │   ├── foundry-kinematics-map.mjs # Source-verified CAD joint bindings
@@ -132,9 +134,11 @@ NASA-APP/
 │   └── opencode/                       # SDK sessions, tools and event handlers
 ├── scenarios/
 │   └── lunar-south-pole/
-│       └── first-transfer.json        # Finite, modeled regolith/energy inputs
+│       ├── first-transfer.json        # Finite, modeled regolith/energy inputs
+│       └── live-slice-e2e.json        # Complete browser acceptance fixture
 ├── tests/
 │   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
+│   ├── foundry_controls.test.ts       # HTTP auth/receipts, clock leases, atomic reset
 │   ├── foundry_stream.test.ts         # SSE ordering, read-only and reconnection
 │   ├── foundry_kinematics.test.ts     # Real CAD transforms and frozen failure paths
 │   ├── foundry_material.test.ts       # Finite lot balances and settled transfers
@@ -153,7 +157,8 @@ NASA-APP/
     ├── verify_foundry_stream_browser.ts # Native OI Chromium SSE evidence
     ├── verify_foundry_kinematics_browser.ts # Native part-matrix/browser evidence
     ├── verify_foundry_material_browser.ts # Ledger quantities and port evidence
-    └── verify_foundry_inspection_browser.ts # Native live inspection and freshness
+    ├── verify_foundry_inspection_browser.ts # Native live inspection and freshness
+    └── verify_foundry_slice_browser.ts # Complete controls-to-preheat evidence/performance
 ```
 
 The two documents intentionally carry the **same structure**. **apps/mission-control** should be a thin host/integration surface for OpenIndustries, *not* a rewritten 3D engine or competing dashboard. The **integrations/** folders are adapters to existing APIs/CLIs; their interfaces must be confirmed against actual repository versions before implementation.
@@ -219,7 +224,14 @@ Issue #6 feature F1 adds a **read-only Server-Sent Events stream** to the existi
 bash scripts/run_foundry_live.sh
 ```
 
-After launch, open the printed local scene URL. The browser diagnostic and native System Inspector report current revision and simulated metrics. To make a real new controller commit from a second terminal, use `scripts/advance_foundry_live.ts` with the credentials and database described in the [F1 transport ADR](docs/architecture/foundry-stream.md). F2 will supply browser control buttons.
+After launch, open the printed local scene URL. Use **Start**, then **Step** or **Resume** in the native inspector. **Pause** stops automatic work; **Reset — new run** preserves prior history. Select a machine to inspect its actual simulated state. The [operator walkthrough](docs/architecture/foundry-slice-verification.md) covers transfers, constraints and preheat. The CLI remains available for explicit steps while paused.
+
+### F2 — Authoritative operator controls
+
+Start/Step/Pause/Resume/Reset and 0.25×/1×/2×/4× speed execute real native OI
+commands through a separate authenticated local bridge. SSE remains read-only.
+Disconnecting the last operator stream stops the server clock; reconnecting never
+pays catch-up work. See [control semantics and local access](docs/architecture/foundry-controls.md).
 
 ### F3 — Task-driven CAD joints
 
@@ -247,6 +259,16 @@ and, for the preheater, electrical/thermal readings with units. Source links ser
 the actual hash-verified STEP and MechanicalIR files. Unimplemented machines show
 unavailable telemetry; disconnected/overdue streams retain values marked **STALE**.
 See the [operator walkthrough and browser verification](docs/architecture/foundry-inspection.md).
+
+### F6 — Complete live-slice verification
+
+`scripts/verify_foundry_slice_browser.ts` drives the actual browser controls through
+a finite 1,000 g source lot and complete preheat. It compares 71 native CAD part
+matrices, inventories and inspector values against SQLite, checks **every command
+receipt's mass/electrical/thermal balance**, reproduces the trace in a second
+authority, and covers failures, disconnect, stale messages, reload and reset.
+It records measured timing distributions, environment/source pins, screenshots,
+video and JSON evidence. See [reproduction and evidence](docs/architecture/foundry-slice-verification.md).
 
 ## Contribution and agent instructions
 

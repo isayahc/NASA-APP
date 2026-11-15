@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Launch the EXISTING OpenIndustries workbench with NASA-APP read-only SSE.
+# Launch the EXISTING OpenIndustries workbench with SSE and separate local controls.
 # No fictitious production, no model calls, and no custom 3D renderer.
 set -euo pipefail
 ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -53,7 +53,9 @@ trap cleanup EXIT INT TERM
 echo
 echo "F1 read-only runtime stream: http://127.0.0.1:5173/api/foundry/events"
 echo "Foundry scene: http://127.0.0.1:5173/?localSceneId=$NASA_FOUNDRY_OI_SCENE_ID"
-echo "No simulation clocks are started by F1. To advance real tasks, use:"
+echo "Use Start then Step or Resume in the native inspector. SSE remains read-only."
+echo "Pause permits manual steps; Reset creates a fresh run and preserves history."
+echo "Alternatively, while the clock is paused, advance real tasks with:"
 echo '  (cd vendor/openindustries && node --import tsx ../../scripts/advance_foundry_live.ts --ticks 1)'
 echo
 (

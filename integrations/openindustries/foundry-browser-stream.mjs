@@ -91,16 +91,21 @@ export async function startFoundryBrowserStream({
   const inspectionResponse = await fetcher('/api/foundry/inspection-map', { cache: 'no-store' });
   if (!inspectionResponse.ok) throw Error('Engineering inspection mapping unavailable');
   configureFoundryInspection(await inspectionResponse.json(), config.oi_scene_id);
+  const operator = await fetcher('/api/foundry/control-session', { cache: 'no-store' });
+  if (!operator.ok) throw Error('Local operator session unavailable');
 
   let accepted = null;
   let eventSource;
   let staleTimer;
+  let healthy = false;
   const stale = () => {
+    healthy = false;
     clearTimeout(staleTimer);
     setInspectionFreshness('stale');
     setMaterialConnection(false);
   };
   const fresh = () => {
+    healthy = true;
     clearTimeout(staleTimer);
     setInspectionFreshness('fresh');
     setMaterialConnection(true);
@@ -121,7 +126,7 @@ export async function startFoundryBrowserStream({
       let proposed;
       try { proposed = JSON.parse(event.data); } catch { return; }
       const next = acceptFrame(accepted, proposed, config.scene_id);
-      if (!next) return;
+      if (!next || next.instance_id !== config.instance_id) return;
       accepted = next;
       panel.setAttribute("data-stream-status", "connected");
       panel.setAttribute("data-runtime-revision", String(next.revision));
@@ -140,6 +145,7 @@ export async function startFoundryBrowserStream({
       panel.setAttribute('data-stream-status', 'connected');
       panel.textContent = stateText(accepted);
     });
+    eventSource.addEventListener('run-changed', () => { stale(); windowObject.location.reload(); });
     eventSource.addEventListener("stream-error", () => {
       panel.setAttribute("data-stream-status", "offline");
       panel.textContent = "Foundry controller unavailable · last snapshot is stale";
@@ -161,11 +167,17 @@ export async function startFoundryBrowserStream({
   windowObject.addEventListener('offline', offline);
   windowObject.addEventListener('online', online);
   connect();
+  const leaseTimer = setInterval(() => {
+    if (!healthy || !accepted?.snapshot.controls?.running) return;
+    void fetcher('/api/foundry/control-lease', { method: 'POST', headers: { 'X-Foundry-Command': '1' } })
+      .then(response => { if (!response.ok) stale(); }).catch(stale);
+  }, 1000);
   return {
     getSnapshot: () => accepted,
     close: () => {
       eventSource.close(); panel.remove();
       stale();
+      clearInterval(leaseTimer);
       windowObject.removeEventListener('offline', offline);
       windowObject.removeEventListener('online', online);
     },
