@@ -1,0 +1,11 @@
+{
+  "format": "nasa.foundry-live-slice-test",
+  "version": 1,
+  "base_scenario": "scenarios/lunar-south-pole/first-transfer.json",
+  "source_regolith_g": 1000,
+  "failure_cases": ["empty-site", "full-hopper"],
+  "speed_multipliers": [0.25, 1, 2, 4],
+  "viewport": { "width": 1500, "height": 900 },
+  "oi_commit": "838ea330296148621f7a23f7cb647b11e73b5184",
+  "note": "Deterministic integer process; no stochastic model, provider keys, or synthetic instrument samples. Wall-clock performance is measured, not deterministic."
+}

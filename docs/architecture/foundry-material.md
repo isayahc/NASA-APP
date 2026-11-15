@@ -3,8 +3,8 @@
 The live launcher (`bash scripts/run_foundry_live.sh`) now shows **committed
 material balances** beside the CAD machines. Advance the existing controller with
 `scripts/advance_foundry_live.ts` as described in [F1](foundry-stream.md).
-F2 browser controls (#11) are still a separate dependency; this adds no buttons,
-simulation clock or command endpoint. It consumes the same F1 snapshots and uses
+F2 browser controls (#11) now use a [separate authenticated bridge](foundry-controls.md);
+the material view adds no simulation clock or command endpoint. It consumes the same F1 snapshots and uses
 the F3 native viewer seam.
 
 ## One lot, four authoritative accounts

@@ -1,6 +1,6 @@
 /**
  * Development-only controller CLI to generate genuine new snapshots for F1.
- * Browser SSE remains read-only. F2 will add validated browser controls.
+ * Browser SSE remains read-only; F2 controls use a separate authenticated bridge.
  *
  * Usage (from vendor/openindustries):
  *   node --import tsx ../../scripts/advance_foundry_live.ts --ticks 1
@@ -16,7 +16,7 @@ async function main(): Promise<void> {
   if (password.length < 12) throw Error("NASA_FOUNDRY_PASSWORD is required");
   const database = resolve(process.env.NASA_FOUNDRY_DB ??
     fileURLToPath(new URL("../.generated/foundry-live.sqlite", import.meta.url)));
-  const instanceId = process.env.NASA_FOUNDRY_INSTANCE_ID ?? "foundry-live-01";
+  const rootId = process.env.NASA_FOUNDRY_INSTANCE_ID ?? "foundry-live-01";
   const tickFlag = process.argv.indexOf("--ticks");
   const ticks = tickFlag < 0 ? 1 : Number(process.argv[tickFlag + 1]);
   if (!Number.isSafeInteger(ticks) || ticks < 0 || ticks > 200)
@@ -26,7 +26,9 @@ async function main(): Promise<void> {
     const token = (await db.authenticate({
       username: "local-founder", password,
     })).token;
+    const instanceId = db.lineage(token, rootId).at(-1)!;
     let snapshot = db.read(token, instanceId);
+    if (snapshot.controls.running) throw Error('Pause the browser/server clock before manual CLI steps');
     const execute = (action: string) => {
       snapshot = db.execute(token, {
         command_id: randomUUID(), instance_id: instanceId,

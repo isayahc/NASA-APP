@@ -4,7 +4,7 @@ The live launcher (`bash scripts/run_foundry_live.sh`) now drives the original
 OpenIndustries CAD meshes for excavator, hopper and preheater. The static launcher
 remains a layout preview. Advance work using the [existing controller CLI](foundry-stream.md);
 the pose adapter never starts a clock or issues a controller command. F2 browser
-controls (#11) remain an independent dependency for the complete operator UI.
+controls (#11) are implemented in a [separate authenticated bridge](foundry-controls.md).
 
 ## Source audit and identity
 
@@ -70,7 +70,7 @@ or extrapolation. Paused/waiting/failed/cancelled jobs retain their last success
 progress. Missing stream events freeze the last valid pose. Offline/online handlers
 close/reopen EventSource; reconnect and reload reconstruct from the committed head.
 Duplicate/stale/wrong-instance frames and regressed task progress cannot rewind it.
-Switching to a new runtime requires a new configured session (F2 reset is not implemented).
+F2 Reset reloads the browser into an explicit fresh runtime instance, preserving the old run and establishing a new configured pose session.
 
 The visible label says **SIMULATED / DERIVED** and disclaims terrain/travel physics
 and mechanical validation. The read-only `window.__NASA_FOUNDRY_POSES` getter exposes

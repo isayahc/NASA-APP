@@ -29,7 +29,7 @@ second renderer or independently selected machine dashboard.
    valid snapshot or verified same-head authority-health message restores freshness.
 
 These are actual controller commits; no GIF or generated telemetry is involved.
-F2 browser write controls (#11) remain a separate dependency. Commands used in the
+F2 browser write controls (#11) are now available through the [separate command bridge](foundry-controls.md). Commands used in the
 automated test also exercise Pause/Resume, blocked feeder, power interruption and
 cancellation through the existing authenticated controller.
 

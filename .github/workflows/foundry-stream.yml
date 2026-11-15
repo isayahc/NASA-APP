@@ -1,4 +1,4 @@
-name: Foundry authoritative stream, CAD kinematics and material ledger
+name: Foundry live slice, controls and conservation
 
 on:
   pull_request:
@@ -35,6 +35,9 @@ jobs:
       - name: Existing foundry resource/thermal regression tests
         working-directory: vendor/openindustries
         run: node --import tsx --test ../../tests/foundry_runtime.test.ts
+      - name: Authenticated controls, clock leases and atomic reset history
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_controls.test.ts
       - name: Assemble the actual ten-machine OI scene in the native local store
         working-directory: vendor/openindustries
         run: |
@@ -66,6 +69,9 @@ jobs:
       - name: Native OI machine inspection and stream freshness
         working-directory: vendor/openindustries
         run: node --import tsx ../../scripts/verify_foundry_inspection_browser.ts
+      - name: Complete live slice, every receipt balance and measured browser performance
+        working-directory: vendor/openindustries
+        run: node --import tsx ../../scripts/verify_foundry_slice_browser.ts
       - name: Upload live transport proof
         if: always()
         uses: actions/upload-artifact@v4
@@ -83,5 +89,8 @@ jobs:
             .generated/issue-14/*.png
             .generated/issue-14/14-inspection.webm
             .generated/issue-14/14-evidence.json
+            .generated/issue-15/*.png
+            .generated/issue-15/*.webm
+            .generated/issue-15/*.json
           if-no-files-found: warn
           retention-days: 7
