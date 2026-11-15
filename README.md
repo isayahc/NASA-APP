@@ -114,17 +114,22 @@ NASA-APP/
 ├── integrations/
 │   ├── forma/                          # OpenForma engineering IR + revisions
 │   ├── openindustries/                 # Scene, task/runtime and asset bridge
+│   │   └── foundry-runtime.ts         # Implemented OI-native task/ledger domain
 │   ├── opencad/                        # CAD + OI geometry handoff
 │   └── opencode/                       # SDK sessions, tools and event handlers
 ├── scenarios/
-│   └── lunar-south-pole/               # Explicit simulated site assumptions
+│   └── lunar-south-pole/
+│       └── first-transfer.json        # Finite, modeled regolith/energy inputs
 ├── tests/
+│   ├── foundry_runtime.test.ts        # Actual OI SQLite/task/resource integration
 │   ├── integration/                    # Controller ↔ solver ↔ MA ecosystem
 │   └── e2e/                            # Browser, real-time action and telemetry
 ├── docs/
 │   ├── architecture/                   # ADRs, clocks, adapters, protocols
 │   └── research/                       # Sources and calibration provenance
-└── scripts/                            # One-command demo/bootstrap (future)
+└── scripts/
+    ├── run_foundry.sh                 # Static OI scene launcher
+    └── run_foundry_sim.ts            # Headless executable material/thermal demo
 ```
 
 The two documents intentionally carry the **same structure**. **apps/mission-control** should be a thin host/integration surface for OpenIndustries, *not* a rewritten 3D engine or competing dashboard. The **integrations/** folders are adapters to existing APIs/CLIs; their interfaces must be confirmed against actual repository versions before implementation.
@@ -161,9 +166,26 @@ Primary references:
 bash scripts/run_foundry.sh
 ```
 
-This builds a real CAD-backed portable OpenIndustries scene, persists it to its local scene store, starts the existing OI workbench and prints a direct scene URL. Use `--build-only` to generate without starting a server. See [spatial integration ADR](docs/architecture/lunar-scene.md) and [issue #4](https://github.com/isayahc/NASA-APP/issues/4). The machine task/physics runtime, OpenCode orchestration and continuous oxygen production are **not yet implemented**.
+This builds a real CAD-backed portable OpenIndustries scene, persists it to its local scene store, starts the existing OI workbench and prints a direct scene URL. Use `--build-only` to generate without starting a server. See [spatial integration ADR](docs/architecture/lunar-scene.md) and [issue #4](https://github.com/isayahc/NASA-APP/issues/4). The runtime controller is now implemented as a **separate headless OI-backed first-transfer domain**; OpenCode autonomy, the live machine-state-to-3D binding, and oxygen production remain unfinished.
 
-When the first vertical slice is built, this section must provide a **tested one-command start**, stop/reset instructions, offline solver/test commands, and a separate OpenCode-enabled mode that documents required provider credentials. A model outage must not prevent deterministic factory simulation from running; it must simply report **autonomy disabled**.
+### Run the executable regolith/preheat slice (without a browser)
+
+After installing the pinned OI checkout via `bash scripts/run_foundry.sh --build-only`:
+
+```bash
+export NASA_FOUNDRY_PASSWORD="$(python3 -c 'import secrets; print(secrets.token_urlsafe(24))')"
+(cd vendor/openindustries && node --import tsx ../../scripts/run_foundry_sim.ts --ticks 86)
+```
+
+This produces `.generated/first-transfer-evidence.json` and an authenticated, persistent SQLite simulation of a real finite regolith lot moving from source to cargo, hopper and preheater. The model consumes electrical energy and calculates bounded temperature changes. Its measurements are simulated, not lunar experiments.
+
+To run the CI-tested failure paths:
+
+```bash
+(cd vendor/openindustries && node --import tsx --test ../../tests/foundry_runtime.test.ts)
+```
+
+See [the OI-native runtime ADR](docs/architecture/foundry-runtime.md) and [issue #5](https://github.com/isayahc/NASA-APP/issues/5). **This runs headlessly**: issue #6 still needs to connect execution poses/telemetry to the live OpenIndustries scene. No provider credential is needed, and the runtime currently has no agent decisions; do not label it autonomous.
 
 ## Contribution and agent instructions
 
