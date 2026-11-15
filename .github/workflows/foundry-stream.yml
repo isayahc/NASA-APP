@@ -1,0 +1,33 @@
+name: F1 authoritative foundry runtime stream
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  f1-stream:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenIndustries
+          ref: 838ea330296148621f7a23f7cb647b11e73b5184
+          path: vendor/openindustries
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - name: Install real OI simulation dependencies
+        run: npm ci --prefix vendor/openindustries
+      - name: SSE browser module syntax
+        run: node --check integrations/openindustries/foundry-browser-stream.mjs
+      - name: Controller-backed SSE integration tests
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_stream.test.ts
+      - name: Existing foundry resource/thermal regression tests
+        working-directory: vendor/openindustries
+        run: node --import tsx --test ../../tests/foundry_runtime.test.ts
