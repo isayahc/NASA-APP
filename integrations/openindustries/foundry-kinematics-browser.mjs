@@ -92,6 +92,13 @@ export function reportFoundryWorld(groups, items) {
   document.getElementById('nasa-foundry-kinematics').dataset.runtimeRevision = String(frame.revision);
 }
 
+// Expose the exact executing module URL for the browser integration test. A
+// second URL spelling can instantiate a second ESM module with empty closure
+// state and overwrite the global pose evidence getter.
+if (typeof window !== 'undefined') Object.defineProperty(window, '__NASA_FOUNDRY_POSE_MODULE_URL', {
+  configurable: true, value: import.meta.url,
+});
+
 if (typeof window !== 'undefined') Object.defineProperty(window, '__NASA_FOUNDRY_POSES', {
   configurable: true, get: () => evidence ? structuredClone(evidence) : null,
 });
