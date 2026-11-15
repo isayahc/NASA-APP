@@ -1,0 +1,11 @@
+{
+  "name": "nasa-app-opencode-integration-smoke",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "smoke": "bun smoke.ts"
+  },
+  "dependencies": {
+    "@opencode/sdk": "2.3.0"
+  }
+}

@@ -1,0 +1,66 @@
+name: Integration skeleton smoke
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ma-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenIndustries
+          ref: 838ea330296148621f7a23f7cb647b11e73b5184
+          path: vendor/openindustries
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenForma
+          ref: 718d955c42bb31fd30b512c3a9f08c68f25c02e5
+          path: vendor/openforma
+      - uses: actions/checkout@v4
+        with:
+          repository: Mapped-Assembly/OpenCAD
+          ref: 9c0c6dc0b5794debdfb8c7507078bae3303dd8bd
+          path: vendor/opencad
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Offline adapter contracts and failure paths
+        run: python -m unittest discover -s tests -v
+      - name: Install actual MA implementations
+        run: |
+          python -m pip install -e vendor/openforma -e vendor/opencad/packages/opencad
+          npm ci --prefix vendor/openindustries
+      - name: Start real OI simulator service
+        run: |
+          OI_FIELD_LAB_PORT=8792 OI_FIELD_LAB_DB=/tmp/nasa-app-oi-smoke.sqlite \
+            npm --prefix vendor/openindustries run field-lab:server \
+            > /tmp/nasa-app-oi.log 2>&1 &
+      - name: Real Python / OI integration smoke
+        run: python -m scripts.smoke_integrations --oi-url http://127.0.0.1:8792 --wait-seconds 40
+      - name: OI diagnostics on failure
+        if: failure()
+        run: cat /tmp/nasa-app-oi.log || true
+
+  opencode-embedded-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - name: Install exact OpenCode SDK
+        working-directory: integrations/opencode
+        run: bun install
+      - name: Verify embedded SDK lifecycle without LLM requests
+        working-directory: integrations/opencode
+        run: bun run smoke
