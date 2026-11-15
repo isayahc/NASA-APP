@@ -83,6 +83,14 @@ test("source -> cargo -> hopper -> feeder -> preheater executes and consumes rea
     assert(h.state.thermal.temperature_mK >= scenario.constraints.target_temperature_mK);
     assert.equal(h.state.energy_mJ.spent, h.state.thermal.input_energy_mJ);
     assert(h.state.thermal.lost_energy_mJ > 0);
+    const storedSensibleEnergyMJ = Math.floor(
+      h.state.inventory_g.preheater * scenario.constraints.heat_capacity_J_kg_K *
+      (h.state.thermal.temperature_mK - scenario.constraints.initial_temperature_mK) / 1000,
+    );
+    assert.equal(h.state.thermal.input_energy_mJ,
+      h.state.thermal.lost_energy_mJ + storedSensibleEnergyMJ +
+      h.state.thermal.numerical_residual_mJ,
+      "Lumped thermal energy must close including quantization");
     balanced(h.state, scenario);
     assert.deepEqual(h.db.replay(h.token, "first-transfer-01"), h.state);
   } finally { h.close(); }
