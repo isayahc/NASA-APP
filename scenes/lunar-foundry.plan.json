@@ -1,0 +1,312 @@
+{
+  "format": "nasa.foundry-scene-plan",
+  "version": 1,
+  "site": "hypothetical lunar south-polar industrial site",
+  "layout_status": "layout-only",
+  "coordinate_frame": {
+    "source": "Z-up millimeters (STEP source authored in OpenCAD)",
+    "target": "Y-up meters (OpenIndustries)",
+    "mapping": "(x_mm,y_mm,z_mm) -> (x/1000,z/1000,-y/1000)",
+    "normalization": "OI stepToAsset recenters X/Z and grounds Y; scene positions are meter offsets"
+  },
+  "rows": {
+    "production": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "support": [
+      8,
+      10,
+      9
+    ],
+    "gap_m": 0.9,
+    "row_clearance_m": 3,
+    "room_padding_m": 4
+  },
+  "machines": [
+    {
+      "id": "foundry-machine-01",
+      "number": 1,
+      "name": "Regolith Excavator",
+      "cad": "assets/01-regolith-excavator/artifacts/excavator.step",
+      "mechanical_ir": "assets/01-regolith-excavator/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/01-regolith-excavator/brief.md",
+      "ports": [
+        "regolith_out"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-02",
+      "number": 2,
+      "name": "Hopper and Screw Feeder",
+      "cad": "assets/02-regolith-hopper-and-feeder/artifacts/assembly.step",
+      "mechanical_ir": "assets/02-regolith-hopper-and-feeder/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/02-regolith-hopper-and-feeder/brief.md",
+      "ports": [
+        "regolith_in",
+        "regolith_out"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-03",
+      "number": 3,
+      "name": "Preheating Auger",
+      "cad": "assets/03-preheating-auger/artifacts/assembly.step",
+      "mechanical_ir": "assets/03-preheating-auger/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/03-preheating-auger/brief.md",
+      "ports": [
+        "regolith_in",
+        "regolith_out",
+        "power_in"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-04",
+      "number": 4,
+      "name": "MRE Electrolysis Reactor",
+      "cad": "assets/04-mre-electrolysis-reactor/artifacts/assembly.step",
+      "mechanical_ir": "assets/04-mre-electrolysis-reactor/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/04-mre-electrolysis-reactor/brief.md",
+      "ports": [
+        "regolith_in",
+        "oxygen_out",
+        "solids_out",
+        "power_in",
+        "heat_out"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-05",
+      "number": 5,
+      "name": "Gas Capture and Instruments",
+      "cad": "assets/05-gas-capture-and-instrumentation/artifacts/assembly.step",
+      "mechanical_ir": "assets/05-gas-capture-and-instrumentation/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/05-gas-capture-and-instrumentation/brief.md",
+      "ports": [
+        "oxygen_in",
+        "oxygen_out",
+        "power_in"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-06",
+      "number": 6,
+      "name": "Oxygen Purification",
+      "cad": "assets/06-oxygen-purification/artifacts/assembly.step",
+      "mechanical_ir": "assets/06-oxygen-purification/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/06-oxygen-purification/brief.md",
+      "ports": [
+        "oxygen_in",
+        "oxygen_out",
+        "power_in"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-07",
+      "number": 7,
+      "name": "Oxygen Storage",
+      "cad": "assets/07-oxygen-compression-and-storage/artifacts/assembly.step",
+      "mechanical_ir": "assets/07-oxygen-compression-and-storage/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/07-oxygen-compression-and-storage/brief.md",
+      "ports": [
+        "oxygen_in",
+        "power_in"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-08",
+      "number": 8,
+      "name": "Power Distribution",
+      "cad": "assets/08-power-generation-and-distribution/artifacts/assembly.step",
+      "mechanical_ir": "assets/08-power-generation-and-distribution/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/08-power-generation-and-distribution/brief.md",
+      "ports": [
+        "power_out"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-09",
+      "number": 9,
+      "name": "Thermal Management",
+      "cad": "assets/09-thermal-control-and-heat-rejection/artifacts/assembly.step",
+      "mechanical_ir": "assets/09-thermal-control-and-heat-rejection/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/09-thermal-control-and-heat-rejection/brief.md",
+      "ports": [
+        "heat_in",
+        "power_in"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    },
+    {
+      "id": "foundry-machine-10",
+      "number": 10,
+      "name": "Byproduct Receiver",
+      "cad": "assets/10-slag-and-reduced-metals-receiver/artifacts/assembly.step",
+      "mechanical_ir": "assets/10-slag-and-reduced-metals-receiver/artifacts/mechanical.ir.json",
+      "asset_brief": "assets/10-slag-and-reduced-metals-receiver/brief.md",
+      "ports": [
+        "solids_in"
+      ],
+      "present": true,
+      "wired": "declared-only",
+      "executable": false
+    }
+  ],
+  "links": [
+    {
+      "kind": "regolith",
+      "from": "foundry-machine-01",
+      "from_port": "regolith_out",
+      "to": "foundry-machine-02",
+      "to_port": "regolith_in",
+      "operational": false
+    },
+    {
+      "kind": "regolith",
+      "from": "foundry-machine-02",
+      "from_port": "regolith_out",
+      "to": "foundry-machine-03",
+      "to_port": "regolith_in",
+      "operational": false
+    },
+    {
+      "kind": "regolith",
+      "from": "foundry-machine-03",
+      "from_port": "regolith_out",
+      "to": "foundry-machine-04",
+      "to_port": "regolith_in",
+      "operational": false
+    },
+    {
+      "kind": "oxygen",
+      "from": "foundry-machine-04",
+      "from_port": "oxygen_out",
+      "to": "foundry-machine-05",
+      "to_port": "oxygen_in",
+      "operational": false
+    },
+    {
+      "kind": "oxygen",
+      "from": "foundry-machine-05",
+      "from_port": "oxygen_out",
+      "to": "foundry-machine-06",
+      "to_port": "oxygen_in",
+      "operational": false
+    },
+    {
+      "kind": "oxygen",
+      "from": "foundry-machine-06",
+      "from_port": "oxygen_out",
+      "to": "foundry-machine-07",
+      "to_port": "oxygen_in",
+      "operational": false
+    },
+    {
+      "kind": "byproduct",
+      "from": "foundry-machine-04",
+      "from_port": "solids_out",
+      "to": "foundry-machine-10",
+      "to_port": "solids_in",
+      "operational": false
+    },
+    {
+      "kind": "power",
+      "from": "foundry-machine-08",
+      "from_port": "power_out",
+      "to": "foundry-machine-03",
+      "to_port": "power_in",
+      "operational": false
+    },
+    {
+      "kind": "power",
+      "from": "foundry-machine-08",
+      "from_port": "power_out",
+      "to": "foundry-machine-04",
+      "to_port": "power_in",
+      "operational": false
+    },
+    {
+      "kind": "power",
+      "from": "foundry-machine-08",
+      "from_port": "power_out",
+      "to": "foundry-machine-05",
+      "to_port": "power_in",
+      "operational": false
+    },
+    {
+      "kind": "power",
+      "from": "foundry-machine-08",
+      "from_port": "power_out",
+      "to": "foundry-machine-06",
+      "to_port": "power_in",
+      "operational": false
+    },
+    {
+      "kind": "power",
+      "from": "foundry-machine-08",
+      "from_port": "power_out",
+      "to": "foundry-machine-07",
+      "to_port": "power_in",
+      "operational": false
+    },
+    {
+      "kind": "power",
+      "from": "foundry-machine-08",
+      "from_port": "power_out",
+      "to": "foundry-machine-09",
+      "to_port": "power_in",
+      "operational": false
+    },
+    {
+      "kind": "thermal",
+      "from": "foundry-machine-04",
+      "from_port": "heat_out",
+      "to": "foundry-machine-09",
+      "to_port": "heat_in",
+      "operational": false
+    }
+  ],
+  "excluded": [
+    {
+      "id": "11",
+      "name": "Cryogenic LOX depot",
+      "reason": "Phase 2, no validated thermodynamic process model"
+    }
+  ],
+  "declared_constraints": {
+    "collision_check": "unrotated world AABB only; clearance is visual, not certified",
+    "reachability": "links are declared site/utility adjacency; pipe routing, robot reach and process interfaces are NOT validated",
+    "simulation": "no tasks or production; #5/#6"
+  }
+}
